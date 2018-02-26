@@ -7,41 +7,55 @@
 \contentsline {section}{\numberline {1.3}Organization of the Dissertation}{15}{section.1.3}
 \contentsline {chapter}{\chapternumberline {2}Backgroud}{16}{chapter.2}
 \contentsline {section}{\numberline {2.1}Overview}{16}{section.2.1}
-\contentsline {section}{\numberline {2.2}Fundamentals of Probability Theory}{16}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The Bayesian Methodology}{16}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Methods for Uncertainty Propagation}{16}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Sampling Methods}{16}{subsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.1.1}Monte Carlo}{16}{subsubsection.2.3.1.1}
-\contentsline {section}{\numberline {2.4}Summary}{16}{section.2.4}
-\contentsline {chapter}{\chapternumberline {3}Uncertainty Quantification Process}{17}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}UQMS Data Model}{18}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{18}{section.4.1}
-\contentsline {section}{\numberline {4.2}SaViMe}{18}{section.4.2}
-\contentsline {section}{\numberline {4.3}UQMS Data Model}{18}{section.4.3}
-\contentsline {section}{\numberline {4.4}UQMS Operations}{18}{section.4.4}
-\contentsline {chapter}{\chapternumberline {5}Implementation of the UQMS in Tensorflow}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Why Tensorflow}{19}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Variables in Tensorflow}{19}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Operations in Tensorflow}{19}{subsection.5.1.2}
-\contentsline {chapter}{\chapternumberline {6}Applicability}{20}{chapter.6}
-\contentsline {section}{\numberline {6.1}Case Study: Seismic Example}{20}{section.6.1}
-\contentsline {section}{\numberline {6.2}Case Study: Austin, queso library}{20}{section.6.2}
-\contentsline {section}{\numberline {6.3}Case Study: Multidisciplinary System (NASA)}{20}{section.6.3}
-\contentsline {chapter}{\chapternumberline {7}Validation}{21}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Conclusions}{22}{chapter.8}
+\contentsline {section}{\numberline {2.2}Types of Uncertainty}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Aleatory uncertainty}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Epistemic uncertainty}{18}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Uncertainty Representation}{18}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Representation of Uncertainty with Probability}{19}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Dempster-Shafer theory}{19}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}The Bayesian Methodology}{19}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Methods for Uncertainty Propagation}{19}{section.2.4}
+\contentsline {section}{\numberline {2.5}Probabilistic Background}{19}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}The Generalized Lambda Distribution}{19}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Fitting Mixture Distributions Using a Mixture of Generalized Lambda Distributions}{20}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Sampling Methods}{20}{subsection.2.5.3}
+\contentsline {subsubsection}{\numberline {2.5.3.1}Monte Carlo}{20}{subsubsection.2.5.3.1}
+\contentsline {section}{\numberline {2.6}Summary}{20}{section.2.6}
+\contentsline {section}{\numberline {2.7}Concepts}{20}{section.2.7}
+\contentsline {chapter}{\chapternumberline {3}Uncertainty Quantification Process}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Measures of Information and Uncertainty}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Variance, Information and Entropy}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Information Gain, Distances and Divergences}{21}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Sensitivity Analysis}{21}{section.3.2}
+\contentsline {chapter}{\chapternumberline {4}UQMS Data Model}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{22}{section.4.1}
+\contentsline {section}{\numberline {4.2}SaViMe}{22}{section.4.2}
+\contentsline {section}{\numberline {4.3}UQMS Data Model}{22}{section.4.3}
+\contentsline {section}{\numberline {4.4}UQMS Operations}{22}{section.4.4}
+\contentsline {chapter}{\chapternumberline {5}Applicability}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}Case Study: Wave Propagation Problem}{23}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Mathematical Formulation}{23}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Model and Dataset Description}{23}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Adding uncertainty into the model}{24}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Case Study: Austin, queso library}{25}{section.5.2}
+\contentsline {section}{\numberline {5.3}Case Study: Multidisciplinary System (NASA)}{25}{section.5.3}
+\contentsline {section}{\numberline {5.4}Case Study: Spatio-temporal Nicholson-Bailey model}{25}{section.5.4}
+\contentsline {chapter}{\chapternumberline {6}Validation}{26}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Conclusions}{27}{chapter.7}
 \vspace {\cftbeforepartskip }
+\contentsline {chapter}{\chapternumberline {8}Future Works}{28}{chapter.8}
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Bibliography}{23}{section*.16}
+\contentsline {chapter}{Bibliography}{29}{section*.16}
 \renewcommand *{\cftappendixname }{APPENDIX \space }
-\contentsline {part}{Appendix}{24}{section*.17}
-\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice A}{25}{appendix.A}
-\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{25}{section.A.1}
-\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice B}{26}{appendix.B}
-\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice C}{27}{appendix.C}
+\contentsline {part}{Appendix}{30}{section*.17}
+\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice A}{31}{appendix.A}
+\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{31}{section.A.1}
+\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice B}{32}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice C}{33}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANNEX \space }
-\contentsline {part}{Annex}{28}{section*.18}
-\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do anexo A}{29}{appendix.anexochapback.1}
-\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{29}{section.anexochapback.1.1}
-\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do anexo B}{30}{appendix.anexochapback.2}
-\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do anexo C}{31}{appendix.anexochapback.3}
+\contentsline {part}{Annex}{34}{section*.18}
+\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do anexo A}{35}{appendix.anexochapback.1}
+\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{35}{section.anexochapback.1.1}
+\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do anexo B}{36}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do anexo C}{37}{appendix.anexochapback.3}

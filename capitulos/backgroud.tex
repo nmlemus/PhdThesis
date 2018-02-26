@@ -12,7 +12,7 @@
 %% This work has the LPPL maintenance status `maintained'.
 %%
 %% The Current Maintainer of this work is the abnTeX2 team, led
-%% by Lauro César Araujo. Further information are available on
+%% by Lauro César Araujo. Further $\infty$ormation are available on
 %% http://www.abntex.net.br/
 %%
 %% This work consists of the files abntex2-modelo-include-comandos.tex
@@ -28,14 +28,123 @@
 
 \section{Overview}
 
-\section{Fundamentals of Probability Theory}
+HPC and computational modeling play a dominant role in shaping the methodological developments and research in uncertainty qualification. Depending on the complexity of the uncertainty qualification investigation, anywhere from $10^{2}$ to $10^{8}$ runs of the computational model may be required. Thus, uncertainty qualification investigations may require extreme-computing environments (e.g., exascale) to obtain results in a useful time frame, even if a single run of the computational model does not require such resources. 
+
+Advances in computing over the past few decades—both in availability and power—have led to an explosion in computational models available for simulating a wide variety of complex physical (and social) systems. These complex models—which may involve millions of lines of code, and require extreme-computing resources—have led to numerous scientific discoveries and advances. This is because these models allow simulation of physical processes in environments and conditions that are difficult or even impossible to access experimentally. However, scientists’ abilities to quantify uncertainties in these model-based predictions lag well behind their abilities to produce these computational models. This is largely because such simulation-based scientific investigations present a set of challenges that is not present in traditional investigations.
+
+%\cite{DEnergy2009}
+
+Until recently, the original approach of describing model parameters using single values has been retained, and consequently the majority of mathematical models in use today provide point predictions, with no associated uncertainty. \cite{Johnstone2015}
+
+An immediate challenge in the development of an appropriate treatment of uncertainty in an analysis of a complex system is the selection of a mathematical structure to be used in the representation of uncertainty. \cite{Helton2010} Traditionally, probability theory has provided this structure [48-55]. However, in the last several decades, additional mathematical structures for the representation of uncertainty such as evidence theory [56-63], possibility theory [64- 70], fuzzy set theory [71-75], and interval analysis [76-81] have been introduced.
+This introduction has been accompanied by a lively discussion of the strengths and weaknesses of the various mathematical structures for the representation of uncertainty [82-90]. For perspective, several comparative discussions of these different approaches to the representation of uncertainty are available [72; 91-98]
+
+a 'typical' UQ problem involves one or more mathematical models for a process of interest, subject to some uncertainty about the correct form of, or parameter values for, those models. %\cite{Sullivan2015}
+
+Often, though not always, these uncertainties are treated probabilistically. %\cite{Sullivan2015}
+
+but how will you actually go about evaluating that expected value when it is an integral over a million-dimensional parameter space?
+Practical problems from engineering and the sciences can easily have models with millions or billions of inputs
+(degrees of freedom). %\cite{Sullivan2015}
+
+the language of probability theory is a powerful tool in describing uncertainty %\cite{Sullivan2015}
+
+UQ cannot tell you that your model is ‘right’ or ‘true’, but only that, if you accept the validity of the model (to some quanti-fied degree), then you must logically accept the validity of certain conclusions (to some quantified degree). \cite{Sullivan2015}
+
+“UQ studies all sources of error and uncertainty, including the following: systematic and stochastic measurement error; ignorance; limitations of theoretical models; limitations of numerical representations of those models; limitations of the accuracy and reliability of computations, approximations, and algorithms; and human error. A more precise definition is UQ is the end-to-end study of the reliability of scientific
+$\infty$erences.” %\cite{DEnergy2009} (U.S. Department of Energy, 2009, p. 135)
+
+
+UQ is not a mature field like linear algebra or single-variable complex analysis, with stately textbooks containing well-polished presentations of classical theorems bearing August names like Cauchy, Gauss and Hamilton. Both because of its youth as a field and its very close engagement with applications, UQ is much more about problems, methods and ‘good enough for the job’. There are some very elegant approaches within UQ, but as yet no single, general, over-arching theory of UQ. %\cite{Sullivan2015}
+
+In %\cite{Sullivan2015} the authros remark that is important to appreciate both the underlying mathematics and the practicalities of implementation. In his work they focus in the presentation of the former and keep the latter in mind. In our work we do the opposite, we focus in the implementation keeping the math formalism in mind.
+
+Probability theorists usually denote the sample space of a probability space by $\Omega$; PDE theorists often use the same letter to denote a domain in $\Re^{n}$ on which a partial differential equation is to be solved. In UQ, where the worlds of probability and PDE theory often collide, the possibility of confusion is clear. Therefore, this book will tend to use $\Theta$ for a probability space and \textbf{X} for a more general measurable space, which may happen to be the spatial domain for some PDE.
+
+\section{Types of Uncertainty}
+
+It is sometimes assumed that uncertainty can be classified into two categories, \cite{Kiureghian2009} although the validity of this categorization is open to debate. 
+
+Aleatory uncertainty arises from an inherent randomness in the properties or behavior of the system under study. For example, the weather conditions at the time of a reactor accident are inherently random with respect to our ability to predict the future. Other examples include the variability in the properties of a population of weapon components and the variability in the possible future environmental conditions that a weapon component could be exposed to. Alternative designa- tions for aleatory uncertainty include variability, stochastic, irreducible and type A. \cite{Helton2009}
+
+Epistemic uncertainty derives from a lack of knowledge about the appropriate value to use for a quantity that is assumed to have a fixed value in the context of a particular analysis. For example, the pressure at which a given reactor containment would fail for a specified set of pressurization conditions is fixed but not amena- ble to being unambiguously defined. Other examples include minimum voltage required for the operation of a system and the maximum temperature that a system can withstand before failing. Alternative designations for epistemic uncertainty include state of knowledge, subjective, reducible and type B. \cite{Helton2009}
+
+\subsection{Aleatory uncertainty}
+Aleatory uncertainty arises from an inherent randomness in the properties or behavior of the system under study. For example, the weather conditions at the time of a reactor accident are inherently random with respect to our ability to predict the future. Other examples include the variability in the properties of a population of weapon components and the variability in the possible future environmental conditions that a weapon component could be exposed to. Alternative designa- tions for aleatory uncertainty include variability, stochastic, irreducible and type A. \cite{Helton2009}
+
+\subsection{Epistemic uncertainty}
+
+\section{Uncertainty Representation}
+The question of how to represent and communicate uncertainties is a topic of research both from a practical and theoretical point of view. A fair bit of theoretical research is aimed at the mathematical calculus of uncertainty. This includes extensions and alternatives to standard probabilistic reasoning, such as Dempster-Schafer theory and imprecise probabilities. When uncertainties are needed for investigations requiring computational models, additional considerations arise. For example, if the simulation output is a daily surface-temperature field over the globe for the next 200 years, representing uncertainty and dependencies is complex. Should ensembles be used to represent plausible outcomes? How should these ensembles of simulation output be stored? How can high-consequence/low-probability outcomes be discovered in this massive output? Here some research investigations attempt to leverage theory that exploits high dimensionality to bound probabilities and system behavior. Finally, even when uncertainties are well captured, how best to communicate such uncertainties to the public or to decision-makers is also a topic of ongoing research. 
+%\cite{DEnergy2009}
+
+\cite{Helton2010a}
+
+\subsection{Representation of Uncertainty with Probability}
+
+\subsection{Dempster-Shafer theory}
 
 \subsection{The Bayesian Methodology}
 
 \section{Methods for Uncertainty Propagation}
+
+\section{Probabilistic Background}
+\subsection{The Generalized Lambda Distribution}
+The Generalized Lambda Distribution (GLD) was defined by Ramberg and Schmeiser in 1974 by the quantil function:
+\begin{equation}
+F^{-1}(p|\lambda)=F^{-1}(p|\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4})=\lambda_{1}+\frac{p^{\lambda_{3}}-(1-p)^{\lambda_{4}}}{\lambda_{2}}
+\end{equation}
+where $p$ are the probabilities, $p\in[0,1]$, $\lambda_{1}$ and $\lambda_{2}$ are the location and scale parameteres, and $\lambda_{3}$ and $\lambda_{4}$ determine the skewness and kurtosis of the $GLD(\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4})$.
+
+Some restrictions in the values of $\lambda_{1}, \lambda_{2}, \lambda_{3}$ and  $\lambda_{4}$ define if the \textit{GLD} is valid. Those restrictions define 6 regions as is shown in table 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\centering
+\caption{The range of the GLD parameters and the minimum and maximum
+values corresponding to the labeling of the regions given in Figure }
+\label{my-label}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Region             & $\lambda_{1}$ & $\lambda_{2}$ & $\lambda_{3}$ & $\lambda_{4}$ & Minimum & Maximum \\ \hline
+1 and 5            & all            & $< 0$    & $< -1$   & $> 1$ & $-\infty$                             & $\lambda_{1}+\frac{1}{\lambda_{2}}$ \\ \hline
+2 and 6            & all            & $< 0$    & $> 1$ & $< -1$   & $\lambda_{1}-\frac{1}{\lambda_{2}}$ & $\infty$                                 \\ \hline
+\multirow{3}{*}{3} & all            & $> 0$& $> 0$& $> 0$& $\lambda_{1}-\frac{1}{\lambda_{2}}$ & $\lambda_{1}+\frac{1}{\lambda_{2}}$ \\ \cline{2-7} 
+                   & all            & $> 0$& = 0            & $> 0$& $\lambda_{1}$                       & $\lambda_{1}+\frac{1}{\lambda_{2}}$ \\ \cline{2-7} 
+                   & all            & $> 0$& $> 0$& = 0            & $\lambda_{1}-\frac{1}{\lambda_{2}}$ & $\lambda_{1}$                       \\ \hline
+\multirow{3}{*}{4} & all            & $< 0$    & $< 0$    & $< 0$    & $-\infty$                               & $\infty$                                 \\ \cline{2-7} 
+                   & all            & $< 0$    & = 0            & $< 0$    & $\lambda_{1}$                       & $\infty$                                 \\ \cline{2-7} 
+                   & all            & $< 0$    & $< 0$    & = 0            & $-\infty$                               & $\lambda_{1}$  
+\end{tabular}
+\end{table}
+
+The probability density function of the \textit{GLD} at the point $x=F^{-1}(p)$ is given by:
+\begin{equation}
+f(x)=f(F^{-1}(p))=\frac{\lambda_{2}}{\lambda_{3}p^{\lambda_{3}-1}+\lambda_{4}(1-p)^{\lambda_{4}-1}}
+\end{equation}
+
+Note that the valid parameteres of $\lambda$ guaranty that:
+\begin{equation}
+f(x) \geqslant 0
+\end{equation}
+\begin{equation}
+\int f(x)dx=1
+\end{equation}
+
+\subsection{Fitting Mixture Distributions Using a Mixture of Generalized Lambda Distributions}
+Esto esta en \cite{Tobergte2013}
 
 \subsection{Sampling Methods}
 
 \subsubsection{Monte Carlo}
 
 \section{Summary}
+
+\section{Concepts}
+high-dimensional parameter spaces %\cite{DEnergy2009}
+computationally demanding forward models 
+nonlinearity and/or complexity in the forward model
+
+
+%\bibliography{../MyCollection2}

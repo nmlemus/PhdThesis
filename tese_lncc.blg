@@ -1,11 +1,10 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese_lncc.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: capitulos/backgroud.aux
 A level-1 auxiliary file: capitulos/uq_process.aux
 A level-1 auxiliary file: capitulos/data_model.aux
-A level-1 auxiliary file: capitulos/tensorflow.aux
 A level-1 auxiliary file: capitulos/applicability.aux
 A level-1 auxiliary file: capitulos/validation.aux
 A level-1 auxiliary file: capitulos/conclusao.aux
@@ -27,7 +26,20 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: MyCollection.bib
+Repeated entry---line 1214 of file MyCollection.bib
+ : @article{Helton2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1863 of file MyCollection.bib
+ : @article{Tobergte2013
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1882 of file MyCollection.bib
+ : @article{Tobergte2013
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "NBR6028:2003"
+Warning--I didn't find a database entry for "DEnergy2009"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -37,45 +49,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 1 entry,
+You've used 8 entries,
             6714 wiz_defined-function locations,
-            1213 strings with 9661 characters,
-and the built_in function-call counts, 891 in all, are:
-= -- 192
-> -- 0
-< -- 0
-+ -- 46
-- -- 0
-* -- 36
-:= -- 175
-add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 3
-chr.to.int$ -- 1
-cite$ -- 0
-duplicate$ -- 3
-empty$ -- 40
-format.name$ -- 0
-if$ -- 204
-int.to.chr$ -- 0
+            1272 strings with 11140 characters,
+and the built_in function-call counts, 10932 in all, are:
+= -- 1294
+> -- 222
+< -- 232
++ -- 343
+- -- 66
+* -- 702
+:= -- 1421
+add.period$ -- 34
+call.type$ -- 8
+change.case$ -- 79
+chr.to.int$ -- 22
+cite$ -- 7
+duplicate$ -- 942
+empty$ -- 459
+format.name$ -- 323
+if$ -- 2267
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 28
+missing$ -- 137
+newline$ -- 51
+num.names$ -- 35
+pop$ -- 177
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 32
 quote$ -- 0
-skip$ -- 80
+skip$ -- 1001
 stack$ -- 1
-substring$ -- 49
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 495
+swap$ -- 372
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 2
+while$ -- 59
 width$ -- 0
-write$ -- 8
-(There was 1 warning)
+write$ -- 132
+(There were 3 error messages)

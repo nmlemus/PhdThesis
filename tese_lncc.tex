@@ -56,6 +56,9 @@
 \usepackage{graphicx}			% Inclusão de gráficos
 \usepackage{microtype} 			% para melhorias de justificação
 \usepackage{abntex2lncc}		% Formatacao especifica do modelo do LNCC
+\usepackage{booktabs}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{amssymb}
 % ---
 		
 % ---
@@ -70,6 +73,8 @@
 \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
 \usepackage[alf]{abntex2cite}	% Citações padrão ABNT
 \usepackage{multirow}           % permite mesclar linhas e colunas em tabelas
+
+\usepackage{pst-uml}
 
 % ---
 % CONFIGURAÇÕES DE PACOTES
@@ -124,7 +129,7 @@
 % Local
 \local{Petrópolis, RJ - Brasil}
 % Data
-\data{Junho de 2017}
+\data{Abril de 2018}
 % Instituição
 \instituicao{%
   Laboratório Nacional de Computação Científica
@@ -265,9 +270,9 @@
 	\imprimirdata.}\\
 	
 	\hspace{0.5cm}
-		1. Palavra-chave1.
-		2. Palavra-chave2.
-		2. Palavra-chave3.
+		1. Uncertainty Quantification.
+		2. Big Data.
+		2. Information Entropy.
 		I. \imprimirUltimoSobrenomeOrientador,{ }\imprimirNomeOrientador.
 		II. LNCC/MCTI.
 		III. \labelTitulo
@@ -313,10 +318,10 @@
    \aprovadaPor
 
    \assinatura{\textbf{Prof. \imprimirorientador, D.Sc.} \\ (Presidente)}
-   \assinatura{\textbf{Prof. Minch Yoda, M.Sc.}}
-   \assinatura{\textbf{Prof. Kendall E. Atkinson, Ph.D.}}
-   \assinatura{\textbf{Prof. Isaac Newton}}
-   \assinatura{\textbf{Prof. Alan Mathison Turing, Ph.D.}}
+   \assinatura{\textbf{Prof. Antonio Tadeu, Ph.D.}}
+   \assinatura{\textbf{Prof. Fernando Rochinha, Ph.D.}}
+   \assinatura{\textbf{Prof. Hugo de La Cruz, Ph.D.}}
+   \assinatura{\textbf{Prof. Patrick Valduriez, Ph.D.}}
 
    \begin{center}
     \vspace*{0.5cm}
@@ -439,8 +444,9 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % inserir lista de abreviaturas e siglas
 % ---
 \begin{siglas}
-  \item[ABNT] Associação Brasileira de Normas Técnicas
-  \item[abnTeX] ABsurdas Normas para TeX
+  \item[UQ] Uncertainty Quantification
+  \item[FP] Forward Problem
+  \item[\textit{QoI}] Quantity of Interest 
 \end{siglas}
 % ---
 
@@ -464,7 +470,6 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % ---
 
 
-
 % ----------------------------------------------------------
 % ELEMENTOS TEXTUAIS
 % ----------------------------------------------------------
@@ -477,7 +482,7 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 \include{capitulos/backgroud}
 \include{capitulos/uq_process}
 \include{capitulos/data_model}
-\include{capitulos/tensorflow}
+%\include{capitulos/tensorflow}
 %\include{capitulos/seismic}
 \include{capitulos/applicability}
 \include{capitulos/validation}
@@ -495,6 +500,7 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % Conclusão
 % ---
 \include{capitulos/conclusao}
+\include{capitulos/future_works}
 % ---
 
 % ----------------------------------------------------------
