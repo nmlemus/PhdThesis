@@ -1,11 +1,11 @@
 \changetocdepth {4}
-\select@language {english}
-\select@language {english}
+\babel@toc {english}{}
+\babel@toc {english}{}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{15}{chapter.1}
 \contentsline {section}{\numberline {1.1}Research Objectives}{15}{section.1.1}
 \contentsline {section}{\numberline {1.2}Highlights of the Dissertation}{15}{section.1.2}
 \contentsline {section}{\numberline {1.3}Organization of the Dissertation}{15}{section.1.3}
-\contentsline {chapter}{\chapternumberline {2}Backgroud}{16}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}Related Works}{16}{chapter.2}
 \contentsline {section}{\numberline {2.1}Overview}{16}{section.2.1}
 \contentsline {section}{\numberline {2.2}Types of Uncertainty}{17}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Aleatory uncertainty}{18}{subsection.2.2.1}
@@ -22,40 +22,47 @@
 \contentsline {subsubsection}{\numberline {2.5.3.1}Monte Carlo}{20}{subsubsection.2.5.3.1}
 \contentsline {section}{\numberline {2.6}Summary}{20}{section.2.6}
 \contentsline {section}{\numberline {2.7}Concepts}{20}{section.2.7}
+\contentsline {section}{\numberline {2.8}Software and Tools for UQ}{20}{section.2.8}
 \contentsline {chapter}{\chapternumberline {3}Uncertainty Quantification Process}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Measures of Information and Uncertainty}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Variance, Information and Entropy}{21}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Information Gain, Distances and Divergences}{21}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Sensitivity Analysis}{21}{section.3.2}
-\contentsline {chapter}{\chapternumberline {4}UQMS Data Model}{22}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{22}{section.4.1}
-\contentsline {section}{\numberline {4.2}SaViMe}{22}{section.4.2}
-\contentsline {section}{\numberline {4.3}UQMS Data Model}{22}{section.4.3}
-\contentsline {section}{\numberline {4.4}UQMS Operations}{22}{section.4.4}
-\contentsline {chapter}{\chapternumberline {5}Applicability}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Case Study: Wave Propagation Problem}{23}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Mathematical Formulation}{23}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Model and Dataset Description}{23}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Adding uncertainty into the model}{24}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Case Study: Austin, queso library}{25}{section.5.2}
-\contentsline {section}{\numberline {5.3}Case Study: Multidisciplinary System (NASA)}{25}{section.5.3}
-\contentsline {section}{\numberline {5.4}Case Study: Spatio-temporal Nicholson-Bailey model}{25}{section.5.4}
-\contentsline {chapter}{\chapternumberline {6}Validation}{26}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Conclusions}{27}{chapter.7}
+\contentsline {chapter}{\chapternumberline {4}The Generalized Lambda Distribution}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}From Emperimental Data to GLD Paremeters}{22}{section.4.1}
+\contentsline {chapter}{\chapternumberline {5}Our Approach}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fit the spatio-temporal dataset to the GLD}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Clusterizing the GLD based in its lambda values}{23}{section.5.2}
+\contentsline {section}{\numberline {5.3}Use of GLD mixture to characterize the uncertainty in an spatio-temporal region}{23}{section.5.3}
+\contentsline {section}{\numberline {5.4}Information entropy as a measure of the uncertainty in an spatio-temporal region}{23}{section.5.4}
+\contentsline {section}{\numberline {5.5}Information entropy and model selection}{23}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusions}{23}{section.5.6}
+\contentsline {chapter}{\chapternumberline {6}Applicability}{24}{chapter.6}
+\contentsline {section}{\numberline {6.1}Case Study: Wave Propagation Problem}{24}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Mathematical Formulation}{24}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Model and Dataset Description}{24}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Adding uncertainty into the model}{25}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Case Study: Austin, queso library}{26}{section.6.2}
+\contentsline {section}{\numberline {6.3}Case Study: Multidisciplinary System (NASA)}{26}{section.6.3}
+\contentsline {section}{\numberline {6.4}Case Study: Spatio-temporal Nicholson-Bailey model}{26}{section.6.4}
+\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Works}{27}{chapter.7}
+\contentsline {section}{\numberline {7.1}Revisiting the Research Questions}{27}{section.7.1}
+\contentsline {section}{\numberline {7.2}Significance and Limitations}{27}{section.7.2}
+\contentsline {section}{\numberline {7.3}Open Problems and Future Work}{27}{section.7.3}
+\contentsline {section}{\numberline {7.4}Final Considerations}{27}{section.7.4}
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{\chapternumberline {8}Future Works}{28}{chapter.8}
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Bibliography}{29}{section*.16}
+\contentsline {chapter}{Bibliography}{28}{section*.16}
 \renewcommand *{\cftappendixname }{APPENDIX \space }
-\contentsline {part}{Appendix}{30}{section*.17}
-\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice A}{31}{appendix.A}
-\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{31}{section.A.1}
-\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice B}{32}{appendix.B}
-\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice C}{33}{appendix.C}
+\contentsline {part}{Appendix}{29}{section*.17}
+\contentsline {appendix}{\chapternumberline {A}uqms R package}{30}{appendix.A}
+\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{30}{section.A.1}
+\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice B}{31}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice C}{32}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANNEX \space }
-\contentsline {part}{Annex}{34}{section*.18}
-\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do anexo A}{35}{appendix.anexochapback.1}
-\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{35}{section.anexochapback.1.1}
-\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do anexo B}{36}{appendix.anexochapback.2}
-\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do anexo C}{37}{appendix.anexochapback.3}
+\contentsline {part}{Annex}{33}{section*.18}
+\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do anexo A}{34}{appendix.anexochapback.1}
+\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{34}{section.anexochapback.1.1}
+\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do anexo B}{35}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do anexo C}{36}{appendix.anexochapback.3}

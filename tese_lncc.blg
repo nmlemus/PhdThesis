@@ -1,12 +1,12 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese_lncc.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: capitulos/backgroud.aux
 A level-1 auxiliary file: capitulos/uq_process.aux
-A level-1 auxiliary file: capitulos/data_model.aux
+A level-1 auxiliary file: capitulos/gld.aux
+A level-1 auxiliary file: capitulos/our_approach.aux
 A level-1 auxiliary file: capitulos/applicability.aux
-A level-1 auxiliary file: capitulos/validation.aux
 A level-1 auxiliary file: capitulos/conclusao.aux
 A level-1 auxiliary file: apendices/apendiceA.aux
 A level-1 auxiliary file: apendices/apendiceB.aux
@@ -39,7 +39,9 @@ Repeated entry---line 1882 of file MyCollection.bib
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "NBR6028:2003"
+Warning--I didn't find a database entry for "Sawicka2016"
 Warning--I didn't find a database entry for "DEnergy2009"
+Warning--I didn't find a database entry for "Lampasi2006"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -51,7 +53,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 8 entries,
             6714 wiz_defined-function locations,
-            1272 strings with 11140 characters,
+            1276 strings with 11179 characters,
 and the built_in function-call counts, 10932 in all, are:
 = -- 1294
 > -- 222
