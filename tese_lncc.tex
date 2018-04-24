@@ -115,7 +115,7 @@
 
 % ---
 % Título
-\titulo{Uncertainty Quantification Management System}
+\titulo{Generalized Lambda Distribution for Uncertainty Quantification of Large-scale Spatio-temporal Models}
 % Nome do aluno
 \nomeAutor{Noel}{Moreno Lemus}
 % Nome do orientador
@@ -272,7 +272,7 @@
 	\hspace{0.5cm}
 		1. Uncertainty Quantification.
 		2. Big Data.
-		2. Information Entropy.
+		3. Information Entropy.
 		I. \imprimirUltimoSobrenomeOrientador,{ }\imprimirNomeOrientador.
 		II. LNCC/MCTI.
 		III. \labelTitulo
@@ -318,10 +318,10 @@
    \aprovadaPor
 
    \assinatura{\textbf{Prof. \imprimirorientador, D.Sc.} \\ (Presidente)}
-   \assinatura{\textbf{Prof. Antonio Tadeu, Ph.D.}}
    \assinatura{\textbf{Prof. Fernando Alves Rochinha, D.Sc.}}
    \assinatura{\textbf{Prof. Hugo de La Cruz, Ph.D.}}
-   \assinatura{\textbf{Prof. Patrick Valduriez, Ph.D.}}
+   \assinatura{\textbf{Prof. Antonio Tadeu, Ph.D.}}
+   %\assinatura{\textbf{Prof. Patrick Valduriez, Ph.D.}}
 
    \begin{center}
     \vspace*{0.5cm}
@@ -390,9 +390,13 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % resumo em inglês
 \begin{resumo}[Abstract]
  \begin{otherlanguage*}{english}
-   This is the english abstract.
-
-   \textbf{Keywords}: latex. abntex. text editoration.
+ Large-scale spatio-temporal simulations with quantified uncertainty enable scientists/decision-makers to make precise statements about the degree of confidence they have in their simulation-based predictions. This uncertainty could be quantified or characterized in different ways, from the use of low order statistical moments (the most used), to trying to evaluate the complete \textit{PDF} (the best way). Only the characterization of the uncertainty by using the \textit{PDF} allows aware decisions. The uncertainty also needs to be characterized in a way that allows researchers to answer queries that arise in the future.
+ 
+ In this thesis, we propose a new method to quantify the uncertainty in large-scale spatio-temporal models using the Generalized Lambda Distribution (\textit{GLD}). We show how the use of the \textit{GLD} allow us to characterize the uncertainty on each spatio-temporal location in a way that can be used latter to answer questions that arise in the \textit{UQ} context. To ilustrate this, we answer the following questions: (\textit{i}) how to group the output of the \textit{UQ} process based in the simillarity of the uncertainty?, (\textit{ii}) what is the uncertainty in some spatio-temporal locations not analysed previously?, (\textit{iii}) what is the uncertainty of an specific spatio-temporal region?, (\textit{iv}) how to compare two regions as a function of its uncertainty?, and (\textit{v}) what is the less uncertain model from a set of model, to predict some quantity of interest in an spatio-temporal region?
+ 
+The method was tested in realistic use cases from various scientific areas.
+ 
+   \textbf{Keywords}: Uncertainty Quantification, Large-scale spatio-temporal models, Big Data, Generalized Lambda Distribution
  \end{otherlanguage*}
 \end{resumo}
 
@@ -446,7 +450,8 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 \begin{siglas}
   \item[UQ] Uncertainty Quantification
   \item[FP] Forward Problem
-  \item[\textit{QoI}] Quantity of Interest 
+  \item[\textit{QoI}] Quantity of Interest
+  \item[GLDEX] r package to compute the GLD 
 \end{siglas}
 % ---
 
@@ -481,6 +486,7 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 \include{introducao}
 \include{capitulos/backgroud}
 \include{capitulos/uq_process}
+\include{capitulos/ji}
 \include{capitulos/gld}
 \include{capitulos/our_approach}
 %\include{capitulos/data_model}

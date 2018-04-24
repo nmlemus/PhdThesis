@@ -5,6 +5,54 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Baroni e Tarantola 2014]{Baroni2014a}
+\abntrefinfo{Baroni e Tarantola}{BARONI; TARANTOLA}{2014}
+{BARONI, G.; TARANTOLA, S. {A General Probabilistic Framework for uncertainty
+  and global sensitivity analysis of deterministic models: A hydrological case
+  study}.
+\emph{Environmental Modelling and Software}, Elsevier Ltd, v.~51, p. 26--34,
+  2014.
+ISSN 13648152.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.envsoft.2013.09.022}.}
+
+\bibitem[Chen, Flood e Sowers 2008]{Chen2008}
+\abntrefinfo{Chen, Flood e Sowers}{CHEN; FLOOD; SOWERS}{2008}
+{CHEN, J.; FLOOD, M.~D.; SOWERS, R.~B. {Measuring the Unmeasurable: An
+  Application of Uncertainty Quantification to Financial Portfolios Measuring
+  the Unmeasurable An application of uncertainty quantification to financial
+  portfolios}.
+\emph{Quantitative Finance}, v.~7688, n. January, p. 1--18, 2008.
+ISSN 14697696.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1080/14697688.2017.1296176}.}
+
+\bibitem[Crespo, Kenny e Giesy 2014]{Crespo2014}
+\abntrefinfo{Crespo, Kenny e Giesy}{CRESPO; KENNY; GIESY}{2014}
+{CRESPO, L.~G.; KENNY, S.~P.; GIESY, D.~P. {The NASA Langley Multidisciplinary
+  Uncertainty Quantification Challenge}.
+\emph{16th AIAA Non-Deterministic Approaches Conference}, n. January, p.~1--9,
+  2014.
+Dispon{\'\i}vel em: \url{http://arc.aiaa.org/doi/abs/10.2514/6.2014-1347}.}
+
+\bibitem[Estacio-Hiroms e Prudencio 2012]{Estacio-Hiroms2012}
+\abntrefinfo{Estacio-Hiroms e Prudencio}{ESTACIO-HIROMS; PRUDENCIO}{2012}
+{ESTACIO-HIROMS, K.~C.; PRUDENCIO, E.~E. {User's Manual: Quantification of
+  Uncertainty for Estimation, Simulation, and Optimization (QUESO)}.
+2012.}
+
+\bibitem[Farrell 2015]{Farrell2015a}
+\abntrefinfo{Farrell}{FARRELL}{2015}
+{FARRELL, K.~A. {Selection , Calibration , and Validation of Coarse-Grained
+  Models of Atomistic Systems}.
+2015.}
+
+\bibitem[Guerra et al. 2016]{Guerra2016}
+\abntrefinfo{Guerra et al.}{GUERRA et al.}{2016}
+{GUERRA, G.~M. et al. {Uncertainty quantification in numerical simulation of
+  particle-laden flows}.
+\emph{Computational Geosciences}, v.~20, n.~1, p. 265--281, 2016.
+ISSN 1420-0597.
+Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s10596-016-9563-6}.}
+
 \bibitem[Helton 2009]{Helton2009}
 \abntrefinfo{Helton}{HELTON}{2009}
 {HELTON, J. {Conceptual and computational basis for the quantification of
@@ -17,8 +65,8 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Helton et al.}{HELTON et al.}{2010a}
 {HELTON, J.~C. et al. {Representation of analysis results involving aleatory
   and epistemic uncertainty}.
-\emph{International Journal of General Systems}, v.~39, n.~6, p. 605--646,
-  2010.
+\emph{International Journal of General Systems}, Taylor {\&} Francis Group,
+  v.~39, n.~6, p. 605--646, 2010.
 ISSN 0308-1079.}
 
 \bibitem[Helton et al. 2010]{Helton2010a}
@@ -38,6 +86,22 @@ ISSN 0308-1079.}
 ISSN 10958584.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.yjmcc.2015.11.018}.}
 
+\bibitem[{K. Sawicka} e Soil 2016]{Sawicka2016}
+\abntrefinfo{{K. Sawicka} e Soil}{{K. Sawicka}; SOIL}{2016}
+{{K. Sawicka}, G.~H.; SOIL. {spup- an R package for uncertainty propagation in
+  spatial environmental modelling}.
+\emph{International symposium on "Spatial Accuracy Assessment in Natural
+  Resources and Environmental Sciences"}, v.~53, n.~9, p. 1689--1699, 2016.
+ISSN 1098-6596.
+Dispon{\'\i}vel em: \url{http://spatial-accuracy.org/Accuracy2016}.}
+
+\bibitem[Karian e Dudewicz 2011]{Karian2011}
+\abntrefinfo{Karian e Dudewicz}{KARIAN; DUDEWICZ}{2011}
+{KARIAN, Z.~A.; DUDEWICZ, E.~J. \emph{{Handbook of fitting statistical
+  distributions with R}}. [S.l.: s.n.], 2011.
+ISSN 1098-6596.
+ISBN 9788578110796.}
+
 \bibitem[Kiureghian e Ditlevsen 2009]{Kiureghian2009}
 \abntrefinfo{Kiureghian e Ditlevsen}{KIUREGHIAN; DITLEVSEN}{2009}
 {KIUREGHIAN, A.~D.; DITLEVSEN, O. {Aleatory or epistemic? Does it matter?}
@@ -45,6 +109,15 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.yjmcc.2015.11.018}.}
 ISSN 01674730.
 Dispon{\'\i}vel em:
   \url{http://linkinghub.elsevier.com/retrieve/pii/S0167473008000556}.}
+
+\bibitem[Lampasi, {Di Nicola} e Podesta 2006]{Lampasi2006}
+\abntrefinfo{Lampasi, {Di Nicola} e Podesta}{LAMPASI; {Di Nicola};
+  PODESTA}{2006}
+{LAMPASI, D.~A.; {Di Nicola}, F.; PODESTA, L. {Generalized lambda distribution
+  for the expression of measurement uncertainty}.
+\emph{IEEE Transactions on Instrumentation and Measurement}, v.~55, n.~4, p.
+  1281--1287, 2006.
+ISSN 00189456.}
 
 \bibitem[Sullivan 2015]{Sullivan2015}
 \abntrefinfo{Sullivan}{SULLIVAN}{2015}
@@ -55,9 +128,10 @@ ISBN 9783319233949. Dispon{\'\i}vel em:
 
 \bibitem[Tobergte e Curtis 2013]{Tobergte2013}
 \abntrefinfo{Tobergte e Curtis}{TOBERGTE; CURTIS}{2013}
-{TOBERGTE, D.~R.; CURTIS, S. \emph{{Handbook of fitting statistical
-  distributions with R}}. [S.l.: s.n.], 2013. v.~53. 1689--1699~p.
-ISSN 1098-6596.
-ISBN 9788578110796.}
+{TOBERGTE, D.~R.; CURTIS, S. {Workshop on Quantification, Communication, and
+  Interpretation of Uncertainty in Simulation and Data Science}.
+\emph{Journal of Chemical Information and Modeling}, v.~53, n.~9, p.
+  1689--1699, 2013.
+ISSN 1098-6596.}
 
 \end{thebibliography}
