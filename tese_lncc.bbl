@@ -65,8 +65,8 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Helton et al.}{HELTON et al.}{2010a}
 {HELTON, J.~C. et al. {Representation of analysis results involving aleatory
   and epistemic uncertainty}.
-\emph{International Journal of General Systems}, Taylor {\&} Francis Group,
-  v.~39, n.~6, p. 605--646, 2010.
+\emph{International Journal of General Systems}, v.~39, n.~6, p. 605--646,
+  2010.
 ISSN 0308-1079.}
 
 \bibitem[Helton et al. 2010]{Helton2010a}
@@ -118,6 +118,11 @@ Dispon{\'\i}vel em:
 \emph{IEEE Transactions on Instrumentation and Measurement}, v.~55, n.~4, p.
   1281--1287, 2006.
 ISSN 00189456.}
+
+\bibitem[Liu et al.]{Liu2018}
+\abntrefinfo{Liu et al.}{LIU et al.}{}
+{LIU, J. et al. {Parallel Computation of PDFs on Big Spatial Data Using Spark}.
+Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1805.03141.pdf}.}
 
 \bibitem[Sullivan 2015]{Sullivan2015}
 \abntrefinfo{Sullivan}{SULLIVAN}{2015}
