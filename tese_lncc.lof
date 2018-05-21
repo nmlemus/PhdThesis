@@ -1,3 +1,6 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Legenda para a figura.}}{35}{figure.A.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Goodness of the fit based on the \textit {p}-value}}{29}{figure.5.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Illustration of the two-sample Kolmogorov\IeC {\textendash }Smirnov statistic. Red and blue lines each correspond to an empirical distribution function, and the black arrow is the two-sample KS statistic.}}{32}{figure.6.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Proposed workflow. The workflow was divided in three steps, (a) the fitting process, (b) the clustering of the GLDs and, (c) the queries over the results of the clustering process.}}{36}{figure.6.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Legenda para a figura.}}{45}{figure.A.4}

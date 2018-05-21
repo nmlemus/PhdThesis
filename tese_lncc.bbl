@@ -62,20 +62,27 @@ Dispon{\'\i}vel em:
   \url{http://www.osti.gov/energycitations/product.biblio.jsp?osti{\\_}id=958}.}
 
 \bibitem[Helton et al. 2010]{Helton2010}
-\abntrefinfo{Helton et al.}{HELTON et al.}{2010a}
+\abntrefinfo{Helton et al.}{HELTON et al.}{2010}
 {HELTON, J.~C. et al. {Representation of analysis results involving aleatory
   and epistemic uncertainty}.
 \emph{International Journal of General Systems}, v.~39, n.~6, p. 605--646,
   2010.
 ISSN 0308-1079.}
 
-\bibitem[Helton et al. 2010]{Helton2010a}
-\abntrefinfo{Helton et al.}{HELTON et al.}{2010b}
-{HELTON, J.~C. et al. {Representation of analysis results involving aleatory
-  and epistemic uncertainty}.
-\emph{International Journal of General Systems}, Taylor {\&} Francis Group,
-  v.~39, n.~6, p. 605--646, 2010.
-ISSN 0308-1079.}
+\bibitem[Higdon 2017]{Higdon2017}
+\abntrefinfo{Higdon}{HIGDON}{2017}
+{HIGDON, D. \emph{{Handbook of Uncertainty Quantification}}. [s.n.], 2017.
+ISBN 978-3-319-12384-4. Dispon{\'\i}vel em:
+  \url{http://link.springer.com/10.1007/978-3-319-12385-1}.}
+
+\bibitem[Jiang et al. 2011]{Jiang2011}
+\abntrefinfo{Jiang et al.}{JIANG et al.}{2011}
+{JIANG, B. et al. {Clustering Uncertain Data Based on Probability Distribution
+  Similarity}.
+\emph{IEEE Transactions on Knowledge and Data Engineering}, p. 1--14, 2011.
+ISSN 1041-4347.
+Dispon{\'\i}vel em:
+  \url{https://pdfs.semanticscholar.org/e172/2c8911b7db1a3114fbd38b3ea5a9e93d1290.pdf}.}
 
 \bibitem[Johnstone et al. 2016]{Johnstone2015}
 \abntrefinfo{Johnstone et al.}{JOHNSTONE et al.}{2016}

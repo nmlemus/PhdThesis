@@ -1,5 +1,62 @@
 \chapter[The Generalized Lambda Distribution]{The Generalized Lambda Distribution}\label{cap:gld}
 
+\begin{flushright}
+	\textit{``There are good reasons for using the GLD distribution \\
+	methods... GLD fits have been used successfully in many fields ...\\
+	Try the GLD first and stop there if the results are acceptable.''\\
+	(Karian and Dudewicz, 2011)}
+\end{flushright}
+
+\section{The Generalized Lambda Distribution}
+
+\subsection{The Ramberg and Schmeiser Parametrization}
+The Generalized Lambda Distribution (GLD) was defined by Ramberg and Schmeiser in 1974 by the quantil function:
+\begin{equation}
+F^{-1}(p|\lambda)=F^{-1}(p|\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4})=\lambda_{1}+\frac{p^{\lambda_{3}}-(1-p)^{\lambda_{4}}}{\lambda_{2}}
+\end{equation}
+where $p$ are the probabilities, $p\in[0,1]$, $\lambda_{1}$ and $\lambda_{2}$ are the location and scale parameteres, and $\lambda_{3}$ and $\lambda_{4}$ determine the skewness and kurtosis of the $GLD(\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4})$.
+
+Some restrictions in the values of $\lambda_{1}, \lambda_{2}, \lambda_{3}$ and  $\lambda_{4}$ define if the \textit{GLD} is valid. Those restrictions define 6 regions as is shown in table 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\centering
+\caption{The range of the GLD parameters and the minimum and maximum
+values corresponding to the labeling of the regions given in Figure }
+\label{my-label}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Region             & $\lambda_{1}$ & $\lambda_{2}$ & $\lambda_{3}$ & $\lambda_{4}$ & Minimum & Maximum \\ \hline
+1 and 5            & all            & $< 0$    & $< -1$   & $> 1$ & $-\infty$                             & $\lambda_{1}+\frac{1}{\lambda_{2}}$ \\ \hline
+2 and 6            & all            & $< 0$    & $> 1$ & $< -1$   & $\lambda_{1}-\frac{1}{\lambda_{2}}$ & $\infty$                                 \\ \hline
+\multirow{3}{*}{3} & all            & $> 0$& $> 0$& $> 0$& $\lambda_{1}-\frac{1}{\lambda_{2}}$ & $\lambda_{1}+\frac{1}{\lambda_{2}}$ \\ \cline{2-7} 
+                   & all            & $> 0$& = 0            & $> 0$& $\lambda_{1}$                       & $\lambda_{1}+\frac{1}{\lambda_{2}}$ \\ \cline{2-7} 
+                   & all            & $> 0$& $> 0$& = 0            & $\lambda_{1}-\frac{1}{\lambda_{2}}$ & $\lambda_{1}$                       \\ \hline
+\multirow{3}{*}{4} & all            & $< 0$    & $< 0$    & $< 0$    & $-\infty$                               & $\infty$                                 \\ \cline{2-7} 
+                   & all            & $< 0$    & = 0            & $< 0$    & $\lambda_{1}$                       & $\infty$                                 \\ \cline{2-7} 
+                   & all            & $< 0$    & $< 0$    & = 0            & $-\infty$                               & $\lambda_{1}$  
+\end{tabular}
+\end{table}
+
+The probability density function of the \textit{GLD} at the point $x=F^{-1}(p)$ is given by:
+\begin{equation}
+f(x)=f(F^{-1}(p))=\frac{\lambda_{2}}{\lambda_{3}p^{\lambda_{3}-1}+\lambda_{4}(1-p)^{\lambda_{4}-1}}
+\end{equation}
+
+Note that the valid parameteres of $\lambda$ guaranty that:
+\begin{equation}
+f(x) \geqslant 0
+\end{equation}
+\begin{equation}
+\int f(x)dx=1
+\end{equation}
+
+\subsection{The FMKL Parametrization}
+
+\section{Fitting Mixture Distributions Using a Mixture of Generalized Lambda Distributions}
+Esto esta en \cite{Tobergte2013}
+
 \section{From Emperimental Data to GLD Paremeters}
 \cite{Lampasi2006}
 

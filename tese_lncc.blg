@@ -3,11 +3,11 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese_lncc.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: capitulos/backgroud.aux
-A level-1 auxiliary file: capitulos/uq_process.aux
 A level-1 auxiliary file: capitulos/ji.aux
 A level-1 auxiliary file: capitulos/gld.aux
+A level-1 auxiliary file: capitulos/gld_clustering.aux
 A level-1 auxiliary file: capitulos/our_approach.aux
-A level-1 auxiliary file: capitulos/applicability.aux
+A level-1 auxiliary file: capitulos/use_cases.aux
 A level-1 auxiliary file: capitulos/conclusao.aux
 A level-1 auxiliary file: apendices/apendiceA.aux
 A level-1 auxiliary file: apendices/apendiceB.aux
@@ -27,11 +27,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: MyCollection.bib
-Repeated entry---line 2032 of file MyCollection.bib
+Repeated entry---line 2037 of file MyCollection.bib
  : @article{Helton2010
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2411 of file MyCollection.bib
+Repeated entry---line 2416 of file MyCollection.bib
  : @article{Tobergte2013
  :                      ,
 I'm skipping whatever remains of this entry
@@ -46,45 +46,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 18 entries,
+You've used 19 entries,
             6714 wiz_defined-function locations,
-            1347 strings with 13711 characters,
-and the built_in function-call counts, 24986 in all, are:
-= -- 2770
-> -- 605
-< -- 528
-+ -- 758
-- -- 180
-* -- 1672
-:= -- 3157
-add.period$ -- 73
-call.type$ -- 18
-change.case$ -- 203
-chr.to.int$ -- 47
-cite$ -- 17
-duplicate$ -- 2174
-empty$ -- 1027
-format.name$ -- 866
-if$ -- 5157
-int.to.chr$ -- 1
+            1359 strings with 14096 characters,
+and the built_in function-call counts, 28032 in all, are:
+= -- 3209
+> -- 619
+< -- 655
++ -- 892
+- -- 185
+* -- 1834
+:= -- 3513
+add.period$ -- 79
+call.type$ -- 19
+change.case$ -- 209
+chr.to.int$ -- 46
+cite$ -- 18
+duplicate$ -- 2590
+empty$ -- 1087
+format.name$ -- 889
+if$ -- 5689
+int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 316
-newline$ -- 112
-num.names$ -- 85
-pop$ -- 416
+missing$ -- 335
+newline$ -- 118
+num.names$ -- 90
+pop$ -- 444
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 79
 quote$ -- 0
-skip$ -- 2240
+skip$ -- 2656
 stack$ -- 1
-substring$ -- 1143
-swap$ -- 859
+substring$ -- 1277
+swap$ -- 992
 text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 145
+while$ -- 153
 width$ -- 0
-write$ -- 298
+write$ -- 312
 (There were 2 error messages)
