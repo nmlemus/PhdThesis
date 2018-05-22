@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.16)  21 MAY 2018 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.16)  22 MAY 2018 01:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1945,182 +1945,181 @@ put line 12.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 35.
-
-[28
+ [28
 
 
 
 ]
-<img/gld_clustering/Dataset1/l2_l3_l4/normal_exponential_uniform2.png, id=455, 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 71.
+
+<img/gld_clustering/Dataset1/l2_l3_l4/normal_exponential_uniform2.png, id=458, 
 602.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/normal_exponential_uniform2.png Grap
 hic file (type png)
 <use img/gld_clustering/Dataset1/l2_l3_l4/normal_exponential_uniform2.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/normal_exponentia
-l_uniform2.png  used on input line 47.
+l_uniform2.png  used on input line 83.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+[29]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 52.
+(hyperref)                removing `\lambda' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 52.
+(hyperref)                removing `subscript' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 52.
+(hyperref)                removing `math shift' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 52.
+(hyperref)                removing `math shift' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 52.
+(hyperref)                removing `\lambda' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 52.
+(hyperref)                removing `subscript' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 52.
+(hyperref)                removing `math shift' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 52.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 62.
+(hyperref)                removing `\lambda' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 62.
+(hyperref)                removing `subscript' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 62.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 62.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 62.
+(hyperref)                removing `\lambda' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 62.
+(hyperref)                removing `subscript' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 62.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 62.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 62.
+(hyperref)                removing `\lambda' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 62.
+(hyperref)                removing `subscript' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 62.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 62.
+(hyperref)                removing `math shift' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 66.
+(hyperref)                removing `\lambda' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 66.
+(hyperref)                removing `subscript' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 66.
+(hyperref)                removing `math shift' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 66.
+(hyperref)                removing `math shift' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 66.
+(hyperref)                removing `\lambda' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 66.
+(hyperref)                removing `subscript' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 66.
+(hyperref)                removing `math shift' on input line 102.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 66.
-
-) [29pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+) [30pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2132,33 +2131,33 @@ l.503 \include{capitulos/gld_clustering}
 
  (./capitulos/our_approach.tex
 
-LaTeX Warning: Reference `GLDEX' on page 30 undefined on input line 35.
+LaTeX Warning: Reference `GLDEX' on page 31 undefined on input line 35.
 
-[30
+[31
 
 
 
 ]
 
-LaTeX Warning: Reference `GLD' on page 31 undefined on input line 41.
+LaTeX Warning: Reference `GLD' on page 32 undefined on input line 41.
 
 
-LaTeX Warning: Reference `fig:validGLD' on page 31 undefined on input line 41.
+LaTeX Warning: Reference `fig:validGLD' on page 32 undefined on input line 41.
 
-<img/D_distance.png, id=477, 290.0436pt x 238.491pt>
+<img/D_distance.png, id=487, 290.0436pt x 238.491pt>
 File: img/D_distance.png Graphic file (type png)
 <use img/D_distance.png>
 Package pdftex.def Info: img/D_distance.png  used on input line 62.
 (pdftex.def)             Requested size: 204.74861pt x 168.36179pt.
-[31]
+[32]
 
-LaTeX Warning: Reference `gldShape' on page 32 undefined on input line 98.
+LaTeX Warning: Reference `gldShape' on page 33 undefined on input line 98.
 
 
-LaTeX Warning: Reference `fig:similarityshapesGLD' on page 32 undefined on inpu
+LaTeX Warning: Reference `fig:similarityshapesGLD' on page 33 undefined on inpu
 t line 98.
 
-[32pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2166,25 +2165,25 @@ t line 98.
 l.105 \end{equation}
                      <./img/D_distance.png>]
 
-LaTeX Warning: Reference `GLDMixture' on page 33 undefined on input line 132.
+LaTeX Warning: Reference `GLDMixture' on page 34 undefined on input line 132.
 
-[33] [34]
-<img/Diagram.png, id=521, 473.77pt x 569.62813pt>
+[34] [35]
+<img/Diagram.png, id=530, 473.77pt x 569.62813pt>
 File: img/Diagram.png Graphic file (type png)
 <use img/Diagram.png>
 Package pdftex.def Info: img/Diagram.png  used on input line 209.
 (pdftex.def)             Requested size: 455.0pt x 547.08017pt.
- [35]) [36pdfTeX warning (ext4): destination with the same identifier (name{fig
+ [36]) [37pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.6.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.504 \include{capitulos/our_approach}
-                                       <./img/Diagram.png>] [37]
+                                       <./img/Diagram.png>] [38]
 \openout2 = `capitulos/use_cases.aux'.
 
 
-(./capitulos/use_cases.tex [38
+(./capitulos/use_cases.tex [39
 
 
 
@@ -2193,16 +2192,16 @@ l.504 \include{capitulos/our_approach}
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 18.
 
-) [39pdfTeX warning (ext4): destination with the same identifier (name{table.7.
+) [40pdfTeX warning (ext4): destination with the same identifier (name{table.7.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.508 \include{capitulos/use_cases}
-                                   ] [40]
+                                   ] [41]
 \openout2 = `capitulos/conclusao.aux'.
 
- (./capitulos/conclusao.tex) [41
+ (./capitulos/conclusao.tex) [42
 
 
 
@@ -2213,16 +2212,16 @@ l.508 \include{capitulos/use_cases}
 
 
 bibitemlist
-[42
+[43
 
 
-]) [43] [44
+]) [44] [45
 
 
 ]
 \openout2 = `apendices/apendiceA.aux'.
 
- (./apendices/apendiceA.tex) [45
+ (./apendices/apendiceA.tex) [46
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.4}) 
@@ -2236,41 +2235,41 @@ l.560 \include{apendices/apendiceA}
 
  (./apendices/apendiceB.tex
 
-LaTeX Warning: Citation `DEnergy2009' on page 46 undefined on input line 12.
+LaTeX Warning: Citation `DEnergy2009' on page 47 undefined on input line 12.
 
-[46
+[47
 
 
 
-]) [47]
+]) [48]
 \openout2 = `apendices/apendiceC.aux'.
 
- (./apendices/apendiceC.tex) [48
+ (./apendices/apendiceC.tex) [49
 
 
 
-] [49
+] [50
 
 
 
 ]
 \openout2 = `anexos/anexoA.aux'.
 
- (./anexos/anexoA.tex) [50
+ (./anexos/anexoA.tex) [51
 
 
 ]
 \openout2 = `anexos/anexoB.aux'.
 
 
-(./anexos/anexoB.tex) [51
+(./anexos/anexoB.tex) [52
 
 
 
 ]
 \openout2 = `anexos/anexoC.aux'.
 
- (./anexos/anexoC.tex) [52
+ (./anexos/anexoC.tex) [53
 
 
 
@@ -2297,7 +2296,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 596.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 596.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 596.
 Package rerunfilecheck Info: File `tese_lncc.brf' has not changed.
-(rerunfilecheck)             Checksum: 7E71BF74BEE2A8727B30CA789845FD74;1243.
+(rerunfilecheck)             Checksum: 33FBAD6FA009440FF57C311254EE7927;1243.
 
 
 LaTeX Warning: There were undefined references.
@@ -2308,15 +2307,15 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 596.
  ) 
 Here is how much of TeX's memory you used:
- 29221 strings out of 494789
- 496705 string characters out of 6177364
- 808756 words of memory out of 5000000
- 31471 multiletter control sequences out of 15000+600000
+ 29227 strings out of 494789
+ 496794 string characters out of 6177364
+ 808801 words of memory out of 5000000
+ 31472 multiletter control sequences out of 15000+600000
  134797 words of font info for 190 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  59i,16n,73p,1209b,593s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmc
@@ -2334,10 +2333,10 @@ ts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tese_lncc.pdf (53 pages, 607595 bytes).
+Output written on tese_lncc.pdf (54 pages, 613263 bytes).
 PDF statistics:
- 1077 PDF objects out of 1200 (max. 8388607)
- 980 compressed objects within 10 object streams
- 215 named destinations out of 1000 (max. 500000)
+ 1090 PDF objects out of 1200 (max. 8388607)
+ 992 compressed objects within 10 object streams
+ 220 named destinations out of 1000 (max. 500000)
  39213 words of extra memory for PDF output out of 42996 (max. 10000000)
 
