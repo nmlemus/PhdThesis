@@ -1,8 +1,16 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
-\contentsline {table}{\numberline {1}{\ignorespaces The range of the GLD parameters and the minimum and maximum values corresponding to the labeling of the regions given in Figure }}{27}{table.4.1}
-\contentsline {table}{\numberline {2}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{34}{table.5.2}
-\contentsline {table}{\numberline {3}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{41}{table.5.3}
-\contentsline {table}{\numberline {4}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{44}{table.5.4}
-\contentsline {table}{\numberline {5}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{46}{table.5.5}
-\contentsline {table}{\numberline {6}{\ignorespaces Layer constant properties and their depth range. \IeC {\textquotedblleft }Star\IeC {\textquotedblright } layers are only used in the flat case, in substitution of their non-star equivalents}}{60}{table.7.6}
+\contentsline {table}{\numberline {1}{\ignorespaces The range of the GLD parameters and the minimum and maximum values corresponding to the labeling of the regions given in Figure }}{28}{table.4.1}
+\contentsline {table}{\numberline {2}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{35}{table.5.2}
+\contentsline {table}{\numberline {3}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{42}{table.5.3}
+\contentsline {table}{\numberline {4}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{45}{table.5.4}
+\contentsline {table}{\numberline {5}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{47}{table.5.5}
+\contentsline {table}{\numberline {6}{\ignorespaces Values of $v_{p}$ used in the generation of a single velocity field cube.}}{60}{table.7.6}
+\contentsline {table}{\numberline {7}{\ignorespaces PDFs and its parameteres used to sampling the $v_{p}$, to generate n velocity models.}}{61}{table.7.7}
+\contentsline {table}{\numberline {8}{\ignorespaces Centers of the clusters.}}{71}{table.7.8}
+\contentsline {table}{\numberline {9}{\ignorespaces Distribution of the clusters.}}{72}{table.7.9}
+\contentsline {table}{\numberline {10}{\ignorespaces Analysis Regions.}}{73}{table.7.10}
+\contentsline {table}{\numberline {11}{\ignorespaces Distribution of the clusters by regions.}}{74}{table.7.11}
+\contentsline {table}{\numberline {12}{\ignorespaces p-values by regions.}}{74}{table.7.12}
+\contentsline {table}{\numberline {13}{\ignorespaces Information Entropy by regions.}}{75}{table.7.13}
+\contentsline {table}{\numberline {14}{\ignorespaces Layer constant properties and their depth range. \IeC {\textquotedblleft }Star\IeC {\textquotedblright } layers are only used in the flat case, in substitution of their non-star equivalents}}{76}{table.7.14}

@@ -4,7 +4,10 @@ In chapter \ref{cap:gld} we exposed the two most important parametrizations of t
 
 The uncertainty can be characterized in many different ways as we mention in chapter \ref{cap:backgroud}, but from the \textit{GLD} point of view, $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ are the responsables of this. So, in this chapter we try to answer the research question 1, we formulate in the introduction:
 
-\textbf{RQ1.} how to group the output of the UQ process based on the simillarity of the uncertainty?
+\begin{tcolorbox}
+\textbf{RQ1.} how to group the output of the UQ process based on the similarity of the uncertainty?
+\end{tcolorbox}
+
 
 First of all, in section \ref{sec:related_works} a brief review of some related works is performed. In this section, some advantage and drawbacks are highlighted, and some considerations about the possibilities of the use of the \textit{GLD} to solve some of the drawbacks are commented. Next, in section \ref{sec:clustering_gld} our hypothesis about the use of the \textit{GLD} to clusterized uncertain data, is presented. Sections \ref{sec:synthetic_I} and \ref{sec:synthetic_II} present two synthetics datasets and the results of the clustering technique. Those results help us to validate our hypothesis. Finally, section \ref{sec:conclusions} summarize and discuss the main results of the chapter.
 
@@ -304,7 +307,7 @@ Similar to the dataset I, the fitting algorithm proposed in subsection \ref{sub:
 
 \subsection{Clustering using $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$}\label{syntheticII_l234}
 
-The distribution of the clusters is shown in figure \ref{fig:dataset2_l2l3l4} and table \ref{tab:dataset2_l2l3l4}.
+The distribution of the clusters returned by the k-means algorithm is shown in figure \ref{fig:dataset2_l2l3l4} and table \ref{tab:dataset2_l2l3l4}.
 
 \begin{figure}[H]
     \centering
@@ -339,23 +342,31 @@ Cluster & Type of Distribution & No. of Elements \\ \hline
 \end{tabular}
 \end{table}
 
+In general the results are very similar to the results of the section \ref{sec:synthetic_I}, but we get less false positives, 5 in total. 3 false positives in cluster 4 and 2 false positves in cluster 13. The normal distribution was groping again in for clusters: 1, 4, 13 and 14. The uniform distribution was grouping in clusters 3 and 6 without false positives. The gamma distribution introduced here was grouped in clusters 5, 15 and 16, without false positives. And finally the rest of the clusters are for the exponential distribution.
+
+The projection of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space is show in figure \ref{fig:dataset2_l2l3l4_l3_l4}. The two clusters of the uniform distribution are located again in the top-left region of the figure. The normal distribution is located in the same place, near $\lambda_{3} = 0$ and $\lambda_{4} \in [0, 0.3]$. The exponential distribution is distributed in the bottom of the $\lambda_{3}$ and $\lambda_{4}$ space. The gamma distribution is overlapped together with the normal distribution.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset2/nuevo/l3_l4.png}
     \caption{Distribution of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space.}
-    \label{fig:dataset2_l2l3l4_l2_l3_l4}
+    \label{fig:dataset2_l2l3l4_l3_l4}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset2/nuevo/l2_l3_l4_cortado.png}
-    \caption{Distribution of the clusters over the $\lambda_{2}$,  $\lambda_{3}$ and $\lambda_{4}$ space.}
-    \label{fig:dataset2_l2l3l4_l2_l3_l4}
-\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset2/nuevo/l2_l3_l4_cortado.png}
+%    \caption{Distribution of the clusters over the $\lambda_{2}$,  $\lambda_{3}$ and $\lambda_{4}$ space.}
+%    \label{fig:dataset2_l2l3l4_l2_l3_l4}
+%\end{figure}
 
 \subsection{Clustering using $\lambda_{3}$ and $\lambda_{4}$}\label{syntheticI_l34}
+
+The distribution of the clusters returned by the k-means when using the values of $\lambda_{3}$ and $\lambda_{4}$ to group the second synthetic dataset are shown in figure \ref{fig:dataset2_l3l4} and table \ref{tab:dataset2_l3l4}.
  
- \begin{table}[]
+A few false positives are observed in clusters 5, 6 and 12, but nothing to worry about. Again the regions of the four distribution families are perfectly separated by the algorithm. 
+ 
+\begin{table}[]
 \centering
 \caption{Distribution of the clusters using k-means over the $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}.}
 \label{tab:dataset2_l3l4}
@@ -385,13 +396,26 @@ Cluster & Type of Distribution & No. of Elements \\ \hline
     \centering
     \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png}
     \caption{Distribution of the clusters using k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}.}
-    \label{fig:dataset2_l2l3l4}
+    \label{fig:dataset2_l3l4}
 \end{figure}
 
+The projection of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space is show in figure \ref{fig:dataset2_l3l4_l3_l4}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png}
+    \caption{Distribution of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space.}
+    \label{fig:dataset2_l3l4_l3_l4}
+\end{figure}
 
 %\subsection{Effectiveness of the Clustering}
 
 \section{Conclusions}\label{sec:conclusions}
+
+In this chapter, we explore clustering uncertain data based on the similarity between their distributions. The idea is to answer the research question 1 \textit{"how to group the output of the UQ process based on the similarity of the uncertainty?"}. Different to the approaches reported in the literature, we propose the use of a k-means algorithm with euclidean distance over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ space of the \textit{GLD}. 
+
+The approach was tested over two synthetic datasets and the results of the  test were exactly what we expect.
+
 
 \section{Ideas por si son necesarias}
 
