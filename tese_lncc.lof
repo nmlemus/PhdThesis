@@ -1,30 +1,34 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Normal distribution generated using the \textit {R} function \textbf {\textit {rnorm(1000, 0, 2)}} with mean $\mu = 0$ and standard deviation $\sigma = 2$.}}{31}{figure.5.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Exponential distribution generated using the \textit {R} function \textbf {\textit {rexp(1000, 0.5)}} with rate $\lambda = 0.5$.}}{32}{figure.5.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Uniform distribution generated using the \textit {R} function \textbf {\textit {runif(1000, 0, 2)}} in the interval $[0, 2]$.}}{32}{figure.5.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Gamma distribution generated using the \textit {R} function \textbf {\textit {rgamma(1000, 2)}} with shape $\alpha = 2$.}}{33}{figure.5.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{34}{figure.5.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Cluster 1 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{35}{figure.5.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Cluster 2 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{36}{figure.5.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Cluster 3 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{36}{figure.5.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Cluster 4 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{37}{figure.5.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Cluster 5 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{37}{figure.5.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Cluster 6 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{38}{figure.5.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Cluster 7 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{38}{figure.5.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Cluster 8 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{39}{figure.5.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Cluster 9 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{39}{figure.5.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Cluster 10 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{40}{figure.5.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Cluster 11 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{40}{figure.5.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{41}{figure.5.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}}{41}{figure.5.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{42}{figure.5.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{43}{figure.5.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}}{43}{figure.5.21}
+\contentsline {figure}{\numberline {1}{\ignorespaces Gaussian (Normal) distributions used to generate the synthetic dataset.}}{31}{figure.5.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Exponential distributions used to generate the synthetic dataset.}}{32}{figure.5.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Uniform distribution used to generate the synthetic dataset.}}{32}{figure.5.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{33}{figure.5.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Cluster 1 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{34}{figure.5.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Cluster 2 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{35}{figure.5.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Cluster 3 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{35}{figure.5.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Cluster 4 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{36}{figure.5.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Cluster 5 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{36}{figure.5.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Cluster 6 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{37}{figure.5.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Cluster 7 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{37}{figure.5.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Cluster 8 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{38}{figure.5.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Cluster 9 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{38}{figure.5.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Cluster 10 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{39}{figure.5.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Cluster 11 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{39}{figure.5.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{40}{figure.5.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}}{40}{figure.5.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{41}{figure.5.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{42}{figure.5.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}}{42}{figure.5.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Gamma distributions used to generate the synthetic dataset.}}{43}{figure.5.21}
 \contentsline {figure}{\numberline {22}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{44}{figure.5.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{44}{figure.5.23}
+\contentsline {figure}{\numberline {23}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{45}{figure.5.23}
 \contentsline {figure}{\numberline {24}{\ignorespaces Distribution of the clusters over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ space.}}{45}{figure.5.24}
 \contentsline {figure}{\numberline {25}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{46}{figure.5.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Illustration of the two-sample Kolmogorov\IeC {\textendash }Smirnov statistic. Red and blue lines each correspond to an empirical distribution function, and the black arrow is the two-sample KS statistic.}}{49}{figure.6.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Proposed workflow. The workflow was divided in three steps, (a) the fitting process, (b) the clustering of the GLDs and, (c) the queries over the results of the clustering process.}}{53}{figure.6.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Legenda para a figura.}}{62}{figure.A.28}
+\contentsline {figure}{\numberline {26}{\ignorespaces Normal distribution generated using the \textit {R} function \textbf {\textit {rnorm(1000, 0, 2)}} with mean $\mu = 0$ and standard deviation $\sigma = 2$.}}{48}{figure.5.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Exponential distribution generated using the \textit {R} function \textbf {\textit {rexp(1000, 0.5)}} with rate $\lambda = 0.5$.}}{48}{figure.5.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Uniform distribution generated using the \textit {R} function \textbf {\textit {runif(1000, 0, 2)}} in the interval $[0, 2]$.}}{49}{figure.5.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Gamma distribution generated using the \textit {R} function \textbf {\textit {rgamma(1000, 2)}} with shape $\alpha = 2$.}}{50}{figure.5.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Illustration of the two-sample Kolmogorov\IeC {\textendash }Smirnov statistic. Red and blue lines each correspond to an empirical distribution function, and the black arrow is the two-sample KS statistic.}}{53}{figure.6.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Proposed workflow. The workflow was divided in three steps, (a) the fitting process, (b) the clustering of the GLDs and, (c) the queries over the results of the clustering process.}}{57}{figure.6.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Legenda para a figura.}}{66}{figure.A.32}

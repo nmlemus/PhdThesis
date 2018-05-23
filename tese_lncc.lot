@@ -1,7 +1,8 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
 \contentsline {table}{\numberline {1}{\ignorespaces The range of the GLD parameters and the minimum and maximum values corresponding to the labeling of the regions given in Figure }}{27}{table.4.1}
-\contentsline {table}{\numberline {2}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{35}{table.5.2}
-\contentsline {table}{\numberline {3}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{42}{table.5.3}
-\contentsline {table}{\numberline {4}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{45}{table.5.4}
-\contentsline {table}{\numberline {5}{\ignorespaces Layer constant properties and their depth range. \IeC {\textquotedblleft }Star\IeC {\textquotedblright } layers are only used in the flat case, in substitution of their non-star equivalents}}{56}{table.7.5}
+\contentsline {table}{\numberline {2}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{34}{table.5.2}
+\contentsline {table}{\numberline {3}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{41}{table.5.3}
+\contentsline {table}{\numberline {4}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{44}{table.5.4}
+\contentsline {table}{\numberline {5}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{46}{table.5.5}
+\contentsline {table}{\numberline {6}{\ignorespaces Layer constant properties and their depth range. \IeC {\textquotedblleft }Star\IeC {\textquotedblright } layers are only used in the flat case, in substitution of their non-star equivalents}}{60}{table.7.6}
