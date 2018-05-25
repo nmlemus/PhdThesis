@@ -6,6 +6,7 @@ A level-1 auxiliary file: capitulos/backgroud.aux
 A level-1 auxiliary file: capitulos/ji.aux
 A level-1 auxiliary file: capitulos/gld.aux
 A level-1 auxiliary file: capitulos/gld_clustering.aux
+A level-1 auxiliary file: capitulos/kriging.aux
 A level-1 auxiliary file: capitulos/our_approach.aux
 A level-1 auxiliary file: capitulos/use_cases.aux
 A level-1 auxiliary file: capitulos/conclusao.aux
@@ -27,13 +28,13 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: MyCollection.bib
-Repeated entry---line 2037 of file MyCollection.bib
- : @article{Helton2010
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2416 of file MyCollection.bib
+Repeated entry---line 874 of file MyCollection.bib
  : @article{Tobergte2013
  :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1469 of file MyCollection.bib
+ : @article{Helton2010
+ :                    ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "NBR6028:2003"
 Warning--I didn't find a database entry for "DEnergy2009"
@@ -41,50 +42,51 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo note vazio em Chalabi2012
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 19 entries,
+You've used 27 entries,
             6714 wiz_defined-function locations,
-            1359 strings with 14096 characters,
-and the built_in function-call counts, 28032 in all, are:
-= -- 3209
-> -- 619
-< -- 655
-+ -- 892
-- -- 185
-* -- 1834
-:= -- 3513
-add.period$ -- 79
-call.type$ -- 19
-change.case$ -- 209
-chr.to.int$ -- 46
-cite$ -- 18
-duplicate$ -- 2590
-empty$ -- 1087
-format.name$ -- 889
-if$ -- 5689
+            1417 strings with 16009 characters,
+and the built_in function-call counts, 41519 in all, are:
+= -- 4752
+> -- 947
+< -- 1020
++ -- 1361
+- -- 282
+* -- 2750
+:= -- 5151
+add.period$ -- 111
+call.type$ -- 27
+change.case$ -- 312
+chr.to.int$ -- 66
+cite$ -- 27
+duplicate$ -- 3929
+empty$ -- 1506
+format.name$ -- 1347
+if$ -- 8328
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 335
-newline$ -- 118
-num.names$ -- 90
-pop$ -- 444
+missing$ -- 474
+newline$ -- 164
+num.names$ -- 130
+pop$ -- 628
 preamble$ -- 1
-purify$ -- 79
+purify$ -- 115
 quote$ -- 0
-skip$ -- 2656
+skip$ -- 4007
 stack$ -- 1
-substring$ -- 1277
-swap$ -- 992
-text.length$ -- 41
+substring$ -- 1875
+swap$ -- 1487
+text.length$ -- 59
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 153
+warning$ -- 1
+while$ -- 218
 width$ -- 0
-write$ -- 312
+write$ -- 443
 (There were 2 error messages)

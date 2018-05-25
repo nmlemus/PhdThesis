@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.16)  23 MAY 2018 02:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.16)  25 MAY 2018 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1432,10 +1432,6 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count284
-)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
 )
@@ -1445,8 +1441,8 @@ Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip266
 \ABCIauxlen=\skip267
-\c@ABCIaux=\count285
-\c@ABCImax=\count286
+\c@ABCIaux=\count284
+\c@ABCImax=\count285
 
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
@@ -1459,7 +1455,7 @@ LaTeX Info: Redefining \cite on input line 618.
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip269
-\multirow@cntb=\count287
+\multirow@cntb=\count286
 \multirow@dima=\skip270
 \bigstrutjot=\dimen276
 )
@@ -1485,21 +1481,21 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks50
 \XKV@tempa@toks=\toks51
 )
-\XKV@depth=\count288
+\XKV@depth=\count287
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.05, 2010/01/17 (hv)
-\pstFP@xs=\count289
-\pstFP@xia=\count290
-\pstFP@xib=\count291
-\pstFP@xfa=\count292
-\pstFP@xfb=\count293
-\pstFP@rega=\count294
-\pstFP@regb=\count295
-\pstFP@regs=\count296
-\pstFP@times=\count297
+\pstFP@xs=\count288
+\pstFP@xia=\count289
+\pstFP@xib=\count290
+\pstFP@xfa=\count291
+\pstFP@xfb=\count292
+\pstFP@rega=\count293
+\pstFP@regb=\count294
+\pstFP@regs=\count295
+\pstFP@times=\count296
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks52
@@ -1515,7 +1511,7 @@ ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 \pgffor@stack=\toks53
 \pgffor@toks=\toks54
 )
-\psLoopIndex=\count298
+\psLoopIndex=\count297
 
 `PSTricks' v2.82  <2018/01/06> (tvz,hv)
 \pst@dima=\dimen281
@@ -1531,23 +1527,23 @@ ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 \pst@hbox=\box51
 \pst@ibox=\box52
 \pst@boxg=\box53
-\pst@cnta=\count299
-\pst@cntb=\count300
-\pst@cntc=\count301
-\pst@cntd=\count302
-\pst@cntg=\count303
-\pst@cnth=\count304
-\pst@cntm=\count305
-\pst@cntn=\count306
-\pst@cnto=\count307
-\pst@cntp=\count308
-\@zero=\count309
+\pst@cnta=\count298
+\pst@cntb=\count299
+\pst@cntc=\count300
+\pst@cntd=\count301
+\pst@cntg=\count302
+\pst@cnth=\count303
+\pst@cntm=\count304
+\pst@cntn=\count305
+\pst@cnto=\count306
+\pst@cntp=\count307
+\@zero=\count308
 \pst@toks=\toks55
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
 \psunit=\dimen291
 \psxunit=\dimen292
 \psyunit=\dimen293
-\pst@C@@rType=\count310
+\pst@C@@rType=\count309
 \pslinewidth=\dimen294
 \psk@startLW=\dimen295
 \psk@endLW=\dimen296
@@ -1574,14 +1570,14 @@ Package: pst-node 2010/04/22 package wrapper for pst-node.tex
 
 (/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
  v1.41, 2017/12/30
-\psrow=\count311
-\pscol=\count312
-\psmatrixcnt=\count313
+\psrow=\count310
+\pscol=\count311
+\psmatrixcnt=\count312
 \psrowsep=\skip271
 \pscolsep=\skip272
-\pst@args=\count314
-\num@pts=\count315
-\pst@argcnt=\count316
+\pst@args=\count313
+\num@pts=\count314
+\pst@argcnt=\count315
 )
 File: pst-node.tex 2017/12/30 1.41 `pst-node' (tvz,hv)
 )
@@ -1592,11 +1588,11 @@ Package: pst-tree 2009/01/25 package wrapper for pst-tree.tex
  v1.13, 2017/02/18(tvz,dg,hv)
 \pstree@rootbox=\box54
 \pstree@box=\box55
-\psnodecnt=\count317
-\pstreelevel=\count318
-\pstreecnt=\count319
-\pstree@cnt=\count320
-\pstree@stop=\count321
+\psnodecnt=\count316
+\pstreelevel=\count317
+\pstreecnt=\count318
+\pstree@cnt=\count319
+\pstree@stop=\count320
 )
 File: pst-tree.tex 2017/02/18 1.13 `pst-tree' (tvz,hv)
 )
@@ -1606,8 +1602,8 @@ Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
 
 (/usr/share/texlive/texmf-dist/tex/generic/multido/multido.tex
  v1.42, 2010/05/14 <tvz>
-\multido@count=\count322
-\multidocount=\count323
+\multido@count=\count321
+\multidocount=\count322
 \multido@stuff=\toks58
 )
 File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
@@ -1615,10 +1611,10 @@ File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
 Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
 )
-\c@umlint@a=\count324
-\c@umlint@b=\count325
-\c@umlint@c=\count326
-\c@umlint@d=\count327
+\c@umlint@a=\count323
+\c@umlint@b=\count324
+\c@umlint@c=\count325
+\c@umlint@d=\count326
 \umldim@a=\skip273
 \umldim@b=\skip274
 \umldim@c=\skip275
@@ -1631,13 +1627,13 @@ Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
 \umlbox@c=\box58
 \umlbox@d=\box59
 \umlbox@out=\box60
-\c@umlDebug=\count328
+\c@umlDebug=\count327
 \umldim@StackSep=\skip280
 \umldim@StackWidth=\skip281
 \umldim@ClassWidth=\skip282
 \umldim@umlDoubleRuleSep=\skip283
 \umldim@ActorLineWidth=\skip284
-\c@umlCpt@Direction=\count329
+\c@umlCpt@Direction=\count328
 \umldim@PosX=\skip285
 \umldim@PosY=\skip286
 \X=\skip287
@@ -1645,7 +1641,7 @@ Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
 
 Package pst-uml.sty is loaded.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 188.
+Package hyperref Info: Option `colorlinks' set `true' on input line 197.
 \tese_lncc@idxfile=\write7
 \openout7 = `tese_lncc.idx'.
 
@@ -1656,42 +1652,33 @@ Writing index file tese_lncc.idx
 
 LaTeX Warning: Label `syntheticI_l34' multiply defined.
 
-
-LaTeX Warning: Label `fig:normal_sample' multiply defined.
-
-
-LaTeX Warning: Label `fig:normal_sample' multiply defined.
-
-
-LaTeX Warning: Label `fig:normal_sample' multiply defined.
-
-) (./capitulos/our_approach.aux) (./capitulos/use_cases.aux)
-(./capitulos/conclusao.aux) (./apendices/apendiceA.aux)
-(./apendices/apendiceB.aux) (./apendices/apendiceC.aux) (./anexos/anexoA.aux)
-(./anexos/anexoB.aux) (./anexos/anexoC.aux))
+) (./capitulos/kriging.aux) (./capitulos/our_approach.aux)
+(./capitulos/use_cases.aux) (./capitulos/conclusao.aux)
+(./apendices/apendiceA.aux) (./apendices/apendiceB.aux)
+(./apendices/apendiceC.aux) (./anexos/anexoA.aux) (./anexos/anexoB.aux)
+(./anexos/anexoC.aux))
 \openout1 = `tese_lncc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 212.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 221.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring ON on input line 212.
+Package hyperref Info: Link coloring ON on input line 221.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1699,29 +1686,29 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count330
+\c@section@level=\count329
 )
-LaTeX Info: Redefining \ref on input line 212.
-LaTeX Info: Redefining \pageref on input line 212.
-LaTeX Info: Redefining \nameref on input line 212.
+LaTeX Info: Redefining \ref on input line 221.
+LaTeX Info: Redefining \pageref on input line 221.
+LaTeX Info: Redefining \nameref on input line 221.
 \myptabbox=\box62
 \myptabboxwidth=\skip289
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 212.
+(lastpage)             ! on input line 221.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count331
+\scratchcounter=\count330
 \scratchdimen=\dimen306
 \scratchbox=\box63
-\nofMPsegments=\count332
-\nofMParguments=\count333
+\nofMPsegments=\count331
+\nofMParguments=\count332
 \everyMPshowfont=\toks59
-\MPscratchCnt=\count334
+\MPscratchCnt=\count333
 \MPscratchDim=\dimen307
-\MPnumerator=\count335
-\makeMPintoPDFobject=\count336
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
 \everyMPtoPDFconversion=\toks60
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1740,7 +1727,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 212.
+LaTeX Info: Redefining \microtypecontext on input line 221.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1756,13 +1743,13 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count337
+\c@lstlisting=\count336
 <logo/lncc.png, id=7, 45.5301pt x 44.0847pt>
 File: logo/lncc.png Graphic file (type png)
 <use logo/lncc.png>
-Package pdftex.def Info: logo/lncc.png  used on input line 229.
+Package pdftex.def Info: logo/lncc.png  used on input line 238.
 (pdftex.def)             Requested size: 58.77435pt x 56.9055pt.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 229.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 238.
 
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1784,36 +1771,36 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
 logo/lncc.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 238.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 247.
 
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 238.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 247.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 238
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 247
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 238
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 247
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 238.
+(Font)              <12> on input line 247.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 238.
+(Font)              <8> on input line 247.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 238.
-LaTeX Font Info:    Try loading font information for U+msa on input line 238.
+(Font)              <6> on input line 247.
+LaTeX Font Info:    Try loading font information for U+msa on input line 247.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1821,7 +1808,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 238.
+LaTeX Font Info:    Try loading font information for U+msb on input line 247.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1832,35 +1819,35 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.238 
+l.247 
        [1
 
 
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 291.
+(Font)              <10> on input line 300.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 291.
+(Font)              <7> on input line 300.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 291.
+(Font)              <5> on input line 300.
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 
  []
 
 
-Overfull \hbox (16.6597pt too wide) in paragraph at lines 291--291
+Overfull \hbox (16.6597pt too wide) in paragraph at lines 300--300
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 
  []
 
@@ -1875,12 +1862,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--291
 
 ]
 
-LaTeX Warning: Citation `NBR6028:2003' on page 7 undefined on input line 386.
+LaTeX Warning: Citation `NBR6028:2003' on page 7 undefined on input line 395.
 
 [7
 
 ]
-Overfull \hbox (9.1253pt too wide) in paragraph at lines 401--402
+Overfull \hbox (9.1253pt too wide) in paragraph at lines 410--411
 []\T1/lmr/m/n/12 (-20) Large-scale spatio-temporal sim-u-la-tions with quan-ti-
 fied un-cer-tainty en-able scientists/decision-
  []
@@ -1889,7 +1876,7 @@ fied un-cer-tainty en-able scientists/decision-
 
 ] (./tese_lncc.lof [9
 
-] [10]) [11] (./tese_lncc.lot) [12
+]) [10] [11] (./tese_lncc.lot) [12
 
 ] [13
 
@@ -1902,7 +1889,7 @@ fied un-cer-tainty en-able scientists/decision-
 
 ] [16]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 93.
+(Font)              <14.4> on input line 95.
 ) [17]
 \openout2 = `introducao.aux'.
 
@@ -1961,66 +1948,70 @@ LaTeX Warning: Reference `RelatedWorks' on page 20 undefined on input line 32.
 \openout2 = `capitulos/gld.aux'.
 
  (./capitulos/gld.tex
-Overfull \hbox (3.06415pt too wide) in paragraph at lines 13--14
+Overfull \hbox (3.06415pt too wide) in paragraph at lines 19--20
 []\T1/lmr/m/n/12 (-20) The Gen-er-al-ized Lambda Dis-tri-bu-tion (GLD) was de-f
 ined by Ram-berg and Schmeiser
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 23.
+               Default added (so using `tbp') on input line 29.
 
 [28
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
-as been already used, duplicate ignored
+]) [29pdfTeX warning (ext4): destination with the same identifier (name{table.4
+.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.53 \end{equation}
-                   ]) [29]
+l.515 \include{capitulos/gld}
+                             ] [30]
 \openout2 = `capitulos/gld_clustering.aux'.
 
- (./capitulos/gld_clustering.tex [30
+ (./capitulos/gld_clustering.tex [31
 
 
 
 ]
+
+LaTeX Warning: Reference `fig:normal_sample' on page 32 undefined on input line
+ 34.
+
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 42.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
- [31]
-<img/gld_clustering/extra_images/5_gaussian.png, id=669, 602.25pt x 382.42876pt
+[32]
+<img/gld_clustering/extra_images/5_gaussian.png, id=688, 602.25pt x 382.42876pt
 >
 File: img/gld_clustering/extra_images/5_gaussian.png Graphic file (type png)
 <use img/gld_clustering/extra_images/5_gaussian.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/5_gaussian.png  used o
 n input line 77.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/extra_images/5_exp.png, id=670, 602.25pt x 382.42876pt>
+<img/gld_clustering/extra_images/5_exp.png, id=689, 602.25pt x 382.42876pt>
 File: img/gld_clustering/extra_images/5_exp.png Graphic file (type png)
 <use img/gld_clustering/extra_images/5_exp.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/5_exp.png  used on inp
 ut line 84.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [32pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.88 
       <./img/gld_clustering/extra_images/5_gaussian.png (PNG copy)>]
-<img/gld_clustering/extra_images/uniform.png, id=675, 602.25pt x 382.42876pt>
+<img/gld_clustering/extra_images/uniform.png, id=694, 602.25pt x 382.42876pt>
 File: img/gld_clustering/extra_images/uniform.png Graphic file (type png)
 <use img/gld_clustering/extra_images/uniform.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/uniform.png  used on i
 nput line 91.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2083,7 +2074,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 108.
 
 <img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3.png
-, id=689, 602.25pt x 382.42876pt>
+, id=708, 602.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform
 3.png Graphic file (type png)
 <use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3
@@ -2095,7 +2086,7 @@ exponential_uniform3.png  used on input line 116.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 121.
 
-[34pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4
+[35pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2104,7 +2095,7 @@ l.146 I
        n figures between \ref{fig:dataset1_l2l3l4_cl1} and \ref{fig:dataset1...
  <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3.
 png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png, id=704, 602.25pt 
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png, id=723, 602.25pt 
 x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png Graphic file 
 (type png)
@@ -2112,7 +2103,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 1.png  used on input line 150.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png, id=705, 602.25pt x 382.4287
+<img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png, id=724, 602.25pt x 382.4287
 6pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png Graphic file (type png)
 
@@ -2120,7 +2111,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png Graphic file (type png)
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png  use
 d on input line 157.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [35pdfTeX warning (ext4): destination with the same identifier (name{table.5.2
+ [36pdfTeX warning (ext4): destination with the same identifier (name{table.5.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2134,7 +2125,7 @@ l.161
 l.161 
        <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png (PNG copy
 )>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png, id=710, 602.25pt 
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png, id=731, 602.25pt 
 x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png Graphic file 
 (type png)
@@ -2142,7 +2133,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 3.png  used on input line 164.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png, id=711, 602.25pt x 382.4287
+<img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png, id=732, 602.25pt x 382.4287
 6pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png Graphic file (type png)
 
@@ -2150,7 +2141,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png Graphic file (type png)
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png  use
 d on input line 171.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [36pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2164,7 +2155,7 @@ l.175
 l.175 
        <./img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png (PNG copy)> <./img/
 gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png, id=717, 602.25pt x 382.4287
+<img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png, id=737, 602.25pt x 382.4287
 6pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png Graphic file (type png)
 
@@ -2172,7 +2163,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png Graphic file (type png)
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png  use
 d on input line 178.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png, id=718, 602.25pt 
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png, id=738, 602.25pt 
 x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png Graphic file 
 (type png)
@@ -2180,7 +2171,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 6.png  used on input line 185.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2194,7 +2185,7 @@ l.189
 l.189 
        <./img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png (PNG copy)> <./img/
 gld_clustering/Dataset1/l2_l3_l4/cluster7.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png, id=724, 602.25pt 
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png, id=743, 602.25pt 
 x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png Graphic file 
 (type png)
@@ -2202,7 +2193,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 7.png  used on input line 192.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png, id=725, 602.25pt 
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png, id=744, 602.25pt 
 x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png Graphic file 
 (type png)
@@ -2210,7 +2201,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 8.png  used on input line 199.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [38pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [39pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2224,7 +2215,7 @@ l.203
 l.203 
        <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png (PNG copy
 )> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png, id=730, 602.25pt 
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png, id=749, 602.25pt 
 x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png Graphic file 
 (type png)
@@ -2232,7 +2223,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 9.png  used on input line 206.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png, id=731, 602.25pt
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png, id=750, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png Graphic file
  (type png)
@@ -2241,7 +2232,7 @@ Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 10.png  used on input line 213.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
 
-[39pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2255,7 +2246,7 @@ l.217
 l.217 
        <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png (PNG copy
 )> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png, id=736, 602.25pt
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png, id=755, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png Graphic file
  (type png)
@@ -2263,7 +2254,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 11.png  used on input line 220.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png, id=739, 602.25pt x 3
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png, id=758, 602.25pt x 3
 82.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png Graphic file (ty
 pe png)
@@ -2272,7 +2263,7 @@ Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.p
 ng  used on input line 229.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
 
-[40pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+[41pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2287,7 +2278,7 @@ l.232 \end{figure}
                    <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.
 png (PNG copy)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png
  (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png, id=744, 602
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png, id=763, 602
 .25pt x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png Graphic
  file (type png)
@@ -2328,7 +2319,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 241.
 
-<img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png, id=748, 602.25pt x 38
+<img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png, id=767, 602.25pt x 38
 2.42876pt>
 File: img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png Graphic file (typ
 e png)
@@ -2336,7 +2327,7 @@ e png)
 Package pdftex.def Info: img/gld_clustering/Dataset1/l3_l4/clusters_by_index.pn
 g  used on input line 247.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[41pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2354,13 +2345,13 @@ clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png>]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 252.
 
-<img/gld_clustering/Dataset1/l3_l4/l3_l4.png, id=759, 602.25pt x 382.42876pt>
+<img/gld_clustering/Dataset1/l3_l4/l3_l4.png, id=779, 602.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset1/l3_l4/l3_l4.png Graphic file (type png)
 <use img/gld_clustering/Dataset1/l3_l4/l3_l4.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l3_l4/l3_l4.png  used on i
 nput line 282.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[42pdfTeX warning (ext4): destination with the same identifier (name{table.5.3}
+[43pdfTeX warning (ext4): destination with the same identifier (name{table.5.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2374,7 +2365,7 @@ name{figure.5.18}) has been already used, duplicate ignored
 l.285 \end{figure}
                    <./img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png (
 PNG copy)>]
-<img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png, id=765, 602.25pt x 382.4
+<img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png, id=784, 602.25pt x 382.4
 2876pt>
 File: img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png Graphic file (type p
 ng)
@@ -2382,7 +2373,7 @@ ng)
 Package pdftex.def Info: img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png  
 used on input line 289.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [43pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2396,7 +2387,7 @@ l.298
 l.298 
        <./img/gld_clustering/Dataset1/l3_l4/l3_l4.png> <./img/gld_clustering/Da
 taset1/l3_l4/l3_l4_dividido.png>]
-<img/gld_clustering/extra_images/5_gamma.png, id=773, 602.25pt x 382.42876pt>
+<img/gld_clustering/extra_images/5_gamma.png, id=792, 602.25pt x 382.42876pt>
 File: img/gld_clustering/extra_images/5_gamma.png Graphic file (type png)
 <use img/gld_clustering/extra_images/5_gamma.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/5_gamma.png  used on i
@@ -2451,7 +2442,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 308.
 
-<img/gld_clustering/Dataset2/nuevo/clusters_by_index.png, id=777, 602.25pt x 38
+<img/gld_clustering/Dataset2/nuevo/clusters_by_index.png, id=796, 602.25pt x 38
 2.42876pt>
 File: img/gld_clustering/Dataset2/nuevo/clusters_by_index.png Graphic file (typ
 e png)
@@ -2459,7 +2450,7 @@ e png)
 Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/clusters_by_index.pn
 g  used on input line 314.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2470,7 +2461,7 @@ l.318
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 319.
 
-[45pdfTeX warning (ext4): destination with the same identifier (name{table.5.4}
+[46pdfTeX warning (ext4): destination with the same identifier (name{table.5.4}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2483,7 +2474,7 @@ l.348
                                                   \fi \fi 
 l.348 
        <./img/gld_clustering/Dataset2/nuevo/clusters_by_index.png>]
-<img/gld_clustering/Dataset2/nuevo/l3_l4.png, id=789, 602.25pt x 382.42876pt>
+<img/gld_clustering/Dataset2/nuevo/l3_l4.png, id=808, 602.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset2/nuevo/l3_l4.png Graphic file (type png)
 <use img/gld_clustering/Dataset2/nuevo/l3_l4.png>
 Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/l3_l4.png  used on i
@@ -2526,7 +2517,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 369.
 
-<img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png, id=792, 602.25p
+<img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png, id=811, 602.25p
 t x 382.42876pt>
 File: img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png Graphic fil
 e (type png)
@@ -2534,14 +2525,14 @@ e (type png)
 Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_in
 dex.png  used on input line 397.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.401 
        <./img/gld_clustering/Dataset2/nuevo/l3_l4.png>]
-<img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png, id=799, 602.25pt x 382.4287
+<img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png, id=818, 602.25pt x 382.4287
 6pt>
 File: img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png Graphic file (type png)
 
@@ -2549,7 +2540,7 @@ File: img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png Graphic file (type png)
 Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png  use
 d on input line 406.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [47pdfTeX warning (ext4): destination with the same identifier (name{table.5.5
+ [48pdfTeX warning (ext4): destination with the same identifier (name{table.5.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2561,244 +2552,197 @@ l.410
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.410 
-       <./img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png>]
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+       <./img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png>])
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.430 \item S
-             alaries. <./img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png>]
-<img/gld_clustering/extra_images/normal_0_2.png, id=813, 602.25pt x 382.42876pt
->
-File: img/gld_clustering/extra_images/normal_0_2.png Graphic file (type png)
-<use img/gld_clustering/extra_images/normal_0_2.png>
-Package pdftex.def Info: img/gld_clustering/extra_images/normal_0_2.png  used o
-n input line 450.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/extra_images/exp_05.png, id=814, 602.25pt x 382.42876pt>
-File: img/gld_clustering/extra_images/exp_05.png Graphic file (type png)
-<use img/gld_clustering/extra_images/exp_05.png>
-Package pdftex.def Info: img/gld_clustering/extra_images/exp_05.png  used on in
-put line 466.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+l.516 \include{capitulos/gld_clustering}
+                                         <./img/gld_clustering/Dataset2/nuevo/l
+3_l4/l3_l4.png>]
+\openout2 = `capitulos/kriging.aux'.
 
-[49pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
-6}) has been already used, duplicate ignored
+ (./capitulos/kriging.tex) [50
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.470 
-       <./img/gld_clustering/extra_images/normal_0_2.png (PNG copy)>]
-<img/gld_clustering/extra_images/unif_0_2.png, id=821, 602.25pt x 382.42876pt>
-File: img/gld_clustering/extra_images/unif_0_2.png Graphic file (type png)
-<use img/gld_clustering/extra_images/unif_0_2.png>
-Package pdftex.def Info: img/gld_clustering/extra_images/unif_0_2.png  used on 
-input line 482.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [50pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-27}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.494 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.5.28}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.494 \end{equation}
-                     <./img/gld_clustering/extra_images/exp_05.png (PNG copy)> 
-<./img/gld_clustering/extra_images/unif_0_2.png (PNG copy)>]
-<img/gld_clustering/extra_images/gamma_2.png, id=827, 602.25pt x 382.42876pt>
-File: img/gld_clustering/extra_images/gamma_2.png Graphic file (type png)
-<use img/gld_clustering/extra_images/gamma_2.png>
-Package pdftex.def Info: img/gld_clustering/extra_images/gamma_2.png  used on i
-nput line 498.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-) [51pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.29}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.506 \include{capitulos/gld_clustering}
-                                         <./img/gld_clustering/extra_images/gam
-ma_2.png (PNG copy)>]
+]
 \openout2 = `capitulos/our_approach.aux'.
 
  (./capitulos/our_approach.tex
 
-LaTeX Warning: Reference `GLDEX' on page 52 undefined on input line 35.
+LaTeX Warning: Reference `GLDEX' on page 51 undefined on input line 35.
 
-[52
+[51
 
 
 
 ]
 
-LaTeX Warning: Reference `GLD' on page 53 undefined on input line 41.
+LaTeX Warning: Reference `GLD' on page 52 undefined on input line 41.
 
 
-LaTeX Warning: Reference `fig:validGLD' on page 53 undefined on input line 41.
+LaTeX Warning: Reference `fig:validGLD' on page 52 undefined on input line 41.
 
 <img/D_distance.png, id=850, 290.0436pt x 238.491pt>
 File: img/D_distance.png Graphic file (type png)
 <use img/D_distance.png>
 Package pdftex.def Info: img/D_distance.png  used on input line 62.
 (pdftex.def)             Requested size: 204.74861pt x 168.36179pt.
-[53]
+[52]
 
-LaTeX Warning: Reference `gldShape' on page 54 undefined on input line 98.
+LaTeX Warning: Reference `gldShape' on page 53 undefined on input line 98.
 
 
-LaTeX Warning: Reference `fig:similarityshapesGLD' on page 54 undefined on inpu
+LaTeX Warning: Reference `fig:similarityshapesGLD' on page 53 undefined on inpu
 t line 98.
 
-[54pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3
-0}) has been already used, duplicate ignored
+[53pdfTeX warning (ext4): destination with the same identifier (name{figure.7.2
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.105 \end{equation}
                      <./img/D_distance.png>]
 
-LaTeX Warning: Reference `GLDMixture' on page 55 undefined on input line 132.
+LaTeX Warning: Reference `GLDMixture' on page 54 undefined on input line 132.
 
-[55] [56]
-<img/Diagram.png, id=894, 473.77pt x 569.62813pt>
+[54] [55]
+<img/Diagram.png, id=895, 473.77pt x 569.62813pt>
 File: img/Diagram.png Graphic file (type png)
 <use img/Diagram.png>
 Package pdftex.def Info: img/Diagram.png  used on input line 209.
 (pdftex.def)             Requested size: 455.0pt x 547.08017pt.
- [57]) [58pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.6.31}) has been already used, duplicate ignored
+ [56]) [57pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.7.27}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.507 \include{capitulos/our_approach}
-                                       <./img/Diagram.png>] [59]
+l.518 \include{capitulos/our_approach}
+                                       <./img/Diagram.png>] [58]
 \openout2 = `capitulos/use_cases.aux'.
 
 
 (./capitulos/use_cases.tex
-<images/velocity_field.png, id=913, 854.19125pt x 487.8225pt>
+<images/velocity_field.png, id=914, 854.19125pt x 487.8225pt>
 File: images/velocity_field.png Graphic file (type png)
 <use images/velocity_field.png>
 Package pdftex.def Info: images/velocity_field.png  used on input line 40.
 (pdftex.def)             Requested size: 364.00139pt x 207.87636pt.
- [60
+ [59
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.7.6}) h
+pdfTeX warning (ext4): destination with the same identifier (name{table.8.6}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.44 
-     ] [61pdfTeX warning (ext4): destination with the same identifier (name{tab
-le.7.7}) has been already used, duplicate ignored
+     ] [60pdfTeX warning (ext4): destination with the same identifier (name{tab
+le.8.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.75 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
-.32}) has been already used, duplicate ignored
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+.28}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.75 
       <./images/velocity_field.png>]
-<images/vp_1000_realizations.png, id=926, 417.2388pt x 227.8914pt>
+<images/vp_1000_realizations.png, id=927, 417.2388pt x 227.8914pt>
 File: images/vp_1000_realizations.png Graphic file (type png)
 <use images/vp_1000_realizations.png>
 Package pdftex.def Info: images/vp_1000_realizations.png  used on input line 78
 .
 (pdftex.def)             Requested size: 364.00139pt x 198.82028pt.
- [62pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-33}) has been already used, duplicate ignored
+ [61pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.99 
       <./images/vp_1000_realizations.png>]
-<images/p_value.png, id=942, 388.8126pt x 230.7822pt>
+<images/p_value.png, id=943, 388.8126pt x 230.7822pt>
 File: images/p_value.png Graphic file (type png)
 <use images/p_value.png>
 Package pdftex.def Info: images/p_value.png  used on input line 102.
 (pdftex.def)             Requested size: 364.00139pt x 216.06902pt.
-<images/p_value_greater_05.png, id=943, 387.849pt x 219.7008pt>
+<images/p_value_greater_05.png, id=944, 387.849pt x 219.7008pt>
 File: images/p_value_greater_05.png Graphic file (type png)
 <use images/p_value_greater_05.png>
 Package pdftex.def Info: images/p_value_greater_05.png  used on input line 109.
 
 (pdftex.def)             Requested size: 364.00139pt x 206.19359pt.
- [63pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-34}) has been already used, duplicate ignored
+ [62pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+30}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.117 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7.35}) has been already used, duplicate ignored
+8.31}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.117 
        <./images/p_value.png> <./images/p_value_greater_05.png>]
-<images/kolmogorov_distance.png, id=955, 393.1488pt x 227.8914pt>
+<images/kolmogorov_distance.png, id=956, 393.1488pt x 227.8914pt>
 File: images/kolmogorov_distance.png Graphic file (type png)
 <use images/kolmogorov_distance.png>
 Package pdftex.def Info: images/kolmogorov_distance.png  used on input line 122
 .
 (pdftex.def)             Requested size: 364.00139pt x 211.00488pt.
-<images/clusters1.png, id=961, 884.30376pt x 510.90875pt>
+<images/clusters1.png, id=962, 884.30376pt x 510.90875pt>
 File: images/clusters1.png Graphic file (type png)
 <use images/clusters1.png>
 Package pdftex.def Info: images/clusters1.png  used on input line 140.
 (pdftex.def)             Requested size: 364.00139pt x 210.3003pt.
- [64pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-36}) has been already used, duplicate ignored
+ [63pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+32}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.144 
        <./images/kolmogorov_distance.png>]
 
-LaTeX Warning: Reference `gldShape' on page 65 undefined on input line 147.
+LaTeX Warning: Reference `gldShape' on page 64 undefined on input line 147.
 
-<images/Clusters_lambda3_lambda4.png, id=972, 806.01125pt x 516.93124pt>
+<images/Clusters_lambda3_lambda4.png, id=973, 806.01125pt x 516.93124pt>
 File: images/Clusters_lambda3_lambda4.png Graphic file (type png)
 <use images/Clusters_lambda3_lambda4.png>
 Package pdftex.def Info: images/Clusters_lambda3_lambda4.png  used on input lin
 e 151.
 (pdftex.def)             Requested size: 364.00139pt x 233.453pt.
-[65pdfTeX warning (ext4): destination with the same identifier (name{figure.7.3
-7}) has been already used, duplicate ignored
+[64pdfTeX warning (ext4): destination with the same identifier (name{figure.8.3
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.157 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7.38}) has been already used, duplicate ignored
+8.34}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.157 
        <./images/clusters1.png> <./images/Clusters_lambda3_lambda4.png>]
-<images/cluster1.png, id=982, 1027.84pt x 715.67375pt>
+<images/cluster1.png, id=983, 1027.84pt x 715.67375pt>
 File: images/cluster1.png Graphic file (type png)
 <use images/cluster1.png>
 Package pdftex.def Info: images/cluster1.png  used on input line 160.
 (pdftex.def)             Requested size: 364.00139pt x 253.44896pt.
-<images/cluster2.png, id=983, 1027.84pt x 715.67375pt>
+<images/cluster2.png, id=984, 1027.84pt x 715.67375pt>
 File: images/cluster2.png Graphic file (type png)
 <use images/cluster2.png>
 Package pdftex.def Info: images/cluster2.png  used on input line 167.
 (pdftex.def)             Requested size: 364.00139pt x 253.44896pt.
 
-[66pdfTeX warning (ext4): destination with the same identifier (name{figure.7.3
-9}) has been already used, duplicate ignored
+[65pdfTeX warning (ext4): destination with the same identifier (name{figure.8.3
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2814,159 +2758,156 @@ File: images/cluster4.png Graphic file (type png)
 <use images/cluster4.png>
 Package pdftex.def Info: images/cluster4.png  used on input line 181.
 (pdftex.def)             Requested size: 364.00139pt x 253.44896pt.
- [67pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-40}) has been already used, duplicate ignored
+ [66pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+36}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.185 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7.41}) has been already used, duplicate ignored
+8.37}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.185 
        <./images/cluster2.png> <./images/cluster3.png>]
-<images/cluster5.png, id=998, 1027.84pt x 715.67375pt>
+<images/cluster5.png, id=999, 1027.84pt x 715.67375pt>
 File: images/cluster5.png Graphic file (type png)
 <use images/cluster5.png>
 Package pdftex.def Info: images/cluster5.png  used on input line 188.
 (pdftex.def)             Requested size: 364.00139pt x 253.44896pt.
-<images/cluster6.png, id=999, 1027.84pt x 715.67375pt>
+<images/cluster6.png, id=1000, 1027.84pt x 715.67375pt>
 File: images/cluster6.png Graphic file (type png)
 <use images/cluster6.png>
 Package pdftex.def Info: images/cluster6.png  used on input line 195.
 (pdftex.def)             Requested size: 364.00139pt x 253.44896pt.
- [68pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-42}) has been already used, duplicate ignored
+ [67pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+38}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.199 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7.43}) has been already used, duplicate ignored
+8.39}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.199 
        <./images/cluster4.png> <./images/cluster5.png>]
-<images/cluster7.png, id=1006, 1027.84pt x 715.67375pt>
+<images/cluster7.png, id=1007, 1027.84pt x 715.67375pt>
 File: images/cluster7.png Graphic file (type png)
 <use images/cluster7.png>
 Package pdftex.def Info: images/cluster7.png  used on input line 202.
 (pdftex.def)             Requested size: 364.00139pt x 253.44896pt.
-<images/cluster8.png, id=1007, 1027.84pt x 715.67375pt>
+<images/cluster8.png, id=1008, 1027.84pt x 715.67375pt>
 File: images/cluster8.png Graphic file (type png)
 <use images/cluster8.png>
 Package pdftex.def Info: images/cluster8.png  used on input line 209.
 (pdftex.def)             Requested size: 364.00139pt x 253.44896pt.
- [69pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-44}) has been already used, duplicate ignored
+ [68pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+40}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.213 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7.45}) has been already used, duplicate ignored
+8.41}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.213 
        <./images/cluster6.png> <./images/cluster7.png>]
-<images/cluster9.png, id=1014, 1027.84pt x 715.67375pt>
+<images/cluster9.png, id=1015, 1027.84pt x 715.67375pt>
 File: images/cluster9.png Graphic file (type png)
 <use images/cluster9.png>
 Package pdftex.def Info: images/cluster9.png  used on input line 216.
 (pdftex.def)             Requested size: 364.00139pt x 253.44896pt.
-<images/Cluster10.png, id=1015, 1027.84pt x 715.67375pt>
+<images/Cluster10.png, id=1016, 1027.84pt x 715.67375pt>
 File: images/Cluster10.png Graphic file (type png)
 <use images/Cluster10.png>
 Package pdftex.def Info: images/Cluster10.png  used on input line 223.
 (pdftex.def)             Requested size: 364.00139pt x 253.44896pt.
- [70pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-46}) has been already used, duplicate ignored
+ [69pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+42}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.227 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7.47}) has been already used, duplicate ignored
+8.43}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.227 
        <./images/cluster8.png> <./images/cluster9.png>]
-<images/Clusters_histogram.png, id=1024, 815.045pt x 551.05875pt>
+<images/Clusters_histogram.png, id=1025, 815.045pt x 551.05875pt>
 File: images/Clusters_histogram.png Graphic file (type png)
 <use images/Clusters_histogram.png>
 Package pdftex.def Info: images/Clusters_histogram.png  used on input line 253.
 
 (pdftex.def)             Requested size: 364.00139pt x 246.10745pt.
- [71pdfTeX warning (ext4): destination with the same identifier (name{table.7.8
+ [70pdfTeX warning (ext4): destination with the same identifier (name{table.8.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.257 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7.48}) has been already used, duplicate ignored
+8.44}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.257 
        <./images/Cluster10.png>]
-<images/regions.png, id=1033, 710.655pt x 459.1554pt>
+<images/regions.png, id=1034, 710.655pt x 459.1554pt>
 File: images/regions.png Graphic file (type png)
 <use images/regions.png>
 Package pdftex.def Info: images/regions.png  used on input line 286.
 (pdftex.def)             Requested size: 364.00139pt x 235.18904pt.
- [72pdfTeX warning (ext4): destination with the same identifier (name{table.7.9
+ [71pdfTeX warning (ext4): destination with the same identifier (name{table.8.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.290 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7.49}) has been already used, duplicate ignored
+8.45}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.290 
        <./images/Clusters_histogram.png>]
 
-LaTeX Warning: Reference `GLDMixture' on page 73 undefined on input line 309.
+LaTeX Warning: Reference `GLDMixture' on page 72 undefined on input line 309.
 
-[73pdfTeX warning (ext4): destination with the same identifier (name{table.7.10
+[72pdfTeX warning (ext4): destination with the same identifier (name{table.8.10
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.315 > 
         clRegion2 = clByRegion(150, 250, 50, 150)pdfTeX warning (ext4): destina
-tion with the same identifier (name{figure.7.50}) has been already used, duplic
+tion with the same identifier (name{figure.8.46}) has been already used, duplic
 ate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.315 > 
         clRegion2 = clByRegion(150, 250, 50, 150) <./images/regions.png>]
-
-LaTeX Warning: Citation `Hausser2008' on page 74 undefined on input line 372.
-
-[74pdfTeX warning (ext4): destination with the same identifier (name{table.7.11
+[73pdfTeX warning (ext4): destination with the same identifier (name{table.8.11
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.373 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.7
+      pdfTeX warning (ext4): destination with the same identifier (name{table.8
 .12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.373 
-      ] [75pdfTeX warning (ext4): destination with the same identifier (name{ta
-ble.7.13}) has been already used, duplicate ignored
+      ] [74pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.8.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2976,16 +2917,16 @@ l.400
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 401.
 
-) [76pdfTeX warning (ext4): destination with the same identifier (name{table.7.
+) [75pdfTeX warning (ext4): destination with the same identifier (name{table.8.
 14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.511 \include{capitulos/use_cases}
-                                   ] [77]
+l.522 \include{capitulos/use_cases}
+                                   ] [76]
 \openout2 = `capitulos/conclusao.aux'.
 
- (./capitulos/conclusao.tex) [78
+ (./capitulos/conclusao.tex) [77
 
 
 
@@ -2996,10 +2937,10 @@ l.511 \include{capitulos/use_cases}
 
 
 bibitemlist
-[79
+[78
 
 
-]) [80] [81
+] [79]) [80] [81
 
 
 ]
@@ -3008,52 +2949,47 @@ bibitemlist
  (./apendices/apendiceA.tex) [82
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.A.51})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.563 \include{apendices/apendiceA}
-                                   ]
+]
 \openout2 = `apendices/apendiceB.aux'.
 
- (./apendices/apendiceB.tex
+
+(./apendices/apendiceB.tex
 
 LaTeX Warning: Citation `DEnergy2009' on page 83 undefined on input line 12.
 
-[83
+) [83
 
 
 
-]) [84]
+]
 \openout2 = `apendices/apendiceC.aux'.
 
- (./apendices/apendiceC.tex) [85
+ (./apendices/apendiceC.tex) [84
 
 
 
-] [86
+] [85
 
 
 
 ]
 \openout2 = `anexos/anexoA.aux'.
 
- (./anexos/anexoA.tex) [87
+ (./anexos/anexoA.tex) [86
 
 
 ]
 \openout2 = `anexos/anexoB.aux'.
 
 
-(./anexos/anexoB.tex) [88
+(./anexos/anexoB.tex) [87
 
 
 
 ]
 \openout2 = `anexos/anexoC.aux'.
 
- (./anexos/anexoC.tex) [89
+ (./anexos/anexoC.tex) [88
 
 
 
@@ -3069,18 +3005,19 @@ AED: lastpage setting LastPage
 \tf@toc=\write11
 \openout11 = `tese_lncc.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 610.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 610.
 (./tese_lncc.aux (./introducao.aux) (./capitulos/backgroud.aux)
 (./capitulos/ji.aux) (./capitulos/gld.aux) (./capitulos/gld_clustering.aux)
-(./capitulos/our_approach.aux) (./capitulos/use_cases.aux)
-(./capitulos/conclusao.aux) (./apendices/apendiceA.aux)
-(./apendices/apendiceB.aux) (./apendices/apendiceC.aux) (./anexos/anexoA.aux)
-(./anexos/anexoB.aux) (./anexos/anexoC.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 599.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 599.
+(./capitulos/kriging.aux) (./capitulos/our_approach.aux)
+(./capitulos/use_cases.aux) (./capitulos/conclusao.aux)
+(./apendices/apendiceA.aux) (./apendices/apendiceB.aux)
+(./apendices/apendiceC.aux) (./anexos/anexoA.aux) (./anexos/anexoB.aux)
+(./anexos/anexoC.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 610.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 610.
 Package rerunfilecheck Info: File `tese_lncc.brf' has not changed.
-(rerunfilecheck)             Checksum: 52F3F9344D41DFCC9BD841ACCCA91FE4;1407.
+(rerunfilecheck)             Checksum: 11DE18EC90687791A0350CDBE9728216;1853.
 
 
 LaTeX Warning: There were undefined references.
@@ -3088,18 +3025,18 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 599.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 610.
  ) 
 Here is how much of TeX's memory you used:
- 32134 strings out of 494789
- 540168 string characters out of 6177364
- 901831 words of memory out of 5000000
- 34165 multiletter control sequences out of 15000+600000
+ 31999 strings out of 494789
+ 538411 string characters out of 6177364
+ 802825 words of memory out of 5000000
+ 34031 multiletter control sequences out of 15000+600000
  136909 words of font info for 208 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  59i,16n,73p,1209b,2585s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmc
@@ -3117,10 +3054,10 @@ ts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tese_lncc.pdf (90 pages, 3480558 bytes).
+Output written on tese_lncc.pdf (89 pages, 3396269 bytes).
 PDF statistics:
- 1669 PDF objects out of 1728 (max. 8388607)
- 1455 compressed objects within 15 object streams
+ 1695 PDF objects out of 1728 (max. 8388607)
+ 1486 compressed objects within 15 object streams
  338 named destinations out of 1000 (max. 500000)
- 39544 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 39540 words of extra memory for PDF output out of 42996 (max. 10000000)
 

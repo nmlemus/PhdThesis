@@ -66,13 +66,22 @@
 \usepackage{mathtools,bm}
 \usepackage{listings}
 \lstset{language=R}
+%\usepackage{amsthm}
+
+%\theoremstyle{plain}
+%\newtheorem{thm}{Theorem}[chapter] % reset theorem numbering for each chapter
+%
+%\theoremstyle{definition}
+%\newtheorem{defn}[thm]{Definition} % definition numbers are dependent on theorem numbers
+%\newtheorem{exmp}[thm]{Example} % same for example numbers
+
 %\usepackage[colorlinks=true,linkcolor=blue,urlcolor=black,bookmarksopen=true]{hyperref}
 % ---
 		
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
-\usepackage{lipsum}				% para geração de dummy text
+%\usepackage{lipsum}				% para geração de dummy text
 % ---
 
 % ---
@@ -467,6 +476,7 @@ the thesis.
   \item[UQ] Uncertainty Quantification
   \item[FP] Forward Problem
   \item[\textit{QoI}] Quantity of Interest
+  \item[\textit{GLD}] Generalized Lambda Distribution
   \item[GLDEX] r package to compute the GLD 
 \end{siglas}
 % ---
@@ -504,6 +514,7 @@ the thesis.
 \include{capitulos/ji}
 \include{capitulos/gld}
 \include{capitulos/gld_clustering}
+\include{capitulos/kriging}
 \include{capitulos/our_approach}
 %\include{capitulos/data_model}
 %\include{capitulos/tensorflow}

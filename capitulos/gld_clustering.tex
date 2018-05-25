@@ -417,85 +417,85 @@ In this chapter, we explore clustering uncertain data based on the similarity be
 The approach was tested over two synthetic datasets and the results of the  test were exactly what we expect.
 
 
-\section{Ideas por si son necesarias}
-
-\subsection{The Gaussian (Normal) Distribution}
-The Gaussian (Normal) distribution is probably the most used and also the most well-known distribution. Many groups follow this type of pattern. That's why it's widely used in business, statistics and in government bodies like the FDA:
-\begin{itemize}
-\item Heights of people.
-\item Measurement errors.
-\item Blood pressure.
-\item Points on a test.
-\item IQ scores.
-\item Salaries.
-\end{itemize}
-
-The PDF of the Normal Distribution is represented in equation \ref{eq:gaussian_distribution}
-
-\begin{equation}\label{eq:gaussian_distribution}
-f(x) = \frac{1}{{ \sqrt {2\pi \sigma} }}e^{{{ - \left( {x - \mu } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}
-\end{equation}
-
-where:
-\begin{itemize}
-\item $\mu$ is the mean or expectation of the distribution (and also its median and mode),
-\item $\sigma$ is the standard deviation, and
-\item $\sigma^2$ is the variance.
-\end{itemize}
-
-To generate a synthetic normal distribution we need to specify the number of elements we want (e.g. 1000) and the mean and standard deviation. In \textit{R} for example we can use a function \textbf{\textit{rnorm(1000, 0, 2)}} to generate 1000 elements of a normal distribution with mean $\mu = 0$ and standard deviation $\sigma = 2$, figure \ref{fig:normal_sample}.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/normal_0_2.png}
-    \caption{Normal distribution generated using the \textit{R} function \textbf{\textit{rnorm(1000, 0, 2)}} with mean $\mu = 0$ and standard deviation $\sigma = 2$.}
-    \label{fig:normal_sample}
-\end{figure}
-
-\subsection{The Exponential Distribution}
-\begin{equation}\label{eq:exponential_distribution}
-  f(x) =
-  \begin{cases}
-    \lambda e^{-\lambda x} & \text{$x >= 0 $} \\
-    0 & \text{$x < 0$}
-  \end{cases}
-\end{equation}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/exp_05.png}
-    \caption{Exponential distribution generated using the \textit{R} function \textbf{\textit{rexp(1000, 0.5)}} with rate $\lambda = 0.5$.}
-    \label{fig:normal_sample}
-\end{figure}
-
-\subsection{The Uniform Distribution}
-\begin{equation}\label{eq:uniform_distribution}
-  f(x) =
-  \begin{cases}
-    \frac{1}{b-a} & \text{$a < x < b$} \\
-    0 & \text{$x < a$ or $x > b$}
-  \end{cases}
-\end{equation}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/unif_0_2.png}
-    \caption{Uniform distribution generated using the \textit{R} function \textbf{\textit{runif(1000, 0, 2)}} in the interval $[0, 2]$.}
-    \label{fig:normal_sample}
-\end{figure}
-
-\subsection{The Gamma Distribution}
-\begin{equation}\label{eq:gamma_distribution}
-  f(x) =
-  \begin{cases}
-    \frac{x^{\alpha-1}e^{\frac{-x}{\theta}}}{\Gamma(\alpha)\theta^{\alpha}} & \text{$x >= 0 $} \\
-    0 & \text{$x < 0$}
-  \end{cases}
-\end{equation}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/gamma_2.png}
-    \caption{Gamma distribution generated using the \textit{R} function \textbf{\textit{rgamma(1000, 2)}} with shape $\alpha = 2$.}
-    \label{fig:normal_sample}
-\end{figure}
+%\section{Ideas por si son necesarias}
+%
+%\subsection{The Gaussian (Normal) Distribution}
+%The Gaussian (Normal) distribution is probably the most used and also the most well-known distribution. Many groups follow this type of pattern. That's why it's widely used in business, statistics and in government bodies like the FDA:
+%\begin{itemize}
+%\item Heights of people.
+%\item Measurement errors.
+%\item Blood pressure.
+%\item Points on a test.
+%\item IQ scores.
+%\item Salaries.
+%\end{itemize}
+%
+%The PDF of the Normal Distribution is represented in equation \ref{eq:gaussian_distribution}
+%
+%\begin{equation}\label{eq:gaussian_distribution}
+%f(x) = \frac{1}{{ \sqrt {2\pi \sigma} }}e^{{{ - \left( {x - \mu } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}
+%\end{equation}
+%
+%where:
+%\begin{itemize}
+%\item $\mu$ is the mean or expectation of the distribution (and also its median and mode),
+%\item $\sigma$ is the standard deviation, and
+%\item $\sigma^2$ is the variance.
+%\end{itemize}
+%
+%To generate a synthetic normal distribution we need to specify the number of elements we want (e.g. 1000) and the mean and standard deviation. In \textit{R} for example we can use a function \textbf{\textit{rnorm(1000, 0, 2)}} to generate 1000 elements of a normal distribution with mean $\mu = 0$ and standard deviation $\sigma = 2$, figure \ref{fig:normal_sample}.
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/normal_0_2.png}
+%    \caption{Normal distribution generated using the \textit{R} function \textbf{\textit{rnorm(1000, 0, 2)}} with mean $\mu = 0$ and standard deviation $\sigma = 2$.}
+%    \label{fig:normal_sample}
+%\end{figure}
+%
+%\subsection{The Exponential Distribution}
+%\begin{equation}\label{eq:exponential_distribution}
+%  f(x) =
+%  \begin{cases}
+%    \lambda e^{-\lambda x} & \text{$x >= 0 $} \\
+%    0 & \text{$x < 0$}
+%  \end{cases}
+%\end{equation}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/exp_05.png}
+%    \caption{Exponential distribution generated using the \textit{R} function \textbf{\textit{rexp(1000, 0.5)}} with rate $\lambda = 0.5$.}
+%    \label{fig:normal_sample}
+%\end{figure}
+%
+%\subsection{The Uniform Distribution}
+%\begin{equation}\label{eq:uniform_distribution}
+%  f(x) =
+%  \begin{cases}
+%    \frac{1}{b-a} & \text{$a < x < b$} \\
+%    0 & \text{$x < a$ or $x > b$}
+%  \end{cases}
+%\end{equation}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/unif_0_2.png}
+%    \caption{Uniform distribution generated using the \textit{R} function \textbf{\textit{runif(1000, 0, 2)}} in the interval $[0, 2]$.}
+%    \label{fig:normal_sample}
+%\end{figure}
+%
+%\subsection{The Gamma Distribution}
+%\begin{equation}\label{eq:gamma_distribution}
+%  f(x) =
+%  \begin{cases}
+%    \frac{x^{\alpha-1}e^{\frac{-x}{\theta}}}{\Gamma(\alpha)\theta^{\alpha}} & \text{$x >= 0 $} \\
+%    0 & \text{$x < 0$}
+%  \end{cases}
+%\end{equation}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/gamma_2.png}
+%    \caption{Gamma distribution generated using the \textit{R} function \textbf{\textit{rgamma(1000, 2)}} with shape $\alpha = 2$.}
+%    \label{fig:normal_sample}
+%\end{figure}

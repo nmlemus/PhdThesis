@@ -15,6 +15,12 @@
 ISSN 13648152.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.envsoft.2013.09.022}.}
 
+\bibitem[Chalabi, Diethelm e Scott 2012]{Chalabi2012}
+\abntrefinfo{Chalabi, Diethelm e Scott}{CHALABI; DIETHELM; SCOTT}{2012}
+{CHALABI, Y.; DIETHELM, W.; SCOTT, D.~J. {Flexible Distribution Modeling with
+  the Generalized Lambda Distribution}. 2012. Dispon{\'\i}vel em:
+  \url{https://pdfs.semanticscholar.org/6b34/5bfa8ca3e73fadc11359155c2c5f33e63a7b.pdf}.}
+
 \bibitem[Chen, Flood e Sowers 2008]{Chen2008}
 \abntrefinfo{Chen, Flood e Sowers}{CHEN; FLOOD; SOWERS}{2008}
 {CHEN, J.; FLOOD, M.~D.; SOWERS, R.~B. {Measuring the Unmeasurable: An
@@ -45,6 +51,14 @@ Dispon{\'\i}vel em: \url{http://arc.aiaa.org/doi/abs/10.2514/6.2014-1347}.}
   Models of Atomistic Systems}.
 2015.}
 
+\bibitem[Fournier et al. 2007]{Fournier2007}
+\abntrefinfo{Fournier et al.}{FOURNIER et al.}{2007}
+{FOURNIER, B. et al. {Estimating the parameters of a generalized lambda
+  distribution}.
+\emph{Computational Statistics and Data Analysis}, v.~51, n.~6, p. 2813--2835,
+  2007.
+ISSN 01679473.}
+
 \bibitem[Guerra et al. 2016]{Guerra2016}
 \abntrefinfo{Guerra et al.}{GUERRA et al.}{2016}
 {GUERRA, G.~M. et al. {Uncertainty quantification in numerical simulation of
@@ -52,6 +66,14 @@ Dispon{\'\i}vel em: \url{http://arc.aiaa.org/doi/abs/10.2514/6.2014-1347}.}
 \emph{Computational Geosciences}, v.~20, n.~1, p. 265--281, 2016.
 ISSN 1420-0597.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s10596-016-9563-6}.}
+
+\bibitem[Hausser e Strimmer 2008]{Hausser2008}
+\abntrefinfo{Hausser e Strimmer}{HAUSSER; STRIMMER}{2008}
+{HAUSSER, J.; STRIMMER, K. {Entropy inference and the James-Stein estimator,
+  with application to nonlinear gene association networks}.
+n. October 2008, p. 1--18, 2008.
+ISSN {\textless}null{\textgreater}.
+Dispon{\'\i}vel em: \url{http://arxiv.org/abs/0811.3579}.}
 
 \bibitem[Helton 2009]{Helton2009}
 \abntrefinfo{Helton}{HELTON}{2009}
@@ -65,8 +87,8 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Helton et al.}{HELTON et al.}{2010}
 {HELTON, J.~C. et al. {Representation of analysis results involving aleatory
   and epistemic uncertainty}.
-\emph{International Journal of General Systems}, v.~39, n.~6, p. 605--646,
-  2010.
+\emph{International Journal of General Systems}, Taylor {\&} Francis Group,
+  v.~39, n.~6, p. 605--646, 2010.
 ISSN 0308-1079.}
 
 \bibitem[Higdon 2017]{Higdon2017}
@@ -117,6 +139,14 @@ ISSN 01674730.
 Dispon{\'\i}vel em:
   \url{http://linkinghub.elsevier.com/retrieve/pii/S0167473008000556}.}
 
+\bibitem[Lakhany e Mausser 2000]{Lakhany2000}
+\abntrefinfo{Lakhany e Mausser}{LAKHANY; MAUSSER}{2000}
+{LAKHANY, A.; MAUSSER, H. {Estimating the Parameters of the Generalized Lambda
+  Distribution}.
+\emph{ALGO RESEARCH QUARTERLY}, v.~3, n.~3, 2000.
+Dispon{\'\i}vel em:
+  \url{https://pdfs.semanticscholar.org/0f9d/1848671969232d58cb7cf3d2d06d9c4c347e.pdf?{\\_}ga=2.56724463.474793085.1524894682-1121088995.1524894}.}
+
 \bibitem[Lampasi, {Di Nicola} e Podesta 2006]{Lampasi2006}
 \abntrefinfo{Lampasi, {Di Nicola} e Podesta}{LAMPASI; {Di Nicola};
   PODESTA}{2006}
@@ -130,6 +160,35 @@ ISSN 00189456.}
 \abntrefinfo{Liu et al.}{LIU et al.}{}
 {LIU, J. et al. {Parallel Computation of PDFs on Big Spatial Data Using Spark}.
 Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1805.03141.pdf}.}
+
+\bibitem[Lodziensis 2013]{Lodziensis2013}
+\abntrefinfo{Lodziensis}{LODZIENSIS}{2013}
+{LODZIENSIS, A.~U. {Generalizations of tukey-lambda distributions}.
+2013.}
+
+\bibitem[Marcondes, Peixoto e Maia 2017]{Marcondes2018}
+\abntrefinfo{Marcondes, Peixoto e Maia}{MARCONDES; PEIXOTO; MAIA}{2017}
+{MARCONDES, D.; PEIXOTO, C.; MAIA, A.~C. {FITTING A HURDLE GENERALIZED LAMBDA
+  DISTRIBUTION TO HEALTHCARE EXPENSES}.
+\emph{Annals of Applied Statistics}, 2017.
+Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1712.02183.pdf}.}
+
+\bibitem[Movahedi, Lotfi e Nayyeri 2013]{Movahedi2013}
+\abntrefinfo{Movahedi, Lotfi e Nayyeri}{MOVAHEDI; LOTFI; NAYYERI}{2013}
+{MOVAHEDI, M.~M.; LOTFI, M.~R.; NAYYERI, M. {A solution to determining the
+  reliability of products Using Generalized Lambda Distribution}.
+\emph{Research Journal of Recent Sciences Res.J.Recent Sci}, v.~2, n.~10, p.
+  41--47, 2013.
+Dispon{\'\i}vel em:
+  \url{http://www.isca.in/rjrs/archive/v2/i10/7.ISCA-RJRS-2013-227.pdf}.}
+
+\bibitem[Ning, Gao e Dudewicz 2008]{Ning2008}
+\abntrefinfo{Ning, Gao e Dudewicz}{NING; GAO; DUDEWICZ}{2008}
+{NING, W.; GAO, Y.; DUDEWICZ, E.~J. {Fitting mixture distributions using
+  generalized lambda distributions and comparison with normal mixtures}.
+\emph{American Journal of Mathematical and Management Sciences}, v.~28, n.~1-2,
+  p. 81--99, 2008.
+ISSN 01966324.}
 
 \bibitem[Sullivan 2015]{Sullivan2015}
 \abntrefinfo{Sullivan}{SULLIVAN}{2015}
