@@ -1,16 +1,17 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
-\contentsline {table}{\numberline {1}{\ignorespaces The range of the GLD parameters and the minimum and maximum values corresponding to the labeling of the regions given in Figure }}{29}{table.4.1}
-\contentsline {table}{\numberline {2}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{36}{table.5.2}
-\contentsline {table}{\numberline {3}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{43}{table.5.3}
-\contentsline {table}{\numberline {4}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{46}{table.5.4}
-\contentsline {table}{\numberline {5}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{48}{table.5.5}
-\contentsline {table}{\numberline {6}{\ignorespaces Values of $v_{p}$ used in the generation of a single velocity field cube.}}{59}{table.8.6}
-\contentsline {table}{\numberline {7}{\ignorespaces PDFs and its parameteres used to sampling the $v_{p}$, to generate n velocity models.}}{60}{table.8.7}
-\contentsline {table}{\numberline {8}{\ignorespaces Centers of the clusters.}}{70}{table.8.8}
-\contentsline {table}{\numberline {9}{\ignorespaces Distribution of the clusters.}}{71}{table.8.9}
-\contentsline {table}{\numberline {10}{\ignorespaces Analysis Regions.}}{72}{table.8.10}
-\contentsline {table}{\numberline {11}{\ignorespaces Distribution of the clusters by regions.}}{73}{table.8.11}
-\contentsline {table}{\numberline {12}{\ignorespaces p-values by regions.}}{73}{table.8.12}
-\contentsline {table}{\numberline {13}{\ignorespaces Information Entropy by regions.}}{74}{table.8.13}
-\contentsline {table}{\numberline {14}{\ignorespaces Layer constant properties and their depth range. \IeC {\textquotedblleft }Star\IeC {\textquotedblright } layers are only used in the flat case, in substitution of their non-star equivalents}}{75}{table.8.14}
+\contentsline {table}{\numberline {1}{\ignorespaces Support regions of the GLD and conditions on the parameters given by the RS parameterization to define a valid distribution function \cite {Karian2011}. The support regions are displayed in Fig. \ref {fig:rs_regions}. Note that there are no conditions on $\lambda _{1}$ to obtain a valid distribution.}}{29}{table.4.1}
+\contentsline {table}{\numberline {2}{\ignorespaces Support regions of the \textit {GLD} given by the \textit {FMKL} parameterization \cite {Marcondes2018}.}}{31}{table.4.2}
+\contentsline {table}{\numberline {3}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{41}{table.5.3}
+\contentsline {table}{\numberline {4}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{48}{table.5.4}
+\contentsline {table}{\numberline {5}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{51}{table.5.5}
+\contentsline {table}{\numberline {6}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{53}{table.5.6}
+\contentsline {table}{\numberline {7}{\ignorespaces Values of $v_{p}$ used in the generation of a single velocity field cube.}}{64}{table.8.7}
+\contentsline {table}{\numberline {8}{\ignorespaces PDFs and its parameteres used to sampling the $v_{p}$, to generate n velocity models.}}{65}{table.8.8}
+\contentsline {table}{\numberline {9}{\ignorespaces Centers of the clusters.}}{75}{table.8.9}
+\contentsline {table}{\numberline {10}{\ignorespaces Distribution of the clusters.}}{76}{table.8.10}
+\contentsline {table}{\numberline {11}{\ignorespaces Analysis Regions.}}{77}{table.8.11}
+\contentsline {table}{\numberline {12}{\ignorespaces Distribution of the clusters by regions.}}{78}{table.8.12}
+\contentsline {table}{\numberline {13}{\ignorespaces p-values by regions.}}{78}{table.8.13}
+\contentsline {table}{\numberline {14}{\ignorespaces Information Entropy by regions.}}{79}{table.8.14}
+\contentsline {table}{\numberline {15}{\ignorespaces Layer constant properties and their depth range. \IeC {\textquotedblleft }Star\IeC {\textquotedblright } layers are only used in the flat case, in substitution of their non-star equivalents}}{80}{table.8.15}

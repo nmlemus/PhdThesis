@@ -87,8 +87,8 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Helton et al.}{HELTON et al.}{2010}
 {HELTON, J.~C. et al. {Representation of analysis results involving aleatory
   and epistemic uncertainty}.
-\emph{International Journal of General Systems}, Taylor {\&} Francis Group,
-  v.~39, n.~6, p. 605--646, 2010.
+\emph{International Journal of General Systems}, v.~39, n.~6, p. 605--646,
+  2010.
 ISSN 0308-1079.}
 
 \bibitem[Higdon 2017]{Higdon2017}
@@ -182,6 +182,13 @@ Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1712.02183.pdf}.}
 Dispon{\'\i}vel em:
   \url{http://www.isca.in/rjrs/archive/v2/i10/7.ISCA-RJRS-2013-227.pdf}.}
 
+\bibitem[{Mustafa Inchasi} 2016]{Mustafa2016}
+\abntrefinfo{{Mustafa Inchasi}}{{Mustafa Inchasi}}{2016}
+{{Mustafa Inchasi}, E.~A.
+\emph{{The Generalized Lambda Distribution and Its Use in Fitting Distributions
+  to Data}}.
+Tese (Doutorado), 2016.}
+
 \bibitem[Ning, Gao e Dudewicz 2008]{Ning2008}
 \abntrefinfo{Ning, Gao e Dudewicz}{NING; GAO; DUDEWICZ}{2008}
 {NING, W.; GAO, Y.; DUDEWICZ, E.~J. {Fitting mixture distributions using
@@ -189,6 +196,12 @@ Dispon{\'\i}vel em:
 \emph{American Journal of Mathematical and Management Sciences}, v.~28, n.~1-2,
   p. 81--99, 2008.
 ISSN 01966324.}
+
+\bibitem[Su 2015]{Su2015}
+\abntrefinfo{Su}{SU}{2015}
+{SU, S. {Flexible parametric quantile regression model}.
+\emph{Statistics and Computing}, v.~25, n.~3, p. 635--650, 2015.
+ISSN 15731375.}
 
 \bibitem[Sullivan 2015]{Sullivan2015}
 \abntrefinfo{Sullivan}{SULLIVAN}{2015}
