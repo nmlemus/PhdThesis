@@ -31,6 +31,14 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.envsoft.2013.09.022}.}
 ISSN 14697696.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1080/14697688.2017.1296176}.}
 
+\bibitem[Corlu e Meterelliyoz 2016]{Corlu2016}
+\abntrefinfo{Corlu e Meterelliyoz}{CORLU; METERELLIYOZ}{2016}
+{CORLU, C.~G.; METERELLIYOZ, M. {Estimating the Parameters of the Generalized
+  Lambda Distribution: Which Method Performs Best?}
+\emph{Communications in Statistics: Simulation and Computation}, v.~45, n.~7,
+  p. 2276--2296, 2016.
+ISSN 15324141.}
+
 \bibitem[Crespo, Kenny e Giesy 2014]{Crespo2014}
 \abntrefinfo{Crespo, Kenny e Giesy}{CRESPO; KENNY; GIESY}{2014}
 {CRESPO, L.~G.; KENNY, S.~P.; GIESY, D.~P. {The NASA Langley Multidisciplinary
@@ -58,6 +66,14 @@ Dispon{\'\i}vel em: \url{http://arc.aiaa.org/doi/abs/10.2514/6.2014-1347}.}
 \emph{Computational Statistics and Data Analysis}, v.~51, n.~6, p. 2813--2835,
   2007.
 ISSN 01679473.}
+
+\bibitem[Freimer, Lin e Mudholkar 1988]{Freimer1988}
+\abntrefinfo{Freimer, Lin e Mudholkar}{FREIMER; LIN; MUDHOLKAR}{1988}
+{FREIMER, M.; LIN, C.~T.; MUDHOLKAR, G.~S. {A Study Of The Generalized Tukey
+  Lambda Family}.
+\emph{Communications in Statistics - Theory and Methods}, v.~17, n.~10, p.
+  3547--3567, 1988.
+ISSN 1532415X.}
 
 \bibitem[Guerra et al. 2016]{Guerra2016}
 \abntrefinfo{Guerra et al.}{GUERRA et al.}{2016}
@@ -114,6 +130,16 @@ Dispon{\'\i}vel em:
   49--62, 2016.
 ISSN 10958584.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.yjmcc.2015.11.018}.}
+
+\bibitem[Joiner e Rosenblatt 1971]{Joiner1971}
+\abntrefinfo{Joiner e Rosenblatt}{JOINER; ROSENBLATT}{1971}
+{JOINER, B.~L.; ROSENBLATT, J.~R. {Some Properties of the Range in Samples from
+  Tukey's Symmetric Lambda Distributions}.
+\emph{Journal of the American Statistical Association}, v.~66, n.~334, p.
+  394--399, jun 1971.
+ISSN 0162-1459.
+Dispon{\'\i}vel em:
+  \url{http://www.tandfonline.com/doi/abs/10.1080/01621459.1971.10482275}.}
 
 \bibitem[{K. Sawicka} e Soil 2016]{Sawicka2016}
 \abntrefinfo{{K. Sawicka} e Soil}{{K. Sawicka}; SOIL}{2016}
@@ -196,6 +222,22 @@ Tese (Doutorado), 2016.}
 \emph{American Journal of Mathematical and Management Sciences}, v.~28, n.~1-2,
   p. 81--99, 2008.
 ISSN 01966324.}
+
+\bibitem[Su 2007]{Su2007}
+\abntrefinfo{Su}{SU}{2007}
+{SU, S. {Fitting Single and Mixture of Generalized Lambda Distributions to Data
+  via Discretized and Maximum Likelihood Methods: GLDEX in R}.
+\emph{Journal of Statistical Software}, v.~21, n.~9, 2007.}
+
+\bibitem[Su 2011]{Su2011}
+\abntrefinfo{Su}{SU}{2011}
+{SU, S. {Maximum Log Likelihood Estimation using EM Algorithm and Partition
+  Maximum Log Likelihood Estimation for Mixtures of Generalized Lambda
+  Distributions}.
+\emph{Journal of Modern Applied Statistical Methods}, v.~10, n.~2, p. 599--606,
+  2011.
+ISSN 1538-9472.
+Dispon{\'\i}vel em: \url{http://digitalcommons.wayne.edu/jmasm/vol10/iss2/17}.}
 
 \bibitem[Su 2015]{Su2015}
 \abntrefinfo{Su}{SU}{2015}

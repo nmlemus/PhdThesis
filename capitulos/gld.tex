@@ -12,11 +12,13 @@ Fitting statistical distribution to data (real or simulated), is an important ta
 
 In this chapter a review of the principal characteristics of the \textit{GLD}
 
+it has been used in Monte Carlo simulations (Hogben, 1963), the modeling of empirical distributions (Okur, 1988; Ramberg et al., 1979), in response time modeling (Au-Yeung et al., 2004: Kumaran and Achary, 1996), supply chain (Ganesalinggam and Kumar, 2001) and in the sensitivity analysis of robust statistical methods (Shapiro et al., 1968).
+
 \section{The Generalized Lambda Distribution}
 
-The generalized lambda distribution is a continuous distribution defined in terms of it quantile function. 
+The generalized lambda distribution is a continuous distribution defined in terms of it quantile function. Various parameterizations exist (see Section \ref{sec:gld_other_param}), but the most popular are the proposed by Ramberg and Schmeiser in 1974, Section \ref{sec:rs_gld}; and the proposed by Freimer et al. in 1988, Section \ref{sec:fmkl_gld}.
 
-\subsection{The Ramberg and Schmeiser Parametrization}\label{sub:rs_gld}
+\subsection{The Ramberg and Schmeiser Parameterization}\label{sec:rs_gld}
 The Generalized Lambda Distribution (\textit{GLD}) was proposed by Ramberg and Schmeiser in 1974 as an extention of the Tukey's distribution. It is represented by the quantil function:
 \begin{equation}\label{eq:rs_param}
 Q_{RS}(y|\lambda)=Q_{RS}(y|\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4})=\lambda_{1}+\frac{y^{\lambda_{3}}-(1-y)^{\lambda_{4}}}{\lambda_{2}}
@@ -70,8 +72,8 @@ distributions.}
     \label{fig:rs_regions}
 \end{figure}
 
-\subsection{The FMKL Parameterization}\label{sub:fmkl_gld}
-To circumvent the constraints on the \textit{RS} parameter values, Freimer, M., G. Mudholkar, G. Kollia and C. Lin (1988) introduced a new parameterization called \textit{FKML}, equation \ref{eq:fmkl_param}.
+\subsection{The FMKL Parameterization}\label{sec:fmkl_gld}
+To circumvent the constraints on the \textit{RS} parameter values, Freimer et al. \cite{Freimer1988} introduced a new parameterization called \textit{FKML}, equation \ref{eq:fmkl_param}.
 
 \begin{equation}\label{eq:fmkl_param}
 Q_{FMKL}(y|\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4})=\lambda_{1}+\frac{1}{\lambda_{2}}\left[\frac{y^{\lambda_{3}}-1}{\lambda_{3}} - \frac{(1-y)^{\lambda_{4}}-1}{\lambda_{4}} \right] 
@@ -106,10 +108,10 @@ The probability density function of the \textit{FMKL}-\textit{GLD} at the point 
 f(x)=f(Q_{FMKL}(y))=\frac{\lambda_{2}}{y^{\lambda_{3}-1}+(1-y)^{\lambda_{4}-1}}
 \end{equation}
 
-Although both the \textit{RS} and \textit{FMKL} \textit{GLD} are generalizations of Tuckey's Lambda Distribution, they are not equivalent, so that the distribution fitted by one parametrization to a dataset differs in general from the one fitted by the other \cite{Marcondes2018}.
+Although both the \textit{RS} and \textit{FMKL} \textit{GLD} are generalizations of Tuckey's Lambda Distribution, they are not equivalent, so that the distribution fitted by one parametrization to a dataset differs in general from the one fitted by the other \cite{Marcondes2018}. Both of these representations can present a wide variety of shapes and therefore are utilized in practice; however, it is generally the \textit{FMKL GLD} preferred due to the ease in its use \cite{Corlu2016}. In this thesis, we also use the \textit{FMKL GLD} representation.
 
-\subsection{Other Parameterizations}
-One of the criticisms of the \textit{GLD} is that its skewness is expressed in terms of both tail indices $\lambda_{3}$ and $\lambda_{4}$. In one approach addressing this concern, a five-parameter \textit{GLD} was introduced by Joiner and Rosenblatt [1971], which, expressed in the \textit{FKML} parameterization, can be written as,
+\subsection{Other Parameterizations}\label{sec:gld_other_param}
+One of the criticisms of the \textit{GLD} is that its skewness is expressed in terms of both tail indices $\lambda_{3}$ and $\lambda_{4}$. In one approach addressing this concern, a five-parameter \textit{GLD} was introduced by Joiner et al. \cite{Joiner1971}, which, expressed in the \textit{FKML} parameterization, can be written as,
 \begin{equation}\label{eq:jr_param}
 Q_{JR}(y|\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4})=\lambda_{1}+\frac{1}{2 \lambda_{2}}\left[(1-\lambda_{5})\frac{y^{\lambda_{3}}-1}{\lambda_{3}} - (1+\lambda_{5})\frac{(1-y)^{\lambda_{4}}-1}{\lambda_{4}} \right] 
 \end{equation}
@@ -118,28 +120,107 @@ It has $\lambda_{1}$ and $\lambda_{2}$ as the location and scale parameters, and
 
 In \cite{Chalabi2012} the authors introduce a new parameterization of the \textit{GLD} that transform the \textit{FMKL} parameterization, equation \ref{eq:fmkl_param} in terms of an asymmetry and steepness parameter without adding a new variable. Its major advantage is that provides an intuitive interpretation of its parameters. A new \textbf{R} package called \textbf{gldist} was implemented with the new \textit{GLD} parameterization, along with the parameter estimation methods they present in his work. The problem with this parameterization is  that the \textbf{R} package was removed from the official repository because of the code is out of date.
 
+\section{FMKL GLD Shapes}\label{sec:gld_shapes}
+Both \textit{RS} and \textit{FMKL} \textit{GLD} can describe a variety of shapes, examples: U-shaped, bell shaped, triangular, and exponentially \cite{Su2007}. At the same time they also provide good fits to many well know distributions. In the case of \textit{RS GLD} and extensive study can be found in \cite{Karian2011}, for the \textit{FMKL GLD} see \cite{Freimer1988}. 
+
+Those properties of the \textit{GLD} are important to our purpose for two reasons: first we don't need previous knowledge to use the \textit{GLD} to fit any dataset, that is exactly the case in large-scale spatio-temporal models, and second the \textit{GLD} can be compared and grouped based on its shapes, that allow us to answer the \textbf{RQ1} as we show in Chapter \ref{cap:gld_clustering}.
+
+As the \textit{FMKL GLD} parameterization is the one selected to be used in this thesis, in the next sub-sections we present a brief review of its shapes and how this parameterization fit some well-known distributions.
+
+The shape of the \textit{GLD} are dependent of its $\lambda$ values. In the case of the \textit{FMKL GLD} parameterization, Freimer et al. \cite{Freimer1988} classify the shapes into five categories depending on the variety of distributions that can be represented by the several combinations of the shape parameters $\lambda_{3}$ and $\lambda_{4}$. In particular, Class-I ($\lambda_{3} < 1$, $\lambda_{4}<1$) represents unimodal densities with continuous tails. This class is subdivided in $I_{a}$ $(\lambda_{3}, \lambda_{4} \leq 1/2)$, $I_{b}$ $(1/2 < \lambda_{3} < 1, \lambda_{4} \leq 1/2)$ and $I_{c}$ $(1/2 < \lambda_{3} < 1, 1/2 < \lambda_{4} < 1)$. In $I_{a}$ we find distributions such us $Gaussian (Normal)$, $Beta(2.3)$ and $\Gamma(\alpha = 5)$; in $I_{b}$ $\Gamma(\alpha = 3)$ and $Lognormal(\sigma=0.5)$; and in $I_{c}$ distributions as the example of Class-I in Figure \ref{fig:fmkl_classes}.  
+
+Class-II ($\lambda_{3}>1$, $\lambda_{4}<1$) represents monotone pdfs similar to the $Exponential$ distribution, $Beta(1.2)$ or $Lognormal(\sigma=1.0)$. Class-III ($1<\lambda_{3}<2$, $1<\lambda_{4}<2$) represents U-shaped densities with truncated tails, Class-IV ($\lambda_{3}>2$, $1<\lambda_{4}<2$) represents S-shaped densities, and Class-V ($\lambda_{3}>2$, $\lambda_{4}>2$) represents unimodal densities with truncated tails. Figure \ref{fig:fmkl_classes} provides the shapes that are represented by the parameters indicated in Table \ref{tab:fmkl_classes}.
+
+\begin{table}[H]
+\centering
+\caption{Examples of the five categories of distributions the \textit{FMKL GLD} can represent.}
+\label{tab:fmkl_classes}
+\begin{tabular}{lllll}
+\hline
+          & $\lambda_{1}$ & $\lambda_{2}$ & $\lambda_{3}$ & $\lambda_{4}$ \\ \hline
+Class-I   & 0             & 1             & 0.5           & 0.6           \\
+Class-II  & 0             & 1             & 2             & 0.5           \\
+Class-III & 0             & 1             & 1.5           & 1.5           \\
+Class-IV  & 0             & 1             & 2.5           & 1.5           \\
+Class-V   & 0             & 1             & 3             & 3             \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/gld/fmkl_classes.png}
+    \caption{Examples of the five categories of shapes the \textit{FMKL GLD} can represent.}
+    \label{fig:fmkl_classes}
+\end{figure}
+
+Figure \ref{fig:fmkl_classes_l3_l4} show the five categories of the \textit{FMKL GLD} shapes in $(\lambda_{3}, \lambda_{4})$ space. There are two regions in this figure that were left out of the analysis, the regions with ($\lambda_{3}<1$, $\lambda_{4}>1$) and ($1<\lambda_{3}<2$, $\lambda_{4}>2$). Those regions are symmetric to region II and IV respectively, see Figure \ref{fig:symmetry}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/gld/classes_l3_l4.png}
+    \caption{The five categories of shapes of the \textit{FMKL GLD} in the $(\lambda_{3}, \lambda_{4})$ space.}
+    \label{fig:fmkl_classes_l3_l4}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/gld/symetrics.png}
+    \caption{Symmetry of the regions ($\lambda_{3}<1$, $\lambda_{4}>1$) and ($1<\lambda_{3}<2$, $\lambda_{4}>2$) with respect to  region II and IV.}
+    \label{fig:symmetry}
+\end{figure}
+
+The results presented in this section are extremely important to our approach because they are the bases of the clustering algorithms we propose in Chapter \ref{cap:gld_clustering}.
+
+
+\section{Numerical Methods to Fit the GLD to Data}\label{sec:gld_numerical_methods}
+Given a random sample $x_{1},x_{2},x_{3},...x_{n}$, the basic problem in fitting a statistical distribution to this data is that of approximating the distribution from which the sample was obtained. If it is known, because of theoretical considerations, that the distribution is of a certain type (e.g., a gamma distribution with unknown parameters), then through moment matching, or some other means, one can determine a specific distribution that fits the data. This, however, is generally not the case and, in the absence of any knowledge regarding the distribution, it makes sense to appeal to a flexible family of distributions and choose a specific member of that family \cite{Karian2011}.
+
+There are two different parameter estimation philosophies, \textbf{direct estimation methods}, such as least-squares estimation with order statistics [Ozturk and Dale, 1985] and with percentiles [Karian and Dudewicz, 1999, 2000; Fournier et al., 2007; King and MacGillivray, 2007; Karian and Dudewicz, 2003]; the methods of moments [Ozturk and Dale, 1982; Gilchrist, 2000], L-moments [Gilchrist, 2000; Karvanen and Nuutinen, 2008], and trimmed L-moments [Asquith, 2007]; and the goodness-of-fit method with histograms \cite{Su2005} and with maximum likelihood estimation \cite{Su2007}. On the other side, \textbf{stochastic methods} have been introduced with various estimators such as goodness-of-fit [Lakhany and Mausser, 2000] or the starship method [King and MacGillivray, 1999]. 
+
+Moreover, \cite{Lampasi2006}
+
+Numerical maximum log likelihood estimation for generalized lambda distributions 
+
 \cite{Lodziensis2013}
-
-
-\section{GLD Shapes}
-
-\section{GLD fit common distributions}\label{sec:gld_fit_other}
-
-\section{Numerical Methods to Fit the GLD to Data}
-two different parameter estimation philosophies, 
-\textbf{direct estimation methods}, such as least-squares estimation with order statistics [Ozturk and Dale, 1985] and with percentiles [Karian and Dudewicz, 1999, 2000; Fournier et al., 2007; King and MacGillivray, 2007; Karian and Dudewicz, 2003]; the methods of moments [Ozturk and Dale, 1982; Gilchrist, 2000], L-moments [Gilchrist, 2000; Karvanen and Nuutinen, 2008], and trimmed L-moments [Asquith, 2007]; and the goodness-of-fit method with histograms [Su, 2005] and with maximum likelihood estimation [Su, 2007]. On the other side, \textbf{stochastic methods} have been introduced with various estimators such as goodness-of-fit [Lakhany and Mausser, 2000] or the starship method [King and MacGillivray, 1999]. Moreover,
-\cite{Lampasi2006}
-Numerical maximum log likelihood estimation for generalized lambda distributions
 \cite{Lakhany2000}
 \cite{Fournier2007}
 \cite{Marcondes2018}
+Review and Genetic Algorithms approach \cite{Corlu2016}
 
-\section{Fitting Mixture Distributions Using a Mixture of Generalized Lambda Distributions}
+\section{GLD Approximations of Some Well-Known Distributions}\label{sec:gld_fit_other}
+For the $GLD(\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4})$ to be useful for fitting distributions to data, it should be able to provide good fits to many of the distributions the data may come from. In \cite{Karian2011}, the authors explore how the \textit{GLD} fit sixteen well-known distributions using the \textit{RS GLD} parameterization. Here we explore how the \textit{GLD} fit eight distributions, but using the \textit{FMKL} parameterization.
+
+In Table \ref{tab:gld_fit_other} we show the original distribution, the four $\lambda$ values of the fit and the result of apply a Kolmogorov-Smirnov test to validate the good of the fit.
+
+\begin{table}[H]
+\centering
+\caption{GLD Approximations of 8 Well-Known Distributions}
+\label{tab:gld_fit_other}
+\begin{tabular}{l|l|l|l|l|l|l}
+\hline
+Distribution & Parameters                    & $\lambda_{1}$ & $\lambda_{2}$ & $\lambda_{3}$ & $\lambda_{4}$ & KS-test \\ \hline
+Normal       & $\textsc{N}(0, 1)$                     & -0.04263   & 1.49039    & 0.13787    & 0.12571    & 951     \\ \hline
+Uniform      & $U(0, 1)$                     & 0.46250     & 2.16223     & 1.00008     & 0.8614     & 912     \\ \hline
+Exponential  & $\theta = 1$                  & 0.49150     & 1.40546     & 1.44813     & -0.10419    & 923     \\ \hline
+Chi-Square   & $nu = 5$                      & 4.141853    & 0.486702    & 0.508298    & -0.045440   & 911     \\ \hline
+Gamma        & $(\alpha = 5, \theta = 3)$    & 1.535078    & 1.846312    & 0.410183    & 0.027492    & 885     \\ \hline
+Weibull      & $(\alpha = 1, \beta = 5)$     & 2.684657    & 0.263865    & 1.413826    & -0.067658   & 940     \\ \hline
+Lognormal    & $(\mu = 0, \sigma = 1/3)$     & 0.984696    & 4.516254    & 0.324879    & -0.074348   & 903     \\ \hline
+Beta         & $(\beta_{3} = \beta_{4} = 1)$ & 0.50092     & 2.00702     & 0.99505     & 1.00060     & 906     \\ \hline
+\end{tabular}
+\end{table}
+
+As was expected the results are slightly different to those presented by Karian et al., as we use other parameterization. The KS-test value was over 900 in seven cases and near 900 in the case of the Gamma distribution. This result suggests us that the fit was good. All the fit provides $(\lambda_{3}, \lambda_{4})$ values that match the shape region each distribution belongs to.
+
+
+\section{Fitting Mixture Distributions Using a Mixture of Generalized Lambda Distributions}\label{sec:gld_mixture}
 Esto esta en \cite{Tobergte2013}
+
+Maximum Log Likelihood Estimation using EM Algorithm and Partition Maximum Log Likelihood Estimation for Mixtures of Generalized Lambda Distributions  \cite{Su2011}. En este articulo presenta ejemplos bien extraños.
 
 Fitting the GLD and compare with the normal mixture \cite{Ning2008}
 
-\section{GLD Random Variate Generation}
+\section{GLD Random Variate Generation}\label{sec:gld_random_variate}
 An important thing to take into account when we substitute the raw data produced as an output of a simulation process, by its \textit{PDF} is that those \textit{PDFs} need to allow us to reproduce the original data as close as possible. The outcome produced by a particular \textit{PDF} is known as random variate, its definition is:
 
 \begin{defn} 
@@ -194,12 +275,17 @@ The use of the \textit{GLD} to quantify the uncertainty is justified because:
 \item no prior knowledge is needed to fit the \textit{GLD} to a dataset, which is practical and suitable for automatic and software procedures;
 \item the \textit{PDF} is completely characterized by the four parameters of the \textit{GLD}, which represents a reduction in the amount of data that must be stored for post-processing;
 \item the shape of the \textit{GLD} is governed by its parameters, so the \textit{GLDs} can be grouped  based on their shapes, which is especially useful for further queries; and
-\item in cases where mixture of distributions are needed, \textit{GLD} mixtures could be a very good option.
+\item in cases where mixture of distributions are needed, \textit{GLD} mixtures could be a very good option;
+\item a \textit{GLD} is good for random variate generation.
 \end{itemize}
 \cite{Ning2008} 
 
 \section{The GLDEX R package}\label{sec:gldex}
-Last but not less important 
+In the implementation of our approach, we use the \textbf{\textit{GLDEX R}} package \cite{Su2007}. The GLDEX R package provides fitting algorithms with two objectives: (i) to provide a smoothing device to fit distributions to data using the weight and unweighted discretised approach based on the bin width of the histogram; (ii)  to provide a definitive fit to the data set using the maximum likelihood estimation.
+
+The GLDEX package also provides diagnostic tests to examine the quality of fit through the resample Kolmogorov-Smirnoff test, quantile plots and comparison of the mean, variance, skewness and kurtosis between the empirical data and the fitted distribution.
+
+The GLDEX package is used in this thesis to: (i) fit the \textit{GLD} distribution to a dataset on each spatio-temporal location; (ii) examine the quality of the fit; (iii) sampling any spatio-temporal location based on its \textit{GLD}.
 
 \section{Conclusions}
 

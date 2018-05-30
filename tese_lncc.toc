@@ -29,85 +29,85 @@
 \contentsline {section}{\numberline {3.3}Experimental Evaluation}{27}{section.3.3}
 \contentsline {chapter}{\chapternumberline {4}The Generalized Lambda Distribution}{28}{chapter.4}
 \contentsline {section}{\numberline {4.1}The Generalized Lambda Distribution}{28}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}The Ramberg and Schmeiser Parametrization}{28}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}The Ramberg and Schmeiser Parameterization}{28}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}The FMKL Parameterization}{30}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Other Parameterizations}{32}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}GLD Shapes}{32}{section.4.2}
-\contentsline {section}{\numberline {4.3}GLD fit common distributions}{32}{section.4.3}
-\contentsline {section}{\numberline {4.4}Numerical Methods to Fit the GLD to Data}{32}{section.4.4}
-\contentsline {section}{\numberline {4.5}Fitting Mixture Distributions Using a Mixture of Generalized Lambda Distributions}{33}{section.4.5}
-\contentsline {section}{\numberline {4.6}GLD Random Variate Generation}{33}{section.4.6}
-\contentsline {section}{\numberline {4.7}GLD and Uncertainty Quantification}{34}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Related Works}{34}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Relevance of GLD in Uncertainty Quantification}{34}{subsection.4.7.2}
-\contentsline {section}{\numberline {4.8}The GLDEX R package}{35}{section.4.8}
-\contentsline {section}{\numberline {4.9}Conclusions}{35}{section.4.9}
-\contentsline {chapter}{\chapternumberline {5}Clustering Uncertain Data Based on GLD Similarity}{36}{chapter.5}
-\contentsline {section}{\numberline {5.1}Related Works}{36}{section.5.1}
-\contentsline {section}{\numberline {5.2}Clustering Based on GLD}{36}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Fit the GLD to a dataset}{37}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Clustering the GLD}{38}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Synthetic Data I}{38}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Clustering using $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$}{40}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Clustering using $\lambda _{3}$ and $\lambda _{4}$}{47}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Synthetic Data II}{49}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Clustering using $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$}{50}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Clustering using $\lambda _{3}$ and $\lambda _{4}$}{52}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}Conclusions}{54}{section.5.5}
-\contentsline {chapter}{\chapternumberline {6}Kriging of the GLD parameters}{55}{chapter.6}
-\contentsline {section}{\numberline {6.1}Spatio-temporal Interpolation}{55}{section.6.1}
-\contentsline {section}{\numberline {6.2}Kriging over GLD}{55}{section.6.2}
-\contentsline {section}{\numberline {6.3}Use Case}{55}{section.6.3}
-\contentsline {section}{\numberline {6.4}Conclusions}{55}{section.6.4}
-\contentsline {chapter}{\chapternumberline {7}Our Approach}{56}{chapter.7}
-\contentsline {section}{\numberline {7.1}Fitting a GLD to a spatio-temporal dataset}{56}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Fitting process}{57}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}GLD validity check}{57}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Quality of the fit}{57}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Clustering the GLD based on its lambda values}{58}{section.7.2}
-\contentsline {section}{\numberline {7.3}Use of GLD mixture to characterize the uncertainty in an spatio-temporal region}{59}{section.7.3}
-\contentsline {section}{\numberline {7.4}Information entropy as a measure of the uncertainty in an spatio-temporal region}{60}{section.7.4}
-\contentsline {section}{\numberline {7.5}Information entropy and model selection}{61}{section.7.5}
-\contentsline {section}{\numberline {7.6}UQ Proposed Dataflow}{61}{section.7.6}
-\contentsline {section}{\numberline {7.7}LaSST-UQ R package}{63}{section.7.7}
-\contentsline {section}{\numberline {7.8}Conclusions}{63}{section.7.8}
-\contentsline {chapter}{\chapternumberline {8}Use Cases}{64}{chapter.8}
-\contentsline {section}{\numberline {8.1}Case Study: Wave Propagation Problem}{64}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}The Dataset}{64}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Fitting the GLD}{66}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}GLD validity check}{66}{subsection.8.1.3}
-\contentsline {subsection}{\numberline {8.1.4}Quality of the fit}{67}{subsection.8.1.4}
-\contentsline {subsection}{\numberline {8.1.5}Clustering}{68}{subsection.8.1.5}
-\contentsline {subsection}{\numberline {8.1.6}Spatio-temporal queries}{76}{subsection.8.1.6}
-\contentsline {subsubsection}{\numberline {8.1.6.1}GLD mixture}{77}{subsubsection.8.1.6.1}
-\contentsline {subsubsection}{\numberline {8.1.6.2}Information Entropy}{79}{subsubsection.8.1.6.2}
-\contentsline {subsection}{\numberline {8.1.7}Mathematical Formulation}{79}{subsection.8.1.7}
-\contentsline {subsection}{\numberline {8.1.8}Model and Dataset Description}{79}{subsection.8.1.8}
-\contentsline {subsection}{\numberline {8.1.9}Adding uncertainty into the model}{80}{subsection.8.1.9}
-\contentsline {section}{\numberline {8.2}Case Study: Austin, queso library}{81}{section.8.2}
-\contentsline {section}{\numberline {8.3}Case Study: Multidisciplinary System (NASA)}{81}{section.8.3}
-\contentsline {section}{\numberline {8.4}Case Study: Spatio-temporal Nicholson-Bailey model}{81}{section.8.4}
-\contentsline {chapter}{\chapternumberline {9}Conclusions and Future Works}{82}{chapter.9}
-\contentsline {section}{\numberline {9.1}Revisiting the Research Questions}{82}{section.9.1}
-\contentsline {section}{\numberline {9.2}Significance and Limitations}{82}{section.9.2}
-\contentsline {section}{\numberline {9.3}Open Problems and Future Work}{82}{section.9.3}
-\contentsline {section}{\numberline {9.4}Final Considerations}{82}{section.9.4}
+\contentsline {section}{\numberline {4.2}FMKL GLD Shapes}{32}{section.4.2}
+\contentsline {section}{\numberline {4.3}Numerical Methods to Fit the GLD to Data}{35}{section.4.3}
+\contentsline {section}{\numberline {4.4}GLD Approximations of Some Well-Known Distributions}{35}{section.4.4}
+\contentsline {section}{\numberline {4.5}Fitting Mixture Distributions Using a Mixture of Generalized Lambda Distributions}{36}{section.4.5}
+\contentsline {section}{\numberline {4.6}GLD Random Variate Generation}{36}{section.4.6}
+\contentsline {section}{\numberline {4.7}GLD and Uncertainty Quantification}{38}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Related Works}{38}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Relevance of GLD in Uncertainty Quantification}{38}{subsection.4.7.2}
+\contentsline {section}{\numberline {4.8}The GLDEX R package}{38}{section.4.8}
+\contentsline {section}{\numberline {4.9}Conclusions}{39}{section.4.9}
+\contentsline {chapter}{\chapternumberline {5}Clustering Uncertain Data Based on GLD Similarity}{40}{chapter.5}
+\contentsline {section}{\numberline {5.1}Related Works}{40}{section.5.1}
+\contentsline {section}{\numberline {5.2}Clustering Based on GLD}{40}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Fit the GLD to a dataset}{41}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Clustering the GLD}{42}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Synthetic Data I}{42}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Clustering using $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$}{44}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Clustering using $\lambda _{3}$ and $\lambda _{4}$}{51}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Synthetic Data II}{53}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Clustering using $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$}{54}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Clustering using $\lambda _{3}$ and $\lambda _{4}$}{56}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Conclusions}{58}{section.5.5}
+\contentsline {chapter}{\chapternumberline {6}Kriging of the GLD parameters}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Spatio-temporal Interpolation}{59}{section.6.1}
+\contentsline {section}{\numberline {6.2}Kriging over GLD}{59}{section.6.2}
+\contentsline {section}{\numberline {6.3}Use Case}{59}{section.6.3}
+\contentsline {section}{\numberline {6.4}Conclusions}{59}{section.6.4}
+\contentsline {chapter}{\chapternumberline {7}Our Approach}{60}{chapter.7}
+\contentsline {section}{\numberline {7.1}Fitting a GLD to a spatio-temporal dataset}{60}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Fitting process}{61}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}GLD validity check}{61}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Quality of the fit}{61}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Clustering the GLD based on its lambda values}{62}{section.7.2}
+\contentsline {section}{\numberline {7.3}Use of GLD mixture to characterize the uncertainty in an spatio-temporal region}{63}{section.7.3}
+\contentsline {section}{\numberline {7.4}Information entropy as a measure of the uncertainty in an spatio-temporal region}{64}{section.7.4}
+\contentsline {section}{\numberline {7.5}Information entropy and model selection}{65}{section.7.5}
+\contentsline {section}{\numberline {7.6}UQ Proposed Dataflow}{65}{section.7.6}
+\contentsline {section}{\numberline {7.7}LaSST-UQ R package}{67}{section.7.7}
+\contentsline {section}{\numberline {7.8}Conclusions}{67}{section.7.8}
+\contentsline {chapter}{\chapternumberline {8}Use Cases}{68}{chapter.8}
+\contentsline {section}{\numberline {8.1}Case Study: Wave Propagation Problem}{68}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}The Dataset}{68}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Fitting the GLD}{70}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}GLD validity check}{70}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Quality of the fit}{71}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Clustering}{72}{subsection.8.1.5}
+\contentsline {subsection}{\numberline {8.1.6}Spatio-temporal queries}{80}{subsection.8.1.6}
+\contentsline {subsubsection}{\numberline {8.1.6.1}GLD mixture}{81}{subsubsection.8.1.6.1}
+\contentsline {subsubsection}{\numberline {8.1.6.2}Information Entropy}{83}{subsubsection.8.1.6.2}
+\contentsline {subsection}{\numberline {8.1.7}Mathematical Formulation}{83}{subsection.8.1.7}
+\contentsline {subsection}{\numberline {8.1.8}Model and Dataset Description}{83}{subsection.8.1.8}
+\contentsline {subsection}{\numberline {8.1.9}Adding uncertainty into the model}{84}{subsection.8.1.9}
+\contentsline {section}{\numberline {8.2}Case Study: Austin, queso library}{85}{section.8.2}
+\contentsline {section}{\numberline {8.3}Case Study: Multidisciplinary System (NASA)}{85}{section.8.3}
+\contentsline {section}{\numberline {8.4}Case Study: Spatio-temporal Nicholson-Bailey model}{85}{section.8.4}
+\contentsline {chapter}{\chapternumberline {9}Conclusions and Future Works}{86}{chapter.9}
+\contentsline {section}{\numberline {9.1}Revisiting the Research Questions}{86}{section.9.1}
+\contentsline {section}{\numberline {9.2}Significance and Limitations}{86}{section.9.2}
+\contentsline {section}{\numberline {9.3}Open Problems and Future Work}{86}{section.9.3}
+\contentsline {section}{\numberline {9.4}Final Considerations}{86}{section.9.4}
 \vspace {\cftbeforepartskip }
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Bibliography}{83}{section*.16}
+\contentsline {chapter}{Bibliography}{87}{section*.16}
 \renewcommand *{\cftappendixname }{APPENDIX \space }
-\contentsline {part}{Appendix}{86}{section*.17}
-\contentsline {appendix}{\chapternumberline {A}uqms R package}{87}{appendix.A}
-\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{87}{section.A.1}
-\contentsline {appendix}{\chapternumberline {B}Ideas}{88}{appendix.B}
-\contentsline {subsection}{\numberline {B.0.1}Variance, Information and Entropy}{88}{subsection.B.0.1}
-\contentsline {subsection}{\numberline {B.0.2}Information Gain, Distances and Divergences}{88}{subsection.B.0.2}
-\contentsline {section}{\numberline {B.1}Sensitivity Analysis}{88}{section.B.1}
-\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice C}{89}{appendix.C}
+\contentsline {part}{Appendix}{90}{section*.17}
+\contentsline {appendix}{\chapternumberline {A}uqms R package}{91}{appendix.A}
+\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{91}{section.A.1}
+\contentsline {appendix}{\chapternumberline {B}Ideas}{92}{appendix.B}
+\contentsline {subsection}{\numberline {B.0.1}Variance, Information and Entropy}{92}{subsection.B.0.1}
+\contentsline {subsection}{\numberline {B.0.2}Information Gain, Distances and Divergences}{92}{subsection.B.0.2}
+\contentsline {section}{\numberline {B.1}Sensitivity Analysis}{92}{section.B.1}
+\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice C}{93}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANNEX \space }
-\contentsline {part}{Annex}{90}{section*.18}
-\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do anexo A}{91}{appendix.anexochapback.1}
-\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{91}{section.anexochapback.1.1}
-\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do anexo B}{92}{appendix.anexochapback.2}
-\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do anexo C}{93}{appendix.anexochapback.3}
+\contentsline {part}{Annex}{94}{section*.18}
+\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do anexo A}{95}{appendix.anexochapback.1}
+\contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{95}{section.anexochapback.1.1}
+\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do anexo B}{96}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do anexo C}{97}{appendix.anexochapback.3}
