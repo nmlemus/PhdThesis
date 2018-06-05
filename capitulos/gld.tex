@@ -261,12 +261,16 @@ This theorem means that, independently of the nature of the dataset (Normal, Exp
 
 This is an important property of the \textit{GLD} that allow us to substitute the raw data by the four lambdas of the \textit{GLD} that best fit it (if the fit is a good one), with the warranty that if we need to go back, the \textit{GLD} could generate a good representation of the original data.
 
+It is evident that the \textit{GLD} allows easy generation of random variables from every kind of distribution, because featuring an explicit and accessible $Q_{X}(y)$ reduces it to a uniform generation in $[0,1]$, \cite{Lampasi2006}.
+
 
 \section{GLD and Uncertainty Quantification}
 \subsection{Related Works}
 A solution to determining the reliability of products Using Generalized Lambda Distribution \cite{Movahedi2013}
 
 Fundamental Reference \cite{Lampasi2006}
+
+\cite{Cox2012}
 
 \subsection{Relevance of GLD in Uncertainty Quantification}
 The use of the \textit{GLD} to quantify the uncertainty is justified because: 
@@ -281,7 +285,7 @@ The use of the \textit{GLD} to quantify the uncertainty is justified because:
 \cite{Ning2008} 
 
 \section{The GLDEX R package}\label{sec:gldex}
-In the implementation of our approach, we use the \textbf{\textit{GLDEX R}} package \cite{Su2007}. The GLDEX R package provides fitting algorithms with two objectives: (i) to provide a smoothing device to fit distributions to data using the weight and unweighted discretised approach based on the bin width of the histogram; (ii)  to provide a definitive fit to the data set using the maximum likelihood estimation.
+In the implementation of our approach, we use the \textbf{\textit{GLDEX}}\footnote{https://cran.r-project.org/web/packages/GLDEX/index.html} \textbf{\textit{R}} package \cite{Su2007}. The GLDEX R package provides fitting algorithms with two objectives: (i) to provide a smoothing device to fit distributions to data using the weight and unweighted discretised approach based on the bin width of the histogram; (ii)  to provide a definitive fit to the data set using the maximum likelihood estimation.
 
 The GLDEX package also provides diagnostic tests to examine the quality of fit through the resample Kolmogorov-Smirnoff test, quantile plots and comparison of the mean, variance, skewness and kurtosis between the empirical data and the fitted distribution.
 

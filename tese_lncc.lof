@@ -1,53 +1,53 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Support regions of the GLD in the RS parameterization that produce valid statistical distributions.}}{30}{figure.4.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Support regions of the \textit {GLD} in the \textit {FMKL} parameterization that produce valid statistical distributions.}}{31}{figure.4.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Examples of the five categories of shapes the \textit {FMKL GLD} can represent.}}{33}{figure.4.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces The five categories of shapes of the \textit {FMKL GLD} in the $(\lambda _{3}, \lambda _{4})$ space.}}{34}{figure.4.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Symmetry of the regions ($\lambda _{3}<1$, $\lambda _{4}>1$) and ($1<\lambda _{3}<2$, $\lambda _{4}>2$) with respect to region II and IV.}}{34}{figure.4.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Gaussian (Normal) distributions used to generate the synthetic dataset.}}{42}{figure.5.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Exponential distributions used to generate the synthetic dataset.}}{43}{figure.5.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Uniform distribution used to generate the synthetic dataset.}}{43}{figure.5.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{44}{figure.5.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Cluster 1 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{45}{figure.5.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Cluster 2 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{46}{figure.5.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Cluster 3 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{46}{figure.5.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Cluster 4 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{47}{figure.5.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Cluster 5 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{47}{figure.5.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Cluster 6 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{48}{figure.5.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Cluster 7 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{48}{figure.5.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Cluster 8 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{49}{figure.5.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Cluster 9 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{49}{figure.5.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Cluster 10 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{50}{figure.5.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Cluster 11 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{50}{figure.5.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{51}{figure.5.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}}{51}{figure.5.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{52}{figure.5.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{53}{figure.5.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}}{53}{figure.5.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Gamma distributions used to generate the synthetic dataset.}}{54}{figure.5.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{55}{figure.5.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{56}{figure.5.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{57}{figure.5.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{58}{figure.5.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Illustration of the two-sample Kolmogorov\IeC {\textendash }Smirnov statistic. Red and blue lines each correspond to an empirical distribution function, and the black arrow is the two-sample KS statistic.}}{62}{figure.7.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Proposed workflow. The workflow was divided in three steps, (a) the fitting process, (b) the clustering of the GLDs and, (c) the queries over the results of the clustering process.}}{66}{figure.7.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces One slice of the $250\times 501\times 501$ cube. In the slice we can distinguish between the different layers.}}{69}{figure.8.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Histograms of the 1000 samplings generated using Monte Carlo method and the PDFs reported in Table \ref {tab:PDFsOfVp}.}}{70}{figure.8.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Goodness of the fit based on the \textit {p}-value returning by the KS-test. \textit {p}-value $>$ 0.05 represent a good fit of the GLD to the dataset at $(x_{i}, y_{j})$.}}{71}{figure.8.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces The red color shows where the p-value was greater than 0.05.}}{71}{figure.8.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Kolmogorov-Smirnoff Distance (D). The red regions represent where the GLD fits well.}}{72}{figure.8.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Result of the clusterization using k-means with $n=10$.}}{73}{figure.8.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Distribution of the clusters in the $(\lambda _{3}, \lambda _{4})$ space. The points that belongs to a same cluster are one near the others, as was expected.}}{73}{figure.8.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces \textit {PDFs} of 60 members of the cluster 1.}}{74}{figure.8.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces \textit {PDFs} of 60 members of the cluster 2.}}{75}{figure.8.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces \textit {PDFs} of 60 members of the cluster 3.}}{75}{figure.8.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces \textit {PDFs} of 60 members of the cluster 4.}}{76}{figure.8.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces \textit {PDFs} of 60 members of the cluster 5.}}{76}{figure.8.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces \textit {PDFs} of 60 members of the cluster 6.}}{77}{figure.8.45}
-\contentsline {figure}{\numberline {46}{\ignorespaces \textit {PDFs} of 60 members of the cluster 7.}}{77}{figure.8.46}
-\contentsline {figure}{\numberline {47}{\ignorespaces \textit {PDFs} of 60 members of the cluster 8.}}{78}{figure.8.47}
-\contentsline {figure}{\numberline {48}{\ignorespaces \textit {PDFs} of 60 members of the cluster 9.}}{78}{figure.8.48}
-\contentsline {figure}{\numberline {49}{\ignorespaces \textit {PDFs} of 60 members of the cluster 10.}}{79}{figure.8.49}
-\contentsline {figure}{\numberline {50}{\ignorespaces Distribution of the clusters.}}{80}{figure.8.50}
-\contentsline {figure}{\numberline {51}{\ignorespaces Analysis Regions.}}{81}{figure.8.51}
+\contentsline {figure}{\numberline {1}{\ignorespaces Support regions of the GLD in the RS parameterization that produce valid statistical distributions.}}{34}{figure.4.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Support regions of the \textit {GLD} in the \textit {FMKL} parameterization that produce valid statistical distributions.}}{35}{figure.4.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Examples of the five categories of shapes the \textit {FMKL GLD} can represent.}}{37}{figure.4.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces The five categories of shapes of the \textit {FMKL GLD} in the $(\lambda _{3}, \lambda _{4})$ space.}}{38}{figure.4.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Symmetry of the regions ($\lambda _{3}<1$, $\lambda _{4}>1$) and ($1<\lambda _{3}<2$, $\lambda _{4}>2$) with respect to region II and IV.}}{38}{figure.4.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Proposed workflow. The workflow was divided in three steps, (a) the fitting process, (b) the clustering of the GLDs and, (c) the queries over the results of the clustering process.}}{45}{figure.5.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Illustration of the two-sample Kolmogorov\IeC {\textendash }Smirnov statistic. Red and blue lines each correspond to an empirical distribution function, and the black arrow is the two-sample KS statistic.}}{48}{figure.5.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Gaussian (Normal) distributions used to generate the synthetic dataset.}}{54}{figure.6.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Exponential distributions used to generate the synthetic dataset.}}{55}{figure.6.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Uniform distribution used to generate the synthetic dataset.}}{55}{figure.6.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{56}{figure.6.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Cluster 1 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{57}{figure.6.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Cluster 2 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{58}{figure.6.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Cluster 3 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{58}{figure.6.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Cluster 4 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{59}{figure.6.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Cluster 5 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{59}{figure.6.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Cluster 6 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{60}{figure.6.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Cluster 7 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{60}{figure.6.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Cluster 8 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{61}{figure.6.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Cluster 9 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{61}{figure.6.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Cluster 10 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{62}{figure.6.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Cluster 11 returned by the k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}, synthetic dataset I.}}{62}{figure.6.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{63}{figure.6.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}}{63}{figure.6.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{64}{figure.6.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{65}{figure.6.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}}{65}{figure.6.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Gamma distributions used to generate the synthetic dataset.}}{66}{figure.6.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{67}{figure.6.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{68}{figure.6.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{69}{figure.6.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{70}{figure.6.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces One slice of the $250\times 501\times 501$ cube. In the slice we can distinguish between the different layers.}}{73}{figure.8.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Histograms of the 1000 samplings generated using Monte Carlo method and the PDFs reported in Table \ref {tab:PDFsOfVp}.}}{74}{figure.8.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Goodness of the fit based on the \textit {p}-value returning by the KS-test. \textit {p}-value $>$ 0.05 represent a good fit of the GLD to the dataset at $(x_{i}, y_{j})$.}}{75}{figure.8.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces The red color shows where the p-value was greater than 0.05.}}{75}{figure.8.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Kolmogorov-Smirnoff Distance (D). The red regions represent where the GLD fits well.}}{76}{figure.8.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Result of the clusterization using k-means with $n=10$.}}{77}{figure.8.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Distribution of the clusters in the $(\lambda _{3}, \lambda _{4})$ space. The points that belongs to a same cluster are one near the others, as was expected.}}{77}{figure.8.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces \textit {PDFs} of 60 members of the cluster 1.}}{78}{figure.8.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces \textit {PDFs} of 60 members of the cluster 2.}}{79}{figure.8.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces \textit {PDFs} of 60 members of the cluster 3.}}{79}{figure.8.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces \textit {PDFs} of 60 members of the cluster 4.}}{80}{figure.8.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces \textit {PDFs} of 60 members of the cluster 5.}}{80}{figure.8.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces \textit {PDFs} of 60 members of the cluster 6.}}{81}{figure.8.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces \textit {PDFs} of 60 members of the cluster 7.}}{81}{figure.8.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces \textit {PDFs} of 60 members of the cluster 8.}}{82}{figure.8.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces \textit {PDFs} of 60 members of the cluster 9.}}{82}{figure.8.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces \textit {PDFs} of 60 members of the cluster 10.}}{83}{figure.8.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces Distribution of the clusters.}}{84}{figure.8.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces Analysis Regions.}}{85}{figure.8.51}

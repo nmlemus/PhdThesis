@@ -39,6 +39,14 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1080/14697688.2017.1296176}.}
   p. 2276--2296, 2016.
 ISSN 15324141.}
 
+\bibitem[Cox et al. 2012]{Cox2012}
+\abntrefinfo{Cox et al.}{COX et al.}{2012}
+{COX, M. et al. {Numerical aspects in the evaluation of measurement
+  uncertainty}.
+\emph{IFIP Advances in Information and Communication Technology}, v. 377 AICT,
+  p. 180--192, 2012.
+ISSN 18684238.}
+
 \bibitem[Crespo, Kenny e Giesy 2014]{Crespo2014}
 \abntrefinfo{Crespo, Kenny e Giesy}{CRESPO; KENNY; GIESY}{2014}
 {CRESPO, L.~G.; KENNY, S.~P.; GIESY, D.~P. {The NASA Langley Multidisciplinary
@@ -74,6 +82,13 @@ ISSN 01679473.}
 \emph{Communications in Statistics - Theory and Methods}, v.~17, n.~10, p.
   3547--3567, 1988.
 ISSN 1532415X.}
+
+\bibitem[Graler, Pebesma e Heuvelink 2016]{Graler2016}
+\abntrefinfo{Graler, Pebesma e Heuvelink}{GRALER; PEBESMA; HEUVELINK}{2016}
+{GRALER, B.; PEBESMA, E.; HEUVELINK, G. {Spatio-Temporal Interpolation using
+  gstat}.
+\emph{Wp}, v.~8, p. 1--20, 2016.
+ISSN 20734859.}
 
 \bibitem[Guerra et al. 2016]{Guerra2016}
 \abntrefinfo{Guerra et al.}{GUERRA et al.}{2016}
@@ -199,6 +214,13 @@ Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1805.03141.pdf}.}
 \emph{Annals of Applied Statistics}, 2017.
 Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1712.02183.pdf}.}
 
+\bibitem[Melorose et al. 2015]{Lavril2015}
+\abntrefinfo{Melorose et al.}{MELOROSE et al.}{2015}
+{MELOROSE, J. et al.
+\emph{{A PROBABILISTIC FRAMEWORK FOR UNCERTAINTY QUANTIFICATION IN LARGE-SCALE
+  SIMULATIONS: APPLICATION IN SEISMIC IMAGING}}.
+Tese (Doutorado) --- Universidade Federal do Rio de Janeiro, 2015.}
+
 \bibitem[Movahedi, Lotfi e Nayyeri 2013]{Movahedi2013}
 \abntrefinfo{Movahedi, Lotfi e Nayyeri}{MOVAHEDI; LOTFI; NAYYERI}{2013}
 {MOVAHEDI, M.~M.; LOTFI, M.~R.; NAYYERI, M. {A solution to determining the
@@ -222,6 +244,14 @@ Tese (Doutorado), 2016.}
 \emph{American Journal of Mathematical and Management Sciences}, v.~28, n.~1-2,
   p. 81--99, 2008.
 ISSN 01966324.}
+
+\bibitem[Rajan et al. 2016]{Rajan2016a}
+\abntrefinfo{Rajan et al.}{RAJAN et al.}{2016}
+{RAJAN, A. et al. {Benchmark Test Distributions for Expanded Uncertainty
+  Evaluation Algorithms}.
+\emph{IEEE Transactions on Instrumentation and Measurement}, v.~65, n.~5, p.
+  1022--1034, 2016.
+ISSN 00189456.}
 
 \bibitem[Su 2007]{Su2007}
 \abntrefinfo{Su}{SU}{2007}
@@ -259,5 +289,11 @@ ISBN 9783319233949. Dispon{\'\i}vel em:
 \emph{Journal of Chemical Information and Modeling}, v.~53, n.~9, p.
   1689--1699, 2013.
 ISSN 1098-6596.}
+
+\bibitem[{U.S. Department of Energy} 2009]{DEnergy2009}
+\abntrefinfo{{U.S. Department of Energy}}{{U.S. Department of Energy}}{2009}
+{{U.S. Department of Energy}. \emph{{Scientific Grand Challenges in National
+  Security: The Role of Computing at the Extreme Scale}}.
+[S.l.], 2009. 255~p.}
 
 \end{thebibliography}
