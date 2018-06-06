@@ -35,11 +35,9 @@
 	\cite{Sullivan2015}}
 \end{flushright}
 
-Uncertainty Quantification is a booming area that integrate 
+Uncertainty quantification (UQ) is a topic of great importance and hence widespread interest in computational analyses that are used to support important societal decisions on issues related to climate change [15-19], reactor safety [20-26], radioactive waste disposal [27-34], nuclear weapon safety [35-38], economic policy [39-43], environmental degradation [44- 47], and many additional areas of concern and challenge. Indeed, it is difficult to envision how adequately informed decisions can be made on such issues without an appropriate assessment of the uncertainties present in the supporting analyses.
 
 In this chapter, we summarize some definitions in UQ context that are important to understand the rest of the document. Also, different ways of representation of the uncertainty are discussed, with a brief justification of those we are going to use in the thesis. A general workflow of the UQ process is presented where we contextualize our contributions. A detailed discussion about forward propagation is presented. And finally, we summarize the chapter.
-
-Hablar de todos los tipos de incertaza, de incerteza en datos, en modelos, parametrica, hasta llegar a lo que a nosotros nos interesa.
 
 All results of interest can be derived from the PDF \cite{Cox2012}.
 
@@ -48,54 +46,76 @@ In particular it is not always convenient to retain the M = 106, say, (vector) v
 \section{Definitions}
 \subsection{Errors vs Uncertainties}
 
-The mismatch between the true physical phenomena and the prediction obtained by modeling and simulation (M\&S) process can arise from the Mathematical representation of a real problem, a Physical problem (are the values of the parameters a good representation of the reality), a Computational problem (translation of a mathematical formulation into a numerical algorithm and a computational code) \cite{Thibaut2015}. Uncertainty and error can be considered as the broad categories  that  are  normally  associated to this mismatch. Until recently terms  uncertainty  and error  have  commonly  been  used  interchangeably.  It is believed, however, that failure to distinguish between these terms is detrimental to the quantification of credibility in M\&S. According to \cite{Oberkampf1998} we can classify errors and uncertainties as follow: 
+The mismatch between the true physical phenomena and the prediction obtained by modeling and simulation (M\&S) process can arise from the mathematical representation of a real problem, a physical problem (are the values of the parameters a good representation of the reality?), a computational problem (translation of a mathematical formulation into a numerical algorithm and a computational code) \cite{Thibaut2015}. Uncertainty and error can be considered as the broad categories  that  are  normally  associated to this mismatch. Until recently terms  uncertainty  and error  have  commonly  been  used  interchangeably.  It is believed, however, that failure to distinguish between these terms is detrimental to the quantification of credibility in M\&S. According to \cite{Oberkampf1998} we can classify errors and uncertainties as follow: 
 
 \begin{itemize}
-\item[•] \textbf{errors:} They are recognizable deficiencies of the model or the algorithms employed. Errors are associated to the translation of the mathematical to computational model, numerical approximations (truncation or roundoff). 
-\item[•] \textbf{uncertainties:} They are a potential deficiency that is due to lack of knowledge.
+\item[•] \textbf{errors:} recognizable deficiencies of the model or the algorithms employed. Errors are associated to: physical approximations to simplify the modeling of a physical process, translation of the mathematical to computational model, numerical approximations (truncation or roundoff), etc. When the errors are knowns there are reasonable means of estimating the magnitude of the error introduced. 
+\item[•] \textbf{uncertainties:} potential deficiency that is due to lack of knowledge. The different sources of uncertainty can be:
+\begin{itemize}
+\item[-] \textbf{parameter uncertainty}, which comes from the model parameters that are inputs to the computer model (mathematical model) but whose exact values are unknown to experimentalists and cannot be controlled in physical experiments, or whose values cannot be exactly inferred by statistical methods. Examples are the local free-fall acceleration in a falling object experiment, various material properties in a finite element analysis for engineering, and multiplier uncertainty in the context of macroeconomic policy optimization \cite{Kennedy2001}.
+\item[-] \textbf{model inadequacy}, no model is perfect. Even if there is no parameter uncertainty, so that we know the true values of all the inputs required to make a particular prediction of the process being modeled, the predicted value will not equal the true value of the process. The discrepancy is model inadequacy. Since the real process may itself exhibit random variability, we define model inadequacy to be the difference between the true mean value of the real world process and the code output at the true values of the inputs.
+\item[-] \textbf{parametric variability}, which comes from the variability of input variables of the model. For example, the dimensions of a work piece in a process of manufacture may not be exactly as designed and instructed, which would cause variability in its performance. 
+\item[-] \textbf{structural uncertainty}, aka model inadequacy, model bias, or model discrepancy, which comes from the lack of knowledge of the underlying true physics. It depends on how accurately a mathematical model describes the true system for a real-life situation, considering the fact that models are almost always only approximations to reality. One example is when modeling the process of a falling object using the free-fall model; the model itself is inaccurate since there always exists air friction. In this case, even if there is no unknown parameter in the model, a discrepancy is still expected between the model and true physics. 
+\item[-] \textbf{algorithmic uncertainty}, aka numerical uncertainty, which comes from numerical errors and numerical approximations per implementation of the computer model. Most models are too complicated to solve exactly. For example, the finite element method or finite difference method may be used to approximate the solution of a partial differential equation, which, however, introduces numerical errors. Other examples are numerical integration and infinite sum truncation that are necessary approximations in numerical implementation. 
+\item[-] \textbf{experimental uncertainty}, aka observation error, which comes from the variability of experimental measurements. The experimental uncertainty is inevitable and can be noticed by repeating a measurement for many times using exactly the same settings for all inputs/variables. 
+\item[-] \textbf{interpolation uncertainty}, which comes from a lack of available data collected from computer model simulations and/or experimental measurements. For other input settings that don't have simulation data or experimental measurements, one must interpolate or extrapolate in order to predict the corresponding responses.
+\end{itemize}
 \end{itemize}
 
-\subsection{Uncertainty Definition}
+A more elegant definition of what uncertainty is, is enunciated in \cite{Helton2009} as:
 
 \begin{defn}
-Uncertainty is a best estimate of the range of a particular metric which may derive from one or two broad sources. Uncertainties that reflect a lack of knowledge about the appropriate value to use for a quantity that is assumed to have (missing modifier: a fixed?) value in the context of a particular analysis are termed epistemic. Uncertainties that arise from an inherent randomness in the behavior of the system under study are termed aleatoric, \cite{Helton2009}
+Uncertainty is a best estimate of the range of a particular metric which may derive from one or two broad sources. Uncertainties that reflect a lack of knowledge about the appropriate value to use for a quantity that is assumed to have (missing modifier: a fixed?) value in the context of a particular analysis are termed \textbf{\textit{epistemic}}. Uncertainties that arise from an inherent randomness in the behavior of the system under study are termed \textbf{\textit{aleatoric}}.
 \end{defn}
 
 \subsection{Aleatoric vs Epistemic Uncertainty}
 
-It is sometimes assumed that uncertainty can be classified into two categories, aleatoric and epistemic, \cite{Kiureghian2009} although the validity of this categorization is open to debate. 
+It is sometimes assumed that uncertainty can be classified into those two categories, \textbf{\textit{aleatoric}} and \textbf{\textit{epistemic}}, although the validity of this categorization is open to debate \cite{Kiureghian2009}. 
 
-\textbf{Aleatoric uncertainty} arises from an inherent randomness in the properties or behavior of the system under study. For example, the weather conditions at the time of a reactor accident are inherently random with respect to our ability to predict the future. Other examples include the variability in the properties of a population of weapon components and the variability in the possible future environmental conditions that a weapon component could be exposed to. Alternative designa- tions for aleatory uncertainty include variability, stochastic, irreducible and type A. \cite{Helton2009}
+\textbf{Aleatoric uncertainty} arises from an inherent randomness in the properties or behavior of the system under study. For example, the weather conditions at the time of a reactor accident are inherently random with respect to our ability to predict the future. Other examples include the variability in the properties of a population of weapon components and the variability in the possible future environmental conditions that a weapon component could be exposed to. Alternative designations for \textbf{aleatory uncertainty} include variability, stochastic, irreducible and type A. \cite{Helton2009}
 
-\textbf{Epistemic uncertainty} derives from a lack of knowledge about the appropriate value to use for a quantity that is assumed to have a fixed value in the context of a particular analysis. For example, the pressure at which a given reactor containment would fail for a specified set of pressurization conditions is fixed but not amena- ble to being unambiguously defined. Other examples include minimum voltage required for the operation of a system and the maximum temperature that a system can withstand before failing. Alternative designations for epistemic uncertainty include state of knowledge, subjective, reducible and type B. \cite{Helton2009}
+\textbf{Epistemic uncertainty} derives from a lack of knowledge about the appropriate value to use for a quantity that is assumed to have a fixed value in the context of a particular analysis. For example, the pressure at which a given reactor containment would fail for a specified set of pressurization conditions is fixed but not amenable to being unambiguously defined. Other examples include minimum voltage required for the operation of a system and the maximum temperature that a system can withstand before failing. Alternative designations for \textbf{epistemic uncertainty} include state of knowledge, subjective, reducible and type B. \cite{Helton2009}
 
-\subsection{Sources of uncertainty}
+While \textbf{epistemic uncertainty} can be reduced through experiments, improvement of the numerical methods and so on, \textbf{aleatory uncertainty} can not be reduced. 
+
 
 \subsection{Uncertainty Quantification}
 
-\begin{defn}
-Uncertainty Quantification is the science of quantitative characterization and reduction of uncertainties in applications. It tries to determine how likely certain outcomes are if some aspects of the system are not exactly known. (Wikipedia)
-\end{defn}
+UQ is not a mature field like linear algebra or single-variable complex analysis, with stately textbooks containing well-polished presentations of classical theorems bearing August names like Cauchy, Gauss and Hamilton. Both because of its youth as a field and its very close engagement with applications, UQ is much more about problems, methods and ‘good enough for the job’. There are some very elegant approaches within UQ, but as yet no single, general, overarching theory of UQ. \cite{Sullivan2015}
+
+UQ neither have a unique and globally accepted definition. In the reviewed literature we find some definitions that, from our point of view, are those that batter describe what UQ is.  
+
+In the Wikipedia we find the following definition: 
 
 \begin{defn}
-Uncertainty quantification (UQ) studies all sources of error and uncertainty, including the following:  
+Uncertainty Quantification is the science of quantitative characterization and reduction of uncertainties in applications. It tries to determine how likely certain outcomes are if some aspects of the system are not exactly known.
+\end{defn}
+
+This definition is very general and may be ignore some important aspects, by as a first approach is a good one. 
+
+In October of 2009 the U.S. Department of Energy organize a comission to study the impact of Extreme Scale computing in its National Security. One of the aspects analysed by the comision was UQ. In the report \textit{"Scientific Grand Challenges in National Security: The Role of Computing at the Extreme Scale"} \cite{DEnergy2009}, the authors define UQ as:
+
+\begin{defn}
+Uncertainty Quantification (UQ) studies all sources of error and uncertainty, including the following:  
 systematic and stochastic measurement error; ignorance; limitations of theoretical models; limitations of 
 numerical representations of those models; limitations of the accuracy and reliability of computations, 
 approximations, and algorithms; and human error. A more precise definition is UQ is the end-to-end 
 study of the reliability of scientific inferences. \cite{DEnergy2009}
 \end{defn}
 
+A more recent definition was introduced by Higdon et al. \cite{Higdon2017} in the \textit{"Handbook of Uncertainty Quantification"}:
+
 \begin{defn}
-Uncertainty quantification is the rational process by which proximity between predictions and observations is characterized. It can be thought of as the task of determining appropriate uncertainties associated with model-based predictions. More broadly, it is a field that combines concepts from applied mathematics, engineering, computational science, and statistics, producing methodology, tools, and research to connect computational models to the actual physical systems they simulate. In this broader interpretation, UQ is relevant to a wide span of investigations. These range from seeking detailed quantitative predictions for a well-understood and accurately modeled engineering systems to exploratory investigations focused on understanding trade-offs in a new or even hypothetical physical system. \cite{Higdon2017}
+Uncertainty Quantification is the rational process by which proximity between predictions and observations is characterized. It can be thought of as the task of determining appropriate uncertainties associated with model-based predictions. More broadly, it is a field that combines concepts from applied mathematics, engineering, computational science, and statistics, producing methodology, tools, and research to connect computational models to the actual physical systems they simulate. In this broader interpretation, UQ is relevant to a wide span of investigations. These range from seeking detailed quantitative predictions for a well-understood and accurately modeled engineering systems to exploratory investigations focused on understanding trade-offs in a new or even hypothetical physical system. \cite{Higdon2017}
 \end{defn}
+
+Just to remark, in this definition the sentence: \textbf{a field that combines concepts from applied mathematics, engineering, computational science, and statistics, producing methodology, tools, and research to connect computational models to the actual physical systems they simulate}, illustrate the multidisciplinary nature of UQ and the main objectives of this research field.
+
 
 \section{Uncertainty Representation}
 
 An immediate challenge in the development of an appropriate treatment of uncertainty is the selection of a mathematical structure to be used in its representation \cite{Helton2010}. Traditionally, probability theory has provided this structure [48-55]. However, in the last several decades, additional mathematical structures for the representation of uncertainty such as evidence theory [56-63], possibility theory [64- 70], fuzzy set theory [71-75], and interval analysis [76-81] have been introduced.
-This introduction has been accompanied by a lively discussion of the strengths and weaknesses of the various mathematical structures for the representation of uncertainty [82-90]. For perspective, several comparative discussions of these different approaches to the representation of uncertainty are available [72; 91-98]
-
-%The question of how to represent and communicate uncertainties is a topic of research both from a practical and theoretical point of view. A fair bit of theoretical research is aimed at the mathematical calculus of uncertainty. This includes extensions and alternatives to standard probabilistic reasoning, such as Dempster-Schafer theory and imprecise probabilities. When uncertainties are needed for investigations requiring computational models, additional considerations arise. For example, if the simulation output is a daily surface-temperature field over the globe for the next 200 years, representing uncertainty and dependencies is complex. Should ensembles be used to represent plausible outcomes? How should these ensembles of simulation output be stored? How can high-consequence/low-probability outcomes be discovered in this massive output? Here some research investigations attempt to leverage theory that exploits high dimensionality to bound probabilities and system behavior. Finally, even when uncertainties are well captured, how best to communicate such uncertainties to the public or to decision-makers is also a topic of ongoing research. 
-%\cite{DEnergy2009}
+This introduction has been accompanied by a lively discussion of the strengths and weaknesses of the various mathematical structures for the representation of uncertainty [82-90]. For perspective, several comparative discussions of these different approaches to the representation of uncertainty are available [72; 91-98].
 
 %\cite{Helton2010a}
 
@@ -130,23 +150,81 @@ Based on \ref{InformationEntropy} and \ref{InformationEntropySpatioTemporal}, if
 %The main limitations of this method, is that the possible outcomes of the model are  usually not known. To tackle this problem, in section \ref{Clusterizing the GLD based in its lambda values} we present a novel algorithm that uses a clusterization method over the $\lambda$ values of the \textit{GLD}, to group the model output in possible outcomes. Then, with those outcomes we can apply Information Entropy to estimate the uncertainty on different contexts.
 
 \subsection{Probability Theory}
+Probability theory is based on the specification of a triple $(\Omega,\mathcal{F},P)$, where $\Omega$ is the set of all possible outcomes, $\mathcal{F}$  is a suitably restricted collection of subsets of $\Omega$, and $P$ defines the probability of the elements of $\Omega$.
+
+The probability measure $P$ is a function returning an event's probability, with the properties that $0 \leq P \leq 1$ and $P(\Omega)=1$
+
+One way to characterize the probability is through the probability density function (\textit{PDF}). It is a mathematical function that, stated in simple terms, can be thought of as providing the probabilities of occurrence of different possible outcomes in an experiment. 
+
+\textbf{Probability density function}: for a continuous random variable $X$, we can define the probability that $X$ is in $[a,b]$ as:
+\begin{equation}
+P(a<=X<=b)=\int_a^b f(x)dx
+\end{equation}
+
+where $f(x)$ is a probability density function, which satisfies two properties:
+\begin{equation*}
+\begin{aligned}
+& f(x)>=0 \\ 
+& \int_{-\infty}^{+\infty}f(x) dx =1
+\end{aligned}
+\end{equation*}
+a, b are real numbers.
+The \textit{PDF} defines the probability that $X<=a$ as
+$P(X<=a)=\int_{-\infty}^a f(x) dx$
 
 \section{Some Typical UQ Problems}
-\cite{Sullivan2015}
-\subsection{Reliability or certification problem}
+Many typical UQ problems can be illustrated in the context of a system $F$, that maps input $X$ in some space $\mathcal{X}$ to outputs $Y = \mathcal{M}(X)$ in some space $\mathcal{Y}$, through a mathematical/computational model $\mathcal{M}$. Some common UQ objectives include: \textit{forward propagation or push-forward problem}, Section \ref{seq:forward}; \textit{reliability or certification problem}, Section \ref{seq:reliability}; \textit{prediction problem}, Section \ref{seq:prediction}; \textit{inverse problem}, Section \ref{seq:inverse}; \textit{sensitivity analysis}, Section \ref{seq:sensitivity}; and \textit{model reduction or model calibration problem}, Section \ref{seq:calibration}.
 
-\subsection{Prediction problem}
-\subsection{Inverse problem}
-\subsection{Model reduction or model calibration problem}
-\subsection{Forward propagation or push-forward problem}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/background/UQ_steps.png}
+    \caption{Uncertainty Quantification workflow. Taken from \href{http://www.uqlab.com/}{UQLab}.}
+    \label{fig:uqlab_workflow}
+\end{figure}
+
+\subsection{Forward propagation or push-forward problem}\label{seq:forward}
+Given the equation $\bm{Y}=\mathcal{M}(\bm{X})$ where: 
+\begin{itemize}
+\item $\bm{X} \in \mathcal{X} $ is a vector of  input parameters of the model,
+\item $\mathcal{M}$ is a computational model, and
+\item $\bm{Y} \in \mathcal{Y}$ is a vector that represents  quantities of interest (\textit{QoI}).
+\end{itemize}
+Suppose that the uncertainty about the inputs of $\mathcal{M}$ can be summarized in a probability distribution $P$ on $\mathcal{X}$. Then in a \textit{forward propagation}, the objective is to quantify the uncertainty of $\bm{Y}$, induced by $\bm{X}$ through $\mathcal{M}$.
+
+The main objective of this thesis is a new method to quantify the uncertainty of the output of large-scale spatio-temporal models, that is a \textit{forward propagation problem}. In Section \ref{seq:methods_uq_propagation} some methods for \textit{forward propagation} are exposed; while in Section \ref{seq:uq_large_scale} we discuse about \textit{forward propagation} in large-scale spatio-temporal models.  
+
+\subsection{Reliability or certification problem}\label{seq:reliability}
+Suppose that some set $\mathcal{Y}_{fail}\subseteq \mathcal{Y}$ is identified as a 'failure set'. Then in a reliability analysis we are interesting in, given appropriate information about the input $X$ and a process $F$, determine the failure probability 
+\begin{equation}
+\mathcal{P}[\mathcal{M}(X)\in \mathcal{Y}_{fail}]
+\end{equation}
+Furthermore, how large will the deviation from acceptable performance be, and what are the consequences? \cite{Sullivan2015}
+
+\subsection{Prediction problem}\label{seq:prediction}
+Similar to the reliability problem, given a maximum acceptable probability error $\epsilon > 0$, find a set $\mathcal{Y}_{\epsilon}\subseteq \mathcal{Y}$ such that
+\begin{equation}
+\mathcal{P}[\mathcal{M}(X)\in \mathcal{Y}_{\epsilon}]\geq 1-\epsilon
+\end{equation}
+
+in other works, the prediction $\mathcal{M}(X)\in \mathcal{Y}_{\epsilon}$ is wrong with probability at most $\epsilon$.
+
+\subsection{Inverse problem or parameter estimation}\label{seq:inverse}
+Given some experimental measurements of the output $Y$ of the system and some computer simulation results from its mathematical model $\mathcal{M}$, inverse uncertainty quantification estimates the discrepancy between the experiment and the mathematical model (which is called \textit{bias correction}), and estimates the values of unknown parameters in the model if there are any (which is called \textit{parameter calibration}) \cite{GharibShirangi2014}. Generally this is a much more difficult problem than forward uncertainty propagation; however it is of great importance since it is typically implemented in a model updating process.
+
+\subsection{Sensitivity Analysis}\label{seq:sensitivity}
+Sensitivity analysis refers to the determination of the contributions of individual uncertain analysis inputs to the uncertainty in analysis results. The goal in sensitivity analysis is to apportion the uncertainty in $Y$ to the uncertainty in inputs $X$, \cite{Sankararaman2012}. 
+
+\subsection{Model reduction or model calibration problem}\label{seq:calibration}
+Construct another model $\mathcal{M}_{h}$ such that $\mathcal{M}_{h} \approx \mathcal{M}$ in an appropriate sense. 
+
+\subsection{Model selection}
+If, for the system $F$ we have a set of models $\mathcal{M} = \lbrace \mathcal{M}_{1}, \mathcal{M}_{2},...,\mathcal{M}_{n} \rbrace$, then a model selection problem consist in the selection of the most plausible model $\mathcal{M}_{i}$ that best fit the experimental data.
 
 Sometimes a UQ problem consists of several of these problems coupled together, for example, one might have to solve an \textbf{\textit{inverse problem}} to produce or improve some model parameters, and then use those parameters to propagate some other uncertainties \textbf{\textit{forwards}}, and hence produce a \textbf{\textit{prediction}} that can be used for decision support in some \textbf{\textit{certification problem}} \cite{Sullivan2015}.
 
 In this thesis we focus in \textbf{\textit{forward propagation problem}} although in chapter \ref{cap:use_cases} we introduce some queries that help to solve \textbf{\textit{reliability or certification}} and \textbf{\textit{prediction problem}}.
 
-
-
-\section{Methods for Uncertainty Propagation}
+\section{Methods for Uncertainty Propagation}\label{seq:methods_uq_propagation}
 
 \subsection{Sampling Methods}
 
@@ -161,7 +239,11 @@ PDFs of these solutions. MCS do not impose limitations on statistical properties
 input parameters, entail no modifications of existing deterministic solvers, and are
 ideal for parallel computing \cite{Higdon2017}.
 
-\section{UQ in Large-scale Spatio-temporal models}
+\section{UQ in Large-scale Spatio-temporal models}\label{seq:uq_large_scale}
+The emerging field of data science is largely lacking in generalizable methods for quantifying the uncertainty in the output of analysis systems. As a result, a major new research initiative needs to be initiated in this area. Since data science programs are just getting established in universities, this effort needs to be accompanied by relevant curriculum development \cite{Tobergte2013}
+
+%The question of how to represent and communicate uncertainties is a topic of research both from a practical and theoretical point of view. A fair bit of theoretical research is aimed at the mathematical calculus of uncertainty. This includes extensions and alternatives to standard probabilistic reasoning, such as Dempster-Schafer theory and imprecise probabilities. When uncertainties are needed for investigations requiring computational models, additional considerations arise. For example, if the simulation output is a daily surface-temperature field over the globe for the next 200 years, representing uncertainty and dependencies is complex. Should ensembles be used to represent plausible outcomes? How should these ensembles of simulation output be stored? How can high-consequence/low-probability outcomes be discovered in this massive output? Here some research investigations attempt to leverage theory that exploits high dimensionality to bound probabilities and system behavior. Finally, even when uncertainties are well captured, how best to communicate such uncertainties to the public or to decision-makers is also a topic of ongoing research. 
+%\cite{DEnergy2009}
 
 \section{Software and Tools for UQ}
 Currently, advances in uncertainty propagation and assessment have been paralleled by a growing number of software tools for uncertainty analysis, but none has gained recognition for a universal applicability, including case studies with spatial models and spatial model inputs. \cite{Sawicka2016}
@@ -197,7 +279,7 @@ the language of probability theory is a powerful tool in describing uncertainty 
 
 “UQ studies all sources of error and uncertainty, including the following: systematic and stochastic measurement error; ignorance; limitations of theoretical models; limitations of numerical representations of those models; limitations of the accuracy and reliability of computations, approximations, and algorithms; and human error. A more precise definition is UQ is the end-to-end study of the reliability of scientific inferences.” \cite{DEnergy2009} (U.S. Department of Energy, 2009, p. 135)
 
-UQ is not a mature field like linear algebra or single-variable complex analysis, with stately textbooks containing well-polished presentations of classical theorems bearing August names like Cauchy, Gauss and Hamilton. Both because of its youth as a field and its very close engagement with applications, UQ is much more about problems, methods and ‘good enough for the job’. There are some very elegant approaches within UQ, but as yet no single, general, over-arching theory of UQ. \cite{Sullivan2015}
+
 
 In \cite{Sullivan2015} the authors remark that is important to appreciate both the underlying mathematics and the practicalities of implementation. In his work they focus in the presentation of the former and keep the latter in mind. In our work we do the opposite, we focus in the implementation keeping the math formalism in mind.
 

@@ -83,6 +83,13 @@ ISSN 01679473.}
   3547--3567, 1988.
 ISSN 1532415X.}
 
+\bibitem[{Gharib Shirangi} 2014]{GharibShirangi2014}
+\abntrefinfo{{Gharib Shirangi}}{{Gharib Shirangi}}{2014}
+{{Gharib Shirangi}, M. {History matching production data and uncertainty
+  assessment with an efficient TSVD parameterization algorithm}.
+\emph{Journal of Petroleum Science and Engineering}, v.~113, p. 54--71, 2014.
+ISSN 09204105.}
+
 \bibitem[Graler, Pebesma e Heuvelink 2016]{Graler2016}
 \abntrefinfo{Graler, Pebesma e Heuvelink}{GRALER; PEBESMA; HEUVELINK}{2016}
 {GRALER, B.; PEBESMA, E.; HEUVELINK, G. {Spatio-Temporal Interpolation using
@@ -172,6 +179,14 @@ Dispon{\'\i}vel em: \url{http://spatial-accuracy.org/Accuracy2016}.}
 ISSN 1098-6596.
 ISBN 9788578110796.}
 
+\bibitem[Kennedy e O'Hagan 2001]{Kennedy2001}
+\abntrefinfo{Kennedy e O'Hagan}{KENNEDY; O'HAGAN}{2001}
+{KENNEDY, M.~C.; O'HAGAN, A. {Bayesian calibration of computer models}.
+\emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, Blackwell Publishers Ltd., v.~63, n.~3, p. 425--464, aug 2001.
+ISSN 1369-7412.
+Dispon{\'\i}vel em: \url{http://doi.wiley.com/10.1111/1467-9868.00294}.}
+
 \bibitem[Kiureghian e Ditlevsen 2009]{Kiureghian2009}
 \abntrefinfo{Kiureghian e Ditlevsen}{KIUREGHIAN; DITLEVSEN}{2009}
 {KIUREGHIAN, A.~D.; DITLEVSEN, O. {Aleatory or epistemic? Does it matter?}
@@ -214,13 +229,6 @@ Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1805.03141.pdf}.}
 \emph{Annals of Applied Statistics}, 2017.
 Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1712.02183.pdf}.}
 
-\bibitem[Melorose et al. 2015]{Lavril2015}
-\abntrefinfo{Melorose et al.}{MELOROSE et al.}{2015}
-{MELOROSE, J. et al.
-\emph{{A PROBABILISTIC FRAMEWORK FOR UNCERTAINTY QUANTIFICATION IN LARGE-SCALE
-  SIMULATIONS: APPLICATION IN SEISMIC IMAGING}}.
-Tese (Doutorado) --- Universidade Federal do Rio de Janeiro, 2015.}
-
 \bibitem[Movahedi, Lotfi e Nayyeri 2013]{Movahedi2013}
 \abntrefinfo{Movahedi, Lotfi e Nayyeri}{MOVAHEDI; LOTFI; NAYYERI}{2013}
 {MOVAHEDI, M.~M.; LOTFI, M.~R.; NAYYERI, M. {A solution to determining the
@@ -252,6 +260,12 @@ ISSN 01966324.}
 \emph{IEEE Transactions on Instrumentation and Measurement}, v.~65, n.~5, p.
   1022--1034, 2016.
 ISSN 00189456.}
+
+\bibitem[Sankararaman 2012]{Sankararaman2012}
+\abntrefinfo{Sankararaman}{SANKARARAMAN}{2012}
+{SANKARARAMAN, S.
+\emph{{Uncertainty Quantification and Integration}}.
+Tese (Doutorado) --- Vanderbilt University, 2012.}
 
 \bibitem[Su 2007]{Su2007}
 \abntrefinfo{Su}{SU}{2007}
