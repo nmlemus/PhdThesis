@@ -80,7 +80,7 @@ Then, using a Monte Carlo method we generate a sampling of 1000 realizations of 
     \label{fig:vp_1000_realizations}
 \end{figure}
 
-To simplify the computational process and visualize the results, we select the slice 200 to be used here, then we have 1000 realizations of a slice with size of $250\times501$. The equation \ref{eq:data_base_structure} can be simplified because we have two dimentions in space and don't have time domain, then our dataset can be represented as $S(x_{i},y_{j},simId,v_{p}(x_{i},y_{j}))$. In this new representation $(x_{i},y_{j})$ are the 2D coordinates and $v_{p}(x_{i},y_{j})$ is the velocity value at point $(x_{i},y_{j})$. \textit{simId} still represents the Id of the simulation and its range here is between 1 and 1000.
+To simplify the computational process and visualize the results, we select the slice 200 to be used here, then we have 1000 realizations of a slice with size of $250\times501$. The equation \ref{eq:data_base_structure} can be simplified because we have two dimensions in space and don't have time domain, then our dataset can be represented as $S(x_{i},y_{j},simId,v_{p}(x_{i},y_{j}))$. In this new representation $(x_{i},y_{j})$ are the 2D coordinates and $v_{p}(x_{i},y_{j})$ is the velocity value at point $(x_{i},y_{j})$. \textit{simId} still represents the Id of the simulation and its range here is between 1 and 1000.
 
 Now that we have an experimental dataset we can start to apply our workflow, step by step.
 
@@ -153,76 +153,13 @@ Another interesting result is shown in Figure \ref{fig:clusters_lambda3_lambda4_
     \label{fig:clusters_lambda3_lambda4_space}
 \end{figure}
 
-To further corroborate this fact, in Figures \ref{fig:cluster1} to \ref{fig:cluster10} we show the \textit{PDFs} of 60 members of the 10 clusters. Visually assessing the figures we have an idea of how similar are the shapes of the members of a same cluster and how dissimilar are the shapes of the  members of different clusters. This suggests that our approach is valid. A product of these observations is that we can pick one member of each cluster (the centroid) as a representative of all the members of this cluster, Table \ref{tab:center_of_the_clusters}. The selected member is going to be used to answer the queries in the next sections.
+To further corroborate this fact, in Figure \ref{fig:cluster1} we show the \textit{PDFs} of 60 members of the 10 clusters. Visually assessing the figures we have an idea of how similar are the shapes of the members of a same cluster and how dissimilar are the shapes of the  members of different clusters. This suggests that our approach is valid. A product of these observations is that we can pick one member of each cluster (the centroid) as a representative of all the members of this cluster, Table \ref{tab:center_of_the_clusters}. The selected member is going to be used to answer the queries in the next sections.
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/cluster1.png}
-    \caption{\textit{PDFs} of 60 members of the cluster 1.}
+    \includegraphics[width=\textwidth]{img/use_cases/clusters.eps}
+    \caption{\textit{PDFs} of 60 members of the 10 clusters obtained using k-means over the $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values.}
     \label{fig:cluster1}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/cluster2.png}
-    \caption{\textit{PDFs} of 60 members of the cluster 2.}
-    \label{fig:cluster2}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/cluster3.png}
-    \caption{\textit{PDFs} of 60 members of the cluster 3.}
-    \label{fig:cluster3}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/cluster4.png}
-    \caption{\textit{PDFs} of 60 members of the cluster 4.}
-    \label{fig:cluster4}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/cluster5.png}
-    \caption{\textit{PDFs} of 60 members of the cluster 5.}
-    \label{fig:cluster5}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/cluster6.png}
-    \caption{\textit{PDFs} of 60 members of the cluster 6.}
-    \label{fig:cluster6}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/cluster7.png}
-    \caption{\textit{PDFs} of 60 members of the cluster 7.}
-    \label{fig:cluster7}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/cluster8.png}
-    \caption{\textit{PDFs} of 60 members of the cluster 8.}
-    \label{fig:cluster8}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/cluster9.png}
-    \caption{\textit{PDFs} of 60 members of the cluster 9.}
-    \label{fig:cluster9}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/Cluster10.png}
-    \caption{\textit{PDFs} of 60 members of the cluster 10.}
-    \label{fig:cluster10}
 \end{figure}
 
 \begin{table}

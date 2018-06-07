@@ -24,7 +24,7 @@
 % comandos do abnTeX2 e de LaTeX.
 % ---
 
-\chapter{Uncertainty Quantification Background}\label{cap:backgroud}
+\chapter{Uncertainty Quantification Background}\label{cap:background}
 
 
 \begin{flushright}
@@ -35,18 +35,16 @@
 	\cite{Sullivan2015}}
 \end{flushright}
 
-Uncertainty quantification (UQ) is a topic of great importance and hence widespread interest in computational analyses that are used to support important societal decisions on issues related to climate change [15-19], reactor safety [20-26], radioactive waste disposal [27-34], nuclear weapon safety [35-38], economic policy [39-43], environmental degradation [44- 47], and many additional areas of concern and challenge. Indeed, it is difficult to envision how adequately informed decisions can be made on such issues without an appropriate assessment of the uncertainties present in the supporting analyses.
+Uncertainty Quantification (UQ) is a topic of great importance and hence widespread interest in computational analyses that are used to support important societal decisions on issues related to climate change \cite{allen2000quantifying, patt2005taking}, hurricane forecasts \cite{Tobergte2013}, subsurface hydrology \cite{Baroni2014a}, geology \cite{Guerra2016}, reactor safety [20-26], radioactive waste disposal [27-34], nuclear weapon safety [35-38], economic policy [39-43], environmental degradation [44- 47], and many additional areas of concern and challenge.
 
-In this chapter, we summarize some definitions in UQ context that are important to understand the rest of the document. Also, different ways of representation of the uncertainty are discussed, with a brief justification of those we are going to use in the thesis. A general workflow of the UQ process is presented where we contextualize our contributions. A detailed discussion about forward propagation is presented. And finally, we summarize the chapter.
-
-All results of interest can be derived from the PDF \cite{Cox2012}.
+In this chapter, we review the UQ specialized literature, comment some interesting results and highlight the remainder challenges we are interested in to solving in the present thesis. The rest of the chapter is organized as follow: in Section \ref{sec:definitions} we define what we understand as uncertainty, the differences between uncertainties and errors, some classifications of the uncertainties, and finally what is uncertainty quantification. In Section \ref{sec:uncertainty_representation} we introduce the mathematical formalisms used to represent the uncertainty. Section \ref{sec:uq_problems} present the main problems that UQ covers. Next, in Section \ref{sec:methods_uq_propagation} the two principal \textit{forward propagation} methods are referenced. Section \ref{sec:uq_large_scale} review the UQ challenges when we are in presence of large-scale spatio-temporal models; and finally Section \ref{sec:background_summary} summarize the Chapter.
 
 In particular it is not always convenient to retain the M = 106, say, (vector) values produced by MC and use them subsequently \cite{Cox2012}.
 
-\section{Definitions}
+\section{Definitions}\label{sec:definitions}
 \subsection{Errors vs Uncertainties}
 
-The mismatch between the true physical phenomena and the prediction obtained by modeling and simulation (M\&S) process can arise from the mathematical representation of a real problem, a physical problem (are the values of the parameters a good representation of the reality?), a computational problem (translation of a mathematical formulation into a numerical algorithm and a computational code) \cite{Thibaut2015}. Uncertainty and error can be considered as the broad categories  that  are  normally  associated to this mismatch. Until recently terms  uncertainty  and error  have  commonly  been  used  interchangeably.  It is believed, however, that failure to distinguish between these terms is detrimental to the quantification of credibility in M\&S. According to \cite{Oberkampf1998} we can classify errors and uncertainties as follow: 
+The mismatch between the true physical phenomena and the prediction obtained by modeling and simulation (M\&S) process can arise from the mathematical representation of a real problem, a physical problem (are the values of the parameters a good representation of the reality?), a computational problem (translation of a mathematical formulation into a numerical algorithm and a computational code) \cite{Lavril2015}. Uncertainty and error can be considered as the broad categories  that  are  normally  associated to this mismatch. Until recently terms  uncertainty  and error  have  commonly  been  used  interchangeably.  It is believed, however, that failure to distinguish between these terms is detrimental to the quantification of credibility in M\&S. According to \cite{Alvin1998} we can classify errors and uncertainties as follow: 
 
 \begin{itemize}
 \item[•] \textbf{errors:} recognizable deficiencies of the model or the algorithms employed. Errors are associated to: physical approximations to simplify the modeling of a physical process, translation of the mathematical to computational model, numerical approximations (truncation or roundoff), etc. When the errors are knowns there are reasonable means of estimating the magnitude of the error introduced. 
@@ -83,7 +81,7 @@ While \textbf{epistemic uncertainty} can be reduced through experiments, improve
 
 UQ is not a mature field like linear algebra or single-variable complex analysis, with stately textbooks containing well-polished presentations of classical theorems bearing August names like Cauchy, Gauss and Hamilton. Both because of its youth as a field and its very close engagement with applications, UQ is much more about problems, methods and ‘good enough for the job’. There are some very elegant approaches within UQ, but as yet no single, general, overarching theory of UQ. \cite{Sullivan2015}
 
-UQ neither have a unique and globally accepted definition. In the reviewed literature we find some definitions that, from our point of view, are those that batter describe what UQ is.  
+UQ neither have a unique and globally accepted definition. In the reviewed literature we find some definitions that, from our point of view, are those that better describe what UQ is.  
 
 In the Wikipedia we find the following definition: 
 
@@ -112,7 +110,7 @@ Uncertainty Quantification is the rational process by which proximity between pr
 Just to remark, in this definition the sentence: \textbf{a field that combines concepts from applied mathematics, engineering, computational science, and statistics, producing methodology, tools, and research to connect computational models to the actual physical systems they simulate}, illustrate the multidisciplinary nature of UQ and the main objectives of this research field.
 
 
-\section{Uncertainty Representation}
+\section{Uncertainty Representation}\label{sec:uncertainty_representation}
 
 An immediate challenge in the development of an appropriate treatment of uncertainty is the selection of a mathematical structure to be used in its representation \cite{Helton2010}. Traditionally, probability theory has provided this structure [48-55]. However, in the last several decades, additional mathematical structures for the representation of uncertainty such as evidence theory [56-63], possibility theory [64- 70], fuzzy set theory [71-75], and interval analysis [76-81] have been introduced.
 This introduction has been accompanied by a lively discussion of the strengths and weaknesses of the various mathematical structures for the representation of uncertainty [82-90]. For perspective, several comparative discussions of these different approaches to the representation of uncertainty are available [72; 91-98].
@@ -122,8 +120,26 @@ This introduction has been accompanied by a lively discussion of the strengths a
 This section briefly summarizes some of this approaches, and discuss in more details probability theory as this is the main one used in the rest of the thesis.
 
 \subsection{Interval Analysis}
+Interval analysis is the simplest way to represent the uncertainty used when nothing more can be said about some unknown quantity than a range of it possible values. All the values had the same probability. For example, in a case of some unknown variable $x$, such information may expressed as: $x \in [a, b]$, where $a$ and $b$ represent the left and right limit of the interval. This is a very basic form of uncertainty \cite{Sullivan2015}.
 
 \subsection{Variance}
+Suppose that, for a random variable $X \in \mathcal{X}$, the knowledge is summarized by a probability function $p \in P(\mathcal{X})$. The probability measure $p$ is a very rich and high-dimensional object, but some times we need to summarize the uncertainty in $p$, with just one number. Variance is an obvious statistic to summarize this. The formal definition of Variance is:
+
+\begin{defn}
+Variance is the expectation of the squared deviation of a random variable from its mean. The variance measures how far each number in the set is from the mean.
+\end{defn}
+
+If we know the mean $m$ of $p$, then the Variance can be computed as:
+
+\begin{equation}
+\mathcal{V}(\textit{p}) = \int_{\mathcal{X}} \|x-m\|^2dp(x) = E_{X~p}[\|X-m\|^2]
+\end{equation}
+
+If $\mathcal{V}(\textit{p})$ is small, then we are \textbf{relatively certain} that the values of $X$ are quite close to the mean $m$, and if $\mathcal{V}(\textit{p})$ is large, then we are more uncertain about $X$.
+
+Variance and standard deviation $\sigma = \sqrt{\mathcal{V}(\textit{p})}$ are the standard way of quantify the uncertainty of a random variable. This is due to its simplicity of interpretation and easy to compute. But, there are some interesting questions that arise in UQ context that can't be answered correctly by the use of low order statistical moments, as Lampasi et al. \cite{Lampasi2006} say, only assess the complete PDF allow aware decisions. 
+
+Is clear that, assess the complete PDF of each random variables on each spatio-temporal location, and worse yet, when we are in presence of a large-scale model, is a computational intensive task, as we show in Chapter \ref{cap:ji}. But, this is exactly the main objective of this thesis, present a new workflow to compute the PDF on each spatio-temporal location, and demonstrate its practical use answering the research questions enunciated in Chapter \ref{cap:intro}.
 
 \subsection{Information Entropy}
 \label{InformationEntropy}
@@ -145,7 +161,7 @@ H(s,t)=-\sum_{m=1}^M p_{m}(s,t)\log p_{m}(s,t)
 where $s$ denotes the location of the subregion, $M$ represents the number of possible (exclusive) members the subregion may contain, and $t$ is the physical time.
 
 \subsubsection{Information entropy as a meause of uncertainty}\label{subsub:informationentropytomeasuretheuncertainty}
-Based on \ref{InformationEntropy} and \ref{InformationEntropySpatioTemporal}, if the possible outcomes of the model and the probability of each outcome on each $(s,t)$, are known, then the information entropy could be used as a qualitative measure of the uncertainty of the model output. For example, in a spatio-temporal region $(s,t)$ where the outcome is always the same, the information entropy is 0, because the outcome is known. On the other hand, in the worse case where all the outcomes have the same probability in $(s,t)$, the entropy is maximum and the uncertainty too.
+Based on \ref{InformationEntropy} and \ref{InformationEntropySpatioTemporal}, if the possible outcomes of the model and the probability of each outcome on each $(s,t)$, are known, then the information entropy could be used as a qualitative measure of the uncertainty of the model output \cite{Wellmann2012}. For example, in a spatio-temporal region $(s,t)$ where the outcome is always the same, the information entropy is 0, because the outcome is known. On the other hand, in the worse case where all the outcomes have the same probability in $(s,t)$, the entropy is maximum and the uncertainty too.
 
 %The main limitations of this method, is that the possible outcomes of the model are  usually not known. To tackle this problem, in section \ref{Clusterizing the GLD based in its lambda values} we present a novel algorithm that uses a clusterization method over the $\lambda$ values of the \textit{GLD}, to group the model output in possible outcomes. Then, with those outcomes we can apply Information Entropy to estimate the uncertainty on different contexts.
 
@@ -172,8 +188,8 @@ a, b are real numbers.
 The \textit{PDF} defines the probability that $X<=a$ as
 $P(X<=a)=\int_{-\infty}^a f(x) dx$
 
-\section{Some Typical UQ Problems}
-Many typical UQ problems can be illustrated in the context of a system $F$, that maps input $X$ in some space $\mathcal{X}$ to outputs $Y = \mathcal{M}(X)$ in some space $\mathcal{Y}$, through a mathematical/computational model $\mathcal{M}$. Some common UQ objectives include: \textit{forward propagation or push-forward problem}, Section \ref{seq:forward}; \textit{reliability or certification problem}, Section \ref{seq:reliability}; \textit{prediction problem}, Section \ref{seq:prediction}; \textit{inverse problem}, Section \ref{seq:inverse}; \textit{sensitivity analysis}, Section \ref{seq:sensitivity}; and \textit{model reduction or model calibration problem}, Section \ref{seq:calibration}.
+\section{Some Typical UQ Problems}\label{sec:uq_problems}
+Many typical UQ problems can be illustrated in the context of a system $F$, that maps input $X$ in some space $\mathcal{X}$ to outputs $Y = \mathcal{M}(X)$ in some space $\mathcal{Y}$, through a mathematical/computational model $\mathcal{M}$. Some common UQ objectives include: \textit{forward propagation or push-forward problem}, Section \ref{seq:forward}; \textit{reliability or certification problem}, Section \ref{seq:reliability}; \textit{prediction problem}, Section \ref{seq:prediction}; \textit{inverse problem}, Section \ref{seq:inverse}; \textit{sensitivity analysis}, Section \ref{seq:sensitivity}; and \textit{model reduction or model calibration problem}, Section \ref{seq:calibration}. More-less all of this objectives are summarized in Figure \ref{fig:uqlab_workflow}.
 
 \begin{figure}[H]
     \centering
@@ -191,7 +207,7 @@ Given the equation $\bm{Y}=\mathcal{M}(\bm{X})$ where:
 \end{itemize}
 Suppose that the uncertainty about the inputs of $\mathcal{M}$ can be summarized in a probability distribution $P$ on $\mathcal{X}$. Then in a \textit{forward propagation}, the objective is to quantify the uncertainty of $\bm{Y}$, induced by $\bm{X}$ through $\mathcal{M}$.
 
-The main objective of this thesis is a new method to quantify the uncertainty of the output of large-scale spatio-temporal models, that is a \textit{forward propagation problem}. In Section \ref{seq:methods_uq_propagation} some methods for \textit{forward propagation} are exposed; while in Section \ref{seq:uq_large_scale} we discuse about \textit{forward propagation} in large-scale spatio-temporal models.  
+The main objective of this thesis is a new method to quantify the uncertainty of the output of large-scale spatio-temporal models, that is a \textit{forward propagation problem}. In Section \ref{sec:methods_uq_propagation} some methods for \textit{forward propagation} are exposed; while in Section \ref{sec:uq_large_scale} we discuse about \textit{forward propagation} in large-scale spatio-temporal models.  
 
 \subsection{Reliability or certification problem}\label{seq:reliability}
 Suppose that some set $\mathcal{Y}_{fail}\subseteq \mathcal{Y}$ is identified as a 'failure set'. Then in a reliability analysis we are interesting in, given appropriate information about the input $X$ and a process $F$, determine the failure probability 
@@ -224,63 +240,79 @@ Sometimes a UQ problem consists of several of these problems coupled together, f
 
 In this thesis we focus in \textbf{\textit{forward propagation problem}} although in chapter \ref{cap:use_cases} we introduce some queries that help to solve \textbf{\textit{reliability or certification}} and \textbf{\textit{prediction problem}}.
 
-\section{Methods for Uncertainty Propagation}\label{seq:methods_uq_propagation}
+\section{Methods for Forward Propagation}\label{sec:methods_uq_propagation}
 
-\subsection{Sampling Methods}
+Two different methods are used to study how the uncertainty is propagated through a computational model, \textit{intrusive} and \textit{non-intrusive}. \textit{Intrusive methods} require the modification of the mathematical/computational model. On the other hand, \textit{non-intrusive methods} consider the mathematical/computational model as a black-box, and therefore the simulation codes don't need to be rewritten. For this reason, non-intrusive methods are attractive \cite{Kawai2014}. The most popular methods for non-intrusive \textit{UQ} are sampling methods, such as Monte Carlo (\textit{MC}) and Latin hypercube sampling (\textit{LHS}). To date, the MC simulation is the most powerful method for the uncertainty evaluation, \cite{Rajan2016a}.
 
-\subsubsection{Monte Carlo}
-To date, the MC simulation is the most powerful method for the uncertainty evaluation, \cite{Rajan2016a}.
+To estimate a stochastic behavior of the output solution $\bm{q}$  in terms of input uncertainties $\bm{\theta}$, the sampling methods analyze the values of $\mathcal{M}(\bm{\theta})$ at multiple sampled conditions in the $\Theta$ space (called stochastic space or parameters space) directly from numerical simulations. Basically, \textit{MC} and \textit{LHS} methods randomly sample in the stochastic space, and hence both require many sample calculations to achieve a convergence of stochastic estimations (although the \textit{LHS} method is more efficient than the \textit{MC} method). As a result, the method returns multiple realizations of $\bm{q}$, and then other methods to measure the uncertainty, as those proposed in Section \ref{sec:uncertainty_representation}, need to be applied,  \cite{Baxter2016, Estacio-Hiroms2012, Farrell2015}. 
 
-Monte Carlo simulations (MCS) provide the most robust and straightforward way to
-solve PDEs with random coefficients. In the case of (22.2), for instance, they consist
-of (i) generating multiple realizations of the input parameters a and b, (ii) solving
-deterministic PDEs for each realization, and (iii) evaluating ensemble statistics or
-PDFs of these solutions. MCS do not impose limitations on statistical properties of
-input parameters, entail no modifications of existing deterministic solvers, and are
-ideal for parallel computing \cite{Higdon2017}.
+The selection of one UQ representation or other depend of the characteristics of each problems and the accuracy we are interesting in. But, as all results of interest can be derived from the \textbf{PDF} \cite{Cox2012}, our objective in this thesis is to use \textbf{PDFs} as the representation of the uncertainty. 
+ 
+%In summary, in a \textit{forward problem}, there is  a computational model and, given a set of realization of the input random vector we are interested in capturing  the uncertainty at the \textit{QoI} $\bm{q}$. 
 
-\section{UQ in Large-scale Spatio-temporal models}\label{seq:uq_large_scale}
-The emerging field of data science is largely lacking in generalizable methods for quantifying the uncertainty in the output of analysis systems. As a result, a major new research initiative needs to be initiated in this area. Since data science programs are just getting established in universities, this effort needs to be accompanied by relevant curriculum development \cite{Tobergte2013}
+%\subsection{Monte Carlo}
+%Monte Carlo simulations (MCS) consist of:
+%\begin{itemize}
+%\item[(i)] generating multiple realizations of the input parameters $\bm{\theta}$
+%\item[(ii)] solving the deterministic model $\mathcal{M}(\bm{\theta})$ for each realization
+%\item[(iii)] evaluating ensemble statistics or PDFs of these solutions
+%\end{itemize}
+%
+%MCS do not impose limitations on statistical properties of input parameters, entail no modifications of existing deterministic solvers, and are ideal for parallel computing \cite{Higdon2017}.
+
+Until now we review what uncertainty is, some definitions of uncertainty quantification, how to quantify the uncertainty, and some typical UQ problems. In the next section we explore what happens when we are in presence of a large-scale spatio-temporal model, which is the problem that really motivates this thesis.
+
+\section{UQ in Large-scale Spatio-temporal models}\label{sec:uq_large_scale}
+First to all lets define what is a large-scale spatio-temporal model (\textbf{LSSTM}). Although it is an extremely used term in the area, we don't find any exact definition in the reviewed literature. According to the Cambridge Dictionary, the mean of large-scale is:
+
+\begin{defn}
+\textbf{Large-scale}: involving many people or things, or happening over a large area.
+\end{defn}
+
+In the simulation context \textbf{happening over a large area} is the most appropriated term. The spatio-temporal part of the concept is straightforward. Join both ideas the definition of a large-scale spatio-temporal model could be something like:
+
+\begin{defn}
+\textbf{Large-scale spatio-temporal model}: a mathematical/computational model that study the spatio-temporal evolution of a physical system over a large area.
+\end{defn}
+
+In this context, a computational model of the form: $\bm{q}=\mathcal{M}(\bm{\theta})$ represents the spatio-temporal evolution of a complex systems, and the \textit{QoI} $\bm{q}$ can be represented as:  
+
+\begin{equation} \label{eq:spatio_temporal}
+\mathbf{Q} = (\mathbf{q}(s_{1},t_{1}),\mathbf{q}(s_{2},t_{2}),...,\mathbf{q}(s_{n},t_{n}))  
+\end{equation}
+where:
+\begin{itemize}
+\item $(s_{1},t_{1}),(s_{2},t_{2}),....,(s_{n},t_{n}) \in \mathcal{S} \times \mathcal{T}\subseteq\mathbb{R}^{3}\times\mathbb{R}$ represent a set of distinct spatio-temporal locations, and
+\item $\mathbf{q}(s_{i},t_{j})$ represents a value of the \textit{QoI} at the spatio-temporal location $(s_{i},t_{j})$
+\end{itemize}
+Many \textit{QoI} can be analyzed, but for simplicity in this thesis we consider only one.
+
+When dealing with \textbf{LSSTMs}, a huge amount of data is generated as a result of the simulation process. Indeed, on each spatio-temporal location $(s_{i},t_{j}) \in \mathcal{S} \times \mathcal{T}\subseteq\mathbb{R}^{3}\times\mathbb{R}$, usually more than $10^4$ simulations are performed. Then, the size of the output dataset is in the order of $N_{s}\times N_{t}\times N_{sim}$, where: $N_{s}$ is the number of spatial locations, $N_{t}$ is the number of time steps, and $N_{sim}$ is the number of simulations.  An example of the volume of data generated by these simulations is given in the experimental Section \ref{Experiments}, where the output dataset is about 2.4 TB. From a computational point of view, this classifies \textit{forward propagation} as a data intensive problem.
+
+This information can be modeled as:
+\begin{equation}\label{eq:data_base_structure}
+S(s_{i},t_{j},simId,q(s_{i},t_{j}))
+\end{equation}
+where $simId$ represents the \textit{id} of one simulation (realization).
+
+The emerging field of data science, nevertheless, is largely lacking in generalizable methods for quantifying the uncertainty in the output of analyzed systems. As a result, a major new research initiative needs to be initiated in this area \cite{Tobergte2013}.
+
+Summarizing, we are interesting into represent the uncertainty associated with the output of a \textbf{LSSTM} using probabilities (PDFs), but:
+\begin{itemize}
+\item[\textbf{1.}] we need to deal with a large amount of data,
+\item[\textbf{2.}] from the best of our knowledge, there is not any big data approach or computational tool to do this.
+\end{itemize}
+
+Then, we go back to the main objective of this thesis that is to \textbf{propose a new method to quantify the uncertainty in large-scale spatio-temporal models}.
 
 %The question of how to represent and communicate uncertainties is a topic of research both from a practical and theoretical point of view. A fair bit of theoretical research is aimed at the mathematical calculus of uncertainty. This includes extensions and alternatives to standard probabilistic reasoning, such as Dempster-Schafer theory and imprecise probabilities. When uncertainties are needed for investigations requiring computational models, additional considerations arise. For example, if the simulation output is a daily surface-temperature field over the globe for the next 200 years, representing uncertainty and dependencies is complex. Should ensembles be used to represent plausible outcomes? How should these ensembles of simulation output be stored? How can high-consequence/low-probability outcomes be discovered in this massive output? Here some research investigations attempt to leverage theory that exploits high dimensionality to bound probabilities and system behavior. Finally, even when uncertainties are well captured, how best to communicate such uncertainties to the public or to decision-makers is also a topic of ongoing research. 
 %\cite{DEnergy2009}
 
-\section{Software and Tools for UQ}
-Currently, advances in uncertainty propagation and assessment have been paralleled by a growing number of software tools for uncertainty analysis, but none has gained recognition for a universal applicability, including case studies with spatial models and spatial model inputs. \cite{Sawicka2016}
+%\section{Software and Tools for UQ}
+%Currently, advances in uncertainty propagation and assessment have been paralleled by a growing number of software tools for uncertainty analysis, but none has gained recognition for a universal applicability, including case studies with spatial models and spatial model inputs. \cite{Sawicka2016}
+%
+%These include both free software, like OpenTURNS (Andrianov et al., 2007), DACOTA (Adams et al., 2009) and DUE (Brown and Heuvelink, 2007), commercial, like COSSAN (Schuëller and Pradlwarter, 2006), or free, but written for a licenced software, e.g. SAFE (Pianosi et al., 2015) or UQLab (Marelli and Sudret, 2014) toolboxes for MATLAB. A broad review of existing software packages is available in Bastin et al. (2013). To the best of our knowledge, however, none of the existent software is specifically designed to be extended by the environmental science community. The use of powerful but complex languages like C++ (e.g. Dakota), Python (e.g. OpenTURNS) or Java (e.g. DUE) often discourages relevant portions of the non-highly-IT trained scientific community from the adoption of otherwise powerful tools.
+%spup-R package \cite{Sawicka2016}. De aqui saque lo de arriba tambien, aunque lo de arriba lo puedo buscar en sus respectivos papers y hablar un poco de cada uno de ellos.
 
-These include both free software, like OpenTURNS (Andrianov et al., 2007), DACOTA (Adams et al., 2009) and DUE (Brown and Heuvelink, 2007), commercial, like COSSAN (Schuëller and Pradlwarter, 2006), or free, but written for a licenced software, e.g. SAFE (Pianosi et al., 2015) or UQLab (Marelli and Sudret, 2014) toolboxes for MATLAB. A broad review of existing software packages is available in Bastin et al. (2013). To the best of our knowledge, however, none of the existent software is specifically designed to be extended by the environmental science community. The use of powerful but complex languages like C++ (e.g. Dakota), Python (e.g. OpenTURNS) or Java (e.g. DUE) often discourages relevant portions of the non-highly-IT trained scientific community from the adoption of otherwise powerful tools.
-spup-R package \cite{Sawicka2016}. De aqui saque lo de arriba tambien, aunque lo de arriba lo puedo buscar en sus respectivos papers y hablar un poco de cada uno de ellos.
-
-\section{Summary}
-
-\section{Concepts}
-high-dimensional parameter spaces \cite{DEnergy2009}
-computationally demanding forward models 
-nonlinearity and/or complexity in the forward model
-
-\section{Ideas a usar}
-HPC and computational modeling play a dominant role in shaping the methodological developments and research in uncertainty qualification. Depending on the complexity of the uncertainty qualification investigation, anywhere from $10^{2}$ to $10^{8}$ runs of the computational model may be required. Thus, uncertainty qualification investigations may require extreme-computing environments (e.g., exascale) to obtain results in a useful time frame, even if a single run of the computational model does not require such resources. \cite{DEnergy2009}
-
-Advances in computing over the past few decades—both in availability and power—have led to an explosion in computational models available for simulating a wide variety of complex physical (and social) systems. These complex models—which may involve millions of lines of code, and require extreme-computing resources—have led to numerous scientific discoveries and advances. This is because these models allow simulation of physical processes in environments and conditions that are difficult or even impossible to access experimentally. However, scientists’ abilities to quantify uncertainties in these model-based predictions lag well behind their abilities to produce these computational models. This is largely because such simulation-based scientific investigations present a set of challenges that is not present in traditional investigations.
-
-\cite{DEnergy2009}
-
-Until recently, the original approach of describing model parameters using single values has been retained, and consequently the majority of mathematical models in use today provide point predictions, with no associated uncertainty. \cite{Johnstone2015}
-
-a 'typical' UQ problem involves one or more mathematical models for a process of interest, subject to some uncertainty about the correct form of, or parameter values for, those models. \cite{Sullivan2015}
-
-Often, though not always, these uncertainties are treated probabilistically. \cite{Sullivan2015}
-
-but how will you actually go about evaluating that expected value when it is an integral over a million-dimensional parameter space?
-Practical problems from engineering and the sciences can easily have models with millions or billions of inputs
-(degrees of freedom). \cite{Sullivan2015}
-
-the language of probability theory is a powerful tool in describing uncertainty \cite{Sullivan2015}
-
-“UQ studies all sources of error and uncertainty, including the following: systematic and stochastic measurement error; ignorance; limitations of theoretical models; limitations of numerical representations of those models; limitations of the accuracy and reliability of computations, approximations, and algorithms; and human error. A more precise definition is UQ is the end-to-end study of the reliability of scientific inferences.” \cite{DEnergy2009} (U.S. Department of Energy, 2009, p. 135)
-
-
-
-In \cite{Sullivan2015} the authors remark that is important to appreciate both the underlying mathematics and the practicalities of implementation. In his work they focus in the presentation of the former and keep the latter in mind. In our work we do the opposite, we focus in the implementation keeping the math formalism in mind.
-
-Probability theorists usually denote the sample space of a probability space by $\Omega$; PDE theorists often use the same letter to denote a domain in $\Re^{n}$ on which a partial differential equation is to be solved. In UQ, where the worlds of probability and PDE theory often collide, the possibility of confusion is clear. Therefore, this book will tend to use $\Theta$ for a probability space and \textbf{X} for a more general measurable space, which may happen to be the spatial domain for some PDE.
+\section{Summary}\label{sec:background_summary}
+In this Chapter we present a review about UQ, showing what is uncertainty quantification, what are the principal mathematical tools used to represent it, and what are the typical UQ problems. Immediately we talk about some methods for uncertainty propagation and what are the problems in the 

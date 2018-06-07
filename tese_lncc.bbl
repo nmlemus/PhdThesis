@@ -5,6 +5,19 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Allen et al. 2000]{allen2000quantifying}
+\abntrefinfo{Allen et al.}{ALLEN et al.}{2000}
+{ALLEN, M.~R. et al. Quantifying the uncertainty in forecasts of anthropogenic
+  climate change.
+\emph{Nature}, Nature Publishing Group, v.~407, n.~6804, p.~617, 2000.}
+
+\bibitem[Alvin et al. 1998]{Alvin1998}
+\abntrefinfo{Alvin et al.}{ALVIN et al.}{1998}
+{ALVIN, K.~F. et al. {Uncertainty quantification in computational structural
+  dynamics: a new paradigm for model validation}.
+\emph{Society for Experimental Mechanics, Inc, 16 th International Modal
+  Analysis Conference.}, v.~2, p. 1191--1198, 1998.}
+
 \bibitem[Baroni e Tarantola 2014]{Baroni2014a}
 \abntrefinfo{Baroni e Tarantola}{BARONI; TARANTOLA}{2014}
 {BARONI, G.; TARANTOLA, S. {A General Probabilistic Framework for uncertainty
@@ -14,6 +27,14 @@
   2014.
 ISSN 13648152.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.envsoft.2013.09.022}.}
+
+\bibitem[Baxter e Cool 2016]{Baxter2016}
+\abntrefinfo{Baxter e Cool}{BAXTER; COOL}{2016}
+{BAXTER, M.~J.; COOL, H. E.~M. {Reinventing the wheel? Modelling temporal
+  uncertainty with applications to brooch distributions in Roman Britain}.
+\emph{Journal of Archaeological Science}, Elsevier Ltd, v.~66, p. 120--127,
+  2016.
+ISSN 10959238.}
 
 \bibitem[Chalabi, Diethelm e Scott 2012]{Chalabi2012}
 \abntrefinfo{Chalabi, Diethelm e Scott}{CHALABI; DIETHELM; SCOTT}{2012}
@@ -60,6 +81,16 @@ Dispon{\'\i}vel em: \url{http://arc.aiaa.org/doi/abs/10.2514/6.2014-1347}.}
 {ESTACIO-HIROMS, K.~C.; PRUDENCIO, E.~E. {User's Manual: Quantification of
   Uncertainty for Estimation, Simulation, and Optimization (QUESO)}.
 2012.}
+
+\bibitem[Farrell, Oden e Faghihi 2015]{Farrell2015}
+\abntrefinfo{Farrell, Oden e Faghihi}{FARRELL; ODEN; FAGHIHI}{2015}
+{FARRELL, K.; ODEN, J.~T.; FAGHIHI, D. {A Bayesian framework for adaptive
+  selection, calibration, and validation of coarse-grained models of atomistic
+  systems}.
+\emph{Journal of Computational Physics}, Elsevier Inc., v.~295, p. 189--208,
+  2015.
+ISSN 10902716.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.jcp.2015.03.071}.}
 
 \bibitem[Farrell 2015]{Farrell2015a}
 \abntrefinfo{Farrell}{FARRELL}{2015}
@@ -163,14 +194,11 @@ ISSN 0162-1459.
 Dispon{\'\i}vel em:
   \url{http://www.tandfonline.com/doi/abs/10.1080/01621459.1971.10482275}.}
 
-\bibitem[{K. Sawicka} e Soil 2016]{Sawicka2016}
-\abntrefinfo{{K. Sawicka} e Soil}{{K. Sawicka}; SOIL}{2016}
-{{K. Sawicka}, G.~H.; SOIL. {spup- an R package for uncertainty propagation in
-  spatial environmental modelling}.
-\emph{International symposium on "Spatial Accuracy Assessment in Natural
-  Resources and Environmental Sciences"}, v.~53, n.~9, p. 1689--1699, 2016.
-ISSN 1098-6596.
-Dispon{\'\i}vel em: \url{http://spatial-accuracy.org/Accuracy2016}.}
+\bibitem[{Josep de la Puente} 2015]{deLaPuente2015}
+\abntrefinfo{{Josep de la Puente}}{{Josep de la Puente}}{2015}
+{{Josep de la Puente}, A.~C. \emph{{Website deploying a suite of geophysical
+  tests for wave propagation problems on extreme scale machines}}. 2015.
+  1--9~p.}
 
 \bibitem[Karian e Dudewicz 2011]{Karian2011}
 \abntrefinfo{Karian e Dudewicz}{KARIAN; DUDEWICZ}{2011}
@@ -178,6 +206,13 @@ Dispon{\'\i}vel em: \url{http://spatial-accuracy.org/Accuracy2016}.}
   distributions with R}}. [S.l.: s.n.], 2011.
 ISSN 1098-6596.
 ISBN 9788578110796.}
+
+\bibitem[Kawai e Shimoyama 2014]{Kawai2014}
+\abntrefinfo{Kawai e Shimoyama}{KAWAI; SHIMOYAMA}{2014}
+{KAWAI, S.; SHIMOYAMA, K. {Kriging-model-based uncertainty quantification in
+  computational fluid dynamics}.
+\emph{32nd AIAA Applied Aerodynamics Conference}, n.~June, p. 1--16, 2014.
+Dispon{\'\i}vel em: \url{http://arc.aiaa.org/doi/10.2514/6.2014-2737}.}
 
 \bibitem[Kennedy e O'Hagan 2001]{Kennedy2001}
 \abntrefinfo{Kennedy e O'Hagan}{KENNEDY; O'HAGAN}{2001}
@@ -229,6 +264,13 @@ Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1805.03141.pdf}.}
 \emph{Annals of Applied Statistics}, 2017.
 Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1712.02183.pdf}.}
 
+\bibitem[Melorose et al. 2015]{Lavril2015}
+\abntrefinfo{Melorose et al.}{MELOROSE et al.}{2015}
+{MELOROSE, J. et al.
+\emph{{A PROBABILISTIC FRAMEWORK FOR UNCERTAINTY QUANTIFICATION IN LARGE-SCALE
+  SIMULATIONS: APPLICATION IN SEISMIC IMAGING}}.
+Tese (Doutorado) --- Universidade Federal do Rio de Janeiro, 2015.}
+
 \bibitem[Movahedi, Lotfi e Nayyeri 2013]{Movahedi2013}
 \abntrefinfo{Movahedi, Lotfi e Nayyeri}{MOVAHEDI; LOTFI; NAYYERI}{2013}
 {MOVAHEDI, M.~M.; LOTFI, M.~R.; NAYYERI, M. {A solution to determining the
@@ -252,6 +294,12 @@ Tese (Doutorado), 2016.}
 \emph{American Journal of Mathematical and Management Sciences}, v.~28, n.~1-2,
   p. 81--99, 2008.
 ISSN 01966324.}
+
+\bibitem[Patt, Klein e Vega-Leinert 2005]{patt2005taking}
+\abntrefinfo{Patt, Klein e Vega-Leinert}{PATT; KLEIN; VEGA-LEINERT}{2005}
+{PATT, A.; KLEIN, R.~J.; VEGA-LEINERT, A. de~la. Taking the uncertainty in
+  climate-change vulnerability assessment seriously.
+\emph{Comptes Rendus Geoscience}, Elsevier, v.~337, n.~4, p. 411--424, 2005.}
 
 \bibitem[Rajan et al. 2016]{Rajan2016a}
 \abntrefinfo{Rajan et al.}{RAJAN et al.}{2016}
@@ -309,5 +357,13 @@ ISSN 1098-6596.}
 {{U.S. Department of Energy}. \emph{{Scientific Grand Challenges in National
   Security: The Role of Computing at the Extreme Scale}}.
 [S.l.], 2009. 255~p.}
+
+\bibitem[Wellmann e Regenauer-Lieb 2012]{Wellmann2012}
+\abntrefinfo{Wellmann e Regenauer-Lieb}{WELLMANN; REGENAUER-LIEB}{2012}
+{WELLMANN, J.~F.; REGENAUER-LIEB, K. {Uncertainties have a meaning: Information
+  entropy as a quality measure for 3-D geological models}.
+\emph{Tectonophysics}, Elsevier B.V., v. 526-529, p. 207--216, 2012.
+ISSN 00401951.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.tecto.2011.05.001}.}
 
 \end{thebibliography}
