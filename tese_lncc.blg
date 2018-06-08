@@ -6,7 +6,6 @@ A level-1 auxiliary file: capitulos/backgroud.aux
 A level-1 auxiliary file: capitulos/gld.aux
 A level-1 auxiliary file: capitulos/gld_clustering.aux
 A level-1 auxiliary file: capitulos/our_approach.aux
-A level-1 auxiliary file: capitulos/kriging.aux
 A level-1 auxiliary file: capitulos/use_cases.aux
 A level-1 auxiliary file: capitulos/conclusao.aux
 A level-1 auxiliary file: apendices/apendiceA.aux
@@ -57,45 +56,45 @@ Warning--faltando school em Mustafa2016
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 52 entries,
+You've used 53 entries,
             6714 wiz_defined-function locations,
-            1616 strings with 21360 characters,
-and the built_in function-call counts, 71734 in all, are:
-= -- 7757
-> -- 1735
-< -- 1567
-+ -- 2119
-- -- 517
-* -- 4863
-:= -- 8933
-add.period$ -- 210
-call.type$ -- 52
-change.case$ -- 578
-chr.to.int$ -- 151
-cite$ -- 53
-duplicate$ -- 6408
-empty$ -- 2949
-format.name$ -- 2468
-if$ -- 14716
+            1618 strings with 21421 characters,
+and the built_in function-call counts, 73969 in all, are:
+= -- 8039
+> -- 1776
+< -- 1646
++ -- 2214
+- -- 529
+* -- 4997
+:= -- 9201
+add.period$ -- 213
+call.type$ -- 53
+change.case$ -- 592
+chr.to.int$ -- 152
+cite$ -- 54
+duplicate$ -- 6675
+empty$ -- 2991
+format.name$ -- 2529
+if$ -- 15124
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 912
-newline$ -- 315
-num.names$ -- 255
-pop$ -- 1119
+missing$ -- 929
+newline$ -- 320
+num.names$ -- 260
+pop$ -- 1147
 preamble$ -- 1
-purify$ -- 215
+purify$ -- 220
 quote$ -- 0
-skip$ -- 6477
+skip$ -- 6751
 stack$ -- 1
-substring$ -- 3364
-swap$ -- 2561
-text.length$ -- 121
+substring$ -- 3449
+swap$ -- 2648
+text.length$ -- 122
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 2
-while$ -- 430
+while$ -- 436
 width$ -- 0
-write$ -- 879
+write$ -- 892
 (There were 4 error messages)
