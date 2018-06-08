@@ -7,8 +7,8 @@
 
 \bibitem[Allen et al. 2000]{allen2000quantifying}
 \abntrefinfo{Allen et al.}{ALLEN et al.}{2000}
-{ALLEN, M.~R. et al. Quantifying the uncertainty in forecasts of anthropogenic
-  climate change.
+{ALLEN, M.~R. et al. {Quantifying the uncertainty in forecasts of anthropogenic
+  climate change}.
 \emph{Nature}, Nature Publishing Group, v.~407, n.~6804, p.~617, 2000.}
 
 \bibitem[Alvin et al. 1998]{Alvin1998}
@@ -136,6 +136,13 @@ ISSN 20734859.}
 ISSN 1420-0597.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s10596-016-9563-6}.}
 
+\bibitem[Hack e Caten 2012]{da2012measurement}
+\abntrefinfo{Hack e Caten}{HACK; CATEN}{2012}
+{HACK, P. da S.; CATEN, C.~S. ten. Measurement uncertainty: Literature review
+  and research trends.
+\emph{IEEE Transactions on Instrumentation and Measurement}, IEEE, v.~61, n.~8,
+  p. 2116--2124, 2012.}
+
 \bibitem[Hausser e Strimmer 2008]{Hausser2008}
 \abntrefinfo{Hausser e Strimmer}{HAUSSER; STRIMMER}{2008}
 {HAUSSER, J.; STRIMMER, K. {Entropy inference and the James-Stein estimator,
@@ -166,6 +173,15 @@ ISSN 0308-1079.}
 ISBN 978-3-319-12384-4. Dispon{\'\i}vel em:
   \url{http://link.springer.com/10.1007/978-3-319-12385-1}.}
 
+\bibitem[Jcgm 2008]{Jcgm2008}
+\abntrefinfo{Jcgm}{JCGM}{2008}
+{JCGM, J. C. F. G. I.~M. {Evaluation of measurement data — Guide to the
+  expression of uncertainty in measurement}.
+\emph{International Organization for Standardization Geneva ISBN}, v.~50, n.
+  September, p.~134, 2008.
+ISSN 00099147.
+Dispon{\'\i}vel em: \url{http://www.bipm.org/en/publications/guides/gum.html}.}
+
 \bibitem[Jiang et al. 2011]{Jiang2011}
 \abntrefinfo{Jiang et al.}{JIANG et al.}{2011}
 {JIANG, B. et al. {Clustering Uncertain Data Based on Probability Distribution
@@ -194,18 +210,22 @@ ISSN 0162-1459.
 Dispon{\'\i}vel em:
   \url{http://www.tandfonline.com/doi/abs/10.1080/01621459.1971.10482275}.}
 
-\bibitem[{Josep de la Puente} 2015]{deLaPuente2015}
-\abntrefinfo{{Josep de la Puente}}{{Josep de la Puente}}{2015}
-{{Josep de la Puente}, A.~C. \emph{{Website deploying a suite of geophysical
-  tests for wave propagation problems on extreme scale machines}}. 2015.
-  1--9~p.}
-
 \bibitem[Karian e Dudewicz 2011]{Karian2011}
 \abntrefinfo{Karian e Dudewicz}{KARIAN; DUDEWICZ}{2011}
 {KARIAN, Z.~A.; DUDEWICZ, E.~J. \emph{{Handbook of fitting statistical
   distributions with R}}. [S.l.: s.n.], 2011.
 ISSN 1098-6596.
 ISBN 9788578110796.}
+
+\bibitem[Karvanen e Nuutinen 2008]{Karvanen2008}
+\abntrefinfo{Karvanen e Nuutinen}{KARVANEN; NUUTINEN}{2008}
+{KARVANEN, J.; NUUTINEN, A. {Characterizing the generalized lambda distribution
+  by L-moments}.
+\emph{Computational Statistics and Data Analysis}, v.~52, n.~4, p. 1971--1983,
+  2008.
+ISSN 01679473.
+Dispon{\'\i}vel em:
+  \url{https://ia801001.us.archive.org/27/items/arxiv-math0701405/math0701405.pdf}.}
 
 \bibitem[Kawai e Shimoyama 2014]{Kawai2014}
 \abntrefinfo{Kawai e Shimoyama}{KAWAI; SHIMOYAMA}{2014}
@@ -297,11 +317,11 @@ ISSN 01966324.}
 
 \bibitem[Patt, Klein e Vega-Leinert 2005]{patt2005taking}
 \abntrefinfo{Patt, Klein e Vega-Leinert}{PATT; KLEIN; VEGA-LEINERT}{2005}
-{PATT, A.; KLEIN, R.~J.; VEGA-LEINERT, A. de~la. Taking the uncertainty in
-  climate-change vulnerability assessment seriously.
+{PATT, A.; KLEIN, R. J.~T.; VEGA-LEINERT, A. de~la. {Taking the uncertainty in
+  climate-change vulnerability assessment seriously}.
 \emph{Comptes Rendus Geoscience}, Elsevier, v.~337, n.~4, p. 411--424, 2005.}
 
-\bibitem[Rajan et al. 2016]{Rajan2016a}
+\bibitem[Rajan et al. 2016]{Rajan2016}
 \abntrefinfo{Rajan et al.}{RAJAN et al.}{2016}
 {RAJAN, A. et al. {Benchmark Test Distributions for Expanded Uncertainty
   Evaluation Algorithms}.
@@ -336,6 +356,15 @@ Dispon{\'\i}vel em: \url{http://digitalcommons.wayne.edu/jmasm/vol10/iss2/17}.}
 {SU, S. {Flexible parametric quantile regression model}.
 \emph{Statistics and Computing}, v.~25, n.~3, p. 635--650, 2015.
 ISSN 15731375.}
+
+\bibitem[Su 2016]{Su2016}
+\abntrefinfo{Su}{SU}{2016}
+{SU, S. {Fitting Flexible Parametric Regression Models with GLDreg in R}.
+\emph{Journal of Modern Applied Statistical Methods}, v.~15, n.~2, p. 768--787,
+  2016.
+ISSN 1538-9472.
+Dispon{\'\i}vel em: \url{http://digitalcommons.wayne.edu/jmasm
+  http://digitalcommons.wayne.edu/jmasm/vol15/iss2/46}.}
 
 \bibitem[Sullivan 2015]{Sullivan2015}
 \abntrefinfo{Sullivan}{SULLIVAN}{2015}

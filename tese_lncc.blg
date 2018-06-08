@@ -3,10 +3,9 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese_lncc.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: capitulos/backgroud.aux
-A level-1 auxiliary file: capitulos/ji.aux
 A level-1 auxiliary file: capitulos/gld.aux
-A level-1 auxiliary file: capitulos/our_approach.aux
 A level-1 auxiliary file: capitulos/gld_clustering.aux
+A level-1 auxiliary file: capitulos/our_approach.aux
 A level-1 auxiliary file: capitulos/kriging.aux
 A level-1 auxiliary file: capitulos/use_cases.aux
 A level-1 auxiliary file: capitulos/conclusao.aux
@@ -28,19 +27,24 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: MyCollection.bib
-Repeated entry---line 1339 of file MyCollection.bib
+Repeated entry---line 1375 of file MyCollection.bib
  : @article{Alvin1998
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2181 of file MyCollection.bib
+Repeated entry---line 1564 of file MyCollection.bib
+ : @phdthesis{Lavril2015
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2226 of file MyCollection.bib
  : @article{Helton2010
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2560 of file MyCollection.bib
+Repeated entry---line 2576 of file MyCollection.bib
  : @article{Tobergte2013
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "NBR6028:2003"
+Warning--I didn't find a database entry for "Rajan2016a"
 Warning--I didn't find a database entry for "Su2005"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -53,45 +57,45 @@ Warning--faltando school em Mustafa2016
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 49 entries,
+You've used 52 entries,
             6714 wiz_defined-function locations,
-            1589 strings with 20699 characters,
-and the built_in function-call counts, 64787 in all, are:
-= -- 6876
-> -- 1652
-< -- 1334
-+ -- 1873
-- -- 492
-* -- 4434
-:= -- 8133
-add.period$ -- 196
-call.type$ -- 49
-change.case$ -- 548
-chr.to.int$ -- 136
-cite$ -- 50
-duplicate$ -- 5602
-empty$ -- 2761
-format.name$ -- 2351
-if$ -- 13397
+            1616 strings with 21360 characters,
+and the built_in function-call counts, 71734 in all, are:
+= -- 7757
+> -- 1735
+< -- 1567
++ -- 2119
+- -- 517
+* -- 4863
+:= -- 8933
+add.period$ -- 210
+call.type$ -- 52
+change.case$ -- 578
+chr.to.int$ -- 151
+cite$ -- 53
+duplicate$ -- 6408
+empty$ -- 2949
+format.name$ -- 2468
+if$ -- 14716
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 858
-newline$ -- 293
-num.names$ -- 240
-pop$ -- 1063
+missing$ -- 912
+newline$ -- 315
+num.names$ -- 255
+pop$ -- 1119
 preamble$ -- 1
-purify$ -- 204
+purify$ -- 215
 quote$ -- 0
-skip$ -- 5694
+skip$ -- 6477
 stack$ -- 1
-substring$ -- 2973
-swap$ -- 2245
-text.length$ -- 106
+substring$ -- 3364
+swap$ -- 2561
+text.length$ -- 121
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 2
-while$ -- 399
+while$ -- 430
 width$ -- 0
-write$ -- 818
-(There were 3 error messages)
+write$ -- 879
+(There were 4 error messages)
