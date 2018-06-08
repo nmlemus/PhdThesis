@@ -136,13 +136,6 @@ ISSN 20734859.}
 ISSN 1420-0597.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s10596-016-9563-6}.}
 
-\bibitem[Hack e Caten 2012]{da2012measurement}
-\abntrefinfo{Hack e Caten}{HACK; CATEN}{2012}
-{HACK, P. da S.; CATEN, C.~S. ten. Measurement uncertainty: Literature review
-  and research trends.
-\emph{IEEE Transactions on Instrumentation and Measurement}, IEEE, v.~61, n.~8,
-  p. 2116--2124, 2012.}
-
 \bibitem[Hausser e Strimmer 2008]{Hausser2008}
 \abntrefinfo{Hausser e Strimmer}{HAUSSER; STRIMMER}{2008}
 {HAUSSER, J.; STRIMMER, K. {Entropy inference and the James-Stein estimator,
@@ -197,6 +190,15 @@ Dispon{\'\i}vel em:
 ISSN 1041-4347.
 Dispon{\'\i}vel em:
   \url{https://pdfs.semanticscholar.org/e172/2c8911b7db1a3114fbd38b3ea5a9e93d1290.pdf}.}
+
+\bibitem[Jiang et al. 2013]{Jiang2013}
+\abntrefinfo{Jiang et al.}{JIANG et al.}{2013}
+{JIANG, B. et al. {Clustering Uncertain Data Based on Probability Distribution
+  Similarity}.
+\emph{IEEE Transactions on Knowledge and Data Engineering}, v.~25, n.~4, p.
+  751--763, apr 2013.
+ISSN 1041-4347.
+Dispon{\'\i}vel em: \url{http://ieeexplore.ieee.org/document/6051435/}.}
 
 \bibitem[Johnstone et al. 2016]{Johnstone2015}
 \abntrefinfo{Johnstone et al.}{JOHNSTONE et al.}{2016}
@@ -274,10 +276,12 @@ Dispon{\'\i}vel em:
   1281--1287, 2006.
 ISSN 00189456.}
 
-\bibitem[Liu et al.]{Liu2018}
-\abntrefinfo{Liu et al.}{LIU et al.}{}
-{LIU, J. et al. {Parallel Computation of PDFs on Big Spatial Data Using Spark}.
-Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1805.03141.pdf}.}
+\bibitem[Liu, Niu e Liao 2018]{Liu2018}
+\abntrefinfo{Liu, Niu e Liao}{LIU; NIU; LIAO}{2018}
+{LIU, C.~M.; NIU, Z.; LIAO, K.~T. \emph{{Mechanisms to improve clustering
+  uncertain data with UKmeans}}. North-Holland, 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S0169023X16303287}.}
 
 \bibitem[Lodziensis 2013]{Lodziensis2013}
 \abntrefinfo{Lodziensis}{LODZIENSIS}{2013}

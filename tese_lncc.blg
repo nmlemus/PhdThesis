@@ -26,25 +26,30 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: MyCollection.bib
-Repeated entry---line 1375 of file MyCollection.bib
+Repeated entry---line 187 of file MyCollection.bib
+ : @article{Liu2018
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1407 of file MyCollection.bib
  : @article{Alvin1998
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1564 of file MyCollection.bib
+Repeated entry---line 1596 of file MyCollection.bib
  : @phdthesis{Lavril2015
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2226 of file MyCollection.bib
+Repeated entry---line 2258 of file MyCollection.bib
  : @article{Helton2010
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2576 of file MyCollection.bib
+Repeated entry---line 2608 of file MyCollection.bib
  : @article{Tobergte2013
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "NBR6028:2003"
 Warning--I didn't find a database entry for "Rajan2016a"
 Warning--I didn't find a database entry for "Su2005"
+Warning--I didn't find a database entry for "da2012measurement"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -58,43 +63,43 @@ Warning--faltando school em Mustafa2016
 +---------------------------------------------------------+
 You've used 53 entries,
             6714 wiz_defined-function locations,
-            1618 strings with 21421 characters,
-and the built_in function-call counts, 73969 in all, are:
-= -- 8039
-> -- 1776
-< -- 1646
-+ -- 2214
-- -- 529
-* -- 4997
-:= -- 9201
-add.period$ -- 213
+            1621 strings with 21410 characters,
+and the built_in function-call counts, 75651 in all, are:
+= -- 8291
+> -- 1795
+< -- 1722
++ -- 2297
+- -- 534
+* -- 5104
+:= -- 9383
+add.period$ -- 216
 call.type$ -- 53
-change.case$ -- 592
+change.case$ -- 595
 chr.to.int$ -- 152
 cite$ -- 54
-duplicate$ -- 6675
-empty$ -- 2991
-format.name$ -- 2529
-if$ -- 15124
+duplicate$ -- 6900
+empty$ -- 3009
+format.name$ -- 2552
+if$ -- 15419
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 929
-newline$ -- 320
+missing$ -- 931
+newline$ -- 322
 num.names$ -- 260
-pop$ -- 1147
+pop$ -- 1150
 preamble$ -- 1
-purify$ -- 220
+purify$ -- 221
 quote$ -- 0
-skip$ -- 6751
+skip$ -- 6980
 stack$ -- 1
-substring$ -- 3449
-swap$ -- 2648
-text.length$ -- 122
+substring$ -- 3517
+swap$ -- 2729
+text.length$ -- 123
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 2
-while$ -- 436
+while$ -- 437
 width$ -- 0
-write$ -- 892
-(There were 4 error messages)
+write$ -- 895
+(There were 5 error messages)

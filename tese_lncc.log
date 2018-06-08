@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  8 JUN 2018 01:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  8 JUN 2018 04:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1904,50 +1904,60 @@ fied un-cer-tainty en-able scientists/decision-
 
 ] (./tese_lncc.lof [9
 
-]) [10] (./tese_lncc.lot) [11
-
-] [12
-
+] [10]) [11] (./tese_lncc.lot) [12
 
 ] [13
 
 
-]
-(./tese_lncc.toc [14
+] [14
 
-] [15]
+
+]
+(./tese_lncc.toc [15
+
+] [16]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 99.
 
-Overfull \hbox (1.5877pt too wide) detected at line 106
- \T1/lmss/bx/n/12 100
+Overfull \hbox (1.5877pt too wide) detected at line 100
+ \T1/lmss/bx/n/12 101
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 110
+Overfull \hbox (1.5877pt too wide) detected at line 102
  \T1/lmss/bx/n/12 102
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 112
+Overfull \hbox (1.5877pt too wide) detected at line 106
  \T1/lmss/bx/n/12 103
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 113
- \T1/lmss/bx/n/12 104
+Overfull \hbox (1.5877pt too wide) detected at line 110
+ \T1/lmss/bx/n/12 105
  []
 
-) [16] [17]
+
+Overfull \hbox (1.5877pt too wide) detected at line 112
+ \T1/lmss/bx/n/12 106
+ []
+
+
+Overfull \hbox (1.5877pt too wide) detected at line 113
+ \T1/lmss/bx/n/12 107
+ []
+
+) [17] [18]
 \openout2 = `introducao.aux'.
 
- (./introducao.tex [18
+ (./introducao.tex [19
 
 
 
 ]
 
-LaTeX Warning: Reference `Experiments' on page 19 undefined on input line 20.
+LaTeX Warning: Reference `Experiments' on page 20 undefined on input line 20.
 
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
@@ -1955,31 +1965,27 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 28.
+ [20]
+
+LaTeX Warning: Reference `UQBackground' on page 21 undefined on input line 42.
 
 
-Package hyperref Warning: Suppressing empty link on input line 36.
-
-[19]
-
-LaTeX Warning: Reference `UQBackground' on page 20 undefined on input line 42.
-
-
-LaTeX Warning: Reference `materials_methods' on page 20 undefined on input line
+LaTeX Warning: Reference `materials_methods' on page 21 undefined on input line
  42.
 
 
-LaTeX Warning: Reference `Approach' on page 20 undefined on input line 42.
+LaTeX Warning: Reference `Approach' on page 21 undefined on input line 42.
 
 
-LaTeX Warning: Reference `Experiments' on page 20 undefined on input line 42.
+LaTeX Warning: Reference `Experiments' on page 21 undefined on input line 42.
 
 
-LaTeX Warning: Reference `RelatedWorks' on page 20 undefined on input line 42.
+LaTeX Warning: Reference `RelatedWorks' on page 21 undefined on input line 42.
 
 
-LaTeX Warning: Reference `Conclusions' on page 20 undefined on input line 42.
+LaTeX Warning: Reference `Conclusions' on page 21 undefined on input line 42.
 
-[20]) [21]
+[21]) [22]
 \openout2 = `capitulos/backgroud.aux'.
 
  (./capitulos/backgroud.tex
@@ -1988,35 +1994,35 @@ Overfull \hbox (1.04582pt too wide) in paragraph at lines 38--39
 m-por-tance and hence widespread
  []
 
-[22
+[23
 
 
 
-] [23] [24] [25] [26] [27] [28]
-<img/background/UQ_steps.png, id=687, 1346.02875pt x 781.92125pt>
+] [24] [25] [26] [27] [28] [29]
+<img/background/UQ_steps.png, id=696, 1346.02875pt x 781.92125pt>
 File: img/background/UQ_steps.png Graphic file (type png)
 <use img/background/UQ_steps.png>
 Package pdftex.def Info: img/background/UQ_steps.png  used on input line 190.
 (pdftex.def)             Requested size: 364.00139pt x 211.45563pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.198 \item $
              \bm{X} \in \mathcal{X} $ is a vector of  input parameters of th...
- <./img/background/UQ_steps.png>] [30]
+ <./img/background/UQ_steps.png>] [31]
 
-LaTeX Warning: Citation `Rajan2016a' on page 31 undefined on input line 239.
+LaTeX Warning: Citation `Rajan2016a' on page 32 undefined on input line 239.
 
-[31] [32]
+[32] [33]
 
-LaTeX Warning: Reference `Experiments' on page 33 undefined on input line 288.
+LaTeX Warning: Reference `Experiments' on page 34 undefined on input line 288.
 
-[33]) [34]
+[34]) [35]
 \openout2 = `capitulos/gld.aux'.
 
- (./capitulos/gld.tex [35
+ (./capitulos/gld.tex [36
 
 
 
@@ -2025,19 +2031,19 @@ LaTeX Warning: Reference `Experiments' on page 33 undefined on input line 288.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 45.
 
-<img/gld/rs_regions.png, id=793, 606.265pt x 509.905pt>
+<img/gld/rs_regions.png, id=803, 606.265pt x 509.905pt>
 File: img/gld/rs_regions.png Graphic file (type png)
 <use img/gld/rs_regions.png>
 Package pdftex.def Info: img/gld/rs_regions.png  used on input line 69.
 (pdftex.def)             Requested size: 364.00139pt x 306.14764pt.
-[36]
+[37]
 Overfull \hbox (2.41884pt too wide) in paragraph at lines 76--77
 []\T1/lmr/m/n/12 (-20) To cir-cum-vent the con-straints on the \T1/lmr/m/it/12 
 (-20) RS \T1/lmr/m/n/12 (-20) pa-ram-e-ter val-ues, Freimer et al. ([][]FREIMER
 ;
  []
 
-[37pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
+[38pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2054,35 +2060,35 @@ l.77
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 84.
 
-<img/gld/fmkl_regions.png, id=820, 570.13pt x 504.88625pt>
+<img/gld/fmkl_regions.png, id=829, 570.13pt x 504.88625pt>
 File: img/gld/fmkl_regions.png Graphic file (type png)
 <use img/gld/fmkl_regions.png>
 Package pdftex.def Info: img/gld/fmkl_regions.png  used on input line 100.
 (pdftex.def)             Requested size: 364.00139pt x 322.34798pt.
-[38pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}
+[39pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.105 
-      ] [39pdfTeX warning (ext4): destination with the same identifier (name{fi
+      ] [40pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.117 \end{equation}
-                     <./img/gld/fmkl_regions.png (PNG copy)>] [40]
-<img/gld/fmkl_classes.png, id=870, 602.25pt x 382.42876pt>
+                     <./img/gld/fmkl_regions.png (PNG copy)>] [41]
+<img/gld/fmkl_classes.png, id=879, 602.25pt x 382.42876pt>
 File: img/gld/fmkl_classes.png Graphic file (type png)
 <use img/gld/fmkl_classes.png>
 Package pdftex.def Info: img/gld/fmkl_classes.png  used on input line 151.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld/classes_l3_l4.png, id=873, 602.25pt x 382.42876pt>
+<img/gld/classes_l3_l4.png, id=882, 602.25pt x 382.42876pt>
 File: img/gld/classes_l3_l4.png Graphic file (type png)
 <use img/gld/classes_l3_l4.png>
 Package pdftex.def Info: img/gld/classes_l3_l4.png  used on input line 160.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [41pdfTeX warning (ext4): destination with the same identifier (name{table.3.3
+ [42pdfTeX warning (ext4): destination with the same identifier (name{table.3.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2095,12 +2101,12 @@ l.164
                                                   \fi \fi 
 l.164 
        <./img/gld/fmkl_classes.png>]
-<img/gld/symetrics.png, id=879, 602.25pt x 382.42876pt>
+<img/gld/symetrics.png, id=889, 602.25pt x 382.42876pt>
 File: img/gld/symetrics.png Graphic file (type png)
 <use img/gld/symetrics.png>
 Package pdftex.def Info: img/gld/symetrics.png  used on input line 167.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2114,13 +2120,13 @@ l.177
 l.177 
        <./img/gld/classes_l3_l4.png> <./img/gld/symetrics.png>]
 
-LaTeX Warning: Citation `Su2005' on page 43 undefined on input line 178.
+LaTeX Warning: Citation `Su2005' on page 44 undefined on input line 178.
 
-[43]
+[44]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
- [44pdfTeX warning (ext4): destination with the same identifier (name{table.3.4
+ [45pdfTeX warning (ext4): destination with the same identifier (name{table.3.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2128,654 +2134,692 @@ Package microtype Info: Character `029' is missing
 l.222 
       ]
 
-LaTeX Warning: Reference `sub:rs_gld' on page 45 undefined on input line 248.
+LaTeX Warning: Reference `sub:rs_gld' on page 46 undefined on input line 248.
 
 
-LaTeX Warning: Reference `sub:fmkl_gld' on page 45 undefined on input line 248.
+LaTeX Warning: Reference `sub:fmkl_gld' on page 46 undefined on input line 248.
 
 
-[45] [46] [47]) [48]
+[46] [47]
+
+LaTeX Warning: Citation `da2012measurement' on page 48 undefined on input line 
+281.
+
+[48]) [49]
 \openout2 = `capitulos/gld_clustering.aux'.
 
- (./capitulos/gld_clustering.tex [49
+ (./capitulos/gld_clustering.tex
+Package epstopdf Info: Source file: <img/gld_clustering/normal_uniform.eps>
+(epstopdf)                    date: 2018-06-08 03:19:34
+(epstopdf)                    size: 54364 bytes
+(epstopdf)             Output file: <img/gld_clustering/normal_uniform-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2018-06-08 03:19:40
+(epstopdf)                    size: 146627 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/normal_
+uniform-eps-converted-to.pdf img/gld_clustering/normal_uniform.eps>
+(epstopdf)             \includegraphics on input line 20.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/normal_uniform-eps-converted-to.pdf, id=1027, 1084.05pt x 5
+78.16pt>
+File: img/gld_clustering/normal_uniform-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use img/gld_clustering/normal_uniform-eps-converted-to.pdf>
+Package pdftex.def Info: img/gld_clustering/normal_uniform-eps-converted-to.pdf
+  used on input line 20.
+(pdftex.def)             Requested size: 364.00139pt x 194.13692pt.
+ [50
 
 
 
-]
+] [51pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.32 
+      <./img/gld_clustering/normal_uniform-eps-converted-to.pdf>] [52]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 51.
- [50] [51]
-<img/gld_clustering/extra_images/5_gaussian.png, id=1057, 602.25pt x 382.42876p
+put line 65.
+ [53]
+<img/gld_clustering/extra_images/5_gaussian.png, id=1089, 602.25pt x 382.42876p
 t>
 File: img/gld_clustering/extra_images/5_gaussian.png Graphic file (type png)
 <use img/gld_clustering/extra_images/5_gaussian.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/5_gaussian.png  used o
-n input line 98.
+n input line 112.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/extra_images/5_exp.png, id=1058, 602.25pt x 382.42876pt>
+<img/gld_clustering/extra_images/5_exp.png, id=1090, 602.25pt x 382.42876pt>
 File: img/gld_clustering/extra_images/5_exp.png Graphic file (type png)
 <use img/gld_clustering/extra_images/5_exp.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/5_exp.png  used on inp
-ut line 105.
+ut line 119.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/extra_images/uniform.png, id=1059, 602.25pt x 382.42876pt>
+
+[54pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.123 
+       <./img/gld_clustering/extra_images/5_gaussian.png (PNG copy)>]
+<img/gld_clustering/extra_images/uniform.png, id=1096, 602.25pt x 382.42876pt>
 File: img/gld_clustering/extra_images/uniform.png Graphic file (type png)
 <use img/gld_clustering/extra_images/uniform.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/uniform.png  used on i
-nput line 112.
+nput line 126.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [52pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-7}) has been already used, duplicate ignored
+ [55pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.116 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.8}) has been already used, duplicate ignored
+l.141 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.4.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.116 
-       <./img/gld_clustering/extra_images/5_gaussian.png (PNG copy)> <./img/gld
-_clustering/extra_images/5_exp.png (PNG copy)>]
+l.141 \end{equation}
+                     <./img/gld_clustering/extra_images/5_exp.png (PNG copy)> <
+./img/gld_clustering/extra_images/uniform.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 129.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 129.
+(hyperref)                removing `math shift' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 129.
+(hyperref)                removing `\lambda' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `subscript' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `math shift' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 129.
+(hyperref)                removing `math shift' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 129.
+(hyperref)                removing `\lambda' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `subscript' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `math shift' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 129.
+(hyperref)                removing `math shift' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 129.
+(hyperref)                removing `\lambda' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `subscript' on input line 143.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 143.
 
 <img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3.png
-, id=1072, 602.25pt x 382.42876pt>
+, id=1110, 602.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform
 3.png Graphic file (type png)
 <use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3
 .png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_
-exponential_uniform3.png  used on input line 137.
+exponential_uniform3.png  used on input line 151.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[53pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.141 
-       <./img/gld_clustering/extra_images/uniform.png (PNG copy)>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 142.
+               Default added (so using `tbp') on input line 156.
 
-[54pdfTeX warning (ext4): destination with the same identifier (name{table.4.5}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.167 I
-       n figures between \ref{fig:dataset1_l2l3l4_cl1} and \ref{fig:dataset1...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10})
- has been already used, duplicate ignored
+[56pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.167 I
+l.181 I
        n figures between \ref{fig:dataset1_l2l3l4_cl1} and \ref{fig:dataset1...
  <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3.
 png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png, id=1094, 602.25pt
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png, id=1125, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png Graphic file 
 (type png)
 <use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-1.png  used on input line 171.
+1.png  used on input line 185.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png, id=1095, 602.25pt x 382.428
+<img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png, id=1126, 602.25pt x 382.428
 76pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png Graphic file (type png)
 
 <use img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png  use
-d on input line 178.
+d on input line 192.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png, id=1096, 602.25pt
- x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png Graphic file 
-(type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-3.png  used on input line 185.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [55pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-11}) has been already used, duplicate ignored
+ [57pdfTeX warning (ext4): destination with the same identifier (name{table.4.5
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.189 
+l.196 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.189 
+l.196 
        <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png (PNG copy
-)> <./img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png, id=1101, 602.25pt x 382.428
+)>]
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png, id=1131, 602.25pt
+ x 382.42876pt>
+File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png Graphic file 
+(type png)
+<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png>
+Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
+3.png  used on input line 199.
+(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+<img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png, id=1132, 602.25pt x 382.428
 76pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png Graphic file (type png)
 
 <use img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png  use
-d on input line 192.
+d on input line 206.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png, id=1102, 602.25pt x 382.428
-76pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png Graphic file (type png)
-
-<use img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png  use
-d on input line 199.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [56pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [58pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.203 
+l.210 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.203 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png (PNG copy
-)> <./img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png, id=1107, 602.25pt
+l.210 
+       <./img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png (PNG copy)> <./img/
+gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png (PNG copy)>]
+<img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png, id=1137, 602.25pt x 382.428
+76pt>
+File: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png Graphic file (type png)
+
+<use img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png>
+Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png  use
+d on input line 213.
+(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png, id=1138, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png Graphic file 
 (type png)
 <use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-6.png  used on input line 206.
+6.png  used on input line 220.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png, id=1108, 602.25pt
- x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png Graphic file 
-(type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-7.png  used on input line 213.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [57pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [59pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.217 
+l.224 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.217 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png (PNG copy)> <./img/
-gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png, id=1113, 602.25pt
+l.224 
+       <./img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png (PNG copy)> <./img/
+gld_clustering/Dataset1/l2_l3_l4/cluster7.png (PNG copy)>]
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png, id=1143, 602.25pt
+ x 382.42876pt>
+File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png Graphic file 
+(type png)
+<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png>
+Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
+7.png  used on input line 227.
+(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png, id=1144, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png Graphic file 
 (type png)
 <use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-8.png  used on input line 220.
+8.png  used on input line 234.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png, id=1114, 602.25pt
- x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png Graphic file 
-(type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-9.png  used on input line 227.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [58pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [60pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.231 
+l.238 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.231 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png (PNG copy
-)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png, id=1119, 602.25p
+l.238 
+       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png (PNG copy
+)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png (PNG copy)>]
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png, id=1150, 602.25pt
+ x 382.42876pt>
+File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png Graphic file 
+(type png)
+<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png>
+Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
+9.png  used on input line 241.
+(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png, id=1151, 602.25p
 t x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png Graphic file
  (type png)
 <use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-10.png  used on input line 234.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png, id=1120, 602.25p
-t x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png Graphic file
- (type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-11.png  used on input line 241.
+10.png  used on input line 248.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
 
-[59pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[61pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.245 
+l.252 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.245 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png (PNG copy
-)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png, id=1127, 602.25pt x 
+l.252 
+       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png (PNG copy
+)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png (PNG copy)>]
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png, id=1156, 602.25p
+t x 382.42876pt>
+File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png Graphic file
+ (type png)
+<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png>
+Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
+11.png  used on input line 255.
+(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png, id=1159, 602.25pt x 
 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png Graphic file (ty
 pe png)
 <use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.p
-ng  used on input line 250.
+ng  used on input line 264.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png, id=1128, 60
+
+[62pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.267 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.4.22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.267 \end{figure}
+                   <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.
+png (PNG copy)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png
+ (PNG copy)>]
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png, id=1164, 60
 2.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png Graphic
  file (type png)
 <use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_d
-ividido.png  used on input line 257.
+ividido.png  used on input line 271.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[60pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.261 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.22}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.261 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png (PNG cop
-y)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 262.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 262.
+(hyperref)                removing `math shift' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 262.
+(hyperref)                removing `\lambda' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 262.
+(hyperref)                removing `subscript' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 262.
+(hyperref)                removing `math shift' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 262.
+(hyperref)                removing `math shift' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 262.
+(hyperref)                removing `\lambda' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 262.
+(hyperref)                removing `subscript' on input line 276.
 
-<img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png, id=1138, 602.25pt x 3
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 276.
+
+<img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png, id=1168, 602.25pt x 3
 82.42876pt>
 File: img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png Graphic file (typ
 e png)
 <use img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l3_l4/clusters_by_index.pn
-g  used on input line 268.
+g  used on input line 282.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 273.
-
-[61pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+[63pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.296 
+l.286 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.296 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png> <.
-/img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l3_l4/l3_l4.png, id=1148, 602.25pt x 382.42876pt>
+l.286 
+       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png> <./img/gld_
+clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 287.
+
+<img/gld_clustering/Dataset1/l3_l4/l3_l4.png, id=1179, 602.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset1/l3_l4/l3_l4.png Graphic file (type png)
 <use img/gld_clustering/Dataset1/l3_l4/l3_l4.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l3_l4/l3_l4.png  used on i
-nput line 303.
+nput line 317.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png, id=1149, 602.25pt x 382.
+[64pdfTeX warning (ext4): destination with the same identifier (name{table.4.6}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.320 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.4.25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.320 \end{figure}
+                   <./img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png (
+PNG copy)>]
+<img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png, id=1184, 602.25pt x 382.
 42876pt>
 File: img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png Graphic file (type p
 ng)
 <use img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png  
-used on input line 310.
+used on input line 324.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [62pdfTeX warning (ext4): destination with the same identifier (name{table.4.6
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.314 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.25}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.314 
-       <./img/gld_clustering/Dataset1/l3_l4/l3_l4.png>]
-<img/gld_clustering/extra_images/5_gamma.png, id=1156, 602.25pt x 382.42876pt>
-File: img/gld_clustering/extra_images/5_gamma.png Graphic file (type png)
-<use img/gld_clustering/extra_images/5_gamma.png>
-Package pdftex.def Info: img/gld_clustering/extra_images/5_gamma.png  used on i
-nput line 322.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [63pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [65pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 26}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.326 
-       <./img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png>]
+l.333 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.27}) has been already used, duplicate ignored
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.333 
+       <./img/gld_clustering/Dataset1/l3_l4/l3_l4.png> <./img/gld_clustering/Da
+taset1/l3_l4/l3_l4_dividido.png>]
+<img/gld_clustering/extra_images/5_gamma.png, id=1192, 602.25pt x 382.42876pt>
+File: img/gld_clustering/extra_images/5_gamma.png Graphic file (type png)
+<use img/gld_clustering/extra_images/5_gamma.png>
+Package pdftex.def Info: img/gld_clustering/extra_images/5_gamma.png  used on i
+nput line 336.
+(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
+(hyperref)                removing `math shift' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 329.
+(hyperref)                removing `\lambda' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 329.
+(hyperref)                removing `subscript' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
+(hyperref)                removing `math shift' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
+(hyperref)                removing `math shift' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 329.
+(hyperref)                removing `\lambda' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 329.
+(hyperref)                removing `subscript' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
+(hyperref)                removing `math shift' on input line 343.
 
-<img/gld_clustering/Dataset2/nuevo/clusters_by_index.png, id=1165, 602.25pt x 3
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 343.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 343.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 343.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 343.
+
+<img/gld_clustering/Dataset2/nuevo/clusters_by_index.png, id=1196, 602.25pt x 3
 82.42876pt>
 File: img/gld_clustering/Dataset2/nuevo/clusters_by_index.png Graphic file (typ
 e png)
 <use img/gld_clustering/Dataset2/nuevo/clusters_by_index.png>
 Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/clusters_by_index.pn
-g  used on input line 335.
+g  used on input line 349.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+[66pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.353 
+       <./img/gld_clustering/extra_images/5_gamma.png (PNG copy)>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 340.
+               Default added (so using `tbp') on input line 354.
 
-[64pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-7}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.364 \end{table}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.4.28}) has been already used, duplicate ignored
+[67pdfTeX warning (ext4): destination with the same identifier (name{table.4.7}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.364 \end{table}
-                  <./img/gld_clustering/extra_images/5_gamma.png (PNG copy)> <.
-/img/gld_clustering/Dataset2/nuevo/clusters_by_index.png>]
-<img/gld_clustering/Dataset2/nuevo/l3_l4.png, id=1173, 602.25pt x 382.42876pt>
+l.383 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.29}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.383 
+       <./img/gld_clustering/Dataset2/nuevo/clusters_by_index.png>]
+<img/gld_clustering/Dataset2/nuevo/l3_l4.png, id=1210, 602.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset2/nuevo/l3_l4.png Graphic file (type png)
 <use img/gld_clustering/Dataset2/nuevo/l3_l4.png>
 Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/l3_l4.png  used on i
-nput line 372.
+nput line 386.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [65pdfTeX warning (ext4): destination with the same identifier (name{table.4.7
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.376 
-      ]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 384.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 384.
+(hyperref)                removing `math shift' on input line 398.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 384.
+(hyperref)                removing `\lambda' on input line 398.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 384.
+(hyperref)                removing `subscript' on input line 398.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 384.
+(hyperref)                removing `math shift' on input line 398.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 384.
+(hyperref)                removing `math shift' on input line 398.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 384.
+(hyperref)                removing `\lambda' on input line 398.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 384.
+(hyperref)                removing `subscript' on input line 398.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 398.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 390.
+               Default added (so using `tbp') on input line 404.
 
-<img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png, id=1180, 602.25
+<img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png, id=1213, 602.25
 pt x 382.42876pt>
 File: img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png Graphic fil
 e (type png)
 <use img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png>
 Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_in
-dex.png  used on input line 418.
+dex.png  used on input line 432.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png, id=1182, 602.25pt x 382.428
+[68pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+0}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.436 
+       <./img/gld_clustering/Dataset2/nuevo/l3_l4.png>]
+<img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png, id=1220, 602.25pt x 382.428
 76pt>
 File: img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png Graphic file (type png)
 
 <use img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png>
 Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png  use
-d on input line 427.
+d on input line 441.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[66pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-9}) has been already used, duplicate ignored
+ [69pdfTeX warning (ext4): destination with the same identifier (name{table.4.8
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.430 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.4.30}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.430 \end{figure}
-                   <./img/gld_clustering/Dataset2/nuevo/l3_l4.png> <./img/gld_c
-lustering/Dataset2/nuevo/l3_l4/clusters_by_index.png>] [67pdfTeX warning (ext4)
-: destination with the same identifier (name{table.4.8}) has been already used,
- duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.437 
+l.445 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.31}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.437 
-       <./img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png>]
+l.445 
+       <./img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png>]
 
-Package hyperref Warning: Suppressing empty link on input line 440.
+Package hyperref Warning: Suppressing empty link on input line 452.
 
-) [68]
+[70pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.454 A
+       ll of this observation join with the rest of the advantage of the use...
+ <./img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png>]) [71]
 \openout2 = `capitulos/our_approach.aux'.
 
- (./capitulos/our_approach.tex
-<img/Diagram.png, id=1206, 473.77pt x 569.62813pt>
+
+(./capitulos/our_approach.tex
+<img/Diagram.png, id=1241, 473.77pt x 569.62813pt>
 File: img/Diagram.png Graphic file (type png)
 <use img/Diagram.png>
 Package pdftex.def Info: img/Diagram.png  used on input line 8.
 (pdftex.def)             Requested size: 455.0pt x 547.08017pt.
- [69
+ [72
 
 
 
 ]
 
-LaTeX Warning: Reference `gldShape' on page 70 undefined on input line 14.
+LaTeX Warning: Reference `gldShape' on page 73 undefined on input line 14.
 
 
-LaTeX Warning: Reference `fig:similarityshapesGLD' on page 70 undefined on inpu
+LaTeX Warning: Reference `fig:similarityshapesGLD' on page 73 undefined on inpu
 t line 14.
 
-[70pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
-2}) has been already used, duplicate ignored
+[73pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.15 
-      <./img/Diagram.png>] [71]
+      <./img/Diagram.png>] [74]
 
-LaTeX Warning: Reference `GLDEX' on page 72 undefined on input line 59.
-
-
-LaTeX Warning: Reference `GLD' on page 72 undefined on input line 65.
+LaTeX Warning: Reference `GLDEX' on page 75 undefined on input line 59.
 
 
-LaTeX Warning: Reference `fig:validGLD' on page 72 undefined on input line 65.
+LaTeX Warning: Reference `GLD' on page 75 undefined on input line 65.
 
-[72]
-<img/D_distance.png, id=1242, 290.0436pt x 238.491pt>
+
+LaTeX Warning: Reference `fig:validGLD' on page 75 undefined on input line 65.
+
+[75]
+<img/D_distance.png, id=1277, 290.0436pt x 238.491pt>
 File: img/D_distance.png Graphic file (type png)
 <use img/D_distance.png>
 Package pdftex.def Info: img/D_distance.png  used on input line 86.
 (pdftex.def)             Requested size: 204.74861pt x 168.36179pt.
- [73pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-33}) has been already used, duplicate ignored
+ [76pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+34}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.127 
-       <./img/D_distance.png>] [74]
+       <./img/D_distance.png>] [77]
 
-LaTeX Warning: Reference `GLDMixture' on page 75 undefined on input line 169.
+LaTeX Warning: Reference `GLDMixture' on page 78 undefined on input line 169.
 
 
 LaTeX Warning: Reference `Clusterizing the GLD based in its lambda values' on p
-age 75 undefined on input line 198.
+age 78 undefined on input line 198.
 
-[75]
+[78]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 241.
 
@@ -2791,16 +2835,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 241.
 
-) [76]
+) [79]
 \openout2 = `capitulos/use_cases.aux'.
 
  (./capitulos/use_cases.tex
-<images/velocity_field.png, id=1281, 854.19125pt x 487.8225pt>
+<images/velocity_field.png, id=1318, 854.19125pt x 487.8225pt>
 File: images/velocity_field.png Graphic file (type png)
 <use images/velocity_field.png>
 Package pdftex.def Info: images/velocity_field.png  used on input line 40.
 (pdftex.def)             Requested size: 364.00139pt x 207.87636pt.
- [77
+ [80
 
 
 
@@ -2810,91 +2854,91 @@ as been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.44 
-     ] [78pdfTeX warning (ext4): destination with the same identifier (name{tab
+     ] [81pdfTeX warning (ext4): destination with the same identifier (name{tab
 le.6.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.75 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.6
-.34}) has been already used, duplicate ignored
+.35}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.75 
       <./images/velocity_field.png>]
-<images/vp_1000_realizations.png, id=1295, 417.2388pt x 227.8914pt>
+<images/vp_1000_realizations.png, id=1330, 417.2388pt x 227.8914pt>
 File: images/vp_1000_realizations.png Graphic file (type png)
 <use images/vp_1000_realizations.png>
 Package pdftex.def Info: images/vp_1000_realizations.png  used on input line 78
 .
 (pdftex.def)             Requested size: 364.00139pt x 198.82028pt.
- [79pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-35}) has been already used, duplicate ignored
+ [82pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+36}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.99 
       <./images/vp_1000_realizations.png>]
-<images/p_value.png, id=1310, 388.8126pt x 230.7822pt>
+<images/p_value.png, id=1345, 388.8126pt x 230.7822pt>
 File: images/p_value.png Graphic file (type png)
 <use images/p_value.png>
 Package pdftex.def Info: images/p_value.png  used on input line 102.
 (pdftex.def)             Requested size: 364.00139pt x 216.06902pt.
-<images/p_value_greater_05.png, id=1311, 387.849pt x 219.7008pt>
+<images/p_value_greater_05.png, id=1346, 387.849pt x 219.7008pt>
 File: images/p_value_greater_05.png Graphic file (type png)
 <use images/p_value_greater_05.png>
 Package pdftex.def Info: images/p_value_greater_05.png  used on input line 109.
 
 (pdftex.def)             Requested size: 364.00139pt x 206.19359pt.
- [80pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-36}) has been already used, duplicate ignored
+ [83pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+37}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.117 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.37}) has been already used, duplicate ignored
+6.38}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.117 
        <./images/p_value.png> <./images/p_value_greater_05.png>]
-<images/kolmogorov_distance.png, id=1323, 393.1488pt x 227.8914pt>
+<images/kolmogorov_distance.png, id=1358, 393.1488pt x 227.8914pt>
 File: images/kolmogorov_distance.png Graphic file (type png)
 <use images/kolmogorov_distance.png>
 Package pdftex.def Info: images/kolmogorov_distance.png  used on input line 122
 .
 (pdftex.def)             Requested size: 364.00139pt x 211.00488pt.
-<images/clusters1.png, id=1329, 884.30376pt x 510.90875pt>
+<images/clusters1.png, id=1364, 884.30376pt x 510.90875pt>
 File: images/clusters1.png Graphic file (type png)
 <use images/clusters1.png>
 Package pdftex.def Info: images/clusters1.png  used on input line 140.
 (pdftex.def)             Requested size: 364.00139pt x 210.3003pt.
- [81pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-38}) has been already used, duplicate ignored
+ [84pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+39}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.144 
        <./images/kolmogorov_distance.png>]
 
-LaTeX Warning: Reference `gldShape' on page 82 undefined on input line 147.
+LaTeX Warning: Reference `gldShape' on page 85 undefined on input line 147.
 
-<images/Clusters_lambda3_lambda4.png, id=1340, 806.01125pt x 516.93124pt>
+<images/Clusters_lambda3_lambda4.png, id=1376, 806.01125pt x 516.93124pt>
 File: images/Clusters_lambda3_lambda4.png Graphic file (type png)
 <use images/Clusters_lambda3_lambda4.png>
 Package pdftex.def Info: images/Clusters_lambda3_lambda4.png  used on input lin
 e 151.
 (pdftex.def)             Requested size: 364.00139pt x 233.453pt.
-[82pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3
-9}) has been already used, duplicate ignored
+[85pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.157 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.40}) has been already used, duplicate ignored
+6.41}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2911,44 +2955,44 @@ f>
 -converted-to.pdf img/use_cases/clusters.eps>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/clusters-eps-converted-to.pdf, id=1349, 764.8575pt x 485.815pt>
+<img/use_cases/clusters-eps-converted-to.pdf, id=1385, 764.8575pt x 485.815pt>
 File: img/use_cases/clusters-eps-converted-to.pdf Graphic file (type pdf)
 <use img/use_cases/clusters-eps-converted-to.pdf>
 Package pdftex.def Info: img/use_cases/clusters-eps-converted-to.pdf  used on i
 nput line 160.
 (pdftex.def)             Requested size: 455.0pt x 289.0005pt.
-<images/Clusters_histogram.png, id=1352, 815.045pt x 551.05875pt>
+<images/Clusters_histogram.png, id=1388, 815.045pt x 551.05875pt>
 File: images/Clusters_histogram.png Graphic file (type png)
 <use images/Clusters_histogram.png>
 Package pdftex.def Info: images/Clusters_histogram.png  used on input line 190.
 
 (pdftex.def)             Requested size: 364.00139pt x 246.10745pt.
 
-[83pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4
-1}) has been already used, duplicate ignored
+[86pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.194 
        <./img/use_cases/clusters-eps-converted-to.pdf>]
-<images/regions.png, id=1368, 710.655pt x 459.1554pt>
+<images/regions.png, id=1404, 710.655pt x 459.1554pt>
 File: images/regions.png Graphic file (type png)
 <use images/regions.png>
 Package pdftex.def Info: images/regions.png  used on input line 223.
 (pdftex.def)             Requested size: 364.00139pt x 235.18904pt.
- [84pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
+ [87pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.227 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.42}) has been already used, duplicate ignored
+6.43}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.227 
-       <./images/Clusters_histogram.png>] [85pdfTeX warning (ext4): destination
+       <./images/Clusters_histogram.png>] [88pdfTeX warning (ext4): destination
  with the same identifier (name{table.6.12}) has been already used, duplicate i
 gnored
 
@@ -2962,22 +3006,22 @@ l.244
                                                   \fi \fi 
 l.244 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.43}) has been already used, duplicate ignored
+6.44}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.244 
        <./images/regions.png>]
 
-LaTeX Warning: Reference `GLDMixture' on page 86 undefined on input line 246.
+LaTeX Warning: Reference `GLDMixture' on page 89 undefined on input line 246.
 
-[86pdfTeX warning (ext4): destination with the same identifier (name{table.6.14
+[89pdfTeX warning (ext4): destination with the same identifier (name{table.6.14
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.290 \end{equation*}
-                     ] [87pdfTeX warning (ext4): destination with the same iden
+                     ] [90pdfTeX warning (ext4): destination with the same iden
 tifier (name{table.6.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2994,57 +3038,57 @@ l.330
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 338.
 
-[88]) [89pdfTeX warning (ext4): destination with the same identifier (name{tabl
+[91]) [92pdfTeX warning (ext4): destination with the same identifier (name{tabl
 e.6.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.526 \include{capitulos/use_cases}
+l.527 \include{capitulos/use_cases}
                                    ]
 \openout2 = `capitulos/conclusao.aux'.
 
  (./capitulos/conclusao.tex
 
-LaTeX Warning: Reference `gldShape' on page 90 undefined on input line 16.
+LaTeX Warning: Reference `gldShape' on page 93 undefined on input line 16.
 
-[90
+[93
 
 
 
-]) [91] (./tese_lncc.bbl (./tese_lncc.brf)
+]) [94] (./tese_lncc.bbl (./tese_lncc.brf)
 \tf@brf=\write8
 \openout8 = `tese_lncc.brf'.
 
 
 bibitemlist
-[92
+[95
 
 
-] [93] [94] [95]) [96] [97
+] [96] [97] [98]) [99] [100
 
 
 ]
 \openout2 = `apendices/apendiceA.aux'.
 
- (./apendices/apendiceA.tex) [98
+ (./apendices/apendiceA.tex) [101
 
 
 ]
 \openout2 = `apendices/apendiceB.aux'.
 
 
-(./apendices/apendiceB.tex) [99
+(./apendices/apendiceB.tex) [102
 
 
 
 ]
 \openout2 = `apendices/apendiceC.aux'.
 
- (./apendices/apendiceC.tex) [100
+ (./apendices/apendiceC.tex) [103
 
 
 
-] [101
+] [104
 
 
 
@@ -3052,13 +3096,13 @@ bibitemlist
 \openout2 = `anexos/anexoA.aux'.
 
 
-(./anexos/anexoA.tex) [102
+(./anexos/anexoA.tex) [105
 
 
 ]
 \openout2 = `anexos/anexoB.aux'.
 
- (./anexos/anexoB.tex) [103
+ (./anexos/anexoB.tex) [106
 
 
 
@@ -3066,7 +3110,7 @@ bibitemlist
 \openout2 = `anexos/anexoC.aux'.
 
  (./anexos/anexoC.tex)
-[104
+[107
 
 
 
@@ -3081,18 +3125,18 @@ AED: lastpage setting LastPage
 \tf@toc=\write11
 \openout11 = `tese_lncc.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 615.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
 (./tese_lncc.aux (./introducao.aux) (./capitulos/backgroud.aux)
 (./capitulos/gld.aux) (./capitulos/gld_clustering.aux)
 (./capitulos/our_approach.aux) (./capitulos/use_cases.aux)
 (./capitulos/conclusao.aux) (./apendices/apendiceA.aux)
 (./apendices/apendiceB.aux) (./apendices/apendiceC.aux) (./anexos/anexoA.aux)
 (./anexos/anexoB.aux) (./anexos/anexoC.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 614.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 615.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 615.
 Package rerunfilecheck Info: File `tese_lncc.brf' has not changed.
-(rerunfilecheck)             Checksum: 6454316CE771CA202A2CD137E189C37A;5508.
+(rerunfilecheck)             Checksum: 3E5985E3E75589E8650D03D2B70C9AEA;5687.
 
 
 LaTeX Warning: There were undefined references.
@@ -3100,13 +3144,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 614.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 615.
  ) 
 Here is how much of TeX's memory you used:
- 32812 strings out of 494733
- 550331 string characters out of 6175648
- 816631 words of memory out of 5000000
- 34754 multiletter control sequences out of 15000+600000
+ 32830 strings out of 494733
+ 550750 string characters out of 6175648
+ 817165 words of memory out of 5000000
+ 34766 multiletter control sequences out of 15000+600000
  157060 words of font info for 227 fonts, out of 8000000 for 9000
  109 hyphenation exceptions out of 8191
  59i,16n,73p,1405b,1797s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3130,10 +3174,10 @@ pe1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb><
 /public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tese_lncc.pdf (105 pages, 3303249 bytes).
+Output written on tese_lncc.pdf (108 pages, 3453151 bytes).
 PDF statistics:
- 2156 PDF objects out of 2487 (max. 8388607)
- 1926 compressed objects within 20 object streams
- 412 named destinations out of 1000 (max. 500000)
- 42117 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2196 PDF objects out of 2487 (max. 8388607)
+ 1960 compressed objects within 20 object streams
+ 416 named destinations out of 1000 (max. 500000)
+ 42122 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -12,9 +12,23 @@ The \textbf{RQ.1} we formulate in the Introduction (see Chapter \ref{cap:intro})
 
 If the uncertainty in a \textit{GLD} is characterized by $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ and we are interesting into group the uncertainty based on the similarity, is clear that we need to explore how to group the \textit{GLDs} based on its $\lambda$ values. This is the main objective of this Chapter, that is organized as follow: in Section \ref{sec:related_works} a brief review of some related works is performed, and the advantage and drawbacks of those works are highlighted. Some considerations about the possibilities of the use of the \textit{GLD} to solve some of the drawbacks are commented. Next, in section \ref{sec:clustering_gld} our hypothesis about the use of the \textit{GLD} to clustering uncertain data, is presented. Sections \ref{sec:synthetic_I} and \ref{sec:synthetic_II} present two synthetics datasets and the results of the clustering technique. Those results help us to validate our hypothesis. Finally, section \ref{sec:clustering_summary} summarize and discuss the main results of the Chapter.
 
- \section{Related Works}\label{sec:related_works}
+\section{Related Works}\label{sec:related_works}
+Clustering uncertain data is recognized as an essential tasks in mining uncertain data \cite{Jiang2011}. It impose significant challenges in both modeling similarities between uncertain objects and developing efficient computational methods. Many methods are implemented as extensions of k-means and density-based clustering methods like DBSCAN, but using geometric distances between objects. Such methods cannot handle uncertain objects that are geometrically indistinguishable, such as products with the same mean but very different variances, as the uniform and normal distributions in Figure \ref{fig:normal_uniform}.
 
-\cite{Jiang2011}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/normal_uniform.eps}
+    \caption{Two geometrically indistinguishable distributions. Both distributions have the same mean but different variances. In color blue a bivariate Gaussian distribution, in red a bivariate uniform distribution.}
+    \label{fig:normal_uniform}
+\end{figure}
+
+Until recently, probability distributions, which are essential characteristics of uncertain objects, had not been considered in measuring the similarity between uncertain objects. In the last years, a plethora of new methods to clustering uncertain data emerge, based in the use of statistical metrics like Kullback-Leibler divergence (KL-divergence). From the best of our knowledge, the first effort in this direction was the work of Jiang et al. \cite{Jiang2011}, where they propose a new clustering method based on the use of Kernel Density Estimation (KDE) to fit a \textit{PDF} to the uncertain data, and modifications to the k-means algorithm to use the KL-divergence as a distance function. Some improvements to the computational cost of the previous method were introduced by the same authors in \cite{Jiang2013}.
+
+More recently Lui et al. \cite{Liu2018} present some contributions to the k-means algorithm to clustering uncertain objects but with unsatisfactory results. The proposed approach could be useful just to find the optimal number of clusters. 
+
+Basically, those methods are two steps methods: (i) first a method to find the \textit{PDF} that best fit the uncertain objects, and (ii) the clustering algorithm to group the uncertain objects using an statistical metric as a distance function. Two major drawbacks can be remarked here: first, as we mention in Chapter \ref{cap:gld}, find the \textit{PDF} that best fit an uncertain object is not so easy. And second the computation of any statistical distance between many objects is a time consuming and computationally intensive task. Other restrictions are also imposed to some methods, for example in \cite{Jiang2011} all the \textit{PDF} need to be defined in the same domain.
+
+Some of those drawbacks can be solved by the use of the \textit{GLD}. For example, the \textit{GLD} is defined in the same domain, we don't need any previous knowledge to fit the \textit{GLD} to an uncertain object. In the next section we formulate an hypothesis about how the \textit{GLD} can be used to clustering uncertain data.   
 
 \section{Clustering Based on GLD}\label{sec:clustering_gld}
 
@@ -45,7 +59,7 @@ The datasets are described in details in Sections \ref{sec:synthetic_I} and \ref
 %Independently of the dataset, the first step is to fit the \textit{GLD} to each distribution. In the next subsection we present the algorithm used to do this.
 
 \subsection{Fit the GLD to a dataset}\label{sub:fitting_gld}
-When we generate a synthetic dataset, the next step is to find the \textit{GLD} that best fit $<v_{j}>$ on each $x_{i}$. As the fitting process is computationally intensive we implement a parallel algorithm using \textbf{R}. The seudo-code is shown in algorithm \ref{alg:fitGLDSyntheticDataset}.
+When we generate a synthetic dataset, the next step is to find the \textit{GLD} that best fit $<v_{j}>$ on each $x_{i}$. As the fitting process is computationally intensive we implement a parallel algorithm using \textbf{R}. The pseudo-code is shown in Algorithm \ref{alg:fitGLDSyntheticDataset}.
 
 \begin{algorithm} 
 \caption{Fitting the GLD to a synthetic dataset}\label{alg:fitGLDSyntheticDataset}
@@ -64,7 +78,7 @@ When we generate a synthetic dataset, the next step is to find the \textit{GLD} 
 \end{algorithmic} 
 \end{algorithm} 
 
-The algorithm receive a dataset represented by \ref{eq:multi_array} and, for each position $x_{i}$, call a function \textbf{\textit{fit.gld.lm}} from the \textbf{R} package \textbf{GLDEX} presented in section \ref{sec:gldex}, line 2 of Algorithm \ref{alg:fitGLDSyntheticDataset}. In line 3 we check the validity of the \textit{GLD} returned by the function (remember from chapter \ref{cap:gld} that the \textit{GLD} is not always valid). In line 5 a good-of-fit test is perform to be sure that each \textit{GLD} is a good representation for the dataset in $x_{i}$. Finally all the \textit{GLD} with $pvalue > 0.05$ are stored to be used in the next section.
+The algorithm receive a dataset represented by \ref{eq:multi_array} and, for each position $x_{i}$, call a function \textbf{\textit{fit.gld.lm}} from the \textbf{R} package \textbf{GLDEX} presented in section \ref{sec:gldex}, line 2 of Algorithm \ref{alg:fitGLDSyntheticDataset}. In line 3 we check the validity of the \textit{GLD} returned by the function (remember from Chapter \ref{cap:gld} that the \textit{GLD} is not always valid). In line 5 a good-of-fit test is perform to be sure that each \textit{GLD} is a good representation for the dataset in $x_{i}$. Finally all the \textit{GLD} with $pvalue > 0.05$ are stored to be used in the next section.
 
 The final result of this process is a new dataset with the form:
 
@@ -429,8 +443,6 @@ The projection of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space is
     \label{fig:dataset2_l3l4_l3_l4}
 \end{figure}
 
-%\subsection{Effectiveness of the Clustering}
-
 \section{Summary}\label{sec:clustering_summary}
 
 In this Chapter, we explore clustering uncertain data based on the similarity between their distributions. The idea is to answer the \textbf{RQ.1} \textit{"how to group the output of the UQ process based on the similarity of the uncertainty?"}. The hypothesis enunciated at the beginning of the Chapter was tested against two synthetic datasets, and the results corroborate that we can group uncertain data based in the $\lambda_{i}$ values of the \textit{GLDs} that describe the data.
@@ -440,87 +452,3 @@ As a second result we test that, when using $\lambda_{2}$, $\lambda_{3}$ and $\l
 Another important result of this Chapter, is that if we look at the clustering technique proposed here and compare it with the state-of-the-art, our approach is a competitive one. For example, in the approach proposed by \cite{Jiang} the computational cost of its algorithm depend of two factors, the fit of the distributions using Kernel Density Estimation (KDE) and the computation of the KL-divergence (the distance measure used in its approach). Both factors are computationally intensive. In our approach we substitute KDE by \textit{GLD} fit, that is most costly form the computational point of view; but at the same time we substitute the KL-divergence by simple distance comparisons in $\mathbf{R}$ and $\mathbf{R^2}$. On the other hand, some limitations of the KL-divergence approach as: (i) the \textit{PDF} of every uncertain object to be clustered need to be defined in the same domain and (ii) the needs to select an appropriate kernel to fit the data using KDE, are solved with the use of the \textit{GLD}.
 
 All of this observation join with the rest of the advantage of the use of the \textit{GLD} to quantify the uncertainty, make our approach far superior to those reported in the literature.    
-
-
-%\section{Ideas por si son necesarias}
-%
-%\subsection{The Gaussian (Normal) Distribution}
-%The Gaussian (Normal) distribution is probably the most used and also the most well-known distribution. Many groups follow this type of pattern. That's why it's widely used in business, statistics and in government bodies like the FDA:
-%\begin{itemize}
-%\item Heights of people.
-%\item Measurement errors.
-%\item Blood pressure.
-%\item Points on a test.
-%\item IQ scores.
-%\item Salaries.
-%\end{itemize}
-%
-%The PDF of the Normal Distribution is represented in equation \ref{eq:gaussian_distribution}
-%
-%\begin{equation}\label{eq:gaussian_distribution}
-%f(x) = \frac{1}{{ \sqrt {2\pi \sigma} }}e^{{{ - \left( {x - \mu } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}
-%\end{equation}
-%
-%where:
-%\begin{itemize}
-%\item $\mu$ is the mean or expectation of the distribution (and also its median and mode),
-%\item $\sigma$ is the standard deviation, and
-%\item $\sigma^2$ is the variance.
-%\end{itemize}
-%
-%To generate a synthetic normal distribution we need to specify the number of elements we want (e.g. 1000) and the mean and standard deviation. In \textit{R} for example we can use a function \textbf{\textit{rnorm(1000, 0, 2)}} to generate 1000 elements of a normal distribution with mean $\mu = 0$ and standard deviation $\sigma = 2$, figure \ref{fig:normal_sample}.
-%
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/normal_0_2.png}
-%    \caption{Normal distribution generated using the \textit{R} function \textbf{\textit{rnorm(1000, 0, 2)}} with mean $\mu = 0$ and standard deviation $\sigma = 2$.}
-%    \label{fig:normal_sample}
-%\end{figure}
-%
-%\subsection{The Exponential Distribution}
-%\begin{equation}\label{eq:exponential_distribution}
-%  f(x) =
-%  \begin{cases}
-%    \lambda e^{-\lambda x} & \text{$x >= 0 $} \\
-%    0 & \text{$x < 0$}
-%  \end{cases}
-%\end{equation}
-%
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/exp_05.png}
-%    \caption{Exponential distribution generated using the \textit{R} function \textbf{\textit{rexp(1000, 0.5)}} with rate $\lambda = 0.5$.}
-%    \label{fig:normal_sample}
-%\end{figure}
-%
-%\subsection{The Uniform Distribution}
-%\begin{equation}\label{eq:uniform_distribution}
-%  f(x) =
-%  \begin{cases}
-%    \frac{1}{b-a} & \text{$a < x < b$} \\
-%    0 & \text{$x < a$ or $x > b$}
-%  \end{cases}
-%\end{equation}
-%
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/unif_0_2.png}
-%    \caption{Uniform distribution generated using the \textit{R} function \textbf{\textit{runif(1000, 0, 2)}} in the interval $[0, 2]$.}
-%    \label{fig:normal_sample}
-%\end{figure}
-%
-%\subsection{The Gamma Distribution}
-%\begin{equation}\label{eq:gamma_distribution}
-%  f(x) =
-%  \begin{cases}
-%    \frac{x^{\alpha-1}e^{\frac{-x}{\theta}}}{\Gamma(\alpha)\theta^{\alpha}} & \text{$x >= 0 $} \\
-%    0 & \text{$x < 0$}
-%  \end{cases}
-%\end{equation}
-%
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/gamma_2.png}
-%    \caption{Gamma distribution generated using the \textit{R} function \textbf{\textit{rgamma(1000, 2)}} with shape $\alpha = 2$.}
-%    \label{fig:normal_sample}
-%\end{figure}
