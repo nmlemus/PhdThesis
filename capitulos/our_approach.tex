@@ -1,7 +1,14 @@
 \chapter{Our Approach}\label{cap:our_approach}
 
-\section{UQ Proposed Dataflow}
-Summarizing, we proposed a workflow to quantify the uncertainty in large-scale spatio-temporal models, figure \ref{fig:workflow}. The workflow is divided into three main steps, the fitting process, the clustering and the queries. We illustrate the use of the workflow with  two queries, sections \ref{sub:gldMixtureWorkflow} and \ref{sub:InfomationEntropyRegionWorkflow}.
+In Chapter \ref{cap:gld} we present the \textit{GLD} and argue why this distribution family is suitable to be used in UQ, while in Chapter \ref{cap:gld_clustering} we explore the possibility to use the $\lambda$ values of the \textit{GLD} to clustering uncertain data. Now in this Chapter we present a workflow to quantify the uncertainty in large-scale spatio-temporal models using the \textit{GLD}. In Chapter \ref{cap:gld_clustering} we present a solution to the \textbf{RQ.1}, in this Chapter we present a solution to the other four research questions.  
+
+The rest of the Chapter is organized as follow: Section \ref{sec:dataflow} describes the proposed workflow and comment briefly the motivations to propose it and its steps. Section \ref{sec:fitting} presents the fitting step, that is divided in three sub-steps: the fitting process, \textit{GLD} validity check and quality of the fit. Section \ref{sec:kriging} presents how to use spatio-temporal interpolation over the $\lambda$ values of the \textit{GLD} to estimate the uncertainty in spatio-temporal locations not previously analyzed (\textbf{RQ.2}). Section \ref{sec:clustering} discuses the integration of the clustering algorithm proposed in Chapter \ref{cap:gld_clustering} into the workflow. Section \ref{sec:queries} presents how to use the previous results to answer queries that arise in the UQ context, such us those queries we formulate in Chapter \ref{cap:intro} (\textbf{RQ.3, RQ.4 and RQ.3}).  
+Section \ref{sec:suq2} presents an implementation of the proposed workflow in an R package named Simulation Uncertainty Quantification Querying (SUQ$^2$). Finally Section \ref{sec:approach_summary} summarize the Chapter.  
+
+\section{UQ Proposed Dataflow}\label{sec:dataflow}
+The proposed workflow to quantify the uncertainty in \textbf{LSSTM} based in the \textit{GLD}, is divided in four steps, Figure \ref{fig:workflow}. The first step is the \textbf{fitting process}, where we implement algorithms to estimate the parameters of the \textit{GLD} that best fit the dataset on each spatio-temporal location. The second step is the \textbf{spatio-temporal interpolation (kriging)}. This step is included because in UQ is common to estimate the uncertainty (e.g. low order statistical moments as a standard deviation) in some points and the interpolate the uncertainty to other points. Analogously we propose to do the same but using the $\lambda$ values of the \textit{GLD}. The third step is c\textbf{lustering uncertain data}, using the algorithm proposed and tested in Chapter \ref{cap:gld_clustering}. And finally the four step is the \textbf{queries} step, where we expose how the results we get in the previous steps help us to answer queries that arise in UQ.
+
+In the next sections we detail every step of the process.
 
 \begin{figure}[H]
     \centering
@@ -10,21 +17,7 @@ Summarizing, we proposed a workflow to quantify the uncertainty in large-scale s
     \label{fig:workflow}
 \end{figure}
 
-\subsection{Clustering}
-In section \ref{gldShape} we discussed the different shapes of the GLD and define the regions of the $(\lambda_{3}, \lambda_{4})$ space where the shapes are similar. In Figure \ref{fig:similarityshapesGLD}, we show how  similar values of $\lambda_{3}$ and $\lambda_{4}$ lead to similar shapes. This fact suggests that one can clusterize the \textit{GLD} based on its lambda values. The  result of this clusterization are groups of \textit{GLDs} with similar shapes (behaviors).
-
-In addition to $\lambda_{3}$ and $\lambda_{4}$, which  represent the right and left tails of the distribution, we have also to consider $\lambda_{2}$, as the latter represents the dispersion of the distribution. 
-
-Then, in this step of our workflow, we clusterize the \textit{GLDs} using $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values. The final result of this step is:
-\begin{equation}
-S_{\mathcal{C}}(s_{i},t_{j},GLD_{k},clusterID)
-\end{equation}
-where:
-$clusterID$ represents the ID of the cluster to which the \textit{GLD} at the spatio-temporal location $(s_{i},t_{j})$ belongs.
-
-With the \textit{GLD} clusterized, we can use this result to characterize the uncertainty in a particular spatio-temporal region, or to measure numerically the corresponding uncertainty. In subsections \ref{sub:gldMixtureWorkflow} and \ref{sub:InfomationEntropyRegionWorkflow}, we describe how those approaches are implemented (see Figure \ref{fig:workflow}).
-
-\section{Fitting a GLD to a spatio-temporal dataset}
+\section{Fitting a GLD to a spatio-temporal dataset}\label{sec:fitting}
 In the more general case the computational model $\bm{q}=\mathcal{M}(\bm{\theta})$ represents the spatio-temporal evolution of a complex systems, and the \textit{QoI} $\bm{q}$ could be represented as:  
 
 \begin{equation} \label{eq:spatio_temporal}
@@ -35,7 +28,7 @@ where:
 \item $(s_{1},t_{1}),(s_{2},t_{2}),....,(s_{n},t_{n}) \in \mathcal{S} \times \mathcal{T}\subseteq\mathbb{R}^{3}\times\mathbb{R}$ represent a set of distinct spatio-temporal locations, and
 \item $\mathbf{q}(s_{i},t_{j})$ represents a value of the \textit{QoI} at the spatio-temporal location $(s_{i},t_{j})$
 \end{itemize}
-We could have many \textit{QoI}, but for simplicity here we are going to considere just one.
+%We could have many \textit{QoI}, but for simplicity here we are going to considere just one.
 
 In the presence of a stochastic problem, on each spatio-temporal location $(s_{i},t_{j})$ we have many realizations of $q(s_{i},t_{j})$. A structure of a database to store this information can be modeled as:
 \begin{equation}\label{eq:data_base_structure}
@@ -43,28 +36,26 @@ S(s_{i},t_{j},simId,q(s_{i},t_{j}))
 \end{equation}
 where $simId$ represents the \textit{id} of one simulation (realization).
 
-The first step of our approach consists of trying to find the \textit{GLD} that best fits our simulations on each spatio-temporal location. The algorithms are described in the next section.
-
-Given a random sample $q_{1}, q_{2}, q_{3},...,q_{n}$, the basic problem in fitting a statistical distribution to these data is that of approximating the distribution from which the sample was obtained. In our approach we divide this step in three task:
+The first step of our approach consists in find the \textit{GLD} that best fits our simulations on each spatio-temporal location. This step is divided in three minor tasks:
 \begin{itemize}
 \item Fit the \textit{GLD} to the data.
 \item Evaluate the validity of the resulting \textit{GLD} on each spatio-temporal location.
 \item Perform a ks-test to evaluate the quality of the fit on each spatio-temporal location.
 \end{itemize}
 
-The fitting process has been implemented following the algorithm \ref{alg:fitGLD}. Before starting the fitting process, we need to group all the simulations that correspond to the same spatio-temporal location $(s_{i},t_{j})$.  As a result we get a new dataset $S^*(s_{i},t_{j},<q_1,q_2,..,q_n>)$, where $q_i, 1 \le i \le n$, represents a vector of all the values of $q$ at point $(s_{i},t_{j})$.
+The fitting process has been implemented following the Algorithm \ref{alg:fitGLD}. Before starting the fitting process, we group all the simulations that correspond to the same spatio-temporal location $(s_{i},t_{j})$.  As a result a new dataset with the following structure is created$S^*(s_{i},t_{j},<q_1,q_2,..,q_n>)$, where $q_i, 1 \le i \le n$, represents a vector of all the values of $q$ at point $(s_{i},t_{j})$.
 
 \subsection{Fitting process}
 \label{gldFitProcess}
-Now, for each spatio-temporal location $(s_{i},t_{j}) \in \mathcal{S} \times \mathcal{T}$ we use a function of the GLDEX R package described in section \ref{GLDEX}, to fit the \textit{GLD} to a vector $<q_1,q_2,..,q_n>$, line 2 of algorithm \ref{alg:fitGLD}. As a result of this task we get the lambda values of the \textit{GLD} that best fit the dataset at each spatio-temporal location, equation \ref{eq:S_GLD}.
+Now, for each spatio-temporal location $(s_{i},t_{j}) \in \mathcal{S} \times \mathcal{T}$ we use a function of the GLDEX R package described in section \ref{sec:gldex}, to fit the \textit{GLD} to a vector $<q_1,q_2,..,q_n>$, line 2 of Algorithm \ref{alg:fitGLD}. As a result of this task we get the $\lambda$ values of the \textit{GLD} that best fit the dataset at each spatio-temporal location, Equation \ref{eq:S_GLD}.
 \begin{equation}\label{eq:S_GLD}
 S'(s_{i},t_{j},GLD(\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4}))
 \end{equation}
 
 \subsection{GLD validity check}
-As we mention in section \ref{GLD} the \textit{GLD} is not always valid, it depends of the $\lambda_{3}$  and $\lambda_{4}$ values. The evaluation of the validity of the \textit{GLD} is straightforward, if $\lambda_{3}$  and $\lambda_{4}$ are in the gray regions of Figure \ref{fig:validGLD} the \textit{GLD} is not valid, on the other case is valid.
+As we mention in section \ref{sec:parameterizations} the \textit{GLD} is not always valid, it depends of the $\lambda_{3}$  and $\lambda_{4}$ values. The evaluation of the validity of the \textit{GLD} is straightforward, if $\lambda_{3}$  and $\lambda_{4}$ are in the gray regions of Figure \ref{fig:rs_regions} the \textit{GLD} is not valid, on the other case is valid.
 
-The validity check is performed in line 3 of the algorithm \ref{alg:fitGLD}, and as a result we get:
+The validity check is performed in line 3 of the Algorithm \ref{alg:fitGLD}, and as a result we get:
 \begin{equation}
 S_{validity}(s_{i},t_{j},valid(s_{i},t_{j})),
 \end{equation}
@@ -79,11 +70,11 @@ where:
 
 \subsection{Quality of the fit}
 \label{Quality of the fit}
-Now at the remaining points, where the \textit{GLD} is valid, we need to evaluate how good is the fit. That is, we evaluate whether the \textit{GLD} (PDF) correctly describes the dataset. We use here the Kolmogorov-Smirnov test (KS-test). The KS-test  determines if two datasets differ significantly. In this case, these datasets are: the original dataset and a second one generated using the fitted GLD. As a result, this test returns two values: a Kolmogorov-Smirnoff Distance (D); and a p-value, line 5 of algorithm \ref{alg:fitGLD}. The distance D is the maximum distance between both cumulative density functions (CDF), as shown in Figure \ref{fig:D_distance}. A small distance means that both, the dataset and the fitted PDF, are similar. 
+Now at the remaining points, where the \textit{GLD} is valid, we need to evaluate how good is the fit. That is, we evaluate whether the \textit{GLD} (PDF) correctly describes the dataset. We use here the Kolmogorov-Smirnov test (KS-test). The KS-test  determines if two datasets differ significantly. In this case, these datasets are: the original dataset and a second one generated using the fitted \textit{GLD}. As a result, this test returns two values: a Kolmogorov-Smirnoff Distance (D); and a p-value, line 5 of Algorithm \ref{alg:fitGLD}. The distance D is the maximum distance between both cumulative density functions (CDF), as shown in Figure \ref{fig:D_distance}. A small distance means that both, the dataset and the fitted PDF, are similar. 
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.45\textwidth]{img/D_distance.png}
+    \includegraphics[width=0.8\textwidth]{img/D_distance.png}
     \caption{Illustration of the two-sample Kolmogorov–Smirnov statistic. Red and blue lines each correspond to an empirical distribution function, and the black arrow is the two-sample KS statistic.}
     \label{fig:D_distance}
 \end{figure}
@@ -98,7 +89,7 @@ S_{\mathcal{D}}(s_{i},t_{j},\mathcal{D}(s_{i},t_{j}))
 S_{p_{value}}(s_{i},t_{j},p_{value}(s_{i},t_{j}))
 \end{equation}
 
-Finally, in line 7 of the algorithm \ref{alg:fitGLD} we store the lambda values of those \textit{GLDs} that are valid and return p-values greater than 0.05.
+Finally, in line 7 of Algorithm \ref{alg:fitGLD} we store the $\lambda$ values of those \textit{GLDs} that are valid and return p-values greater than 0.05.
 
 \begin{algorithm} 
 \caption{Fitting the GLD to a spatio-temporal dataset}\label{alg:fitGLD}
@@ -117,42 +108,81 @@ Finally, in line 7 of the algorithm \ref{alg:fitGLD} we store the lambda values 
 \end{algorithmic} 
 \end{algorithm} 
 
-\section{Spatio-Temporal Interpolation}
+\section{Spatio-Temporal Interpolation}\label{sec:kriging}
+Although our interest is to quantify the uncertainty on each spatio-temporal locations, this is a timely and computationally prohibitive task. Neither the \textbf{GLD} or simples approach, as the evaluation of low order statistical moments, can be computed over the whole output space. Usually researchers put control points at particular points of interest, and then interpolate the uncertainty to other points as needed.
 
+Spatial or temporal interpolation independently, are very well studies, and dozens of algorithms exist to compute new values by mean of those methods. However, working with spatio-temporal domain implies that variability in space and time must be modelled, which is more complicated than modelling purely spatial or purely temporal variability \cite{Graler2016}.
+
+Our purpose here is not to provide a new interpolation method over the \textbf{GLDs} $\lambda$ values, but show how spatio-temporal interpolation can be used to answer the \textbf{RQ.2}:
 \begin{tcolorbox}
 \textbf{RQ2.} what is the uncertainty in some spatio-temporal locations not previously analyzed?
 \end{tcolorbox}
 
-However, adding the temporal domain implies that variability in space and time must be modelled, which is more complicated than modelling purely spatial or purely temporal variability \cite{Graler2016}.
+For this reason we just select the, from the best of our knowledge, state-of-the-art spatio-temporal interpolation method proposed by Graler et al. in \cite{Graler2016}, and implemented in the R package \textbf{gstat}. The selection obey the fact that this implementation include time as another dimension, and allow us to interpolate in space and time together.
 
 \subsection{Kriging over GLD}
 
-\subsection{Use Case}
+The workflow of spatio-temporal interpolation using \textbf{gstat} have three steps: (i) variogram, (ii) fitting, and (iii) interpolation. The implementation of this workflow over the \textbf{GLD} using \textbf{gstat} is shown in Algorithm \ref{alg:krigingGLD}.
 
-\section{Queries}
+\begin{algorithm} 
+\caption{Spatio-temporal interpolation over the $\lambda_{(2,3,4)}$ values of the GLD.}\label{alg:krigingGLD}
+\begin{algorithmic}[1] 
+\Function{gldKriging}{$S(s_{i},t_{j}, <0,\lambda_{2},\lambda_{3},\lambda_{4}>)$} 
+\State $gldModel \gets \Call {vgmST}{S(s_{i},t_{j},<0,\lambda_{2},\lambda_{3},\lambda_{4}>)}$
+\State $fitGldVariogram \gets \Call {fit.StVariogram}{gldModel}$
+\State $S''(s_{i},t_{j}) \gets \Call {krigeST}{fitGldVariogram, (\mathcal{S}_{i}, \mathcal{T}_{j})}$
+\EndFunction 
+\end{algorithmic} 
+\end{algorithm} 
+
+As a result of this algorithm a new dataset with the interpolated values of the \textbf{GLD} in the spatio-temporal locations not previously analyzed is returned, Equation \ref{eq:S_GLD_Kriging}. 
+
+\begin{equation}\label{eq:S_GLD_Kriging}
+S''(s_{i},t_{j},GLD(\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4}))
+\end{equation}
+
+\section{Clustering}\label{sec:clustering}
+In Chapter \ref{cap:gld_clustering} we discussed how to use a \textit{GLD} to group uncertain data. The Algorithm \ref{alg:clusterGLD2} proposed there is using here to clustering the \textit{GLDs}.
+
+\begin{algorithm} 
+\caption{Clustering the GLD based on its $\lambda_{(2,3,4)}$ values.}\label{alg:clusterGLD2}
+\begin{algorithmic}[1] 
+\Function{gldClustering}{$S(s_{i},t_{j}, <0,\lambda_{2},\lambda_{3},\lambda_{4}>)$} 
+\State $S(s_{i},t_{j}, clusterID_{I}) \gets \Call {firstClusterStep}{S(s_{i},t_{j},\lambda_{2})}$
+\For{\textbf{each} $clId_{I}$}
+\State $S(s_{i},t_{j}, clusterID_{II}) \gets \Call {secondClusterStep}{S(s_{i},t_{j},<\lambda_{3},\lambda_{4}>), S(s_{i},t_{j}, clusterID_{I})}$
+\EndFor
+\EndFunction 
+\end{algorithmic} 
+\end{algorithm} 
+
+Algorithm \ref{alg:clusterGLD2} receive as an input the result of the previous steps, could be a result of the fitting process, Equation \ref{eq:S_GLD} or the result of the kriging process Equation \ref{eq:S_GLD_Kriging}. The output of the algorithm is:
+\begin{equation}
+S_{\mathcal{C}}(s_{i},t_{j},GLD_{k},clusterID)
+\end{equation}
+where:
+$clusterID$ represents the ID of the cluster to which the \textit{GLD} at the spatio-temporal location $(s_{i},t_{j})$ belongs.
+
+With the \textit{GLD} clusterized, we can use this result to characterize the uncertainty in a particular spatio-temporal region, or to measure numerically the corresponding uncertainty. In subsections \ref{sub:gldMixtureWorkflow} and \ref{sub:InfomationEntropyRegionWorkflow}, we describe how those approaches are implemented (see Figure \ref{fig:workflow}).
+
+\section{Queries}\label{sec:queries}
+In this section we present how questions as:
 
 \begin{tcolorbox}
-\textbf{RQ4.} how to compare two regions as a function of its uncertainty?
-\end{tcolorbox}
-
-\begin{tcolorbox}
+\textbf{RQ3.} what is the uncertainty of an specific spatio-temporal region? \\
+\textbf{RQ4.} how to compare two regions as a function of its uncertainty? \\
 \textbf{RQ5.} what is the less uncertain model from a set of models?
 \end{tcolorbox}
 
+can be answered with the use of the \textit{GLD} and the results of the previous steps of the workflow. 
 
 \subsection{Use of GLD mixture to characterize the uncertainty in an spatio-temporal region}
 \label{sub:gldMixtureWorkflow}
+Lets start with \textbf{RQ.3}. The naive algorithm to answer this question could be something as follow: given a spatio-temporal region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$, read and analyze all the data generated during the simulation process on that region. This is a process current used by many researchers and proposed for example in provenance softwares. Is clear that this approach is not so efficient. Now, in our approach we first find the \textit{GLD} that best fit the dataset on each $(s_{i},t_{j})$, then we test if the fit is a good one. As a \textit{GLD} is proved as a good random variate generator (see Section \ref{sec:gld_random_variate}), then we can substitute the raw data by the \textit{GLD}. In the clustering step of our approach we group all the \textit{GLDs} by its similarities, and then we test if the centroid of each cluster represent statistically the other members of each cluster. If this condition is met, then is possible to substitute each \textit{GLD} by the centroid of the cluster is belongs to. At the end of this process we substitute the raw data by a few centroids of the clusters.
+  
+Now, coming back to the question: \textit{"what is the uncertainty of an specific spatio-temporal region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$?"}, we can answer it looking to the centroids of the clusters.
 
-\begin{tcolorbox}
-\textbf{RQ3.} what is the uncertainty of an specific spatio-temporal region?
-\end{tcolorbox}
-
-One of the main advantages of assessing the complete probability distribution of the outputs, in place of low order moments (mean and standard deviation), is that we can use the \textit{PDFs} to answer queries. For example, suppose we want to know the mean and standard deviation in a particular spatio-temporal region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$, or we want to observe graphically the distribution of the raw data generated in the simulation process in a spatio-temporal region. 
-
-%All of this questions and many others could be answered if we have the PDFs.
-
-%A very interesting question is, what is the face of a PDF that characterize the uncertainty in the spatio-temporal region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$. 
-Let us consider the second query. Up to this point, we have discussed the fit of GLDs that characterize the uncertainty at each spatio-temporal locations $(s_{i},t_{j})$, and the cluster to which the GLD at that particular spatio-temporal location would belong to. If we consider the clusterization of GLD to be of good quality, we can pick the GLD at the centroid of each cluster as a representative of all its members. In this context, in a particular spatio-temporal region, each cluster may be qualified with a weight given by:
+In $(\mathcal{S}_{i} \times \mathcal{T}_{j})$ each cluster may be qualified with a weight given by:
 \begin{equation}
 w_{k}=\frac{1}{N}\sum_{i=1}^S \sum_{j=1}^T w(s_{i},t_{j})
 \end{equation}
@@ -166,15 +196,15 @@ where:
 \end{equation}
 and  \textit{N} is the number of points in the region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$.
 
-The weight $w_k$ is the frequentist probability of occurrence of the cluster \textit{k} in the region, and complies with the conditions outlined in section \ref{GLDMixture} that $w_{k} \geq 0$ and $\sum w_{k}=1$.
+The weight $w_k$ is the frequentist probability of occurrence of the cluster \textit{k} in the region, and complies with the conditions outlined in section \ref{sec:gld_mixture} that $w_{k} \geq 0$ and $\sum w_{k}=1$.
 
-Remember that the mixture of the GLDs can be written as:
+Remember that the mixture of the \textit{GLDs} can be written as:
 \begin{equation}
 f(x)=\sum_{k=1}^K w_{k}GLD(\lambda_{1},\lambda_{2},\lambda_{3},\lambda_{4})
 \end{equation}
-So, if we have the weights and a representative GLD for each cluster, we have the mixture of GLD that characterizes the uncertainty in the spatio-temporal region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$.
+So, if we have the weights and a representative \textit{GLD} for each cluster, we have the mixture of \textit{GLD} that characterizes the uncertainty in the spatio-temporal region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$.
 
-The GLD mixture process is sumarized in algorithm \ref{alg:mixGLD}.
+The process to generate the mixture of \textit{GLDs} that characterize the uncertainty on a region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$ is presented in Algorithm \ref{alg:mixGLD}.
 
 \begin{algorithm} 
 \caption{GLD mixture in a region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$}\label{alg:mixGLD}
@@ -193,14 +223,17 @@ The GLD mixture process is sumarized in algorithm \ref{alg:mixGLD}.
 \end{algorithmic} 
 \end{algorithm} 
 
-\subsection{Information entropy as a measure of the uncertainty in an spatio-temporal region}
+\subsection{Information Entropy as a measure of the uncertainty in an spatio-temporal region}
 \label{sub:InfomationEntropyRegionWorkflow}
-Now, what happen if we want to measure the uncertainty quantitatively? As we mention in subsubsection \ref{subsub:informationentropytomeasuretheuncertainty} the information entropy is useful in this context. The limitation we mention in that section is solved here, because we can use the different clusters we got in section \ref{Clusterizing the GLD based in its lambda values} as the different outcomes of the system. 
-The equation \ref{eq: spatio-temporal Entropy} can be rewriten as follow:
+Another way to answer question \textbf{RQ.3} is using the Information Entropy (see Section \ref{subsub:informationentropytomeasuretheuncertainty}). In that section we highlight a limitation related to the fact that we need to know the possible outcomes of the system to use Information Entropy. In cases where we can use the clusters we get in \ref{sec:clustering} as the different outcomes of the system, Information Entropy could be used as a measure of the uncertainty in an spatio-temporal region.
+  
+The equation \ref{eq: spatio-temporal Entropy} can be rewrite as follow:
 \begin{equation}\label{eq: spatio-temporal EntropyWorkflow}
 H(s,t)=-\sum_{c=1}^C p_{c}(s,t)\log p_{c}(s,t)
 \end{equation}
 where $c$ represent a particular cluster of the total number of clusters $C$, and $p_{c}(s,t)$ represent the probability of occurence of the cluster $c$ in the spatio-temporal region $(s,t)$.
+
+Algorithm \ref{alg:informationEntropy}  computes the Information Entropy in a region $C_{(\mathcal{S}_{i} \times \mathcal{T}_{j})}$. In lines 2 to 7, we compute the probability of each cluster in the region, similar to section \ref{sub:gldMixtureWorkflow}. Using this probability we compute the Information Entropy $H(s, t)$, line 8, and finally we return the result in line 9.
 
 \begin{algorithm} 
 \caption{Information Entropy in a region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$}\label{alg:informationEntropy}
@@ -220,24 +253,30 @@ where $c$ represent a particular cluster of the total number of clusters $C$, an
 \end{algorithmic} 
 \end{algorithm} 
 
-%\begin{algorithm} 
-%\caption{Information Entropy in a region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$}\label{alg:informationEntropy}
-%\begin{algorithmic}[1] 
-%\Function{infEntropy}{$\mathcal{S}_{i} \times \mathcal{T}_{j}$} 
-%\For{\textbf{each} $c$ in $C$}
-%\State $p_{c}(s,t) \gets \frac{1}{N}\sum_{i}^S \sum_{j}^T w(s_{i},t_{j})$
-%\EndFor
-%\State \textbf{end for}
-%\State $H(s, t) \gets -\sum_{c=1}^C p_{c}(s,t)\log p_{c}(s,t)$
-%\State \Return $H(s, t)$
-%\EndFunction 
-%\end{algorithmic} 
-%\end{algorithm} 
+The advantage of the Information Entropy is that synthesize the uncertainty in a single number.  
 
-Algorithm \ref{alg:informationEntropy}  computes the Information Entropy in a region $C_{(\mathcal{S}_{i} \times \mathcal{T}_{j})}$ . In lines 2 to 7, we compute the probability of each cluster in the region . Using this probability we compute the information entropy $H(s, t)$, line 8, and finally we return the result in line 9.
+\subsection{Information Entropy and regions comparison}
+Information Entropy can be used to answer other questions as: \textit{"\textbf{RQ4.} how to compare two regions as a function of its uncertainty?"}.  Its application here is straightforward, as was mentioned in Section \ref{InformationEntropy}, the Information Entropy is zero when we are certain and maximum when the uncertainty is maxims too. Then, if we want to compare two regions we compute the $H(s, t)$ of each one, and that region with the smaller value of $H(s, t)$ is the less uncertain one.  
 
-\subsection{Information entropy and model selection}
+\subsection{Information Entropy and model selection}
+Similar to the previous section, we can use Information Entropy to compare two models. Suppose we have a set of models $\mathcal{M} = \lbrace \mathcal{M}_{1}, \mathcal{M}_{2},...,\mathcal{M}_{n} \rbrace$ and we want to know what is the less uncertain in $(\mathcal{S}_{i} \times \mathcal{T}_{j})$. We proceed to compute $H(s,t, \mathcal{M}_{i})$ for each model, and that one with less value of $H(s,t, \mathcal{M}_{i})$ is the less uncertain in that region.
 
-\section{SUQ$^2$ R package}
+\subsection{Other queries}
+Although in this section we present four different queries to answer three different questions (\textbf{RQ.3}, \textbf{RQ.4} and \textbf{RQ.5}), our approach leave open the option to develop new queries to solve questions that arise in UQ context. In Section xxx  we show how new queries can be answered quickly, thanks to the flexibility of this approach.
+
+\section{SUQ$^2$ R package}\label{sec:suq2}
+The proposed approach was implemented as an R package named SUQ$^2$, an acronym of \textbf{S}imulation \textbf{U}ncertainty \textbf{Q}uantification \textbf{Q}uerying, freely available at \href{https://github.com/nmlemus/suq2}{SUQ$^2$}. As this package is in a development stage, to install it you need to install the R \textbf{devtools} package first and then use a function \textbf{install\_github} to install SUQ$^2$.
+
+\begin{lstlisting}[language=r]
+> install.packages("devtools")
+> install_github("nmlemus/suq2")
+\end{lstlisting}
+
+The package was divide into five sub-package, one for each step or the workflow and other one to show the results. The name of the sub-package are: \textbf{fit}, \textbf{kriging}, \textbf{clustering}, \textbf{queries} and \textbf{plot}.
+
+As R is an interactive language, to warranty the easy to use of the functions inside the package we use the following pattern: (i) the name of all the function of the package start with \textbf{suq2.}; (ii) after \textbf{suq2.} we add a name that identify a sub-package, for example the name of all the functions of the sub-package \textbf{plot} start with \textbf{suq2.plot.}; (iii) and finally a name that identify the functionality of the function. For example a function to plot a gld based on its $\lambda$ values is named \textbf{suq2.plot.gld()}, while a function to clustering the \textit{GLDs} based on $\lambda_{2}$ is \textbf{suq2.clustering.lambda2()}.
+
+The full documentation of the package is available inside the installation and in Anexo \ref{anexoA}.
 
 \section{Summary}\label{sec:approach_summary}
+In this Chapter we present the workflow of the proposed approach. The workflow is divided into four steps, fitting, kriging, clustering and queries. The algorithms of all the steps are presented and commented. In Section \ref{sec:queries} the queries to answer the research questions raised in the introduction were discuss. Finally, in Section \ref{sec:suq2} we present SUQ$^2$, an R package that implements our approach.  

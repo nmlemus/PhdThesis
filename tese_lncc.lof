@@ -34,13 +34,13 @@
 \contentsline {figure}{\numberline {32}{\ignorespaces Distribution of the clusters over the $\lambda _{3}$ and $\lambda _{4}$ space.}}{70}{figure.4.32}
 \contentsline {figure}{\numberline {33}{\ignorespaces Proposed workflow. The workflow was divided in three steps, (a) the fitting process, (b) the clustering of the GLDs and, (c) the queries over the results of the clustering process.}}{73}{figure.5.33}
 \contentsline {figure}{\numberline {34}{\ignorespaces Illustration of the two-sample Kolmogorov\IeC {\textendash }Smirnov statistic. Red and blue lines each correspond to an empirical distribution function, and the black arrow is the two-sample KS statistic.}}{76}{figure.5.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces One slice of the $250\times 501\times 501$ cube. In the slice we can distinguish between the different layers.}}{81}{figure.6.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Histograms of the 1000 samplings generated using Monte Carlo method and the PDFs reported in Table \ref {tab:PDFsOfVp}.}}{82}{figure.6.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Goodness of the fit based on the \textit {p}-value returning by the KS-test. \textit {p}-value $>$ 0.05 represent a good fit of the GLD to the dataset at $(x_{i}, y_{j})$.}}{83}{figure.6.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces The red color shows where the p-value was greater than 0.05.}}{83}{figure.6.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Kolmogorov-Smirnoff Distance (D). The red regions represent where the GLD fits well.}}{84}{figure.6.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Result of the clusterization using k-means with $n=10$.}}{85}{figure.6.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Distribution of the clusters in the $(\lambda _{3}, \lambda _{4})$ space. The points that belongs to a same cluster are one near the others, as was expected.}}{85}{figure.6.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces \textit {PDFs} of 60 members of the 10 clusters obtained using k-means over the $(\lambda _{2}, \lambda _{3}, \lambda _{4})$ values.}}{86}{figure.6.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Distribution of the clusters.}}{87}{figure.6.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces Analysis Regions.}}{88}{figure.6.44}
+\contentsline {figure}{\numberline {35}{\ignorespaces One slice of the $250\times 501\times 501$ cube. In the slice we can distinguish between the different layers.}}{83}{figure.6.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Histograms of the 1000 samplings generated using Monte Carlo method and the PDFs reported in Table \ref {tab:PDFsOfVp}.}}{84}{figure.6.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Goodness of the fit based on the \textit {p}-value returning by the KS-test. \textit {p}-value $>$ 0.05 represent a good fit of the GLD to the dataset at $(x_{i}, y_{j})$.}}{85}{figure.6.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces The red color shows where the p-value was greater than 0.05.}}{85}{figure.6.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Kolmogorov-Smirnoff Distance (D). The red regions represent where the GLD fits well.}}{86}{figure.6.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Result of the clusterization using k-means with $n=10$.}}{87}{figure.6.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Distribution of the clusters in the $(\lambda _{3}, \lambda _{4})$ space. The points that belongs to a same cluster are one near the others, as was expected.}}{87}{figure.6.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces \textit {PDFs} of 60 members of the 10 clusters obtained using k-means over the $(\lambda _{2}, \lambda _{3}, \lambda _{4})$ values.}}{88}{figure.6.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Distribution of the clusters.}}{89}{figure.6.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Analysis Regions.}}{90}{figure.6.44}
