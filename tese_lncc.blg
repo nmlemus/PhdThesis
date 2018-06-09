@@ -61,45 +61,45 @@ Warning--faltando school em Mustafa2016
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 53 entries,
+You've used 54 entries,
             6714 wiz_defined-function locations,
-            1621 strings with 21410 characters,
-and the built_in function-call counts, 75651 in all, are:
-= -- 8291
-> -- 1795
+            1625 strings with 21579 characters,
+and the built_in function-call counts, 76222 in all, are:
+= -- 8330
+> -- 1810
 < -- 1722
-+ -- 2297
-- -- 534
-* -- 5104
-:= -- 9383
-add.period$ -- 216
-call.type$ -- 53
-change.case$ -- 595
-chr.to.int$ -- 152
-cite$ -- 54
-duplicate$ -- 6900
-empty$ -- 3009
-format.name$ -- 2552
-if$ -- 15419
++ -- 2302
+- -- 539
+* -- 5140
+:= -- 9466
+add.period$ -- 220
+call.type$ -- 54
+change.case$ -- 601
+chr.to.int$ -- 153
+cite$ -- 55
+duplicate$ -- 6927
+empty$ -- 3067
+format.name$ -- 2575
+if$ -- 15557
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 931
-newline$ -- 322
-num.names$ -- 260
-pop$ -- 1150
+missing$ -- 947
+newline$ -- 326
+num.names$ -- 265
+pop$ -- 1169
 preamble$ -- 1
-purify$ -- 221
+purify$ -- 224
 quote$ -- 0
-skip$ -- 6980
+skip$ -- 7014
 stack$ -- 1
-substring$ -- 3517
-swap$ -- 2729
+substring$ -- 3534
+swap$ -- 2740
 text.length$ -- 123
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 2
-while$ -- 437
+while$ -- 443
 width$ -- 0
-write$ -- 895
+write$ -- 909
 (There were 5 error messages)
