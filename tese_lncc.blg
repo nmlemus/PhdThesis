@@ -8,12 +8,6 @@ A level-1 auxiliary file: capitulos/gld_clustering.aux
 A level-1 auxiliary file: capitulos/our_approach.aux
 A level-1 auxiliary file: capitulos/use_cases.aux
 A level-1 auxiliary file: capitulos/conclusao.aux
-A level-1 auxiliary file: apendices/apendiceA.aux
-A level-1 auxiliary file: apendices/apendiceB.aux
-A level-1 auxiliary file: apendices/apendiceC.aux
-A level-1 auxiliary file: anexos/anexoA.aux
-A level-1 auxiliary file: anexos/anexoB.aux
-A level-1 auxiliary file: anexos/anexoC.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -61,45 +55,45 @@ Warning--faltando school em Mustafa2016
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 54 entries,
+You've used 55 entries,
             6714 wiz_defined-function locations,
-            1625 strings with 21579 characters,
-and the built_in function-call counts, 76222 in all, are:
-= -- 8330
-> -- 1810
-< -- 1722
-+ -- 2302
-- -- 539
-* -- 5140
-:= -- 9466
-add.period$ -- 220
-call.type$ -- 54
-change.case$ -- 601
-chr.to.int$ -- 153
-cite$ -- 55
-duplicate$ -- 6927
-empty$ -- 3067
-format.name$ -- 2575
-if$ -- 15557
+            1625 strings with 21747 characters,
+and the built_in function-call counts, 77986 in all, are:
+= -- 8537
+> -- 1843
+< -- 1767
++ -- 2355
+- -- 549
+* -- 5256
+:= -- 9675
+add.period$ -- 225
+call.type$ -- 55
+change.case$ -- 612
+chr.to.int$ -- 157
+cite$ -- 56
+duplicate$ -- 7098
+empty$ -- 3133
+format.name$ -- 2622
+if$ -- 15915
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 947
-newline$ -- 326
-num.names$ -- 265
-pop$ -- 1169
+missing$ -- 965
+newline$ -- 333
+num.names$ -- 270
+pop$ -- 1190
 preamble$ -- 1
-purify$ -- 224
+purify$ -- 228
 quote$ -- 0
-skip$ -- 7014
+skip$ -- 7183
 stack$ -- 1
-substring$ -- 3534
-swap$ -- 2740
-text.length$ -- 123
+substring$ -- 3633
+swap$ -- 2811
+text.length$ -- 127
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 2
-while$ -- 443
+while$ -- 453
 width$ -- 0
-write$ -- 909
+write$ -- 928
 (There were 5 error messages)

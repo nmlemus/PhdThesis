@@ -8,11 +8,11 @@
 \contentsline {table}{\numberline {6}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{63}{table.4.6}
 \contentsline {table}{\numberline {7}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{66}{table.4.7}
 \contentsline {table}{\numberline {8}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{68}{table.4.8}
-\contentsline {table}{\numberline {9}{\ignorespaces Values of $v_{p}$ used in the generation of a single velocity field cube.}}{81}{table.6.9}
-\contentsline {table}{\numberline {10}{\ignorespaces PDFs and its parameters used to sampling the $v_{p}$, to generate n velocity models.}}{82}{table.6.10}
-\contentsline {table}{\numberline {11}{\ignorespaces Centers of the clusters obtained using the clustering algorithm proposed in Section \ref {sec:clustering}, over $(\lambda _{2}, \lambda _{3}, \lambda _{4})$ values.}}{88}{table.6.11}
-\contentsline {table}{\numberline {12}{\ignorespaces Distribution of the clusters.}}{89}{table.6.12}
-\contentsline {table}{\numberline {13}{\ignorespaces Analysis Regions.}}{90}{table.6.13}
-\contentsline {table}{\numberline {14}{\ignorespaces Distribution of the clusters by regions.}}{91}{table.6.14}
-\contentsline {table}{\numberline {15}{\ignorespaces p-values by regions.}}{91}{table.6.15}
-\contentsline {table}{\numberline {16}{\ignorespaces Information Entropy by regions.}}{92}{table.6.16}
+\contentsline {table}{\numberline {9}{\ignorespaces Values of $v_{p}$ used in the generation of a single velocity field cube.}}{82}{table.6.9}
+\contentsline {table}{\numberline {10}{\ignorespaces PDFs and its parameters used to sampling the $v_{p}$, to generate n velocity models.}}{83}{table.6.10}
+\contentsline {table}{\numberline {11}{\ignorespaces Centers of the clusters obtained using the clustering algorithm proposed in Section \ref {sec:clustering}, over $(\lambda _{2}, \lambda _{3}, \lambda _{4})$ values.}}{89}{table.6.11}
+\contentsline {table}{\numberline {12}{\ignorespaces Distribution of the clusters.}}{90}{table.6.12}
+\contentsline {table}{\numberline {13}{\ignorespaces Analysis Regions.}}{91}{table.6.13}
+\contentsline {table}{\numberline {14}{\ignorespaces Distribution of the clusters by regions.}}{92}{table.6.14}
+\contentsline {table}{\numberline {15}{\ignorespaces p-values by regions.}}{92}{table.6.15}
+\contentsline {table}{\numberline {16}{\ignorespaces Information Entropy by regions.}}{93}{table.6.16}

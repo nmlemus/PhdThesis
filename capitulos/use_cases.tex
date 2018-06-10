@@ -92,10 +92,10 @@ S'(x_{i},y_{j},GLD(\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4}))
 \end{equation}
 The raw data is reduced and our dataset is characterized by four lambda values at each spatial location. Now we need to assess the validity of the \textit{GLDs} and how well they fit the dataset. Those analyses are described in sections \ref{useCaseGLDValidityCheck} and \ref{useCaseQualityofFit}. 
 
-\subsection{GLD validity check}\label{useCaseGLDValidityCheck}
+\subsubsection{GLD validity check}\label{useCaseGLDValidityCheck}
 Once the algorithm to check the validity of the \textit{GLD} is run on the experimental dataset, we obtain as a result that the \textit{GLD} is valid in all the $(x_{i},y_{j})$ space.
 
-\subsection{Quality of the fit}\label{useCaseQualityofFit}
+\subsubsection{Quality of the fit}\label{useCaseQualityofFit}
 The next step is to check how good is the fit. To do this we use an algorithm that returns the \textit{D} and \textit{p-value} for the KS-test at each spatial location. As we show in figure \ref{fig:p_value}, and remember that with a \textit{p-value} $>0.05$ we cannot reject the null hypothesis, we conclude that the fit of the GLD is acceptable in most cases. To be more exact, the p-value was greater than 0.05 in 82 \% of the spatial locations, figure \ref{fig:p_values_greater_05}.
 
 \begin{figure}[H]
@@ -329,7 +329,94 @@ It is clear that the information entropy is a very good and simple measure of th
 
 
 \section{Case study with cross-correlated variables}
-Este caso de estudio es el primero del paquete R spup. Nuestros resultados son los mismos que ellos muestran haciendo uso de la GLD. Una query interesante es encontrar donde determinado valor es mayor que 24. En los codigos del capitulo esta la respuesta super facil haciendo uso de la funcion qgl del paquete GLDEX. Esta funcion nos devuelve el valor del quantil 90 y de ahi buscamos donde este valor es mayor que 30, el resultado es el mismo que ellos muestran en el ejemplo.
+As a second case study we select an example included in an R package \textbf{spus} \cite{Sawicka2016}. This package implement a methodology for uncertainty propagation analysis in spatial environmental. The \textbf{spus} package includes functions for uncertainty model specification, propagation of uncertainty using Monte Carlo (MC) techniques, and uncertainty visualization functions.
+The case study describe the spatial distribution of organic carbon (OC) and nitrogen (N), variables that are used to derive $C/N$ ratio, vital information to evaluate soil management and to increase the crop productivity. Maps of OC and N are approximations encumbered with errors. These errors will propagate through the calculation into the $C/N$ prediction.
+
+\subsection{The Dataset}
+The example data for $C/N$ calculations are a 250m resolution mean OC and TN (total N) of a $33km \times 33km$ area adjacent to lake Alaotra in Madagascar.
+
+The Madagascar dataset contains four spatial objects: a mean OC and TN of the area and their standard deviations. It also has a saved function that calculates $C/N$ using OC and TN that will be used later.
+
+In Figure \ref{fig:mean_oc_tn} we present the mean of OC and TN in the area.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/use_cases/spus/dataset_example.eps}
+    \caption{Mean of organic carbon (OC) and total nitrogen (TN) of a $33km \times 33km$ area adjacent to lake Alaotra in Madagascar.}
+    \label{fig:mean_oc_tn}
+\end{figure}
+
+OC and TN are the input variables of a model $C/N = \mathcal{M}(OC, TN)$ defined by an R function as follow:
+
+\begin{lstlisting}[language=R]
+function (OC, TN) 
+{
+    OC/TN
+}
+\end{lstlisting}
+
+This R function receive OC and TN as inputs and return the $C/N$ ratio. The original Madagascar dataset as it, only contain information about the mean and standard deviation of OC and TN. To propagate the uncertainty through a model, the authors of \textbf{spus} package define OC and TN as uncertain variables. In both cases the uncertainty is characterized by a normal distribution with mean OC and TN and standard deviation OC\_sd and TN\_sd respectively. Using a Monte Carlo method, the author sampling the input space to obtain 500 realizations. 
+
+The propagation of uncertainty occurs when the model is run with the uncertain inputs. Running the model with a sample of realizations of uncertain input variable(s) yields an equally large sample of model outputs that can be further analyzed, in this case 500 samples of $134 \times 135$.
+
+\subsection{Fitting the GLD}
+Now that we have the output dataset, lets proceed to use our approach. The first step is the fitting process, find the \textit{GLD} that best fit the dataset on each location. Similar to the previous use case, we use the fitting functions of the \textbf{suq$^2$} package. In all the spatial locations the algorithm return a valid \textit{GLD} with $p_{value} > 0.05$. 
+
+\subsection{Queries}
+The main question the researchers of the \textbf{spus} package are interesting in is identify all locations where the $C/N$ ratio is smaller than 24, with 90\% probability. This information might be used by farmers to identify which plots require action on improving soil quality.
+
+This question is not part of the queries we propose in our approach. So, we show now, how queries like this one are simple to answer with our approach, demonstrating how easy is to extend it.
+
+The \textit{GLD} is defined by it quantile function (see Section \ref{sec:parameterizations}). The question of \textit{"locations where the $C/N$ ratio is smaller than 24, with 90\% probability"} can be translated as: \textit{"locations where the 90\% percentile of the distribution is less or equal to 24"}. 
+
+To answer this question two new algorithms are proposed (could be one algorithm but to warranty that the functions are sufficiently generic, we propose a two algorithms), Algorithm \ref{alg:quantileValueGLD} to compute the value of the quantile $q$ of the \textit{GLD} over a spatio-temporal region $(s_{i},t_{j})$, and Algorithm \ref{alg:quantileValue2GLD} to compare if the quantile value returned by the previous algorithm is less or equal to the desired value.
+
+\begin{algorithm} 
+\caption{This Algorithm return the value of the quantile $q$ for each \textit{GLD} in $(s_{i},t_{j})$.}\label{alg:quantileValueGLD}
+\begin{algorithmic}[1] 
+\Function{gldQuantile}{$S(s_{i},t_{j}, <\lambda_{1},\lambda_{2},\lambda_{3},\lambda_{4}>), q$} 
+\For{\textbf{each} $(s_{i},t_{j})$}
+\State $S(s_{i},t_{j}, q_{value}) \gets \Call {suq2.utils.qgl}{S(s_{i},t_{j}, <\lambda_{1},\lambda_{2},\lambda_{3},\lambda_{4}>), q}$
+\EndFor
+\EndFunction 
+\end{algorithmic} 
+\end{algorithm} 
+
+\begin{algorithm} 
+\caption{This Algorithm assigns a 1 to $S(s_{i},t_{j}, q_{result})$ if the value at this position meets the condition, and 0 otherwise.}\label{alg:quantileValue2GLD}
+\begin{algorithmic}[1] 
+\Function{gldQuantileCompare}{$S(s_{i},t_{j}, q_{value}), q_{compare}$} 
+\For{\textbf{each} $(s_{i},t_{j})$}
+\If{$q_{value} \leq q_{compare}$}
+\State $S(s_{i},t_{j}, q_{result}) \gets 1$
+\Else
+\State $S(s_{i},t_{j}, q_{result}) \gets 0$
+\EndIf
+\EndFor
+\EndFunction 
+\end{algorithmic} 
+\end{algorithm} 
+
+In lines 4 and 6 of Algorithm \ref{alg:quantileValue2GLD} we assign a value 1 or 0 if the quantile at position $(s_{i},t_{j})$ meets the condition or not. Figures \ref{fig:resp_spus} and \ref{fig:resp_suq2} show the resultant images of the \textbf{spus} and \textbf{suq$^2$} respectively. The results is not exactly the same as we can see by simple observation, but is extremely similar. To be more precise, the comparison of both image matrix return a 89\% of similarity.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/use_cases/spus/respuesta_spus2.png}
+    \caption{Locations where the $C/N$ ratio is smaller than 24, with 90\% probability, \textbf{spus} package.}
+    \label{fig:resp_spus}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/use_cases/spus/respuesta_suq22.png}
+    \caption{Locations where the $C/N$ ratio is smaller than 24, with 90\% probability, \textbf{suq$^2$} package.}
+    \label{fig:resp_suq2}
+\end{figure}
+
+\subsection{Clustering}
+Although the main objective of this case study was accomplished, we test the proposed workflow with the current dataset. The clustering algorithm was running with
+
+
 
 \section{Case Study: Austin, queso library}\label{spatio_temporal}
 
@@ -337,3 +424,5 @@ Este caso de estudio es el primero del paquete R spup. Nuestros resultados son l
 
 \section{Case Study: Spatio-temporal Nicholson-Bailey model}
 Este esta en el software uqlab, en la carpeta Doc Manuals
+
+\section{Summary}\label{sec:use_case_summary}

@@ -65,7 +65,14 @@
 \usepackage{svg}
 \usepackage{mathtools,bm}
 \usepackage{listings}
-\lstset{language=R}
+%\lstset{language=R}
+\lstset{language=R,
+    basicstyle=\small\ttfamily,
+    otherkeywords={0,1,2,3,4,5,6,7,8,9},
+    morekeywords={TRUE,FALSE},
+    deletekeywords={data,frame,length,as,character},
+    keywordstyle=\color{blue},
+}
 \usepackage{amsthm}
 
 \theoremstyle{plain}
@@ -407,16 +414,12 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % resumo em inglês
 \begin{resumo}[Abstract]
  \begin{otherlanguage*}{english}
- Large-scale spatio-temporal simulations with quantified uncertainty enable scientists/decision-makers to precisely assess the degree of confidence of their simulation-based predictions. This uncertainty could be qu antified or characterized in different ways, from the use of low order statistical moments (the most commonly used), to the evaluation of a complete PDF (a most complete approach). The latter provides a more comprehensive description of the uncertainty leading to aware decisions. However, fitting PDFs to the data is computational intesive. Moreover, due to heterogeneity the uncertainty computed in regions of the dataset is hampered by the existence of different PDF types. 
+Large-scale spatio-temporal simulations with quantified uncertainty enable scientists/decision-makers to precisely assess the degree of confidence of their simulation-based predictions. This uncertainty could be qu antified or characterized in different ways, from the use of low order statistical moments (the most commonly used), to the evaluation of a complete PDF (a most complete approach). The latter provides a more comprehensive description of the uncertainty leading to aware decisions. However, fitting PDFs to the data is computational intesive. Moreover, due to heterogeneity the uncertainty computed in regions of the dataset is hampered by the existence of different PDF types. 
  
- In this thesis, we propose a new method to quantify the uncertainty in large-scale spatio-temporal models based on the Generalized Lambda Distribution (GLD). GLD is a family of PDFs that nicely models
-the heterogeneity of uncertainty as discussed above. It is specified by 4 parameters that
+In this thesis, we propose a new method to quantify the uncertainty in large-scale spatio-temporal models based on the Generalized Lambda Distribution (GLD). GLD is a family of PDFs that nicely models the heterogeneity of uncertainty as discussed above. It is specified by 4 parameters that
 simplifies PDFs comparisons easing analytical processing, such as clustering. We show how
 the dataset modeled through GLDs can be used to answer queries, such as: (\textit{i}) how to
-group the output of the UQ process based on the simillarity of the uncertainty?, (\textit{ii}) what
-is the uncertainty in some spatio-temporal locations not previously analysed?, (\textit{iii}) what is
-the uncertainty of an specific spatio-temporal region?, (\textit{iv}) how to compare two regions as a
-function of its uncertainty?, and (\textit{v}) what is the less uncertain model from a set of models?
+group the output of the UQ process based on the simillarity of the uncertainty?, (\textit{ii}) what is the uncertainty in some spatio-temporal locations not previously analysed?, (\textit{iii}) what is the uncertainty of an specific spatio-temporal region?, (\textit{iv}) how to compare two regions as a function of its uncertainty?, and (\textit{v}) what is the less uncertain model from a set of models?
 The proposed method has been tested in realistic use cases from various scientific areas.
 Additionally, an R package has been implemented with all the functionalities discussed in
 the thesis.
@@ -518,8 +521,8 @@ the thesis.
 \include{capitulos/backgroud}
 %\include{capitulos/ji}
 \include{capitulos/gld}
-\include{capitulos/gld_clustering}
-\include{capitulos/our_approach}
+\include{gld_clustering}
+\include{our_approach}
 %\include{capitulos/kriging}
 %\include{capitulos/data_model}
 %\include{capitulos/tensorflow}
@@ -569,41 +572,41 @@ the thesis.
 % ---
 % Inicia os apêndices
 % ---
-\begin{apendicesenv}
-
-% Imprime uma página indicando o início dos apêndices
-\partapendices
-
-% Inclusão dos arquivos referentes aos apêndices
-% ----------------------------------------------------------
-\include{apendices/apendiceA}
-\include{apendices/apendiceB}
-\include{apendices/apendiceC}
-% ----------------------------------------------------------
-
-\end{apendicesenv}
-% ---
-
-% ----------------------------------------------------------
-% Anexos
-% ----------------------------------------------------------
-
-% ---
-% Inicia os anexos
-% ---
-\begin{anexosenv}
-
-% Imprime uma página indicando o início dos anexos
-\partanexos
-
-% Inclusão dos arquivos referentes aos anexos
-% ----------------------------------------------------------
-\include{anexos/anexoA}
-\include{anexos/anexoB}
-\include{anexos/anexoC}
-% ----------------------------------------------------------
-
-\end{anexosenv}
+%\begin{apendicesenv}
+%
+%% Imprime uma página indicando o início dos apêndices
+%\partapendices
+%
+%% Inclusão dos arquivos referentes aos apêndices
+%% ----------------------------------------------------------
+%\include{apendices/apendiceA}
+%\include{apendices/apendiceB}
+%\include{apendices/apendiceC}
+%% ----------------------------------------------------------
+%
+%\end{apendicesenv}
+%% ---
+%
+%% ----------------------------------------------------------
+%% Anexos
+%% ----------------------------------------------------------
+%
+%% ---
+%% Inicia os anexos
+%% ---
+%\begin{anexosenv}
+%
+%% Imprime uma página indicando o início dos anexos
+%\partanexos
+%
+%% Inclusão dos arquivos referentes aos anexos
+%% ----------------------------------------------------------
+%\include{anexos/anexoA}
+%\include{anexos/anexoB}
+%\include{anexos/anexoC}
+%% ----------------------------------------------------------
+%
+%\end{anexosenv}
 
 %---------------------------------------------------------------------
 % INDICE REMISSIVO
