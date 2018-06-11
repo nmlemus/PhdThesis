@@ -2,17 +2,17 @@
 \babel@toc {english}{}
 \contentsline {table}{\numberline {1}{\ignorespaces Support regions of the GLD and conditions on the parameters given by the RS parameterization to define a valid distribution function \cite {Karian2011}. The support regions are displayed in Fig. \ref {fig:rs_regions}. Note that there are no conditions on $\lambda _{1}$ to obtain a valid distribution.}}{37}{table.3.1}
 \contentsline {table}{\numberline {2}{\ignorespaces Support regions of the \textit {GLD} given by the \textit {FMKL} parameterization \cite {Marcondes2018}.}}{38}{table.3.2}
-\contentsline {table}{\numberline {3}{\ignorespaces Examples of the five categories of distributions the \textit {FMKL GLD} can represent.}}{41}{table.3.3}
-\contentsline {table}{\numberline {4}{\ignorespaces GLD Approximations of 8 Well-Known Distributions}}{44}{table.3.4}
+\contentsline {table}{\numberline {3}{\ignorespaces Examples of the five categories of distributions the \textit {FMKL GLD} can represent.}}{40}{table.3.3}
+\contentsline {table}{\numberline {4}{\ignorespaces GLD Approximations of 8 Well-Known Distributions}}{43}{table.3.4}
 \contentsline {table}{\numberline {5}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{56}{table.4.5}
 \contentsline {table}{\numberline {6}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{63}{table.4.6}
 \contentsline {table}{\numberline {7}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{2}$, $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{66}{table.4.7}
 \contentsline {table}{\numberline {8}{\ignorespaces Distribution of the clusters using k-means over the $\lambda _{3}$ and $\lambda _{4}$ values of the \textit {GLDs}.}}{68}{table.4.8}
-\contentsline {table}{\numberline {9}{\ignorespaces Values of $v_{p}$ used in the generation of a single velocity field cube.}}{82}{table.6.9}
-\contentsline {table}{\numberline {10}{\ignorespaces PDFs and its parameters used to sampling the $v_{p}$, to generate n velocity models.}}{83}{table.6.10}
-\contentsline {table}{\numberline {11}{\ignorespaces Centers of the clusters obtained using the clustering algorithm proposed in Section \ref {sec:clustering}, over $(\lambda _{2}, \lambda _{3}, \lambda _{4})$ values.}}{89}{table.6.11}
-\contentsline {table}{\numberline {12}{\ignorespaces Distribution of the clusters.}}{90}{table.6.12}
-\contentsline {table}{\numberline {13}{\ignorespaces Analysis Regions.}}{91}{table.6.13}
-\contentsline {table}{\numberline {14}{\ignorespaces Distribution of the clusters by regions.}}{92}{table.6.14}
-\contentsline {table}{\numberline {15}{\ignorespaces p-values by regions.}}{92}{table.6.15}
-\contentsline {table}{\numberline {16}{\ignorespaces Information Entropy by regions.}}{93}{table.6.16}
+\contentsline {table}{\numberline {9}{\ignorespaces Values of $v_{p}$ used in the generation of a single velocity field cube.}}{83}{table.6.9}
+\contentsline {table}{\numberline {10}{\ignorespaces PDFs and its parameters used to sampling the $v_{p}$, to generate n velocity models.}}{84}{table.6.10}
+\contentsline {table}{\numberline {11}{\ignorespaces Centers of the clusters obtained using the clustering algorithm proposed in Section \ref {sec:clustering}, over $(\lambda _{2}, \lambda _{3}, \lambda _{4})$ values.}}{90}{table.6.11}
+\contentsline {table}{\numberline {12}{\ignorespaces Distribution of the clusters.}}{91}{table.6.12}
+\contentsline {table}{\numberline {13}{\ignorespaces Analysis Regions.}}{92}{table.6.13}
+\contentsline {table}{\numberline {14}{\ignorespaces Distribution of the clusters by regions.}}{93}{table.6.14}
+\contentsline {table}{\numberline {15}{\ignorespaces p-values by regions.}}{93}{table.6.15}
+\contentsline {table}{\numberline {16}{\ignorespaces Information Entropy by regions.}}{94}{table.6.16}
