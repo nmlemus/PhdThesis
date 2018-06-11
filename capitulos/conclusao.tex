@@ -1,25 +1,37 @@
 \chapter[Conclusions and Future Works]{Conclusions and Future Works}\label{cap:conclusions}
-Large-scale spatio-temporal simulations produce a huge amount of data that need to be interpreted in order to assess the simulation quality in different regions of space-time. Querying these data poses a great challenge due to their volume and different data distributions. In order to solve this problem, 
-in this paper we propose SUQ$^2$, a general approach to answer uncertainty quantification queries. 
+Large-scale spatio-temporal simulations produce a huge amount of data that need to be interpreted in order to assess the simulation quality in different regions of space-time. Querying these data poses a great challenge due to their volume and different data distributions. In order to solve this problem, in this thesis we propose a general approach to answer uncertainty quantification queries. 
 
-The approach uses \textit{GLD} that enables the representation of a spatio-temporal simulation output using a single functional formalism. By modeling each spatio-temporal point by a GLD instance, we can synthesize the region in a number of clusters, represented by their centroid GLD function. From this basis, queries can be answered by combining the centroids in a spatio-time region into GLD-mixture functions. Moreover, by using information entropy techniques, a value can be assigned that represents the uncertainty in a region. The proposed approach is implemented in a workflow that can be extended to solve new UQ queries.
+The approach uses \textit{GLD} that enables the representation of a spatio-temporal simulation output using a single functional formalism. By modeling each spatio-temporal point by a \textit{GLD} instance, we can synthesize the region in a number of clusters, represented by their centroid \textit{GLD} function. From this basis, queries can be answered by combining the centroids in a spatio-time region into \textit{GLD}-mixture functions. Moreover, by using information entropy techniques, a value can be assigned that represents the uncertainty in a region. The proposed approach is implemented in a workflow that can be extended to solve new UQ queries.
 
-We ran extensive experiments using a seismic use case. The results showed that GLD representation of the data is valid on $85 \%$ of the dataset. Other extensions of the GLD formalism, such as EGLD \cite{Karian2011}, can be evaluated to improve the GLD dataset coverage. Moreover, we showed that the computed centroid function is a good representation of the function instances in its cluster. Additionally, we use the Kolmogorov-Smirnov test to evaluate the quality of the GLD mixture. The p-value, larger than 0.05, assures that the results of the mixture is a good representation of the raw data in the region. Finally, the adoption of the Information Entropy technique was validated by showing the correspondence of the computed values with the uncertainty in the spatio-temporal regions. 
+We ran extensive experiments using two use cases. The results showed that \textit{GLD} representation of the data is valid on $85 \%$ of the dataset. Other extensions of the GLD formalism, such as EGLD \cite{Karian2011}, can be evaluated to improve the GLD dataset coverage. Moreover, we showed that the computed centroid function is a good representation of the function instances in its cluster. Additionally, we use the Kolmogorov-Smirnov test to evaluate the quality of the GLD mixture. The p-value, larger than 0.05, assures that the results of the mixture is a good representation of the raw data in the region. Finally, the adoption of the Information Entropy technique was validated by showing the correspondence of the computed values with the uncertainty in the spatio-temporal regions. 
 
 To the best of our knowledge, this is the first work to use GLD as the basis for answering UQ queries in spatio-temporal regions and to compile a series of techniques to produce a query answering workflow.
 
 \section{Revisiting the Research Questions}
+Let us now revisit the research questions.
 
-\section{Significance and Limitations}
+\textbf{RQ1.} \textit{how to group the output of the UQ process based on the similarity of the uncertainty?}
+In Chapter \ref{cap:gld_clustering} we demonstrate how the \textit{GLD} $\lambda$ values can be used to clustering uncertain data. The proposed approach was tested against two synthetic datasets and the results we got were exactly what we expected. 
+
+\textbf{RQ2.} \textit{what is the uncertainty in some spatio-temporal locations not previously analyzed?}
+To answer this research question, we propose in Chapter \ref{cap:our_approach} the use of the state-of-the-art methods for spatio-temporal interpolation (kriging). The methods were enunciated because this is a big research area out of the scope of this thesis.
+
+\textbf{RQ3.} \textit{what is the uncertainty at a specific spatio-temporal region?}
+Also in Chapter \ref{cap:our_approach} we propose two algorithms to deal with this research question. The first one propose the use of \textit{GLD} mixtures to characterize the uncertainty in a region as a \textbf{PDF}. The second algorithm propose the use of Information Entropy (IE) to quantify the uncertainty of the region in a single number. The second approach can be used when the different clusters that represent the \textit{GLDs} of the regions, can be interpreted as the possible outcomes of the system.
+
+\textbf{RQ4.} \textit{how to compare two regions as a function of their uncertainty?}
+Based on the second algorithm proposed to answer the \textbf{RQ3.} the comparison of the uncertainty in two regions is straightforward, see Chapter \ref{cap:our_approach}. We just need to compare the values of the IE in the two regions.
+
+\textbf{RQ5.} \textit{what is the least uncertain from a set of models?}
+The comparison of what is the least uncertain model from a set of models can be performed in the same way that we compare the uncertainty in two regions, by means of the IE.
 
 \section{Open Problems and Future Work}
-Some of the future directions we are interested in pursuing were mentioned above. For example, in Section \ref{useCaseClustering} we mention that for the purpose of this paper we select \textit{k-means} as the clustering algorithm to be used. This arbitrary selection needs to be studied, and some algorithms implemented to provide an automatic way to cluster the \textit{GLDs}, based on the shapes described in Section \ref{gldShape}.
-
-In Section \ref{useCaseQualityofFit}, there is a region where the \textit{GLD} does not fit well the dataset. If we want to provide a general purpose computational approach for \textit{forward propagation} we need to further investigate this issue.
+Some of the future directions we are interested in pursuing were mentioned above. For example, in Section \ref{useCaseQualityofFit}, there is a region where the \textit{GLD} does not fit well the dataset. If we want to provide a general purpose computational approach for \textit{forward propagation} we need to further investigate this issue.
 
 The use of Information Entropy to quantify the uncertainty is very powerful. However, when applied on clusters of PDFs, such as the GLD, it observes the information variation as a function of the PDF definition, in the case of GLD this is given by its for $\lambda$ parameters. In this context, a complete region modeled by a single GLD function would have a very low information entropy value. This, however would not express the uncertainty modeled by the GLD function, which could be very high. The outcome of the information entropy evaluation must be interpreted by the user. 
 
-\section{Final Considerations}
+The methods to fit the \textit{GLD} to data are out of the scope of this thesis, as we are interested in demonstrating its usability in UQ. Nevertheless it is important to remark that, fit the \textit{GLD} to data is computationally intensive but suitable to parallelization, we haven't found any work in the literature to explore the possibility of increasing the performance of the fitting process by means of parallelization. This is an open problem we are interested in exploring in the future.
+
 
 \subsection*{Acknowledgments}
 This work has been funded by CNPq, CAPES, FAPERJ, Inria (SciDISC project) and the European Commission (HPC4E H2020 project) and performed (for E. Pacitti and P. Valduriez) in the context of the Computational Biology Institute (www.ibc-montpellier.fr) and for (F. Porto, H. Lustosa and N. Lemus) in the context of the DEXL Laboratory (dexl.lncc.br)  at LNCC.

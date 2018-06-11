@@ -87,11 +87,9 @@
 \contentsline {subsection}{\numberline {6.2.4}Clustering}{97}{subsection.6.2.4}
 \contentsline {section}{\numberline {6.3}Summary}{101}{section.6.3}
 \contentsline {chapter}{\chapternumberline {7}Conclusions and Future Works}{102}{chapter.7}
-\contentsline {section}{\numberline {7.1}Revisiting the Research Questions}{103}{section.7.1}
-\contentsline {section}{\numberline {7.2}Significance and Limitations}{103}{section.7.2}
-\contentsline {section}{\numberline {7.3}Open Problems and Future Work}{103}{section.7.3}
-\contentsline {section}{\numberline {7.4}Final Considerations}{103}{section.7.4}
+\contentsline {section}{\numberline {7.1}Revisiting the Research Questions}{102}{section.7.1}
+\contentsline {section}{\numberline {7.2}Open Problems and Future Work}{103}{section.7.2}
 \vspace {\cftbeforepartskip }
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Bibliography}{104}{section*.17}
+\contentsline {chapter}{Bibliography}{105}{section*.17}
 \vspace {\cftbeforepartskip }

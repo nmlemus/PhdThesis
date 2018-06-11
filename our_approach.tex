@@ -177,8 +177,6 @@ In this section we discuss how UQ questions can be answered with the use of the 
 \textbf{RQ5.} what is the least uncertain from a set of models?
 \end{tcolorbox}
 
-
-
 \subsection{Use of GLD mixture to characterize the uncertainty in an spatio-temporal region}
 \label{sub:gldMixtureWorkflow}
 Lets start with \textbf{RQ.3}. The naive algorithm to answer this question could be something as follow: given a spatio-temporal region $(\mathcal{S}_{i} \times \mathcal{T}_{j})$, read and analyze all the data generated during the simulation process on that region. This is a process current used by many researchers and proposed for example in provenance softwares. It is clear that this approach is not so efficient. Now, in our approach we first find the \textit{GLD} that best fits the dataset at each $(s_{i},t_{j})$, then we test whether the fit is a good one. As a \textit{GLD} is proved to be a good random variate generator (see Section \ref{sec:gld_random_variate}), then we can substitute the raw data by the associated \textit{GLD}. Next, in the clustering step, we group all the \textit{GLDs} by their similarities, and then we test if the centroid of each cluster statistically represent the remaining members of their cluster. If this condition is met, then is possible to substitute each \textit{GLD} by the centroid of the cluster it belongs to. At the end of this process we substitute the raw data by a few centroids of the clusters.
