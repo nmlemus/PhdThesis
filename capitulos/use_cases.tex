@@ -135,7 +135,7 @@ S_{\mathcal{C}}(x_{i},y_{j},clusterID, GLD_{x_{i},y_{j}})
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{images/clusters1.png}
-    \caption{Result of the clusterization using the clustering algorithm proposed in Section \ref{sec:clustering}, over $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values with $n=10$.}
+    \caption{Result of the clusterization using the clustering algorithm proposed in Section \ref{sec:clustering}, over $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values with $k=10$.}
     \label{fig:clusters}
 \end{figure}
 
@@ -145,7 +145,7 @@ Another interesting result is shown in Figure \ref{fig:clusters_lambda3_lambda4_
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Clusters_lambda3_lambda4.png}
+    \includegraphics[width=0.8\textwidth]{img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png}
     \caption{Distribution of the clusters in the $(\lambda_{3}, \lambda_{4})$ space. The points that belongs to a same cluster are one near the others, as was expected.}
     \label{fig:clusters_lambda3_lambda4_space}
 \end{figure}
@@ -414,15 +414,73 @@ In lines 4 and 6 of Algorithm \ref{alg:quantileValue2GLD} we assign a value 1 or
 \end{figure}
 
 \subsection{Clustering}
-Although the main objective of this case study was accomplished, we test the proposed workflow with the current dataset. The clustering algorithm was running with
+Although the main objective of this case study was accomplished, we test the proposed workflow with the current dataset. First to all is important to note that, as the mathematical model is $C/N = \mathcal{M}(OC, TN)$, and we use normal distributions to describe the uncertainty in both $OC$ and $TN$, then we expect that the uncertainty of the output $C/N$ follow a normal distribution too.
 
+In Figure \ref{fig:l3l4} we show the values of $(\lambda_{3}, \lambda_{4})$ over its space. All the values correspond to Class-I ($\lambda_{3} < 1$, $\lambda_{4}<1$), sub-class $I_{a}$: $(\lambda_{3}, \lambda_{4} \leq 1/2)$ of the \textit{FMKL-GLD} parameterization (see Section \ref{sec:gld_shapes}), where we find distributions such us $Gaussian (Normal)$, $Beta(2.3)$ and $\Gamma(\alpha = 5)$. This mean that the shape of the distributions inside the dataset are similar (Normal) and $(\lambda_{3}, \lambda_{4})$  don't determine so much in the clustering process.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/use_cases/spus/l3l4.eps}
+    \caption{Distribution of the values of $(\lambda_{3}, \lambda_{4})$. All the values are in the Class-I, sub-class $I_{a}$ of the \textit{FMKL-GLD} parameterization.}
+    \label{fig:l3l4}
+\end{figure}
 
-\section{Case Study: Austin, queso library}\label{spatio_temporal}
+Using the following R code we select the optimal number of clusters in this case, based in the values of $\lambda_2$:
 
-\section{Case Study: Multidisciplinary System (NASA)}\label{NASA}
+\begin{lstlisting}[language=R]
+#Elbow Method for finding the optimal number of clusters
+set.seed(123)
+# Compute and plot wss for k = 2 to k = 15.
+k.max <- 15
+data <- lambda_2
+wss <- sapply(1:k.max, 
+       function(k){kmeans(data, k, nstart=50,
+               iter.max = 15 )$tot.withinss})
+\end{lstlisting}
 
-\section{Case Study: Spatio-temporal Nicholson-Bailey model}
-Este esta en el software uqlab, en la carpeta Doc Manuals
+The result is shown in Figure \ref{fig:optim_clusters}. Therefore for k=4 the between\_ss/total\_ss ratio tends to change slowly and remain less changing as compared to other k's. So for this data k=4 should be a good choice for number of clusters.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/use_cases/spus/optim_clusters.eps}
+    \caption{Distribution of the values of $(\lambda_{3}, \lambda_{4})$. All the values are in the Class-I, sub-class $I_{a}$ of the \textit{FMKL-GLD} parameterization.}
+    \label{fig:optim_clusters}
+\end{figure}
+
+Using the clustering algorithm with $k=4$ we get the image of Figure \ref{fig:image_suq2}. In the four clusters is include the lake region where we don't have measures.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/use_cases/spus/clusters_image.eps}
+    \caption{Result of the clusterization using the clustering algorithm proposed in Section \ref{sec:clustering}, over $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values with $k=4$.}
+    \label{fig:image_suq2}
+\end{figure}
+
+In Figure \ref{fig:l3l4_suq2} the clusters are projected over the $(\lambda_{3}, \lambda_{4})$ space. As was expected, the clusters are mixed in this figure because $\lambda_{3}$ and $\lambda_{4}$ don't determine the clusters in this case.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/use_cases/spus/clustersl3l4_4.eps}
+    \caption{Distribution of the clusters in the $(\lambda_{3}, \lambda_{4})$ space. The homogeneity in the image suggest that all the clusters have similar shapes.}
+    \label{fig:l3l4_suq2}
+\end{figure}
+
+Very different is the result we show in Figure \ref{fig:l2l3l4_suq2} as $\lambda_{2}$ is the responsible of the differences in the distributions. First to all, we observe a yellow point near $(0, 0, 0)$, this point correspond to all the values of the lake region. The other three clusters are well defined in the figure.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/use_cases/spus/clustersl2l3l4.png}
+    \caption{Distribution of the clusters in the $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ space. The difference in $\lambda_{2}$ determine the different variances of the clusters.}
+    \label{fig:l2l3l4_suq2}
+\end{figure}
+
+Finally, in Figure \ref{fig:clusters_suq2} we show 60 members of the 4 clusters returned by the algorithm. The last figure is empty because it correspond to the lake region. On the other three figures we can see the differences in the variance, the first one is located between $[-4, 4]$, the second between $[-5, 5]$ and the last one between $[-5, 10]$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/use_cases/spus/clusters.eps}
+    \caption{\textit{PDFs} of 60 members of the 4 clusters obtained using the clustering algorithm proposed in Section \ref{sec:clustering}, over $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values. The last cluster is empty because is the lake region, where we don't have measures of the $C/N$ ratio.}
+    \label{fig:clusters_suq2}
+\end{figure}
 
 \section{Summary}\label{sec:use_case_summary}

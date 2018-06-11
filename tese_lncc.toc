@@ -86,16 +86,13 @@
 \contentsline {subsection}{\numberline {6.2.2}Fitting the GLD}{94}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Queries}{95}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}Clustering}{96}{subsection.6.2.4}
-\contentsline {section}{\numberline {6.3}Case Study: Austin, queso library}{97}{section.6.3}
-\contentsline {section}{\numberline {6.4}Case Study: Multidisciplinary System (NASA)}{97}{section.6.4}
-\contentsline {section}{\numberline {6.5}Case Study: Spatio-temporal Nicholson-Bailey model}{97}{section.6.5}
-\contentsline {section}{\numberline {6.6}Summary}{97}{section.6.6}
-\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Works}{98}{chapter.7}
-\contentsline {section}{\numberline {7.1}Revisiting the Research Questions}{99}{section.7.1}
-\contentsline {section}{\numberline {7.2}Significance and Limitations}{99}{section.7.2}
-\contentsline {section}{\numberline {7.3}Open Problems and Future Work}{99}{section.7.3}
-\contentsline {section}{\numberline {7.4}Final Considerations}{99}{section.7.4}
+\contentsline {section}{\numberline {6.3}Summary}{100}{section.6.3}
+\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Works}{101}{chapter.7}
+\contentsline {section}{\numberline {7.1}Revisiting the Research Questions}{102}{section.7.1}
+\contentsline {section}{\numberline {7.2}Significance and Limitations}{102}{section.7.2}
+\contentsline {section}{\numberline {7.3}Open Problems and Future Work}{102}{section.7.3}
+\contentsline {section}{\numberline {7.4}Final Considerations}{102}{section.7.4}
 \vspace {\cftbeforepartskip }
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Bibliography}{100}{section*.17}
+\contentsline {chapter}{Bibliography}{103}{section*.17}
 \vspace {\cftbeforepartskip }
