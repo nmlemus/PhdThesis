@@ -121,9 +121,76 @@ Our purpose here is not to provide a new interpolation method over the \textbf{G
 
 For this reason we select the state-of-the-art spatio-temporal interpolation method, from the best of our knowledge, proposed by Graler et al. in \cite{Graler2016}, and implemented it in the R package \textbf{gstat}. The selection obeys the fact that this implementation includes time as an extra dimension, and allows us to interpolate in space and time at the same time.
 
-\subsection{Kriging over GLD}
+\subsection{Kriging over \textit{GLD}}
+First to all, we define some concepts that are important to understand our proposal. The first concept is \textbf{what is Kriging?}.
 
-The workflow of spatio-temporal interpolation using \textbf{gstat} has three steps: (i) variogram, (ii) fitting, and (iii) interpolation. The implementation of this workflow over the \textbf{GLD} using \textbf{gstat} is shown in Algorithm \ref{alg:krigingGLD}.
+\begin{defn}
+Optimal interpolation based on regression against observed values of surrounding data points, weighted according to spatial covariance values.
+\end{defn}
+
+An the definition of \textbf{interpolation} is: 
+
+\begin{defn}
+Estimation of a variable at an unmeasured location from observed values at surrounding locations.
+\end{defn}
+
+For example, suppose we have a measure of the porosity at an spacial region, Figure \ref{fig:porosity}, and we want to estimate the porosity value in an unmeasured point marker with $+$ in the figure, based on porosity values at nearest six data points, Figure \ref{fig:kriging_example}. 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{mg/our_approach/porosity.png}
+    \caption{Porosity measure over an spatial region. We want to estimate the porosity value in an unmeasured point marker with $+$.}
+    \label{fig:porosity}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{mg/our_approach/kriging_example.png}
+    \caption{Nearest six data points surrounding the point where we want to estimate the porosity.}
+    \label{fig:kriging_example}
+\end{figure}
+
+All interpolation algorithms (inverse distance squared, splines, radial basis functions, triangulation, etc.) estimate the value at a given location as a weighted sum of data values at surrounding locations. Almost all assign weights according to functions that give a decreasing weight with increasing separation distance. Kriging assigns weights according to a (moderately) \textbf{data-driven weighting function}, rather than an arbitrary function, but it is still just an interpolation algorithm.
+
+All kriging estimators are but variants of the basic linear regression estimator defined as:
+
+\begin{equation}
+Z(u*) - m(u) = \sum_{\alpha = 1}^{n(u)} \lambda_{\alpha}\left[Z(u_{\alpha} - m(u_{\alpha})) \right] 
+\end{equation}
+
+with:
+
+\begin{itemize}
+\item $\bm{u}, \bm{u_{\alpha}}$ location vectors for estimation point and one of the neighboring data points, indexed by $\alpha$,
+\item $\bm{n(u)}$ number of data points in local neighborhood used for estimation of $Z(u*)$,
+\item $\bm{m(u)}, \bm{m(u_{\alpha})}$ expected values (means) of $Z(u)$ and $Z(u*)$,
+\item $\bm{\lambda_{\alpha}}$ kriging weight assigned to datum $Z(u_{\alpha})$ for estimation
+location $u$; same datum will receive different weight for different estimation location
+\end{itemize}
+
+The goal is to determine weights, $\bm{\lambda_{\alpha}}$, that minimize the variance of the estimator
+
+\begin{equation}
+\sigma_{E}^2 = Var \lbrace Z*(u)-Z(u) \rbrace
+\end{equation}
+
+Kriging weights, $\bm{\lambda_{\alpha}}$, are derived from covariance function or semivariogram. The semivariogram is defined as:
+
+\begin{equation}
+\gamma(u_{i}, u_{j}) = \frac{1}{2}Var \lbrace Z(u_{i})-Z(u_{j}) \rbrace
+\end{equation}
+
+If two locations, $u_{i}$ and $u_{j}$, are close to each other, you expect them to be similar, so the difference in their values, $Z(u_{i})-Z(u_{j})$, will be small. As $u_{i}$ and $u_{j}$ get farther apart, they become less similar, so the difference in their values, $Z(u_{i})-Z(u_{j})$, will become larger.
+
+There are different types of semivariograms, such as: circular, spherical, tetraspherical, exponential, Gaussian, etc.
+
+The semivariogram provide information on the spatial autocorrelation of datasets. However, they do not provide information for all possible directions and distances. For this reason, and to ensure that kriging predictions have positive kriging variances, it is necessary to fit a model (in other words, a continuous function or curve) to the empirical semivariogram.
+
+After you have uncovered the dependence or autocorrelation in your data and have finished with the first use of the data -using the spatial information in the data to compute distances and model the spatial autocorrelation- you can make a prediction using the fitted model. 
+
+Summarizing, the kriging method is a process with three main steps (i) estimate the semivariogram, (ii) fit a model to the empirical semivariogram, and (iii) make predictions.
+
+Those steps are implemented into the \textbf{gstat} R package. The implementation of this workflow over the \textbf{GLD} using \textbf{gstat} is shown in Algorithm \ref{alg:krigingGLD}. In line 2 the semivariogram is created, \textbf{gstat} provide different functions to create different semivariograms. In line 3 we fit a model using the dataset and the semivariogram. Finally in line 4 we make predictions of the $\lambda$ values of the \textit{GLDs} over the unmeasured regions.
 
 \begin{algorithm} 
 \caption{Spatio-temporal interpolation over the $\lambda_{(2,3,4)}$ values of the GLD.}\label{alg:krigingGLD}
@@ -142,7 +209,7 @@ As a result of this algorithm a new dataset with the interpolated values of the 
 S''(s_{i},t_{j},GLD(\lambda_{1}, \lambda_{2}, \lambda_{3}, \lambda_{4}))
 \end{equation}
 
-\emph{FP: VC PRECISA AO MENOS FORNECER UMA INTUIÇÃO DO ALGORITMO DE INTERPOLAÇÃO}
+%\emph{FP: VC PRECISA AO MENOS FORNECER UMA INTUIÇÃO DO ALGORITMO DE INTERPOLAÇÃO}
 
 \section{GLD Clustering}\label{sec:clustering}
 In Chapter \ref{cap:gld_clustering} we discussed how to use a \textit{GLD} to group uncertain data. Algorithm \ref{alg:clusterGLD2}, proposed in that chapter, is used here to provide the clustering of \textit{GLDs}.
@@ -277,7 +344,7 @@ The package has been divided into five sub-package, one for each step or the wor
 
 As R is an interactive language, to warrant the easy to use of the functions inside the package we use the following pattern: (i) the name of all package fucntions start with \textbf{suq2.}; (ii) after \textbf{suq2.} we add a name that identifies a sub-package, for example the name of all the functions of the sub-package \textbf{plot} start with \textbf{suq2.plot.}; (iii) and finally a name that identifies the functionality of the function. For example a function to plot a gld based on its $\lambda$ values is named \textbf{suq2.plot.gld()}, while a function to cluster the \textit{GLDs} based on $\lambda_{2}$ is \textbf{suq2.clustering.lambda2()}.
 
-The full documentation of the package is available inside the installation and in Anexo \ref{anexoA}.
+The full documentation of the package is available inside the installation and in Appendix A.
 
 \section{Summary}\label{sec:approach_summary}
 In this Chapter we present the workflow of the proposed approach. The workflow is divided into four steps: fitting, kriging, clustering and queries. The algorithms of all the steps are presented and commented. In Section \ref{sec:queries} the queries to answer the research questions raised in the introduction were discuss. Finally, in Section \ref{sec:suq2} we present SUQ$^2$, an R package that implements our approach.  

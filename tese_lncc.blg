@@ -4,8 +4,8 @@ The top-level auxiliary file: tese_lncc.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: capitulos/backgroud.aux
 A level-1 auxiliary file: capitulos/gld.aux
-A level-1 auxiliary file: capitulos/gld_clustering.aux
-A level-1 auxiliary file: capitulos/our_approach.aux
+A level-1 auxiliary file: gld_clustering.aux
+A level-1 auxiliary file: our_approach.aux
 A level-1 auxiliary file: capitulos/use_cases.aux
 A level-1 auxiliary file: capitulos/conclusao.aux
 The style file: abntex2-alf.bst
@@ -41,7 +41,6 @@ Repeated entry---line 2608 of file MyCollection.bib
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "NBR6028:2003"
-Warning--I didn't find a database entry for "Rajan2016a"
 Warning--I didn't find a database entry for "Su2005"
 Warning--I didn't find a database entry for "da2012measurement"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -57,7 +56,7 @@ Warning--faltando school em Mustafa2016
 +---------------------------------------------------------+
 You've used 55 entries,
             6714 wiz_defined-function locations,
-            1625 strings with 21747 characters,
+            1623 strings with 21707 characters,
 and the built_in function-call counts, 77986 in all, are:
 = -- 8537
 > -- 1843
