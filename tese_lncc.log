@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  11 JUN 2018 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  12 JUN 2018 00:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2797,7 +2797,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 \openout2 = `capitulos/use_cases.aux'.
 
  (./capitulos/use_cases.tex
-<images/velocity_field.png, id=1404, 854.19125pt x 487.8225pt>
+<images/velocity_field.png, id=1405, 854.19125pt x 487.8225pt>
 File: images/velocity_field.png Graphic file (type png)
 <use images/velocity_field.png>
 Package pdftex.def Info: images/velocity_field.png  used on input line 38.
@@ -2813,7 +2813,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.37})
                                                   \fi \fi 
 l.45 
       <./images/velocity_field.png>]
-<images/vp_1000_realizations.png, id=1416, 417.2388pt x 227.8914pt>
+<images/vp_1000_realizations.png, id=1417, 417.2388pt x 227.8914pt>
 File: images/vp_1000_realizations.png Graphic file (type png)
 <use images/vp_1000_realizations.png>
 Package pdftex.def Info: images/vp_1000_realizations.png  used on input line 77
@@ -2839,12 +2839,12 @@ l.92 \end{equation}
                                                   \fi \fi 
 l.92 \end{equation}
                     <./images/vp_1000_realizations.png>]
-<images/p_value.png, id=1435, 388.8126pt x 230.7822pt>
+<images/p_value.png, id=1436, 388.8126pt x 230.7822pt>
 File: images/p_value.png Graphic file (type png)
 <use images/p_value.png>
 Package pdftex.def Info: images/p_value.png  used on input line 103.
 (pdftex.def)             Requested size: 364.00139pt x 216.06902pt.
-<images/p_value_greater_05.png, id=1436, 387.849pt x 219.7008pt>
+<images/p_value_greater_05.png, id=1437, 387.849pt x 219.7008pt>
 File: images/p_value_greater_05.png Graphic file (type png)
 <use images/p_value_greater_05.png>
 Package pdftex.def Info: images/p_value_greater_05.png  used on input line 110.
@@ -2857,7 +2857,7 @@ Package pdftex.def Info: images/p_value_greater_05.png  used on input line 110.
                                                   \fi \fi 
 l.114 
        <./images/p_value.png>]
-<images/kolmogorov_distance.png, id=1448, 393.1488pt x 227.8914pt>
+<images/kolmogorov_distance.png, id=1449, 393.1488pt x 227.8914pt>
 File: images/kolmogorov_distance.png Graphic file (type png)
 <use images/kolmogorov_distance.png>
 Package pdftex.def Info: images/kolmogorov_distance.png  used on input line 123
@@ -2876,12 +2876,12 @@ l.130
                                                   \fi \fi 
 l.130 
        <./images/p_value_greater_05.png> <./images/kolmogorov_distance.png>]
-<images/clusters1.png, id=1460, 884.30376pt x 510.90875pt>
+<images/clusters1.png, id=1461, 884.30376pt x 510.90875pt>
 File: images/clusters1.png Graphic file (type png)
 <use images/clusters1.png>
 Package pdftex.def Info: images/clusters1.png  used on input line 137.
 (pdftex.def)             Requested size: 364.00139pt x 210.3003pt.
-<img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png, id=1467, 602.25pt 
+<img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png, id=1468, 602.25pt 
 x 382.42876pt>
 File: img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png Graphic file (
 type png)
@@ -2908,13 +2908,13 @@ f>
 -converted-to.pdf img/use_cases/clusters.eps>
 (epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/clusters-eps-converted-to.pdf, id=1476, 764.8575pt x 485.815pt>
+<img/use_cases/clusters-eps-converted-to.pdf, id=1477, 764.8575pt x 485.815pt>
 File: img/use_cases/clusters-eps-converted-to.pdf Graphic file (type pdf)
 <use img/use_cases/clusters-eps-converted-to.pdf>
 Package pdftex.def Info: img/use_cases/clusters-eps-converted-to.pdf  used on i
 nput line 157.
 (pdftex.def)             Requested size: 455.0pt x 289.0005pt.
-<images/Clusters_histogram.png, id=1483, 815.045pt x 551.05875pt>
+<images/Clusters_histogram.png, id=1484, 815.045pt x 551.05875pt>
 File: images/Clusters_histogram.png Graphic file (type png)
 <use images/Clusters_histogram.png>
 Package pdftex.def Info: images/Clusters_histogram.png  used on input line 187.
@@ -2947,7 +2947,7 @@ l.215
 l.215 
        <./img/use_cases/clusters-eps-converted-to.pdf> <./images/Clusters_histo
 gram.png>]
-<images/regions.png, id=1505, 710.655pt x 459.1554pt>
+<images/regions.png, id=1506, 710.655pt x 459.1554pt>
 File: images/regions.png Graphic file (type png)
 <use images/regions.png>
 Package pdftex.def Info: images/regions.png  used on input line 220.
@@ -3010,7 +3010,7 @@ verted-to.pdf>
 _example-eps-converted-to.pdf img/use_cases/spus/dataset_example.eps>
 (epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/dataset_example-eps-converted-to.pdf, id=1537, 1084.05pt x 
+<img/use_cases/spus/dataset_example-eps-converted-to.pdf, id=1538, 1084.05pt x 
 578.16pt>
 File: img/use_cases/spus/dataset_example-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3026,13 +3026,13 @@ f  used on input line 344.
 l.351 \begin{lstlisting}[language=R]
                                      <./img/use_cases/spus/dataset_example-eps-
 converted-to.pdf>] [96]
-<img/use_cases/spus/respuesta_spus2.png, id=1573, 602.25pt x 389.95688pt>
+<img/use_cases/spus/respuesta_spus2.png, id=1574, 602.25pt x 389.95688pt>
 File: img/use_cases/spus/respuesta_spus2.png Graphic file (type png)
 <use img/use_cases/spus/respuesta_spus2.png>
 Package pdftex.def Info: img/use_cases/spus/respuesta_spus2.png  used on input 
 line 404.
 (pdftex.def)             Requested size: 364.00139pt x 235.70149pt.
-<img/use_cases/spus/respuesta_suq22.png, id=1574, 602.25pt x 389.95688pt>
+<img/use_cases/spus/respuesta_suq22.png, id=1575, 602.25pt x 389.95688pt>
 File: img/use_cases/spus/respuesta_suq22.png Graphic file (type png)
 <use img/use_cases/spus/respuesta_suq22.png>
 Package pdftex.def Info: img/use_cases/spus/respuesta_suq22.png  used on input 
@@ -3056,7 +3056,7 @@ df>
 s-converted-to.pdf img/use_cases/spus/l3l4.eps>
 (epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/l3l4-eps-converted-to.pdf, id=1584, 1084.05pt x 578.16pt>
+<img/use_cases/spus/l3l4-eps-converted-to.pdf, id=1585, 1084.05pt x 578.16pt>
 File: img/use_cases/spus/l3l4-eps-converted-to.pdf Graphic file (type pdf)
 <use img/use_cases/spus/l3l4-eps-converted-to.pdf>
 Package pdftex.def Info: img/use_cases/spus/l3l4-eps-converted-to.pdf  used on 
@@ -3080,7 +3080,7 @@ erted-to.pdf>
 lusters-eps-converted-to.pdf img/use_cases/spus/optim_clusters.eps>
 (epstopdf)             \includegraphics on input line 445.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/optim_clusters-eps-converted-to.pdf, id=1591, 1084.05pt x 5
+<img/use_cases/spus/optim_clusters-eps-converted-to.pdf, id=1592, 1084.05pt x 5
 78.16pt>
 File: img/use_cases/spus/optim_clusters-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3106,7 +3106,7 @@ erted-to.pdf>
 s_image-eps-converted-to.pdf img/use_cases/spus/clusters_image.eps>
 (epstopdf)             \includegraphics on input line 454.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/clusters_image-eps-converted-to.pdf, id=1619, 1084.05pt x 5
+<img/use_cases/spus/clusters_image-eps-converted-to.pdf, id=1620, 1084.05pt x 5
 78.16pt>
 File: img/use_cases/spus/clusters_image-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3125,7 +3125,7 @@ erted-to.pdf>
 sl3l4_4-eps-converted-to.pdf img/use_cases/spus/clustersl3l4_4.eps>
 (epstopdf)             \includegraphics on input line 463.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf, id=1623, 1084.05pt x 5
+<img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf, id=1624, 1084.05pt x 5
 78.16pt>
 File: img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3147,7 +3147,7 @@ l.467
 l.467 
        <./img/use_cases/spus/optim_clusters-eps-converted-to.pdf> <./img/use_ca
 ses/spus/clusters_image-eps-converted-to.pdf>]
-<img/use_cases/spus/clustersl2l3l4.png, id=1645, 626.34pt x 526.96875pt>
+<img/use_cases/spus/clustersl2l3l4.png, id=1646, 626.34pt x 526.96875pt>
 File: img/use_cases/spus/clustersl2l3l4.png Graphic file (type png)
 <use img/use_cases/spus/clustersl2l3l4.png>
 Package pdftex.def Info: img/use_cases/spus/clustersl2l3l4.png  used on input l
@@ -3178,7 +3178,7 @@ to.pdf>
 s-eps-converted-to.pdf img/use_cases/spus/clusters.eps>
 (epstopdf)             \includegraphics on input line 481.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/clusters-eps-converted-to.pdf, id=1663, 1147.28625pt x 742.
+<img/use_cases/spus/clusters-eps-converted-to.pdf, id=1664, 1147.28625pt x 742.
 775pt>
 File: img/use_cases/spus/clusters-eps-converted-to.pdf Graphic file (type pdf)
 <use img/use_cases/spus/clusters-eps-converted-to.pdf>
@@ -3240,10 +3240,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 617.
  ) 
 Here is how much of TeX's memory you used:
- 32925 strings out of 494733
- 553358 string characters out of 6175648
- 820780 words of memory out of 5000000
- 34838 multiletter control sequences out of 15000+600000
+ 32926 strings out of 494733
+ 553383 string characters out of 6175648
+ 820821 words of memory out of 5000000
+ 34839 multiletter control sequences out of 15000+600000
  162073 words of font info for 243 fonts, out of 8000000 for 9000
  109 hyphenation exceptions out of 8191
  59i,14n,73p,1417b,1887s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3269,10 +3269,10 @@ share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tese_lncc.pdf (111 pages, 6583111 bytes).
+Output written on tese_lncc.pdf (111 pages, 6583210 bytes).
 PDF statistics:
- 2360 PDF objects out of 2487 (max. 8388607)
- 2084 compressed objects within 21 object streams
+ 2361 PDF objects out of 2487 (max. 8388607)
+ 2085 compressed objects within 21 object streams
  436 named destinations out of 1000 (max. 500000)
  46657 words of extra memory for PDF output out of 51595 (max. 10000000)
 

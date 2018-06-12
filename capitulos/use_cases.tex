@@ -362,7 +362,7 @@ The propagation of uncertainty occurs when the model is run with the uncertain i
 \subsection{Fitting the GLD}
 Now that we have the output dataset, lets proceed to use our approach. The first step is the fitting process, find the \textit{GLD} that best fit the dataset on each location. Similar to the previous use case, we use the fitting functions of the \textbf{suq$^2$} package. In all the spatial locations the algorithm return a valid \textit{GLD} with $p_{value} > 0.05$. 
 
-\subsection{Queries}
+\subsection{Queries}\label{sec:use_case_II_queries}
 The main question the researchers of the \textbf{spus} package are interesting in is identify all locations where the $C/N$ ratio is smaller than 24, with 90\% probability. This information might be used by farmers to identify which plots require action on improving soil quality.
 
 This question is not part of the queries we propose in our approach. So, we show now, how queries like this one are simple to answer with our approach, demonstrating how easy is to extend it.
