@@ -343,8 +343,8 @@
 
    \assinatura{\textbf{Prof. \imprimirorientador, D.Sc.} \\ (Presidente)}
    \assinatura{\textbf{Prof. Fernando Alves Rochinha, D.Sc.}}
-   \assinatura{\textbf{Prof. Hugo de La Cruz, Ph.D.}}
-   \assinatura{\textbf{Prof. Artur Ziviani, Ph.D.}}
+   \assinatura{\textbf{Prof. Hugo de La Cruz, D.Sc.}}
+   \assinatura{\textbf{Prof. Artur Ziviani, D.Sc.}}
    %\assinatura{\textbf{Prof. Patrick Valduriez, Ph.D.}}
 
    \begin{center}
@@ -400,16 +400,12 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % resumo no idioma principal
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
 \begin{resumo}
- Segundo a \citeonline[3.1-3.2]{NBR6028:2003}, o resumo deve ressaltar o
- objetivo, o método, os resultados e as conclusões do documento. A ordem e a extensão
- destes itens dependem do tipo de resumo (informativo ou indicativo) e do
- tratamento que cada item recebe no documento original. O resumo deve ser
- precedido da referência do documento, com exceção do resumo inserido no
- próprio documento. (\ldots) As palavras-chave devem figurar logo abaixo do
- resumo, antecedidas da expressão Palavras-chave:, separadas entre si por
- ponto e finalizadas também por ponto.
+As simulações espaço-temporais a grande escala com incerteza quantificada permitem que os cientistas avaliem com precisão o grau de confiança de suas previsões. Essa incerteza pode ser quantificada ou caracterizada de diferentes maneiras, desde o uso de momentos estatísticos de baixa ordem (o mais comumente usado) até a avaliação de um PDF completo (uma abordagem mais completa). Este último fornece uma descrição mais abrangente da incerteza que leva a decisões conscientes. No entanto, a estimação da PDFs é uma tarefa computacionalmente intensiva. Além disso, devido à heterogeneidade, a incerteza calculada nas regiões do conjunto de dados é dificultada pela representação com diferentes tipos de PDF.
+ 
+Nesta tese, propomos um novo método para quantificar a incerteza em modelos espaço-temporais de larga escala baseados na Distribuição Generalizada de Lambda (GLD). O GLD é uma família de PDFs que modela bem a heterogeneidade da incerteza, conforme discutido acima. O GLD é especificado por 4 parâmetros o que simplifica as comparações das PDFs facilitando o processamento analítico, como clustering. Nós mostramos como o conjunto de dados modelado através de GLDs pode ser usado para responder a consultas, tais como: (\textit{i}) como agrupa a saída do processo de quantificação de incerteza com base na semelhança de incerteza?, (\textit{ii}) qual é a incerteza em algumas localizações espaço-temporais não analisadas anteriormente?, (\textit{iii}) qual é a incerteza de uma região espaço-temporal específica?, (\textit{iv}) como comparar duas regiões em função da sua incerteza?, e (\textit{v}) qual é o modelo menos incerto de um conjunto de modelos?
+O método proposto foi testado em casos de uso reais de várias áreas científicas. Adicionalmente, um pacote R foi implementado com todas as funcionalidades discutidas ao longo da tese.
 
- \textbf{\palavrasChave}: latex. abntex. editoração de texto.
+ \textbf{\palavrasChave}: Quantificação de Incerteza, Modelos Espaço-temporais a Grande Escala, Big Data, Generalized Lambda Distribution
 \end{resumo}
 
 % resumo em inglês
@@ -478,6 +474,7 @@ the thesis.
 % ---
 \begin{siglas}
   \item[UQ] Uncertainty Quantification
+  \item[PDF] Probability Density Function
   \item[FP] Forward Problem
   \item[\textit{QoI}] Quantity of Interest
   \item[\textit{GLD}] Generalized Lambda Distribution
@@ -495,10 +492,10 @@ the thesis.
 % inserir lista de símbolos
 % ---
 \begin{simbolos}
-  \item[$ \sigma $] random variable
-  \item[$ \Sigma $] random space
-  \item[$ \zeta $] Letra grega minúscula zeta
-  \item[$ \in $] Pertence
+  \item[$\sigma$] standard deviation
+  \item[$\Theta$] random space
+  \item[$\theta$] random (input) variable
+  \item[$\mathcal{M}$] mathematical/computational model
 \end{simbolos}
 % ---
 
