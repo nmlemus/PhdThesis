@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  11 JUN 2018 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  11 JUN 2018 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1885,12 +1885,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--307
 
 ]
 
-LaTeX Warning: Citation `NBR6028:2003' on page 7 undefined on input line 402.
+LaTeX Warning: Citation `NBR6028:2003' on page 7 undefined on input line 403.
 
 [7
 
 ]
-Overfull \hbox (9.1253pt too wide) in paragraph at lines 417--418
+Overfull \hbox (9.1253pt too wide) in paragraph at lines 418--419
 []\T1/lmr/m/n/12 (-20) Large-scale spatio-temporal sim-u-la-tions with quan-ti-
 fied un-cer-tainty en-able scientists/decision-
  []
@@ -1949,7 +1949,7 @@ m-por-tance and hence widespread
 
 
 ] [23] [24] [25] [26] [27] [28]
-<img/background/UQ_steps.png, id=703, 1346.02875pt x 781.92125pt>
+<img/background/UQ_steps.png, id=704, 1346.02875pt x 781.92125pt>
 File: img/background/UQ_steps.png Graphic file (type png)
 <use img/background/UQ_steps.png>
 Package pdftex.def Info: img/background/UQ_steps.png  used on input line 190.
@@ -1974,7 +1974,7 @@ l.198 \item $
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 45.
 
-<img/gld/rs_regions.png, id=813, 606.265pt x 509.905pt>
+<img/gld/rs_regions.png, id=814, 606.265pt x 509.905pt>
 File: img/gld/rs_regions.png Graphic file (type png)
 <use img/gld/rs_regions.png>
 Package pdftex.def Info: img/gld/rs_regions.png  used on input line 69.
@@ -1999,7 +1999,7 @@ l.77
                                                   \fi \fi 
 l.77 
       <./img/gld/rs_regions.png (PNG copy)>]
-<img/gld/fmkl_regions.png, id=840, 570.13pt x 504.88625pt>
+<img/gld/fmkl_regions.png, id=841, 570.13pt x 504.88625pt>
 File: img/gld/fmkl_regions.png Graphic file (type png)
 <use img/gld/fmkl_regions.png>
 Package pdftex.def Info: img/gld/fmkl_regions.png  used on input line 100.
@@ -2017,7 +2017,7 @@ gure.3.3}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.125 
        <./img/gld/fmkl_regions.png (PNG copy)>]
-<img/gld/fmkl_classes.png, id=884, 602.25pt x 382.42876pt>
+<img/gld/fmkl_classes.png, id=885, 602.25pt x 382.42876pt>
 File: img/gld/fmkl_classes.png Graphic file (type png)
 <use img/gld/fmkl_classes.png>
 Package pdftex.def Info: img/gld/fmkl_classes.png  used on input line 151.
@@ -2029,12 +2029,12 @@ Package pdftex.def Info: img/gld/fmkl_classes.png  used on input line 151.
                                                   \fi \fi 
 l.155 
       ]
-<img/gld/classes_l3_l4.png, id=893, 602.25pt x 382.42876pt>
+<img/gld/classes_l3_l4.png, id=894, 602.25pt x 382.42876pt>
 File: img/gld/classes_l3_l4.png Graphic file (type png)
 <use img/gld/classes_l3_l4.png>
 Package pdftex.def Info: img/gld/classes_l3_l4.png  used on input line 160.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld/symetrics.png, id=894, 602.25pt x 382.42876pt>
+<img/gld/symetrics.png, id=895, 602.25pt x 382.42876pt>
 File: img/gld/symetrics.png Graphic file (type png)
 <use img/gld/symetrics.png>
 Package pdftex.def Info: img/gld/symetrics.png  used on input line 167.
@@ -2099,7 +2099,7 @@ erted-to.pdf>
 uniform-eps-converted-to.pdf img/gld_clustering/normal_uniform.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
-<img/gld_clustering/normal_uniform-eps-converted-to.pdf, id=1037, 1084.05pt x 5
+<img/gld_clustering/normal_uniform-eps-converted-to.pdf, id=1038, 1084.05pt x 5
 78.16pt>
 File: img/gld_clustering/normal_uniform-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2121,14 +2121,14 @@ l.32
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 65.
  [52]
-<img/gld_clustering/extra_images/5_gaussian.png, id=1099, 602.25pt x 382.42876p
+<img/gld_clustering/extra_images/5_gaussian.png, id=1100, 602.25pt x 382.42876p
 t>
 File: img/gld_clustering/extra_images/5_gaussian.png Graphic file (type png)
 <use img/gld_clustering/extra_images/5_gaussian.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/5_gaussian.png  used o
 n input line 112.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/extra_images/5_exp.png, id=1100, 602.25pt x 382.42876pt>
+<img/gld_clustering/extra_images/5_exp.png, id=1101, 602.25pt x 382.42876pt>
 File: img/gld_clustering/extra_images/5_exp.png Graphic file (type png)
 <use img/gld_clustering/extra_images/5_exp.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/5_exp.png  used on inp
@@ -2142,7 +2142,7 @@ ut line 119.
                                                   \fi \fi 
 l.123 
        <./img/gld_clustering/extra_images/5_gaussian.png (PNG copy)>]
-<img/gld_clustering/extra_images/uniform.png, id=1105, 602.25pt x 382.42876pt>
+<img/gld_clustering/extra_images/uniform.png, id=1106, 602.25pt x 382.42876pt>
 File: img/gld_clustering/extra_images/uniform.png Graphic file (type png)
 <use img/gld_clustering/extra_images/uniform.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/uniform.png  used on i
@@ -2214,7 +2214,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 143.
 
 <img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3.png
-, id=1120, 602.25pt x 382.42876pt>
+, id=1121, 602.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform
 3.png Graphic file (type png)
 <use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3
@@ -2235,7 +2235,7 @@ l.181 I
        n figures between \ref{fig:dataset1_l2l3l4_cl1} and \ref{fig:dataset1...
  <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3.
 png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png, id=1135, 602.25pt
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png, id=1136, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png Graphic file 
 (type png)
@@ -2243,7 +2243,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 1.png  used on input line 185.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png, id=1136, 602.25pt x 382.428
+<img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png, id=1137, 602.25pt x 382.428
 76pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png Graphic file (type png)
 
@@ -2265,7 +2265,7 @@ l.196
 l.196 
        <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png (PNG copy
 )>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png, id=1141, 602.25pt
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png, id=1142, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png Graphic file 
 (type png)
@@ -2273,7 +2273,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 3.png  used on input line 199.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png, id=1142, 602.25pt x 382.428
+<img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png, id=1143, 602.25pt x 382.428
 76pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png Graphic file (type png)
 
@@ -2295,7 +2295,7 @@ l.210
 l.210 
        <./img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png (PNG copy)> <./img/
 gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png, id=1147, 602.25pt x 382.428
+<img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png, id=1148, 602.25pt x 382.428
 76pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png Graphic file (type png)
 
@@ -2303,7 +2303,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png Graphic file (type png)
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png  use
 d on input line 213.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png, id=1148, 602.25pt
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png, id=1149, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png Graphic file 
 (type png)
@@ -2325,7 +2325,7 @@ l.224
 l.224 
        <./img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png (PNG copy)> <./img/
 gld_clustering/Dataset1/l2_l3_l4/cluster7.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png, id=1153, 602.25pt
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png, id=1154, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png Graphic file 
 (type png)
@@ -2333,7 +2333,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 7.png  used on input line 227.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png, id=1154, 602.25pt
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png, id=1155, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png Graphic file 
 (type png)
@@ -2355,7 +2355,7 @@ l.238
 l.238 
        <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png (PNG copy
 )> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png, id=1159, 602.25pt
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png, id=1160, 602.25pt
  x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png Graphic file 
 (type png)
@@ -2363,7 +2363,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 9.png  used on input line 241.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png, id=1160, 602.25p
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png, id=1161, 602.25p
 t x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png Graphic file
  (type png)
@@ -2386,7 +2386,7 @@ l.252
 l.252 
        <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png (PNG copy
 )> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png, id=1166, 602.25p
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png, id=1167, 602.25p
 t x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png Graphic file
  (type png)
@@ -2394,7 +2394,7 @@ File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png Graphic file
 Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
 11.png  used on input line 255.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png, id=1169, 602.25pt x 
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png, id=1170, 602.25pt x 
 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png Graphic file (ty
 pe png)
@@ -2418,7 +2418,7 @@ l.267 \end{figure}
                    <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.
 png (PNG copy)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png
  (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png, id=1174, 60
+<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png, id=1175, 60
 2.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png Graphic
  file (type png)
@@ -2459,7 +2459,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 276.
 
-<img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png, id=1178, 602.25pt x 3
+<img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png, id=1179, 602.25pt x 3
 82.42876pt>
 File: img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png Graphic file (typ
 e png)
@@ -2485,7 +2485,7 @@ clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png>]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 287.
 
-<img/gld_clustering/Dataset1/l3_l4/l3_l4.png, id=1189, 602.25pt x 382.42876pt>
+<img/gld_clustering/Dataset1/l3_l4/l3_l4.png, id=1190, 602.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset1/l3_l4/l3_l4.png Graphic file (type png)
 <use img/gld_clustering/Dataset1/l3_l4/l3_l4.png>
 Package pdftex.def Info: img/gld_clustering/Dataset1/l3_l4/l3_l4.png  used on i
@@ -2505,7 +2505,7 @@ name{figure.4.25}) has been already used, duplicate ignored
 l.320 \end{figure}
                    <./img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png (
 PNG copy)>]
-<img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png, id=1195, 602.25pt x 382.
+<img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png, id=1196, 602.25pt x 382.
 42876pt>
 File: img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png Graphic file (type p
 ng)
@@ -2527,7 +2527,7 @@ l.333
 l.333 
        <./img/gld_clustering/Dataset1/l3_l4/l3_l4.png> <./img/gld_clustering/Da
 taset1/l3_l4/l3_l4_dividido.png>]
-<img/gld_clustering/extra_images/5_gamma.png, id=1203, 602.25pt x 382.42876pt>
+<img/gld_clustering/extra_images/5_gamma.png, id=1204, 602.25pt x 382.42876pt>
 File: img/gld_clustering/extra_images/5_gamma.png Graphic file (type png)
 <use img/gld_clustering/extra_images/5_gamma.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/5_gamma.png  used on i
@@ -2582,7 +2582,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 343.
 
-<img/gld_clustering/Dataset2/nuevo/clusters_by_index.png, id=1207, 602.25pt x 3
+<img/gld_clustering/Dataset2/nuevo/clusters_by_index.png, id=1208, 602.25pt x 3
 82.42876pt>
 File: img/gld_clustering/Dataset2/nuevo/clusters_by_index.png Graphic file (typ
 e png)
@@ -2614,7 +2614,7 @@ l.383
                                                   \fi \fi 
 l.383 
        <./img/gld_clustering/Dataset2/nuevo/clusters_by_index.png>]
-<img/gld_clustering/Dataset2/nuevo/l3_l4.png, id=1220, 602.25pt x 382.42876pt>
+<img/gld_clustering/Dataset2/nuevo/l3_l4.png, id=1221, 602.25pt x 382.42876pt>
 File: img/gld_clustering/Dataset2/nuevo/l3_l4.png Graphic file (type png)
 <use img/gld_clustering/Dataset2/nuevo/l3_l4.png>
 Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/l3_l4.png  used on i
@@ -2657,7 +2657,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 404.
 
-<img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png, id=1223, 602.25
+<img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png, id=1224, 602.25
 pt x 382.42876pt>
 File: img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png Graphic fil
 e (type png)
@@ -2672,7 +2672,7 @@ dex.png  used on input line 432.
                                                   \fi \fi 
 l.436 
        <./img/gld_clustering/Dataset2/nuevo/l3_l4.png>]
-<img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png, id=1230, 602.25pt x 382.428
+<img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png, id=1231, 602.25pt x 382.428
 76pt>
 File: img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png Graphic file (type png)
 
@@ -2708,11 +2708,11 @@ l.454 A
 
 
 (./our_approach.tex
-<img/Workflow.png, id=1262, 681.29532pt x 1027.58907pt>
+<img/Workflow.png, id=1263, 976.39781pt x 1479.27657pt>
 File: img/Workflow.png Graphic file (type png)
 <use img/Workflow.png>
 Package pdftex.def Info: img/Workflow.png  used on input line 15.
-(pdftex.def)             Requested size: 364.00139pt x 549.02562pt.
+(pdftex.def)             Requested size: 364.00139pt x 551.477pt.
  [71
 
 
@@ -2724,7 +2724,7 @@ Package pdftex.def Info: img/Workflow.png  used on input line 15.
                                                   \fi \fi 
 l.25 \end{equation}
                     <./img/Workflow.png>] [73]
-<img/D_distance.png, id=1290, 290.0436pt x 238.491pt>
+<img/D_distance.png, id=1291, 290.0436pt x 238.491pt>
 File: img/D_distance.png Graphic file (type png)
 <use img/D_distance.png>
 Package pdftex.def Info: img/D_distance.png  used on input line 78.
@@ -2738,13 +2738,13 @@ l.116
        <./img/D_distance.png>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 124.
-<img/our_approach/porosity.png, id=1314, 836.12375pt x 563.10374pt>
+<img/our_approach/porosity.png, id=1315, 836.12375pt x 563.10374pt>
 File: img/our_approach/porosity.png Graphic file (type png)
 <use img/our_approach/porosity.png>
 Package pdftex.def Info: img/our_approach/porosity.png  used on input line 141.
 
 (pdftex.def)             Requested size: 364.00139pt x 245.14577pt.
-<img/our_approach/kriging_example.png, id=1315, 800.9925pt x 487.8225pt>
+<img/our_approach/kriging_example.png, id=1316, 800.9925pt x 487.8225pt>
 File: img/our_approach/kriging_example.png Graphic file (type png)
 <use img/our_approach/kriging_example.png>
 Package pdftex.def Info: img/our_approach/kriging_example.png  used on input li
@@ -2801,7 +2801,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 \openout2 = `capitulos/use_cases.aux'.
 
  (./capitulos/use_cases.tex
-<images/velocity_field.png, id=1403, 854.19125pt x 487.8225pt>
+<images/velocity_field.png, id=1404, 854.19125pt x 487.8225pt>
 File: images/velocity_field.png Graphic file (type png)
 <use images/velocity_field.png>
 Package pdftex.def Info: images/velocity_field.png  used on input line 38.
@@ -2817,7 +2817,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.37})
                                                   \fi \fi 
 l.45 
       <./images/velocity_field.png>]
-<images/vp_1000_realizations.png, id=1415, 417.2388pt x 227.8914pt>
+<images/vp_1000_realizations.png, id=1416, 417.2388pt x 227.8914pt>
 File: images/vp_1000_realizations.png Graphic file (type png)
 <use images/vp_1000_realizations.png>
 Package pdftex.def Info: images/vp_1000_realizations.png  used on input line 77
@@ -2843,12 +2843,12 @@ l.92 \end{equation}
                                                   \fi \fi 
 l.92 \end{equation}
                     <./images/vp_1000_realizations.png>]
-<images/p_value.png, id=1434, 388.8126pt x 230.7822pt>
+<images/p_value.png, id=1435, 388.8126pt x 230.7822pt>
 File: images/p_value.png Graphic file (type png)
 <use images/p_value.png>
 Package pdftex.def Info: images/p_value.png  used on input line 103.
 (pdftex.def)             Requested size: 364.00139pt x 216.06902pt.
-<images/p_value_greater_05.png, id=1435, 387.849pt x 219.7008pt>
+<images/p_value_greater_05.png, id=1436, 387.849pt x 219.7008pt>
 File: images/p_value_greater_05.png Graphic file (type png)
 <use images/p_value_greater_05.png>
 Package pdftex.def Info: images/p_value_greater_05.png  used on input line 110.
@@ -2861,7 +2861,7 @@ Package pdftex.def Info: images/p_value_greater_05.png  used on input line 110.
                                                   \fi \fi 
 l.114 
        <./images/p_value.png>]
-<images/kolmogorov_distance.png, id=1447, 393.1488pt x 227.8914pt>
+<images/kolmogorov_distance.png, id=1448, 393.1488pt x 227.8914pt>
 File: images/kolmogorov_distance.png Graphic file (type png)
 <use images/kolmogorov_distance.png>
 Package pdftex.def Info: images/kolmogorov_distance.png  used on input line 123
@@ -2880,12 +2880,12 @@ l.130
                                                   \fi \fi 
 l.130 
        <./images/p_value_greater_05.png> <./images/kolmogorov_distance.png>]
-<images/clusters1.png, id=1459, 884.30376pt x 510.90875pt>
+<images/clusters1.png, id=1460, 884.30376pt x 510.90875pt>
 File: images/clusters1.png Graphic file (type png)
 <use images/clusters1.png>
 Package pdftex.def Info: images/clusters1.png  used on input line 137.
 (pdftex.def)             Requested size: 364.00139pt x 210.3003pt.
-<img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png, id=1466, 602.25pt 
+<img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png, id=1467, 602.25pt 
 x 382.42876pt>
 File: img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png Graphic file (
 type png)
@@ -2912,13 +2912,13 @@ f>
 -converted-to.pdf img/use_cases/clusters.eps>
 (epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/clusters-eps-converted-to.pdf, id=1475, 764.8575pt x 485.815pt>
+<img/use_cases/clusters-eps-converted-to.pdf, id=1476, 764.8575pt x 485.815pt>
 File: img/use_cases/clusters-eps-converted-to.pdf Graphic file (type pdf)
 <use img/use_cases/clusters-eps-converted-to.pdf>
 Package pdftex.def Info: img/use_cases/clusters-eps-converted-to.pdf  used on i
 nput line 157.
 (pdftex.def)             Requested size: 455.0pt x 289.0005pt.
-<images/Clusters_histogram.png, id=1482, 815.045pt x 551.05875pt>
+<images/Clusters_histogram.png, id=1483, 815.045pt x 551.05875pt>
 File: images/Clusters_histogram.png Graphic file (type png)
 <use images/Clusters_histogram.png>
 Package pdftex.def Info: images/Clusters_histogram.png  used on input line 187.
@@ -2951,7 +2951,7 @@ l.215
 l.215 
        <./img/use_cases/clusters-eps-converted-to.pdf> <./images/Clusters_histo
 gram.png>]
-<images/regions.png, id=1504, 710.655pt x 459.1554pt>
+<images/regions.png, id=1505, 710.655pt x 459.1554pt>
 File: images/regions.png Graphic file (type png)
 <use images/regions.png>
 Package pdftex.def Info: images/regions.png  used on input line 220.
@@ -3014,7 +3014,7 @@ verted-to.pdf>
 _example-eps-converted-to.pdf img/use_cases/spus/dataset_example.eps>
 (epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/dataset_example-eps-converted-to.pdf, id=1536, 1084.05pt x 
+<img/use_cases/spus/dataset_example-eps-converted-to.pdf, id=1537, 1084.05pt x 
 578.16pt>
 File: img/use_cases/spus/dataset_example-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3030,13 +3030,13 @@ f  used on input line 344.
 l.351 \begin{lstlisting}[language=R]
                                      <./img/use_cases/spus/dataset_example-eps-
 converted-to.pdf>] [96]
-<img/use_cases/spus/respuesta_spus2.png, id=1572, 602.25pt x 389.95688pt>
+<img/use_cases/spus/respuesta_spus2.png, id=1573, 602.25pt x 389.95688pt>
 File: img/use_cases/spus/respuesta_spus2.png Graphic file (type png)
 <use img/use_cases/spus/respuesta_spus2.png>
 Package pdftex.def Info: img/use_cases/spus/respuesta_spus2.png  used on input 
 line 404.
 (pdftex.def)             Requested size: 364.00139pt x 235.70149pt.
-<img/use_cases/spus/respuesta_suq22.png, id=1573, 602.25pt x 389.95688pt>
+<img/use_cases/spus/respuesta_suq22.png, id=1574, 602.25pt x 389.95688pt>
 File: img/use_cases/spus/respuesta_suq22.png Graphic file (type png)
 <use img/use_cases/spus/respuesta_suq22.png>
 Package pdftex.def Info: img/use_cases/spus/respuesta_suq22.png  used on input 
@@ -3060,7 +3060,7 @@ df>
 s-converted-to.pdf img/use_cases/spus/l3l4.eps>
 (epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/l3l4-eps-converted-to.pdf, id=1583, 1084.05pt x 578.16pt>
+<img/use_cases/spus/l3l4-eps-converted-to.pdf, id=1584, 1084.05pt x 578.16pt>
 File: img/use_cases/spus/l3l4-eps-converted-to.pdf Graphic file (type pdf)
 <use img/use_cases/spus/l3l4-eps-converted-to.pdf>
 Package pdftex.def Info: img/use_cases/spus/l3l4-eps-converted-to.pdf  used on 
@@ -3084,7 +3084,7 @@ erted-to.pdf>
 lusters-eps-converted-to.pdf img/use_cases/spus/optim_clusters.eps>
 (epstopdf)             \includegraphics on input line 445.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/optim_clusters-eps-converted-to.pdf, id=1590, 1084.05pt x 5
+<img/use_cases/spus/optim_clusters-eps-converted-to.pdf, id=1591, 1084.05pt x 5
 78.16pt>
 File: img/use_cases/spus/optim_clusters-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3110,7 +3110,7 @@ erted-to.pdf>
 s_image-eps-converted-to.pdf img/use_cases/spus/clusters_image.eps>
 (epstopdf)             \includegraphics on input line 454.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/clusters_image-eps-converted-to.pdf, id=1618, 1084.05pt x 5
+<img/use_cases/spus/clusters_image-eps-converted-to.pdf, id=1619, 1084.05pt x 5
 78.16pt>
 File: img/use_cases/spus/clusters_image-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3129,7 +3129,7 @@ erted-to.pdf>
 sl3l4_4-eps-converted-to.pdf img/use_cases/spus/clustersl3l4_4.eps>
 (epstopdf)             \includegraphics on input line 463.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf, id=1622, 1084.05pt x 5
+<img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf, id=1623, 1084.05pt x 5
 78.16pt>
 File: img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3151,7 +3151,7 @@ l.467
 l.467 
        <./img/use_cases/spus/optim_clusters-eps-converted-to.pdf> <./img/use_ca
 ses/spus/clusters_image-eps-converted-to.pdf>]
-<img/use_cases/spus/clustersl2l3l4.png, id=1644, 626.34pt x 526.96875pt>
+<img/use_cases/spus/clustersl2l3l4.png, id=1645, 626.34pt x 526.96875pt>
 File: img/use_cases/spus/clustersl2l3l4.png Graphic file (type png)
 <use img/use_cases/spus/clustersl2l3l4.png>
 Package pdftex.def Info: img/use_cases/spus/clustersl2l3l4.png  used on input l
@@ -3182,7 +3182,7 @@ to.pdf>
 s-eps-converted-to.pdf img/use_cases/spus/clusters.eps>
 (epstopdf)             \includegraphics on input line 481.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/clusters-eps-converted-to.pdf, id=1662, 1147.28625pt x 742.
+<img/use_cases/spus/clusters-eps-converted-to.pdf, id=1663, 1147.28625pt x 742.
 775pt>
 File: img/use_cases/spus/clusters-eps-converted-to.pdf Graphic file (type pdf)
 <use img/use_cases/spus/clusters-eps-converted-to.pdf>
@@ -3194,7 +3194,7 @@ Package pdftex.def Info: img/use_cases/spus/clusters-eps-converted-to.pdf  used
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.531 \include{capitulos/use_cases}
+l.532 \include{capitulos/use_cases}
                                     <./img/use_cases/spus/clusters-eps-converte
 d-to.pdf>]
 \openout2 = `capitulos/conclusao.aux'.
@@ -3225,13 +3225,13 @@ AED: lastpage setting LastPage
 \tf@toc=\write11
 \openout11 = `tese_lncc.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 619.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 619.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 620.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 620.
  (./tese_lncc.aux (./introducao.aux) (./capitulos/backgroud.aux)
 (./capitulos/gld.aux) (./gld_clustering.aux) (./our_approach.aux)
 (./capitulos/use_cases.aux) (./capitulos/conclusao.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 619.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 619.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 620.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 620.
 Package rerunfilecheck Info: File `tese_lncc.brf' has not changed.
 (rerunfilecheck)             Checksum: F09F2C129762AB7367E383C90E8CB1B0;5786.
 
@@ -3241,12 +3241,12 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 619.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 620.
  ) 
 Here is how much of TeX's memory you used:
  32933 strings out of 494733
  553494 string characters out of 6175648
- 820665 words of memory out of 5000000
+ 820780 words of memory out of 5000000
  34846 multiletter control sequences out of 15000+600000
  162073 words of font info for 243 fonts, out of 8000000 for 9000
  109 hyphenation exceptions out of 8191
@@ -3273,10 +3273,10 @@ share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tese_lncc.pdf (111 pages, 6512350 bytes).
+Output written on tese_lncc.pdf (111 pages, 6582282 bytes).
 PDF statistics:
- 2359 PDF objects out of 2487 (max. 8388607)
- 2083 compressed objects within 21 object streams
+ 2360 PDF objects out of 2487 (max. 8388607)
+ 2084 compressed objects within 21 object streams
  436 named destinations out of 1000 (max. 500000)
  46657 words of extra memory for PDF output out of 51595 (max. 10000000)
 
