@@ -11,16 +11,16 @@ To the best of our knowledge, this is the first work to use GLD as the basis for
 Let us now revisit the research questions.
 
 \textbf{RQ1.} \textit{how to group the output of the UQ process based on the similarity of the uncertainty?}
-In Chapter \ref{cap:gld_clustering} we demonstrate how the \textit{GLD} $\lambda$ values can be used to clustering uncertain data. The proposed approach was tested against two synthetic datasets and the results we got were exactly what we expected. 
+In Chapter \ref{cap:gld_clustering} we demonstrate how the \textit{GLD} $\lambda$ values can be used to cluster uncertain data. The proposed approach was tested against two synthetic datasets and the results we got were exactly what we expected. 
 
 \textbf{RQ2.} \textit{what is the uncertainty in some spatio-temporal locations not previously analyzed?}
-To answer this research question, we propose in Chapter \ref{cap:our_approach} the use of the state-of-the-art methods for spatio-temporal interpolation (kriging). The methods were enunciated because this is a big research area out of the scope of this thesis.
+To answer this research question, we propose in Chapter \ref{cap:our_approach} the use of the state-of-the-art methods for spatio-temporal interpolation (kriging). 
 
 \textbf{RQ3.} \textit{what is the uncertainty at a specific spatio-temporal region?}
-Also in Chapter \ref{cap:our_approach} we propose two algorithms to deal with this research question. The first one propose the use of \textit{GLD} mixtures to characterize the uncertainty in a region as a \textbf{PDF}. The second algorithm propose the use of Information Entropy (IE) to quantify the uncertainty of the region in a single number. The second approach can be used when the different clusters that represent the \textit{GLDs} of the regions, can be interpreted as the possible outcomes of the system.
+Also in Chapter \ref{cap:our_approach} we propose two algorithms to deal with this research question. The first one proposes the use of \textit{GLD} mixtures to characterize the uncertainty in a region as a \textbf{PDF}. The second algorithm proposes the use of Information Entropy (IE) to quantify the uncertainty of the region in a single number. The second approach can be used when the different clusters that represent the \textit{GLDs} of the regions, can be interpreted as the possible outcomes of the system.
 
 \textbf{RQ4.} \textit{how to compare two regions as a function of their uncertainty?}
-Based on the second algorithm proposed to answer the \textbf{RQ3.} the comparison of the uncertainty in two regions is straightforward, see Chapter \ref{cap:our_approach}. We just need to compare the values of the IE in the two regions.
+Using the second algorithm proposed to answer  \textbf{RQ3.} the comparison of the uncertainty in two regions is straightforward, see Chapter \ref{cap:our_approach}. We just need to compare the values of the IE in the two regions.
 
 \textbf{RQ5.} \textit{what is the least uncertain from a set of models?}
 The comparison of what is the least uncertain model from a set of models can be performed in the same way that we compare the uncertainty in two regions, by means of the IE.
@@ -30,7 +30,7 @@ Some of the future directions we are interested in pursuing were mentioned above
 
 The use of Information Entropy to quantify the uncertainty is very powerful. However, when applied on clusters of PDFs, such as the GLD, it observes the information variation as a function of the PDF definition, in the case of GLD this is given by its for $\lambda$ parameters. In this context, a complete region modeled by a single GLD function would have a very low information entropy value. This, however would not express the uncertainty modeled by the GLD function, which could be very high. The outcome of the information entropy evaluation must be interpreted by the user. 
 
-The methods to fit the \textit{GLD} to data are out of the scope of this thesis, as we are interested in demonstrating its usability in UQ. Nevertheless it is important to remark that, fit the \textit{GLD} to data is computationally intensive but suitable to parallelization, we haven't found any work in the literature to explore the possibility of increasing the performance of the fitting process by means of parallelization. This is an open problem we are interested in exploring in the future.
+The methods to fit the \textit{GLD} to data are out of the scope of this thesis, as we are interested in demonstrating its usability in UQ. Nevertheless it is important to remark that,to fit the \textit{GLD} to data is computationally intensive but suitable to parallelization. We have  not found any work in the literature that explores the possibility of improving the performance of the fitting process by means of parallelization. This is an open problem we are interested in exploring in the future.
 
 
 \subsection*{Acknowledgments}

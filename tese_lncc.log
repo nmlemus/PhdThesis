@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  12 JUN 2018 00:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  12 JUN 2018 05:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1908,12 +1908,12 @@ fied un-cer-tainty en-able scientists/decision-
 
 ] [16]
 Overfull \hbox (1.5877pt too wide) detected at line 89
- \T1/lmss/bx/n/12 103
+ \T1/lmss/bx/n/12 102
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 94
- \T1/lmss/bx/n/12 106
+ \T1/lmss/bx/n/12 105
  []
 
 ) [17]
@@ -1945,7 +1945,7 @@ m-por-tance and hence widespread
 
 
 ] [23] [24] [25] [26] [27] [28]
-<img/background/UQ_steps.png, id=704, 1346.02875pt x 781.92125pt>
+<img/background/UQ_steps.png, id=685, 1346.02875pt x 781.92125pt>
 File: img/background/UQ_steps.png Graphic file (type png)
 <use img/background/UQ_steps.png>
 Package pdftex.def Info: img/background/UQ_steps.png  used on input line 190.
@@ -1970,7 +1970,7 @@ l.198 \item $
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 45.
 
-<img/gld/rs_regions.png, id=814, 606.265pt x 509.905pt>
+<img/gld/rs_regions.png, id=795, 606.265pt x 509.905pt>
 File: img/gld/rs_regions.png Graphic file (type png)
 <use img/gld/rs_regions.png>
 Package pdftex.def Info: img/gld/rs_regions.png  used on input line 69.
@@ -1995,7 +1995,7 @@ l.77
                                                   \fi \fi 
 l.77 
       <./img/gld/rs_regions.png (PNG copy)>]
-<img/gld/fmkl_regions.png, id=841, 570.13pt x 504.88625pt>
+<img/gld/fmkl_regions.png, id=822, 570.13pt x 504.88625pt>
 File: img/gld/fmkl_regions.png Graphic file (type png)
 <use img/gld/fmkl_regions.png>
 Package pdftex.def Info: img/gld/fmkl_regions.png  used on input line 100.
@@ -2013,7 +2013,7 @@ gure.3.3}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.125 
        <./img/gld/fmkl_regions.png (PNG copy)>]
-<img/gld/fmkl_classes.png, id=885, 602.25pt x 382.42876pt>
+<img/gld/fmkl_classes.png, id=866, 602.25pt x 382.42876pt>
 File: img/gld/fmkl_classes.png Graphic file (type png)
 <use img/gld/fmkl_classes.png>
 Package pdftex.def Info: img/gld/fmkl_classes.png  used on input line 151.
@@ -2025,12 +2025,12 @@ Package pdftex.def Info: img/gld/fmkl_classes.png  used on input line 151.
                                                   \fi \fi 
 l.155 
       ]
-<img/gld/classes_l3_l4.png, id=894, 602.25pt x 382.42876pt>
+<img/gld/classes_l3_l4.png, id=875, 602.25pt x 382.42876pt>
 File: img/gld/classes_l3_l4.png Graphic file (type png)
 <use img/gld/classes_l3_l4.png>
 Package pdftex.def Info: img/gld/classes_l3_l4.png  used on input line 160.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld/symetrics.png, id=895, 602.25pt x 382.42876pt>
+<img/gld/symetrics.png, id=876, 602.25pt x 382.42876pt>
 File: img/gld/symetrics.png Graphic file (type png)
 <use img/gld/symetrics.png>
 Package pdftex.def Info: img/gld/symetrics.png  used on input line 167.
@@ -2095,7 +2095,7 @@ erted-to.pdf>
 uniform-eps-converted-to.pdf img/gld_clustering/normal_uniform.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
-<img/gld_clustering/normal_uniform-eps-converted-to.pdf, id=1038, 1084.05pt x 5
+<img/gld_clustering/normal_uniform-eps-converted-to.pdf, id=1019, 1084.05pt x 5
 78.16pt>
 File: img/gld_clustering/normal_uniform-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2117,47 +2117,25 @@ l.32
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 65.
  [52]
-<img/gld_clustering/extra_images/5_gaussian.png, id=1100, 602.25pt x 382.42876p
+<img/gld_clustering/extra_images/5_gaussian.png, id=1081, 602.25pt x 382.42876p
 t>
 File: img/gld_clustering/extra_images/5_gaussian.png Graphic file (type png)
 <use img/gld_clustering/extra_images/5_gaussian.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/5_gaussian.png  used o
 n input line 112.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/extra_images/5_exp.png, id=1101, 602.25pt x 382.42876pt>
+<img/gld_clustering/extra_images/5_exp.png, id=1082, 602.25pt x 382.42876pt>
 File: img/gld_clustering/extra_images/5_exp.png Graphic file (type png)
 <use img/gld_clustering/extra_images/5_exp.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/5_exp.png  used on inp
 ut line 119.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-
-[53pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.123 
-       <./img/gld_clustering/extra_images/5_gaussian.png (PNG copy)>]
-<img/gld_clustering/extra_images/uniform.png, id=1106, 602.25pt x 382.42876pt>
+<img/gld_clustering/extra_images/uniform.png, id=1083, 602.25pt x 382.42876pt>
 File: img/gld_clustering/extra_images/uniform.png Graphic file (type png)
 <use img/gld_clustering/extra_images/uniform.png>
 Package pdftex.def Info: img/gld_clustering/extra_images/uniform.png  used on i
 nput line 126.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [54pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-9}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.141 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.4.10}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.141 \end{equation}
-                     <./img/gld_clustering/extra_images/5_exp.png (PNG copy)> <
-./img/gld_clustering/extra_images/uniform.png (PNG copy)>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 143.
 
@@ -2209,524 +2187,691 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 143.
 
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3.png
-, id=1121, 602.25pt x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform
-3.png Graphic file (type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3
-.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_
-exponential_uniform3.png  used on input line 151.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 156.
-
-[55pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.181 I
-       n figures between \ref{fig:dataset1_l2l3l4_cl1} and \ref{fig:dataset1...
- <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3.
-png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png, id=1136, 602.25pt
- x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png Graphic file 
-(type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-1.png  used on input line 185.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png, id=1137, 602.25pt x 382.428
-76pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png Graphic file (type png)
-
-<use img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png  use
-d on input line 192.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [56pdfTeX warning (ext4): destination with the same identifier (name{table.4.5
+[53pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.196 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.12}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.196 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png (PNG copy
-)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png, id=1142, 602.25pt
- x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png Graphic file 
-(type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-3.png  used on input line 199.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png, id=1143, 602.25pt x 382.428
-76pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png Graphic file (type png)
-
-<use img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png  use
-d on input line 206.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [57pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-13}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.210 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.14}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.210 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png (PNG copy)> <./img/
-gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png, id=1148, 602.25pt x 382.428
-76pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png Graphic file (type png)
-
-<use img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png  use
-d on input line 213.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png, id=1149, 602.25pt
- x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png Graphic file 
-(type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-6.png  used on input line 220.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [58pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-15}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.224 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.16}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.224 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png (PNG copy)> <./img/
-gld_clustering/Dataset1/l2_l3_l4/cluster7.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png, id=1154, 602.25pt
- x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png Graphic file 
-(type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-7.png  used on input line 227.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png, id=1155, 602.25pt
- x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png Graphic file 
-(type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-8.png  used on input line 234.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [59pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-17}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.238 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.18}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.238 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png (PNG copy
-)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png, id=1160, 602.25pt
- x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png Graphic file 
-(type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-9.png  used on input line 241.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png, id=1161, 602.25p
-t x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png Graphic file
- (type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-10.png  used on input line 248.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-
-[60pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+l.146 
+       <./img/gld_clustering/extra_images/5_gaussian.png (PNG copy)>]
+Package epstopdf Info: Source file: <img/gld_clustering/datasetI/l2l3l4/normal_
+exponential_uniform3.eps>
+(epstopdf)                    date: 2018-06-12 02:19:24
+(epstopdf)                    size: 39105 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetI/l2l3l4/normal_
+exponential_uniform3-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 03:23:08
+(epstopdf)                    size: 59913 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+I/l2l3l4/normal_exponential_uniform3-eps-converted-to.pdf img/gld_clustering/da
+tasetI/l2l3l4/normal_exponential_uniform3.eps>
+(epstopdf)             \includegraphics on input line 151.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetI/l2l3l4/normal_exponential_uniform3-eps-converted-t
+o.pdf, id=1098, 382.42876pt x 247.92625pt>
+File: img/gld_clustering/datasetI/l2l3l4/normal_exponential_uniform3-eps-conver
+ted-to.pdf Graphic file (type pdf)
+<use img/gld_clustering/datasetI/l2l3l4/normal_exponential_uniform3-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetI/l2l3l4/normal_exponential_
+uniform3-eps-converted-to.pdf  used on input line 151.
+(pdftex.def)             Requested size: 364.00139pt x 235.99013pt.
+ [54pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.252 
+l.155 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.20}) has been already used, duplicate ignored
+4.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.252 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png (PNG copy
-)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png, id=1167, 602.25p
-t x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png Graphic file
- (type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster
-11.png  used on input line 255.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png, id=1170, 602.25pt x 
-382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png Graphic file (ty
-pe png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.p
-ng  used on input line 264.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+l.155 
+       <./img/gld_clustering/extra_images/5_exp.png (PNG copy)> <./img/gld_clus
+tering/extra_images/uniform.png (PNG copy)>]
 
-[61pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-1}) has been already used, duplicate ignored
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 156.
+
+[55pdfTeX warning (ext4): destination with the same identifier (name{table.4.5}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.267 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.4.22}) has been already used, duplicate ignored
+l.181 I
+       n Figure \ref{fig:dataset1_l2l3l4_cl1} we show the \textit{PDFs} of a...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.267 \end{figure}
-                   <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.
-png (PNG copy)> <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png
- (PNG copy)>]
-<img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png, id=1175, 60
-2.25pt x 382.42876pt>
-File: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png Graphic
- file (type png)
-<use img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_d
-ividido.png  used on input line 271.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+l.181 I
+       n Figure \ref{fig:dataset1_l2l3l4_cl1} we show the \textit{PDFs} of a...
+ <./img/gld_clustering/datasetI/l2l3l4/normal_exponential_uniform3-eps-converte
+d-to.pdf>]
+Package epstopdf Info: Source file: <img/gld_clustering/datasetI/l2l3l4/cluster
+s.eps>
+(epstopdf)                    date: 2018-06-12 02:31:45
+(epstopdf)                    size: 2702249 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetI/l2l3l4/cluster
+s-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 03:27:50
+(epstopdf)                    size: 1006463 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+I/l2l3l4/clusters-eps-converted-to.pdf img/gld_clustering/datasetI/l2l3l4/clust
+ers.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetI/l2l3l4/clusters-eps-converted-to.pdf, id=1118, 764
+.8575pt x 495.8525pt>
+File: img/gld_clustering/datasetI/l2l3l4/clusters-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use img/gld_clustering/datasetI/l2l3l4/clusters-eps-converted-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetI/l2l3l4/clusters-eps-conver
+ted-to.pdf  used on input line 185.
+(pdftex.def)             Requested size: 455.0pt x 294.97159pt.
+Package epstopdf Info: Source file: <img/gld_clustering/datasetI/l2l3l4/l3_l4.e
+ps>
+(epstopdf)                    date: 2018-06-12 02:21:16
+(epstopdf)                    size: 38407 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetI/l2l3l4/l3_l4-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 03:33:45
+(epstopdf)                    size: 77874 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+I/l2l3l4/l3_l4-eps-converted-to.pdf img/gld_clustering/datasetI/l2l3l4/l3_l4.ep
+s>
+(epstopdf)             \includegraphics on input line 271.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetI/l2l3l4/l3_l4-eps-converted-to.pdf, id=1120, 382.42
+876pt x 247.92625pt>
+File: img/gld_clustering/datasetI/l2l3l4/l3_l4-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use img/gld_clustering/datasetI/l2l3l4/l3_l4-eps-converted-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetI/l2l3l4/l3_l4-eps-converted
+-to.pdf  used on input line 271.
+(pdftex.def)             Requested size: 364.00139pt x 235.99013pt.
+ [56pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.275 
+       <./img/gld_clustering/datasetI/l2l3l4/clusters-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/gld_clustering/datasetI/l2l3l4/l2_l3_l
+4.eps>
+(epstopdf)                    date: 2018-06-12 04:27:13
+(epstopdf)                    size: 178943 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetI/l2l3l4/l2_l3_l
+4-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 04:35:18
+(epstopdf)                    size: 42602 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+I/l2l3l4/l2_l3_l4-eps-converted-to.pdf img/gld_clustering/datasetI/l2l3l4/l2_l3
+_l4.eps>
+(epstopdf)             \includegraphics on input line 287.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetI/l2l3l4/l2_l3_l4-eps-converted-to.pdf, id=1134, 651
+.43375pt x 612.2875pt>
+File: img/gld_clustering/datasetI/l2l3l4/l2_l3_l4-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use img/gld_clustering/datasetI/l2l3l4/l2_l3_l4-eps-converted-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetI/l2l3l4/l2_l3_l4-eps-conver
+ted-to.pdf  used on input line 287.
+(pdftex.def)             Requested size: 364.00139pt x 342.14058pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 276.
+(hyperref)                removing `math shift' on input line 292.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 276.
+(hyperref)                removing `\lambda' on input line 292.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 276.
+(hyperref)                removing `subscript' on input line 292.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 276.
+(hyperref)                removing `math shift' on input line 292.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 276.
+(hyperref)                removing `math shift' on input line 292.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 276.
+(hyperref)                removing `\lambda' on input line 292.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 276.
+(hyperref)                removing `subscript' on input line 292.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 276.
+(hyperref)                removing `math shift' on input line 292.
 
-<img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png, id=1179, 602.25pt x 3
-82.42876pt>
-File: img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png Graphic file (typ
-e png)
-<use img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l3_l4/clusters_by_index.pn
-g  used on input line 282.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[62pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+Package epstopdf Info: Source file: <img/gld_clustering/datasetI/l3l4/normal_ex
+ponential_uniform3.eps>
+(epstopdf)                    date: 2018-06-12 02:42:09
+(epstopdf)                    size: 55726 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetI/l3l4/normal_ex
+ponential_uniform3-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 03:37:00
+(epstopdf)                    size: 63957 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+I/l3l4/normal_exponential_uniform3-eps-converted-to.pdf img/gld_clustering/data
+setI/l3l4/normal_exponential_uniform3.eps>
+(epstopdf)             \includegraphics on input line 298.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetI/l3l4/normal_exponential_uniform3-eps-converted-to.
+pdf, id=1138, 382.42876pt x 247.92625pt>
+File: img/gld_clustering/datasetI/l3l4/normal_exponential_uniform3-eps-converte
+d-to.pdf Graphic file (type pdf)
+<use img/gld_clustering/datasetI/l3l4/normal_exponential_uniform3-eps-converted
+-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetI/l3l4/normal_exponential_un
+iform3-eps-converted-to.pdf  used on input line 298.
+(pdftex.def)             Requested size: 364.00139pt x 235.99013pt.
+[57pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.286 
+l.301 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.4.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.301 \end{figure}
+                   <./img/gld_clustering/datasetI/l2l3l4/l3_l4-eps-converted-to
+.pdf> <./img/gld_clustering/datasetI/l2l3l4/l2_l3_l4-eps-converted-to.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 303.
+
+[58pdfTeX warning (ext4): destination with the same identifier (name{table.4.6}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.328 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.328 
+       <./img/gld_clustering/datasetI/l3l4/normal_exponential_uniform3-eps-conv
+erted-to.pdf>]
+Package epstopdf Info: Source file: <img/gld_clustering/datasetI/l3l4/l3_l4.eps
+>
+(epstopdf)                    date: 2018-06-12 02:45:46
+(epstopdf)                    size: 54955 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetI/l3l4/l3_l4-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 03:38:04
+(epstopdf)                    size: 78622 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+I/l3l4/l3_l4-eps-converted-to.pdf img/gld_clustering/datasetI/l3l4/l3_l4.eps>
+(epstopdf)             \includegraphics on input line 333.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetI/l3l4/l3_l4-eps-converted-to.pdf, id=1171, 382.4287
+6pt x 247.92625pt>
+File: img/gld_clustering/datasetI/l3l4/l3_l4-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use img/gld_clustering/datasetI/l3l4/l3_l4-eps-converted-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetI/l3l4/l3_l4-eps-converted-t
+o.pdf  used on input line 333.
+(pdftex.def)             Requested size: 364.00139pt x 235.99013pt.
+Package epstopdf Info: Source file: <img/gld_clustering/datasetI/l3l4/clusters.
+eps>
+(epstopdf)                    date: 2018-06-12 02:44:39
+(epstopdf)                    size: 2450707 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetI/l3l4/clusters-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 03:39:00
+(epstopdf)                    size: 880625 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+I/l3l4/clusters-eps-converted-to.pdf img/gld_clustering/datasetI/l3l4/clusters.
+eps>
+(epstopdf)             \includegraphics on input line 351.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetI/l3l4/clusters-eps-converted-to.pdf, id=1173, 764.8
+575pt x 495.8525pt>
+File: img/gld_clustering/datasetI/l3l4/clusters-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use img/gld_clustering/datasetI/l3l4/clusters-eps-converted-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetI/l3l4/clusters-eps-converte
+d-to.pdf  used on input line 351.
+(pdftex.def)             Requested size: 455.0pt x 294.97159pt.
+<img/gld_clustering/extra_images/5_gamma.png, id=1175, 602.25pt x 382.42876pt>
+File: img/gld_clustering/extra_images/5_gamma.png Graphic file (type png)
+<use img/gld_clustering/extra_images/5_gamma.png>
+Package pdftex.def Info: img/gld_clustering/extra_images/5_gamma.png  used on i
+nput line 361.
+(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
+ [59pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.365 
+       <./img/gld_clustering/datasetI/l3l4/l3_l4-eps-converted-to.pdf>]
+[60pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.368 \subsection
+                 {Clustering using $\lambda_{2}$, $\lambda_{3}$ and $\lambda...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.368 \subsection
+                 {Clustering using $\lambda_{2}$, $\lambda_{3}$ and $\lambda...
+ <./img/gld_clustering/datasetI/l3l4/clusters-eps-converted-to.pdf> <./img/gld_
+clustering/extra_images/5_gamma.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 368.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 368.
+
+Package epstopdf Info: Source file: <img/gld_clustering/datasetII/l2l3l4/normal
+_exponential_uniform3.eps>
+(epstopdf)                    date: 2018-06-12 02:57:51
+(epstopdf)                    size: 52823 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetII/l2l3l4/normal
+_exponential_uniform3-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 03:44:09
+(epstopdf)                    size: 75043 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+II/l2l3l4/normal_exponential_uniform3-eps-converted-to.pdf img/gld_clustering/d
+atasetII/l2l3l4/normal_exponential_uniform3.eps>
+(epstopdf)             \includegraphics on input line 374.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetII/l2l3l4/normal_exponential_uniform3-eps-converted-
+to.pdf, id=1208, 382.42876pt x 247.92625pt>
+File: img/gld_clustering/datasetII/l2l3l4/normal_exponential_uniform3-eps-conve
+rted-to.pdf Graphic file (type pdf)
+<use img/gld_clustering/datasetII/l2l3l4/normal_exponential_uniform3-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetII/l2l3l4/normal_exponential
+_uniform3-eps-converted-to.pdf  used on input line 374.
+(pdftex.def)             Requested size: 364.00139pt x 235.99013pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 379.
+
+Package epstopdf Info: Source file: <img/gld_clustering/datasetII/l2l3l4/l3_l4.
+eps>
+(epstopdf)                    date: 2018-06-12 02:58:26
+(epstopdf)                    size: 51336 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetII/l2l3l4/l3_l4-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 03:44:10
+(epstopdf)                    size: 107833 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+II/l2l3l4/l3_l4-eps-converted-to.pdf img/gld_clustering/datasetII/l2l3l4/l3_l4.
+eps>
+(epstopdf)             \includegraphics on input line 411.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetII/l2l3l4/l3_l4-eps-converted-to.pdf, id=1211, 382.4
+2876pt x 247.92625pt>
+File: img/gld_clustering/datasetII/l2l3l4/l3_l4-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use img/gld_clustering/datasetII/l2l3l4/l3_l4-eps-converted-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetII/l2l3l4/l3_l4-eps-converte
+d-to.pdf  used on input line 411.
+(pdftex.def)             Requested size: 364.00139pt x 235.99013pt.
+[61pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.415 
+       <./img/gld_clustering/datasetII/l2l3l4/normal_exponential_uniform3-eps-c
+onverted-to.pdf>]
+Package epstopdf Info: Source file: <img/gld_clustering/datasetII/l2l3l4/cluste
+rs_part_I_scale_2.eps>
+(epstopdf)                    date: 2018-06-12 03:01:25
+(epstopdf)                    size: 2229263 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetII/l2l3l4/cluste
+rs_part_I_scale_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 04:55:08
+(epstopdf)                    size: 862488 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+II/l2l3l4/clusters_part_I_scale_2-eps-converted-to.pdf img/gld_clustering/datas
+etII/l2l3l4/clusters_part_I_scale_2.eps>
+(epstopdf)             \includegraphics on input line 427.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetII/l2l3l4/clusters_part_I_scale_2-eps-converted-to.p
+df, id=1225, 764.8575pt x 495.8525pt>
+File: img/gld_clustering/datasetII/l2l3l4/clusters_part_I_scale_2-eps-converted
+-to.pdf Graphic file (type pdf)
+<use img/gld_clustering/datasetII/l2l3l4/clusters_part_I_scale_2-eps-converted-
+to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetII/l2l3l4/clusters_part_I_sc
+ale_2-eps-converted-to.pdf  used on input line 427.
+(pdftex.def)             Requested size: 455.0pt x 294.97159pt.
+Package epstopdf Info: Source file: <img/gld_clustering/datasetII/l2l3l4/cluste
+rs_part_II_scale_2.eps>
+(epstopdf)                    date: 2018-06-12 03:02:42
+(epstopdf)                    size: 1745629 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetII/l2l3l4/cluste
+rs_part_II_scale_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 04:55:09
+(epstopdf)                    size: 678665 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+II/l2l3l4/clusters_part_II_scale_2-eps-converted-to.pdf img/gld_clustering/data
+setII/l2l3l4/clusters_part_II_scale_2.eps>
+(epstopdf)             \includegraphics on input line 434.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetII/l2l3l4/clusters_part_II_scale_2-eps-converted-to.
+pdf, id=1226, 764.8575pt x 495.8525pt>
+File: img/gld_clustering/datasetII/l2l3l4/clusters_part_II_scale_2-eps-converte
+d-to.pdf Graphic file (type pdf)
+<use img/gld_clustering/datasetII/l2l3l4/clusters_part_II_scale_2-eps-converted
+-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetII/l2l3l4/clusters_part_II_s
+cale_2-eps-converted-to.pdf  used on input line 434.
+(pdftex.def)             Requested size: 455.0pt x 294.97159pt.
+Package epstopdf Info: Source file: <img/gld_clustering/datasetII/l2l3l4/l2_l3_
+l4.eps>
+(epstopdf)                    date: 2018-06-12 04:28:07
+(epstopdf)                    size: 184042 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetII/l2l3l4/l2_l3_
+l4-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 04:52:51
+(epstopdf)                    size: 43901 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+II/l2l3l4/l2_l3_l4-eps-converted-to.pdf img/gld_clustering/datasetII/l2l3l4/l2_
+l3_l4.eps>
+(epstopdf)             \includegraphics on input line 443.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetII/l2l3l4/l2_l3_l4-eps-converted-to.pdf, id=1228, 67
+0.505pt x 611.28375pt>
+File: img/gld_clustering/datasetII/l2l3l4/l2_l3_l4-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use img/gld_clustering/datasetII/l2l3l4/l2_l3_l4-eps-converted-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetII/l2l3l4/l2_l3_l4-eps-conve
+rted-to.pdf  used on input line 443.
+(pdftex.def)             Requested size: 364.00139pt x 331.8512pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 448.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 448.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 448.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 448.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 448.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 448.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 448.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 448.
+
+[62pdfTeX warning (ext4): destination with the same identifier (name{table.4.7}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.452 T
+       wo false positives are observed in clusters I and XIII, but nothing t...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.20})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.452 T
+       wo false positives are observed in clusters I and XIII, but nothing t...
+ <./img/gld_clustering/datasetII/l2l3l4/l3_l4-eps-converted-to.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 454.
+
+Package epstopdf Info: Source file: <img/gld_clustering/datasetII/l3l4/normal_e
+xponential_uniform3.eps>
+(epstopdf)                    date: 2018-06-12 03:11:17
+(epstopdf)                    size: 74392 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetII/l3l4/normal_e
+xponential_uniform3-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 03:49:48
+(epstopdf)                    size: 81424 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+II/l3l4/normal_exponential_uniform3-eps-converted-to.pdf img/gld_clustering/dat
+asetII/l3l4/normal_exponential_uniform3.eps>
+(epstopdf)             \includegraphics on input line 482.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetII/l3l4/normal_exponential_uniform3-eps-converted-to
+.pdf, id=1246, 382.42876pt x 247.92625pt>
+File: img/gld_clustering/datasetII/l3l4/normal_exponential_uniform3-eps-convert
+ed-to.pdf Graphic file (type pdf)
+<use img/gld_clustering/datasetII/l3l4/normal_exponential_uniform3-eps-converte
+d-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetII/l3l4/normal_exponential_u
+niform3-eps-converted-to.pdf  used on input line 482.
+(pdftex.def)             Requested size: 364.00139pt x 235.99013pt.
+[63pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.486 
+       <./img/gld_clustering/datasetII/l2l3l4/clusters_part_I_scale_2-eps-conve
+rted-to.pdf>]
+Package epstopdf Info: Source file: <img/gld_clustering/datasetII/l3l4/l3_l4.ep
+s>
+(epstopdf)                    date: 2018-06-12 03:11:43
+(epstopdf)                    size: 72934 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetII/l3l4/l3_l4-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 03:49:48
+(epstopdf)                    size: 108766 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+II/l3l4/l3_l4-eps-converted-to.pdf img/gld_clustering/datasetII/l3l4/l3_l4.eps>
+
+(epstopdf)             \includegraphics on input line 491.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetII/l3l4/l3_l4-eps-converted-to.pdf, id=1260, 382.428
+76pt x 247.92625pt>
+File: img/gld_clustering/datasetII/l3l4/l3_l4-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use img/gld_clustering/datasetII/l3l4/l3_l4-eps-converted-to.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetII/l3l4/l3_l4-eps-converted-
+to.pdf  used on input line 491.
+(pdftex.def)             Requested size: 364.00139pt x 235.99013pt.
+ [64pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.495 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.286 
-       <./img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png> <./img/gld_
-clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 287.
-
-<img/gld_clustering/Dataset1/l3_l4/l3_l4.png, id=1190, 602.25pt x 382.42876pt>
-File: img/gld_clustering/Dataset1/l3_l4/l3_l4.png Graphic file (type png)
-<use img/gld_clustering/Dataset1/l3_l4/l3_l4.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l3_l4/l3_l4.png  used on i
-nput line 317.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[63pdfTeX warning (ext4): destination with the same identifier (name{table.4.6}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.320 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.4.25}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.320 \end{figure}
-                   <./img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png (
-PNG copy)>]
-<img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png, id=1196, 602.25pt x 382.
-42876pt>
-File: img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png Graphic file (type p
-ng)
-<use img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png>
-Package pdftex.def Info: img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png  
-used on input line 324.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [64pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-26}) has been already used, duplicate ignored
+l.495 
+       <./img/gld_clustering/datasetII/l2l3l4/clusters_part_II_scale_2-eps-conv
+erted-to.pdf> <./img/gld_clustering/datasetII/l3l4/normal_exponential_uniform3-
+eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/gld_clustering/datasetII/l3l4/clusters
+_part_I_scale_2.eps>
+(epstopdf)                    date: 2018-06-12 03:15:34
+(epstopdf)                    size: 1781846 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetII/l3l4/clusters
+_part_I_scale_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 05:10:56
+(epstopdf)                    size: 659735 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+II/l3l4/clusters_part_I_scale_2-eps-converted-to.pdf img/gld_clustering/dataset
+II/l3l4/clusters_part_I_scale_2.eps>
+(epstopdf)             \includegraphics on input line 500.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetII/l3l4/clusters_part_I_scale_2-eps-converted-to.pdf
+, id=1282, 764.8575pt x 495.8525pt>
+File: img/gld_clustering/datasetII/l3l4/clusters_part_I_scale_2-eps-converted-t
+o.pdf Graphic file (type pdf)
+<use img/gld_clustering/datasetII/l3l4/clusters_part_I_scale_2-eps-converted-to
+.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetII/l3l4/clusters_part_I_scal
+e_2-eps-converted-to.pdf  used on input line 500.
+(pdftex.def)             Requested size: 455.0pt x 294.97159pt.
+ [65pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.333 
+l.504 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.27}) has been already used, duplicate ignored
+4.25}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.333 
-       <./img/gld_clustering/Dataset1/l3_l4/l3_l4.png> <./img/gld_clustering/Da
-taset1/l3_l4/l3_l4_dividido.png>]
-<img/gld_clustering/extra_images/5_gamma.png, id=1204, 602.25pt x 382.42876pt>
-File: img/gld_clustering/extra_images/5_gamma.png Graphic file (type png)
-<use img/gld_clustering/extra_images/5_gamma.png>
-Package pdftex.def Info: img/gld_clustering/extra_images/5_gamma.png  used on i
-nput line 336.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 343.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 343.
-
-<img/gld_clustering/Dataset2/nuevo/clusters_by_index.png, id=1208, 602.25pt x 3
-82.42876pt>
-File: img/gld_clustering/Dataset2/nuevo/clusters_by_index.png Graphic file (typ
-e png)
-<use img/gld_clustering/Dataset2/nuevo/clusters_by_index.png>
-Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/clusters_by_index.pn
-g  used on input line 349.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[65pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.353 
-       <./img/gld_clustering/extra_images/5_gamma.png (PNG copy)>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 354.
-
-[66pdfTeX warning (ext4): destination with the same identifier (name{table.4.7}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.383 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.29}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.383 
-       <./img/gld_clustering/Dataset2/nuevo/clusters_by_index.png>]
-<img/gld_clustering/Dataset2/nuevo/l3_l4.png, id=1221, 602.25pt x 382.42876pt>
-File: img/gld_clustering/Dataset2/nuevo/l3_l4.png Graphic file (type png)
-<use img/gld_clustering/Dataset2/nuevo/l3_l4.png>
-Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/l3_l4.png  used on i
-nput line 386.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 398.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 398.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 398.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 398.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 398.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 398.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 398.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 398.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 404.
-
-<img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png, id=1224, 602.25
-pt x 382.42876pt>
-File: img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png Graphic fil
-e (type png)
-<use img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png>
-Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_in
-dex.png  used on input line 432.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
-[67pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
-0}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.436 
-       <./img/gld_clustering/Dataset2/nuevo/l3_l4.png>]
-<img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png, id=1231, 602.25pt x 382.428
-76pt>
-File: img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png Graphic file (type png)
-
-<use img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png>
-Package pdftex.def Info: img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png  use
-d on input line 441.
-(pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
- [68pdfTeX warning (ext4): destination with the same identifier (name{table.4.8
+l.504 
+       <./img/gld_clustering/datasetII/l2l3l4/l2_l3_l4-eps-converted-to.pdf> <.
+/img/gld_clustering/datasetII/l3l4/l3_l4-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/gld_clustering/datasetII/l3l4/clusters
+_part_II_scale_2.eps>
+(epstopdf)                    date: 2018-06-12 03:16:56
+(epstopdf)                    size: 1745937 bytes
+(epstopdf)             Output file: <img/gld_clustering/datasetII/l3l4/clusters
+_part_II_scale_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 05:10:58
+(epstopdf)                    size: 665761 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/gld_clustering/dataset
+II/l3l4/clusters_part_II_scale_2-eps-converted-to.pdf img/gld_clustering/datase
+tII/l3l4/clusters_part_II_scale_2.eps>
+(epstopdf)             \includegraphics on input line 507.
+Package epstopdf Info: Output file is already uptodate.
+<img/gld_clustering/datasetII/l3l4/clusters_part_II_scale_2-eps-converted-to.pd
+f, id=1301, 764.8575pt x 495.8525pt>
+File: img/gld_clustering/datasetII/l3l4/clusters_part_II_scale_2-eps-converted-
+to.pdf Graphic file (type pdf)
+<use img/gld_clustering/datasetII/l3l4/clusters_part_II_scale_2-eps-converted-t
+o.pdf>
+Package pdftex.def Info: img/gld_clustering/datasetII/l3l4/clusters_part_II_sca
+le_2-eps-converted-to.pdf  used on input line 507.
+(pdftex.def)             Requested size: 455.0pt x 294.97159pt.
+ [66pdfTeX warning (ext4): destination with the same identifier (name{table.4.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.445 
+l.511 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.31}) has been already used, duplicate ignored
+4.26}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.445 
-       <./img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png>]
+l.511 
+       <./img/gld_clustering/datasetII/l3l4/clusters_part_I_scale_2-eps-convert
+ed-to.pdf>]
 
-Package hyperref Warning: Suppressing empty link on input line 452.
+Package hyperref Warning: Suppressing empty link on input line 518.
 
-[69pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
-2}) has been already used, duplicate ignored
+[67pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.454 A
-       ll of this observation join with the rest of the advantage of the use...
- <./img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png>]) [70]
+l.519 
+       <./img/gld_clustering/datasetII/l3l4/clusters_part_II_scale_2-eps-conver
+ted-to.pdf>]) [68]
 \openout2 = `our_approach.aux'.
 
-
-(./our_approach.tex
-<img/Workflow.png, id=1263, 976.39781pt x 1479.27657pt>
+ (./our_approach.tex
+<img/Workflow.png, id=1349, 976.39781pt x 1479.27657pt>
 File: img/Workflow.png Graphic file (type png)
 <use img/Workflow.png>
 Package pdftex.def Info: img/Workflow.png  used on input line 15.
 (pdftex.def)             Requested size: 364.00139pt x 551.477pt.
- [71
+ [69
 
 
 
-] [72pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.33}) has been already used, duplicate ignored
+] [70pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.28}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.25 \end{equation}
-                    <./img/Workflow.png>] [73]
-<img/D_distance.png, id=1291, 290.0436pt x 238.491pt>
+                    <./img/Workflow.png>] [71]
+<img/D_distance.png, id=1376, 290.0436pt x 238.491pt>
 File: img/D_distance.png Graphic file (type png)
 <use img/D_distance.png>
 Package pdftex.def Info: img/D_distance.png  used on input line 78.
 (pdftex.def)             Requested size: 364.00139pt x 299.31389pt.
- [74] [75pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.5.34}) has been already used, duplicate ignored
+ [72] [73pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.5.29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2734,26 +2879,26 @@ l.116
        <./img/D_distance.png>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 124.
-<img/our_approach/porosity.png, id=1315, 836.12375pt x 563.10374pt>
+<img/our_approach/porosity.png, id=1400, 836.12375pt x 563.10374pt>
 File: img/our_approach/porosity.png Graphic file (type png)
 <use img/our_approach/porosity.png>
 Package pdftex.def Info: img/our_approach/porosity.png  used on input line 141.
 
 (pdftex.def)             Requested size: 364.00139pt x 245.14577pt.
-<img/our_approach/kriging_example.png, id=1316, 800.9925pt x 487.8225pt>
+<img/our_approach/kriging_example.png, id=1401, 800.9925pt x 487.8225pt>
 File: img/our_approach/kriging_example.png Graphic file (type png)
 <use img/our_approach/kriging_example.png>
 Package pdftex.def Info: img/our_approach/kriging_example.png  used on input li
 ne 148.
 (pdftex.def)             Requested size: 364.00139pt x 221.68417pt.
- [76] [77pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.5.35}) has been already used, duplicate ignored
+ [74] [75pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.5.30}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.165 \item $
              \bm{n(u)}$ number of data points in local neighborhood used for...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.36})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.31})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2761,14 +2906,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.36})
 l.165 \item $
              \bm{n(u)}$ number of data points in local neighborhood used for...
  <./img/our_approach/porosity.png (PNG copy)> <./img/our_approach/kriging_examp
-le.png (PNG copy)>] [78]
+le.png (PNG copy)>] [76]
 Underfull \hbox (badness 7649) in paragraph at lines 223--224
 [] $\OML/lmm/m/it/12 S\OT1/lmr/m/n/12 (+20) (\OML/lmm/m/it/12 s[]; t[]; cluster
 ID[]\OT1/lmr/m/n/12 (+20) ) \OMS/lmsy/m/n/12   []\OT1/lmr/m/n/12 (+20) (\OML/lm
 m/m/it/12 S\OT1/lmr/m/n/12 (+20) (\OML/lmm/m/it/12 s[]; t[]; < ^^U[]; ^^U[] >
  []
 
-[79] [80] [81]
+[77] [78] [79]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 335.
 
@@ -2793,95 +2938,95 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [82]) [83]
+ [80]) [81]
 \openout2 = `capitulos/use_cases.aux'.
 
  (./capitulos/use_cases.tex
-<images/velocity_field.png, id=1405, 854.19125pt x 487.8225pt>
+<images/velocity_field.png, id=1491, 854.19125pt x 487.8225pt>
 File: images/velocity_field.png Graphic file (type png)
 <use images/velocity_field.png>
 Package pdftex.def Info: images/velocity_field.png  used on input line 38.
 (pdftex.def)             Requested size: 364.00139pt x 207.87636pt.
-[84
+[82
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.37})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.32})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.45 
       <./images/velocity_field.png>]
-<images/vp_1000_realizations.png, id=1417, 417.2388pt x 227.8914pt>
+<images/vp_1000_realizations.png, id=1501, 417.2388pt x 227.8914pt>
 File: images/vp_1000_realizations.png Graphic file (type png)
 <use images/vp_1000_realizations.png>
 Package pdftex.def Info: images/vp_1000_realizations.png  used on input line 77
 .
 (pdftex.def)             Requested size: 364.00139pt x 198.82028pt.
- [85pdfTeX warning (ext4): destination with the same identifier (name{table.6.9
+ [83pdfTeX warning (ext4): destination with the same identifier (name{table.6.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.86 N
       ow that we have an experimental dataset we can apply the proposed work...
-] [86pdfTeX warning (ext4): destination with the same identifier (name{table.6.
+] [84pdfTeX warning (ext4): destination with the same identifier (name{table.6.
 10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.92 \end{equation}
                    pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.6.38}) has been already used, duplicate ignored
+(name{figure.6.33}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.92 \end{equation}
                     <./images/vp_1000_realizations.png>]
-<images/p_value.png, id=1436, 388.8126pt x 230.7822pt>
+<images/p_value.png, id=1521, 388.8126pt x 230.7822pt>
 File: images/p_value.png Graphic file (type png)
 <use images/p_value.png>
 Package pdftex.def Info: images/p_value.png  used on input line 103.
 (pdftex.def)             Requested size: 364.00139pt x 216.06902pt.
-<images/p_value_greater_05.png, id=1437, 387.849pt x 219.7008pt>
+<images/p_value_greater_05.png, id=1522, 387.849pt x 219.7008pt>
 File: images/p_value_greater_05.png Graphic file (type png)
 <use images/p_value_greater_05.png>
 Package pdftex.def Info: images/p_value_greater_05.png  used on input line 110.
 
 (pdftex.def)             Requested size: 364.00139pt x 206.19359pt.
- [87pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-39}) has been already used, duplicate ignored
+ [85pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+34}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.114 
        <./images/p_value.png>]
-<images/kolmogorov_distance.png, id=1449, 393.1488pt x 227.8914pt>
+<images/kolmogorov_distance.png, id=1535, 393.1488pt x 227.8914pt>
 File: images/kolmogorov_distance.png Graphic file (type png)
 <use images/kolmogorov_distance.png>
 Package pdftex.def Info: images/kolmogorov_distance.png  used on input line 123
 .
 (pdftex.def)             Requested size: 364.00139pt x 211.00488pt.
- [88pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-40}) has been already used, duplicate ignored
+ [86pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+35}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.130 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.41}) has been already used, duplicate ignored
+6.36}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.130 
        <./images/p_value_greater_05.png> <./images/kolmogorov_distance.png>]
-<images/clusters1.png, id=1461, 884.30376pt x 510.90875pt>
+<images/clusters1.png, id=1547, 884.30376pt x 510.90875pt>
 File: images/clusters1.png Graphic file (type png)
 <use images/clusters1.png>
 Package pdftex.def Info: images/clusters1.png  used on input line 137.
 (pdftex.def)             Requested size: 364.00139pt x 210.3003pt.
-<img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png, id=1468, 602.25pt 
+<img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png, id=1554, 602.25pt 
 x 382.42876pt>
 File: img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png Graphic file (
 type png)
@@ -2890,8 +3035,8 @@ Package pdftex.def Info: img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3
 .png  used on input line 148.
 (pdftex.def)             Requested size: 364.00139pt x 231.15128pt.
 
-[89pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4
-2}) has been already used, duplicate ignored
+[87pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3
+7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2908,20 +3053,20 @@ f>
 -converted-to.pdf img/use_cases/clusters.eps>
 (epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/clusters-eps-converted-to.pdf, id=1477, 764.8575pt x 485.815pt>
+<img/use_cases/clusters-eps-converted-to.pdf, id=1563, 764.8575pt x 485.815pt>
 File: img/use_cases/clusters-eps-converted-to.pdf Graphic file (type pdf)
 <use img/use_cases/clusters-eps-converted-to.pdf>
 Package pdftex.def Info: img/use_cases/clusters-eps-converted-to.pdf  used on i
 nput line 157.
 (pdftex.def)             Requested size: 455.0pt x 289.0005pt.
-<images/Clusters_histogram.png, id=1484, 815.045pt x 551.05875pt>
+<images/Clusters_histogram.png, id=1570, 815.045pt x 551.05875pt>
 File: images/Clusters_histogram.png Graphic file (type png)
 <use images/Clusters_histogram.png>
 Package pdftex.def Info: images/Clusters_histogram.png  used on input line 187.
 
 (pdftex.def)             Requested size: 364.00139pt x 246.10745pt.
- [90pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-43}) has been already used, duplicate ignored
+ [88pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+38}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2933,38 +3078,38 @@ l.191
                                                   \fi \fi 
 l.191 
        <./img/use_cases/case_study_I/Clusters_lambda3_lambda4_v3.png (PNG copy)
->] [91pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.44}) has been already used, duplicate ignored
+>] [89pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.39}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.215 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.45}) has been already used, duplicate ignored
+6.40}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.215 
        <./img/use_cases/clusters-eps-converted-to.pdf> <./images/Clusters_histo
 gram.png>]
-<images/regions.png, id=1506, 710.655pt x 459.1554pt>
+<images/regions.png, id=1591, 710.655pt x 459.1554pt>
 File: images/regions.png Graphic file (type png)
 <use images/regions.png>
 Package pdftex.def Info: images/regions.png  used on input line 220.
 (pdftex.def)             Requested size: 364.00139pt x 235.18904pt.
- [92pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
+ [90pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.241 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.46}) has been already used, duplicate ignored
+6.41}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.241 
-       <./images/regions.png>] [93pdfTeX warning (ext4): destination with the s
+       <./images/regions.png>] [91pdfTeX warning (ext4): destination with the s
 ame identifier (name{table.6.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2976,7 +3121,7 @@ l.282
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.282 
-      ] [94pdfTeX warning (ext4): destination with the same identifier (name{ta
+      ] [92pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.6.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -3010,7 +3155,7 @@ verted-to.pdf>
 _example-eps-converted-to.pdf img/use_cases/spus/dataset_example.eps>
 (epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/dataset_example-eps-converted-to.pdf, id=1538, 1084.05pt x 
+<img/use_cases/spus/dataset_example-eps-converted-to.pdf, id=1623, 1084.05pt x 
 578.16pt>
 File: img/use_cases/spus/dataset_example-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3018,28 +3163,28 @@ e pdf)
 Package pdftex.def Info: img/use_cases/spus/dataset_example-eps-converted-to.pd
 f  used on input line 344.
 (pdftex.def)             Requested size: 364.00139pt x 194.13692pt.
-[95pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4
-7}) has been already used, duplicate ignored
+[93pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.351 \begin{lstlisting}[language=R]
                                      <./img/use_cases/spus/dataset_example-eps-
-converted-to.pdf>] [96]
-<img/use_cases/spus/respuesta_spus2.png, id=1574, 602.25pt x 389.95688pt>
+converted-to.pdf>] [94]
+<img/use_cases/spus/respuesta_spus2.png, id=1659, 602.25pt x 389.95688pt>
 File: img/use_cases/spus/respuesta_spus2.png Graphic file (type png)
 <use img/use_cases/spus/respuesta_spus2.png>
 Package pdftex.def Info: img/use_cases/spus/respuesta_spus2.png  used on input 
 line 404.
 (pdftex.def)             Requested size: 364.00139pt x 235.70149pt.
-<img/use_cases/spus/respuesta_suq22.png, id=1575, 602.25pt x 389.95688pt>
+<img/use_cases/spus/respuesta_suq22.png, id=1660, 602.25pt x 389.95688pt>
 File: img/use_cases/spus/respuesta_suq22.png Graphic file (type png)
 <use img/use_cases/spus/respuesta_suq22.png>
 Package pdftex.def Info: img/use_cases/spus/respuesta_suq22.png  used on input 
 line 411.
 (pdftex.def)             Requested size: 364.00139pt x 235.70149pt.
- [97pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-48}) has been already used, duplicate ignored
+ [95pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+43}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -3056,14 +3201,14 @@ df>
 s-converted-to.pdf img/use_cases/spus/l3l4.eps>
 (epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/l3l4-eps-converted-to.pdf, id=1585, 1084.05pt x 578.16pt>
+<img/use_cases/spus/l3l4-eps-converted-to.pdf, id=1670, 1084.05pt x 578.16pt>
 File: img/use_cases/spus/l3l4-eps-converted-to.pdf Graphic file (type pdf)
 <use img/use_cases/spus/l3l4-eps-converted-to.pdf>
 Package pdftex.def Info: img/use_cases/spus/l3l4-eps-converted-to.pdf  used on 
 input line 423.
 (pdftex.def)             Requested size: 364.00139pt x 194.13692pt.
- [98pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-49}) has been already used, duplicate ignored
+ [96pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+44}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -3080,7 +3225,7 @@ erted-to.pdf>
 lusters-eps-converted-to.pdf img/use_cases/spus/optim_clusters.eps>
 (epstopdf)             \includegraphics on input line 445.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/optim_clusters-eps-converted-to.pdf, id=1592, 1084.05pt x 5
+<img/use_cases/spus/optim_clusters-eps-converted-to.pdf, id=1678, 1084.05pt x 5
 78.16pt>
 File: img/use_cases/spus/optim_clusters-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3088,8 +3233,8 @@ File: img/use_cases/spus/optim_clusters-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: img/use_cases/spus/optim_clusters-eps-converted-to.pdf
   used on input line 445.
 (pdftex.def)             Requested size: 364.00139pt x 194.13692pt.
- [99pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-50}) has been already used, duplicate ignored
+ [97pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+45}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -3106,7 +3251,7 @@ erted-to.pdf>
 s_image-eps-converted-to.pdf img/use_cases/spus/clusters_image.eps>
 (epstopdf)             \includegraphics on input line 454.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/clusters_image-eps-converted-to.pdf, id=1620, 1084.05pt x 5
+<img/use_cases/spus/clusters_image-eps-converted-to.pdf, id=1706, 1084.05pt x 5
 78.16pt>
 File: img/use_cases/spus/clusters_image-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3125,7 +3270,7 @@ erted-to.pdf>
 sl3l4_4-eps-converted-to.pdf img/use_cases/spus/clustersl3l4_4.eps>
 (epstopdf)             \includegraphics on input line 463.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf, id=1624, 1084.05pt x 5
+<img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf, id=1710, 1084.05pt x 5
 78.16pt>
 File: img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3133,34 +3278,34 @@ File: img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: img/use_cases/spus/clustersl3l4_4-eps-converted-to.pdf
   used on input line 463.
 (pdftex.def)             Requested size: 364.00139pt x 194.13692pt.
- [100pdfTeX warning (ext4): destination with the same identifier (name{figure.6
-.51}) has been already used, duplicate ignored
+ [98pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+46}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.467 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.52}) has been already used, duplicate ignored
+6.47}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.467 
        <./img/use_cases/spus/optim_clusters-eps-converted-to.pdf> <./img/use_ca
 ses/spus/clusters_image-eps-converted-to.pdf>]
-<img/use_cases/spus/clustersl2l3l4.png, id=1646, 626.34pt x 526.96875pt>
+<img/use_cases/spus/clustersl2l3l4.png, id=1731, 626.34pt x 526.96875pt>
 File: img/use_cases/spus/clustersl2l3l4.png Graphic file (type png)
 <use img/use_cases/spus/clustersl2l3l4.png>
 Package pdftex.def Info: img/use_cases/spus/clustersl2l3l4.png  used on input l
 ine 472.
 (pdftex.def)             Requested size: 364.00139pt x 306.26123pt.
- [101pdfTeX warning (ext4): destination with the same identifier (name{figure.6
-.53}) has been already used, duplicate ignored
+ [99pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+48}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.478 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.54}) has been already used, duplicate ignored
+6.49}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -3178,15 +3323,15 @@ to.pdf>
 s-eps-converted-to.pdf img/use_cases/spus/clusters.eps>
 (epstopdf)             \includegraphics on input line 481.
 Package epstopdf Info: Output file is already uptodate.
-<img/use_cases/spus/clusters-eps-converted-to.pdf, id=1664, 1147.28625pt x 742.
+<img/use_cases/spus/clusters-eps-converted-to.pdf, id=1749, 1147.28625pt x 742.
 775pt>
 File: img/use_cases/spus/clusters-eps-converted-to.pdf Graphic file (type pdf)
 <use img/use_cases/spus/clusters-eps-converted-to.pdf>
 Package pdftex.def Info: img/use_cases/spus/clusters-eps-converted-to.pdf  used
  on input line 481.
 (pdftex.def)             Requested size: 364.00139pt x 235.65276pt.
-) [102pdfTeX warning (ext4): destination with the same identifier (name{figure.
-6.55}) has been already used, duplicate ignored
+) [100pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.50}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -3195,23 +3340,23 @@ l.529 \include{capitulos/use_cases}
 d-to.pdf>]
 \openout2 = `capitulos/conclusao.aux'.
 
- (./capitulos/conclusao.tex [103
+ (./capitulos/conclusao.tex [101
 
 
 
-] [104]) [105] (./tese_lncc.bbl
+]) [102] [103] (./tese_lncc.bbl
 (./tese_lncc.brf)
 \tf@brf=\write8
 \openout8 = `tese_lncc.brf'.
 
 
 bibitemlist
-[106
+[104
 
 
-] [107] [108] [109]) (./tese_lncc.ind) 
+] [105] [106] [107]) (./tese_lncc.ind) 
 AED: lastpage setting LastPage
-[110]
+[108]
 \tf@lof=\write9
 \openout9 = `tese_lncc.lof'.
 
@@ -3228,9 +3373,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 617.
 (./capitulos/use_cases.aux) (./capitulos/conclusao.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 617.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 617.
-Package rerunfilecheck Info: File `tese_lncc.brf' has not changed.
-(rerunfilecheck)             Checksum: 3D9BE4C7D5A9F24F68DD4E1FA676B8B6;5733.
 
+
+Package rerunfilecheck Warning: File `tese_lncc.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `tese_lncc.brf':
+(rerunfilecheck)             Before: F511D25AF418872E697B9D66945B822B;5733
+(rerunfilecheck)             After:  365B3E457D82303CC87DD6776C3BEC43;5733.
 
 LaTeX Warning: There were undefined references.
 
@@ -3240,39 +3390,42 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 617.
  ) 
 Here is how much of TeX's memory you used:
- 32926 strings out of 494733
- 553383 string characters out of 6175648
- 820821 words of memory out of 5000000
- 34839 multiletter control sequences out of 15000+600000
+ 32885 strings out of 494733
+ 553206 string characters out of 6175648
+ 816771 words of memory out of 5000000
+ 34814 multiletter control sequences out of 15000+600000
  162073 words of font info for 243 fonts, out of 8000000 for 9000
  109 hyphenation exceptions out of 8191
  59i,14n,73p,1417b,1887s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-r8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tese_lncc.pdf (111 pages, 6583210 bytes).
+pdfTeX warning (dest): name{page.109} has been referenced but does not exist,
+ replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/t
+exmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
+athex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on tese_lncc.pdf (109 pages, 11344522 bytes).
 PDF statistics:
- 2361 PDF objects out of 2487 (max. 8388607)
- 2085 compressed objects within 21 object streams
- 436 named destinations out of 1000 (max. 500000)
- 46657 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 2445 PDF objects out of 2487 (max. 8388607)
+ 2149 compressed objects within 22 object streams
+ 430 named destinations out of 1000 (max. 500000)
+ 46632 words of extra memory for PDF output out of 51595 (max. 10000000)
 

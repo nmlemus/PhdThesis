@@ -107,21 +107,21 @@ To test the influence of the three parameters in the clustering process, we firs
 \section{Synthetic Data I}\label{sec:synthetic_I}
 To generate the first synthetic data set we use 11 probability density functions, where 5 are Gaussian, 5 Exponential, and one Uniform, figures \ref{fig:5_gaussian}, \ref{fig:5_exp} and \ref{fig:uniform}. The standard deviation of the 5 Gaussian distributions is $0.05*i$, with $i=1, 2, 3, 4, 5$, and we generate 90 samples of each distribution. This is, the first 90 objects where generated from a Gaussian distribution with standard deviation 0.05, and so on. Similarly, the rate of the 5 Exponential distributions is $i$, with $i=1, 2, 3, 4, 5$, and again we generate 90 samples of each one. Finally, 100 samples of a Uniform distribution between $[0, 1]$ were generated. In resume, we have 1000 objects, where the first 450 were sampled from a Gaussian distributions, the next 450 from an Exponential and the last 100 from a Uniform distribution. As we generate a synthetic dataset in this way, we have the ground truth of the clustering in the dataset. This ground truth is used to evaluate the clustering quality of our algorithms.
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/5_gaussian.png}
     \caption{Gaussian (Normal) distributions used to generate the synthetic dataset.}
     \label{fig:5_gaussian}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/5_exp.png}
     \caption{Exponential distributions used to generate the synthetic dataset.}
     \label{fig:5_exp}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\textwidth]{img/gld_clustering/extra_images/uniform.png}
     \caption{Uniform distribution used to generate the synthetic dataset.}
@@ -142,13 +142,13 @@ S(x_{i}, GLD(\lambda_{1},\lambda_{2},\lambda_{3},\lambda_{4})) \quad i=1.....100
 
 \subsection{Clustering using $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$}\label{syntheticI_l234}
 
-As we mention above, our idea is to test what happen if we use a simple k-means with euclidean distance over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}. Similar to the paper \cite{Jiang2011}, as we use 11 \textit{PDFs} to generate the synthetic dataset I, we expect that the k-mean algorithm will return 11 clusters as well (one for each distribution). Then 11 is the number we use with the k-means algorithm.
+As we mention above, our idea is to test what happen if we use a simple proposed algorithm over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}. Similar to the paper \cite{Jiang2011}, as we use 11 \textit{PDFs} to generate the synthetic dataset I, we expect that the algorithm will return 11 clusters as well (one for each distribution).
 
-In figure \ref{fig:dataset1_l2l3l4} and table \ref{tab:dataset1_l2l3l4} the distribution of the clusters returned by the k-means is shown.
+In Figure \ref{fig:dataset1_l2l3l4} and table \ref{tab:dataset1_l2l3l4} the distribution of the clusters returned by the algorithm is shown.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/normal_exponential_uniform3.png}
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/datasetI/l2l3l4/normal_exponential_uniform3.eps}
     \caption{Distribution of the clusters using k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}.}
     \label{fig:dataset1_l2l3l4}
 \end{figure}
@@ -160,126 +160,142 @@ In figure \ref{fig:dataset1_l2l3l4} and table \ref{tab:dataset1_l2l3l4} the dist
 \begin{tabular}{|c|c|c|}
 \hline
 Cluster & Type of Distribution & No. of Elements \\ \hline
-1       & Exponential          & 82              \\ \hline
+1       & Exponential          & 81              \\ \hline
 2       & Normal          & 93              \\ \hline
-3       & Exponential          & 5             \\ \hline
-4       & Normal               & 198              \\ \hline
-5       & Uniform               & 102              \\ \hline
+3       & Normal          & 96             \\ \hline
+4       & Normal               & 104              \\ \hline
+5       & Exponential               & 96              \\ \hline
 6       & Exponential               & 83             \\ \hline
-7       & Exponential              & 91             \\ \hline
-8       & Exponential          & 82              \\ \hline
+7       & Exponential              & 87             \\ \hline
+8       & Uniform          & 91              \\ \hline
 9       & Normal          & 90               \\ \hline
-10      & Exponential               & 84              \\ \hline
+10      & Exponential               & 83              \\ \hline
 11      & Normal          & 90              \\ \hline
 \end{tabular}
 \end{table}
 
-Remembered, the first 450 elements are normal distributions, the next 450 are exponential and the last 100 are uniform. Looking to those regions in general, the first observation is that we have 23 false positives, three in cluster 2, 18 in cluster 4 and two in cluster 5. The second observation is that, the normal distributions were grouped in 4 clusters (2, 4, 9 and 11), cluster 2 group perfectly it 90 elements with 2 false positives, clusters 9 and 11 group exactly its 90 elements each. The cluster 4 group the last 180 elements of the Normal distribution, with 18 false positives
+Remembered, the first 450 elements are normal distributions, the next 450 are exponential and the last 100 are uniform. Looking to those regions in general, the first observation is that we have 19 false positives, three in cluster II, 7 in cluster III, 7 in cluster IV and one in cluster VIII. The second observation is that, the normal distributions were grouped in 5 clusters (II, III, IV, IX and XI), clusters II, III and IV group perfectly it 90 elements with 17 false positives, while clusters IX and XI group exactly its 90 elements each.
 
-The Uniform distribution was grouped totally in cluster 5, with two false positives as was mention above. The last observation is that the algorithm can't separate the 5 Exponential distributions, but this is not a bad result as we will show soon. 
+The Uniform distribution was grouped totally in cluster VIII, with one false positives as was mention above. The last observation is that the algorithm can't separate the 5 Exponential distributions, but this is not a bad result as we will show soon. 
 
-In figures between \ref{fig:dataset1_l2l3l4_cl1} and \ref{fig:dataset1_l2l3l4_cl11} we show the \textit{PDFs} of all the distributions that belongs to the same cluster. If we take a look at figures \ref{fig:dataset1_l2l3l4_cl1}, \ref{fig:dataset1_l2l3l4_cl2}, \ref{fig:dataset1_l2l3l4_cl3}, \ref{fig:dataset1_l2l3l4_cl9}, \ref{fig:dataset1_l2l3l4_cl10} and \ref{fig:dataset1_l2l3l4_cl11} we see that the exponential distribution was well grouped. Really the problem is that the rate value of $0.05*i$ used to generate the exponential distribution does not have such a big difference between one and another.  
+In Figure \ref{fig:dataset1_l2l3l4_cl1} we show the \textit{PDFs} of all the distributions that belongs to the same cluster. If we take a look at clusters I, V, VI, VII and X we see that the exponential distribution was well grouped. Really the problem is that the rate value of $0.05*i$ used to generate the exponential distribution does not have such a big difference between one and another.  
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png}
-    \caption{Cluster 1 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+    \includegraphics[width=\textwidth]{img/gld_clustering/datasetI/l2l3l4/clusters.eps}
+    \caption{\textit{PDFs} of 60 members of the 11 clusters obtained using the clustering  proposed algorithm over $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values.}
     \label{fig:dataset1_l2l3l4_cl1}
 \end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster1.png}
+%    \caption{Cluster 1 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl1}
+%\end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png}
+%    \caption{Cluster 2 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl2}
+%\end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png}
+%    \caption{Cluster 3 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl3}
+%\end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png}
+%    \caption{Cluster 4 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl4}
+%\end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png}
+%    \caption{Cluster 5 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl5}
+%\end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png}
+%    \caption{Cluster 6 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl6}
+%\end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png}
+%    \caption{Cluster 7 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl7}
+%\end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png}
+%    \caption{Cluster 8 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl8}
+%\end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png}
+%    \caption{Cluster 9 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl9}
+%\end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png}
+%    \caption{Cluster 10 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl10}
+%\end{figure}
+%
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png}
+%    \caption{Cluster 11 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
+%    \label{fig:dataset1_l2l3l4_cl11}
+%\end{figure}
+
+Another interesting result is show in Figure \ref{fig:dataset1_l2l3l4_l3_l4}. As we can see, clusters II, III, IV, IX and XI that represent the Normal distribution are all at the same region over the $\lambda_{3}$ and $\lambda_{4}$ space, near $\lambda_{3} = 0$ and $\lambda_{4} \in [0, 0.3]$. Similarly cluster VIII, that represent the Uniform distribution is on the top left of the $\lambda_{3}$ and $\lambda_{4}$ space, $\lambda_{3} \in [0, 0.3]$ and $\lambda_{4} \in [0.7, 1.5]$. And finally the rest of the clusters that represent the Exponential distribution are distributed in the bottom of the $\lambda_{3}$ and $\lambda_{4}$ space, $\lambda_{3} \in [0.2, 7]$ and $\lambda_{4} \in [-0.1, 0.1]$. As we see in the rest of the thesis, this result is repeated in all the use cases.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/cluster4.png}
-    \caption{Cluster 2 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
-    \label{fig:dataset1_l2l3l4_cl2}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster3.png}
-    \caption{Cluster 3 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
-    \label{fig:dataset1_l2l3l4_cl3}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/cluster5.png}
-    \caption{Cluster 4 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
-    \label{fig:dataset1_l2l3l4_cl4}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/cluster7.png}
-    \caption{Cluster 5 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
-    \label{fig:dataset1_l2l3l4_cl5}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster6.png}
-    \caption{Cluster 6 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
-    \label{fig:dataset1_l2l3l4_cl6}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster7.png}
-    \caption{Cluster 7 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
-    \label{fig:dataset1_l2l3l4_cl7}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster8.png}
-    \caption{Cluster 8 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
-    \label{fig:dataset1_l2l3l4_cl8}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster9.png}
-    \caption{Cluster 9 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
-    \label{fig:dataset1_l2l3l4_cl9}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster10.png}
-    \caption{Cluster 10 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
-    \label{fig:dataset1_l2l3l4_cl10}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/cluster11.png}
-    \caption{Cluster 11 returned by the k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}, synthetic dataset I.}
-    \label{fig:dataset1_l2l3l4_cl11}
-\end{figure}
-
-Another interesting result is show in figures \ref{fig:dataset1_l2l3l4_l3_l4} and \ref{fig:dataset1_l2l3l4_l3_l4_dividido}. As we can see, clusters 2, 4, 9 and 11 that represent the Normal distribution are all at the same region over the $\lambda_{3}$ and $\lambda_{4}$ space, near $\lambda_{3} = 0$ and $\lambda_{4} \in [0, 0.3]$. Similarly cluster 5, that represent the Uniform distribution is on the top left of the $\lambda_{3}$ and $\lambda_{4}$ space, $\lambda_{3} \in [0, 0.3]$ and $\lambda_{4} \in [0.7, 1.5]$. And finally the rest of the clusters that represent the Exponential distribution are distributed in the bottom of the $\lambda_{3}$ and $\lambda_{4}$ space, $\lambda_{3} \in [0.2, 7]$ and $\lambda_{4} \in [-0.1, 0.1]$. As we see in the rest of the thesis, this result is repeated in all the use cases.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4.png}
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/datasetI/l2l3l4/l3_l4.eps}
     \caption{Distribution of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space.}
     \label{fig:dataset1_l2l3l4_l3_l4}
 \end{figure}
 
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png}
+%    \caption{Distribution of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}
+%    \label{fig:dataset1_l2l3l4_l3_l4_dividido}
+%\end{figure}
+
+The responsible of separate the overlapping distributions in different clusters in this case is $\lambda_{2}$, as we can see in Figure \ref{fig:dataset1_l2l3l4_l2_l3_l4}.
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l2_l3_l4/intento_3/l3_l4_dividido.png}
-    \caption{Distribution of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}
-    \label{fig:dataset1_l2l3l4_l3_l4_dividido}
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/datasetI/l2l3l4/l2_l3_l4.eps}
+    \caption{Distribution of the clusters over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ space.}
+    \label{fig:dataset1_l2l3l4_l2_l3_l4}
 \end{figure}
 
 \subsection{Clustering using $\lambda_{3}$ and $\lambda_{4}$}\label{syntheticI_l34}
 
-In this section we proceed similar to section \ref{syntheticI_l234}, but the k-means algorithm run over $\lambda_{3}$ and $\lambda_{4}$. The distribution of the clusters is shown in figure \ref{fig:dataset1_l3l4} and table \ref{tab:dataset1_l3l4}.
+In this section we proceed similar to section \ref{syntheticI_l234}, but the algorithm run over $\lambda_{3}$ and $\lambda_{4}$. The distribution of the clusters is shown in figure \ref{fig:dataset1_l3l4} and table \ref{tab:dataset1_l3l4}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l3_l4/clusters_by_index.png}
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/datasetI/l3l4/normal_exponential_uniform3.eps}
     \caption{Distribution of the clusters using k-means over the $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}.}
     \label{fig:dataset1_l3l4}
 \end{figure}
@@ -291,42 +307,51 @@ In this section we proceed similar to section \ref{syntheticI_l234}, but the k-m
 \begin{tabular}{|c|c|c|}
 \hline
 Cluster & Type of Distribution & No. of Elements \\ \hline
-1       & Normal          & 197              \\ \hline
+1       & Uniform          & 100              \\ \hline
 2       & Exponential          & 118              \\ \hline
 3       & Exponential          & 110             \\ \hline
-4       & Uniform               & 35              \\ \hline
-5       & Exponential               & 41              \\ \hline
-6       & Uniform               & 65             \\ \hline
-7       & Exponential              & 2             \\ \hline
-8       & Normal          & 131              \\ \hline
-9       & Exponential          & 74               \\ \hline
-10      & Exponential               & 105              \\ \hline
+4       & Exponential               & 35              \\ \hline
+5       & Exponential               & 74              \\ \hline
+6       & Exponential               & 2             \\ \hline
+7       & Normal              & 197             \\ \hline
+8       & Exponential          & 41              \\ \hline
+9       & Exponential          & 105               \\ \hline
+10      & Normal               & 131              \\ \hline
 11      & Normal          & 122              \\ \hline
 \end{tabular}
 \end{table}
  
  
-As we don't use $\lambda_{2}$ here, is clear that the algorithm can't distinguish the distributions by its standard deviation. But, as the shape of the \textit{GLD} is defined by $\lambda_{3}$ and $\lambda_{4}$, what we expect is that the algorithm can separate the objects by type of distribution. As we see in figure \ref{fig:dataset1_l3l4} this is exactly what we get, there is no any false positive in this case, the three regions (Normal, Exponential and Uniform) are identified by the k-means.
+As we don't use $\lambda_{2}$ here, is clear that the algorithm can't distinguish the distributions by its standard deviation. But, as the shape of the \textit{GLD} is defined by $\lambda_{3}$ and $\lambda_{4}$, what we expect is that the algorithm can separate the objects by distribution types. As we see in figure \ref{fig:dataset1_l3l4} this is exactly what we get, there is no any false positive in this case, the three regions (Normal, Exponential and Uniform) are identified by the algorithm.
 
-Clusters 1, 8 and 11 group all the Normal distributions, clusters 4 and 6 group the Uniform and the rest group the Exponential.
+Clusters VII, X and XI group all the Normal distributions, cluster I group the Uniform and the rest group the Exponential.
 
-In the $\lambda_{3}$ and $\lambda_{4}$ space the behavior is very similar at the one we get in subsection \ref{syntheticI_l234}, figures \ref{fig:dataset1_l3l4_l3_l4} and \ref{fig:dataset1_l3l4_l3_l4_dividido}. Again the distributions are concentrated near the same $(\lambda_{3}, \lambda_{4})$ values.
+In the $\lambda_{3}$ and $\lambda_{4}$ space the behavior is very similar at the one we get in subsection \ref{syntheticI_l234}, Figure \ref{fig:dataset1_l3l4_l3_l4}. Again the distributions are concentrated near the same $(\lambda_{3}, \lambda_{4})$ values.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l3_l4/l3_l4.png}
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/datasetI/l3l4/l3_l4.eps}
     \caption{Distribution of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space.}
     \label{fig:dataset1_l3l4_l3_l4}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png}
-    \caption{Distribution of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}
-    \label{fig:dataset1_l3l4_l3_l4_dividido}
-\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset1/l3_l4/l3_l4_dividido.png}
+%    \caption{Distribution of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space. In the top left corner: clusters 1, 2 and 3. Top right corner: clusters 4, 5 and 6. Bottom left: clusters 7, 8 and 9. Bottom right: clusters 10 and 11.}
+%    \label{fig:dataset1_l3l4_l3_l4_dividido}
+%\end{figure}
 
 %\subsection{Effectiveness of the Clustering}
+
+In Figure \ref{fig:dataset1_l3l4_cl1} we show the PDFs of all the distributions that belongs to the same cluster.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{img/gld_clustering/datasetI/l3l4/clusters.eps}
+    \caption{\textit{PDFs} of 60 members of the 11 clusters obtained using the clustering  proposed algorithm over $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values.}
+    \label{fig:dataset1_l3l4_cl1}
+\end{figure}
 
 \section{Synthetic Data II}\label{sec:synthetic_II}
 The second synthetic dataset is similar to the first one, here we include 5 Gamma distributions, between the Exponential and the Uniform, figure \ref{fig:5_gamma}. The shape of the Gamma distribution is $i$, with $i=1, 2, 3, 4, 5$. This dataset have 1450 objects, where the first 450 were sampled from a Gaussian distributions, the next 450 from an Exponential, the next 450 are Gamma, and the last 100 from a Uniform distribution. As we use 16 different distributions, this is the number of clusters to be used with the k-means algorithm. 
@@ -346,7 +371,7 @@ The distribution of the clusters returned by the k-means algorithm is shown in f
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset2/nuevo/clusters_by_index.png}
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/datasetII/l2l3l4/normal_exponential_uniform3.eps}
     \caption{Distribution of the clusters using k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}.}
     \label{fig:dataset2_l2l3l4}
 \end{figure}
@@ -358,32 +383,32 @@ The distribution of the clusters returned by the k-means algorithm is shown in f
 \begin{tabular}{|c|c|c|}
 \hline
 Cluster & Type of Distribution & No. of Elements \\ \hline
-1       & Normal          & 90              \\ \hline
+1       & Normal          & 51              \\ \hline
 2       & Exponential          & 44              \\ \hline
-3       & Uniform          & 45             \\ \hline
-4       & Normal               & 179              \\ \hline
-5       & Gamma               & 60             \\ \hline
-6       & Uniform               & 55            \\ \hline
-7       & Exponential              & 87            \\ \hline
-8       & Exponential          & 58              \\ \hline
-9       & Exponential          & 67               \\ \hline
-10      & Exponential               & 74              \\ \hline
-11      & Exponential          & 25              \\ \hline
-12       & Exponential              & 90             \\ \hline
-13       & Normal          & 96              \\ \hline
-14       & Normal          & 90              \\ \hline
-15      & Gamma               & 30              \\ \hline
-16      & Gamma          & 360              \\ \hline
+3       & Exponential          & 45             \\ \hline
+4       & Exponential               & 179              \\ \hline
+5       & Normal               & 90             \\ \hline
+6       & Gamma               & 360            \\ \hline
+7       & Uniform              & 100            \\ \hline
+8       & Normal          & 102              \\ \hline
+9       & Normal          & 42               \\ \hline
+10      & Normal               & 31              \\ \hline
+11      & Gamma          & 90              \\ \hline
+12       & Normal              & 34             \\ \hline
+13       & Normal          & 25              \\ \hline
+14       & Exponential          & 90              \\ \hline
+15      & Exponential               & 30              \\ \hline
+16      & Exponential          & 360              \\ \hline
 \end{tabular}
 \end{table}
 
-In general the results are very similar to the results of the section \ref{sec:synthetic_I}, but we get less false positives, 5 in total. 3 false positives in cluster 4 and 2 false positves in cluster 13. The normal distribution was groping again in for clusters: 1, 4, 13 and 14. The uniform distribution was grouping in clusters 3 and 6 without false positives. The gamma distribution introduced here was grouped in clusters 5, 15 and 16, without false positives. And finally the rest of the clusters are for the exponential distribution.
+In general the results are very similar to the results of the section \ref{sec:synthetic_I}, but we get less false positives, 9 in total. Two false positives in cluster I and 7 false positives in cluster VIII. The normal distribution was groping in 7 clusters: I, V, VIII, IX, X, XII and XIII. The uniform distribution was grouping in cluster VII without false positives. The gamma distribution introduced here was grouped in clusters VI and XI, without false positives. And finally the rest of the clusters are for the exponential distribution.
 
-The projection of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space is show in figure \ref{fig:dataset2_l2l3l4_l3_l4}. The two clusters of the uniform distribution are located again in the top-left region of the figure. The normal distribution is located in the same place, near $\lambda_{3} = 0$ and $\lambda_{4} \in [0, 0.3]$. The exponential distribution is distributed in the bottom of the $\lambda_{3}$ and $\lambda_{4}$ space. The gamma distribution is overlapped together with the normal distribution.
+The projection of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space is show in figure \ref{fig:dataset2_l2l3l4_l3_l4}. The cluster of the uniform distribution is located again in the top-left region of the figure. The normal distribution is located in the same place, near $\lambda_{3} = 0$ and $\lambda_{4} \in [0, 0.3]$. The exponential distribution is distributed in the bottom of the $\lambda_{3}$ and $\lambda_{4}$ space. The gamma distribution is overlapped together with the normal distribution.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset2/nuevo/l3_l4.png}
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/datasetII/l2l3l4/l3_l4.eps}
     \caption{Distribution of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space.}
     \label{fig:dataset2_l2l3l4_l3_l4}
 \end{figure}
@@ -395,11 +420,36 @@ The projection of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space is
 %    \label{fig:dataset2_l2l3l4_l2_l3_l4}
 %\end{figure}
 
+In Figures \ref{fig:dataset2_l2l3l4_cl1} and \ref{fig:dataset2_l2l3l4_cl12} we show the PDFs of all the distributions that belongs to the same cluster.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{img/gld_clustering/datasetII/l2l3l4/clusters_part_I_scale_2.eps}
+    \caption{\textit{PDFs} of 60 members of the first 9 clusters obtained using the clustering  proposed algorithm over $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values.}
+    \label{fig:dataset2_l2l3l4_cl1}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{img/gld_clustering/datasetII/l2l3l4/clusters_part_II_scale_2.eps}
+    \caption{\textit{PDFs} of 60 members of the last 7 clusters obtained using the clustering  proposed algorithm over $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values.}
+    \label{fig:dataset2_l2l3l4_cl12}
+\end{figure}
+
+The responsible of separate the overlapping distributions in different clusters is $\lambda_{2}$, as we can see in Figure \ref{fig:dataset2_l2l3l4_l2_l3_l4}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/datasetII/l2l3l4/l2_l3_l4.eps}
+    \caption{Distribution of the clusters over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ space.}
+    \label{fig:dataset2_l2l3l4_l2_l3_l4}
+\end{figure}
+
 \subsection{Clustering using $\lambda_{3}$ and $\lambda_{4}$}\label{syntheticI_l34}
 
 The distribution of the clusters returned by the k-means when using the values of $\lambda_{3}$ and $\lambda_{4}$ to group the second synthetic dataset are shown in figure \ref{fig:dataset2_l3l4} and table \ref{tab:dataset2_l3l4}.
  
-A few false positives are observed in clusters 5, 6 and 12, but nothing to worry about. Again the regions of the four distribution families are perfectly separated by the algorithm. 
+Two false positives are observed in clusters I and XIII, but nothing to worry about. Again the regions of the four distribution families are perfectly separated by the algorithm. 
  
 \begin{table}[]
 \centering
@@ -408,28 +458,28 @@ A few false positives are observed in clusters 5, 6 and 12, but nothing to worry
 \begin{tabular}{|c|c|c|}
 \hline
 Cluster & Type of Distribution & No. of Elements \\ \hline
-1       & Exponential          & 64              \\ \hline
-2       & Exponential          & 126              \\ \hline
-3       & Exponential          & 1             \\ \hline
-4       & Exponential               & 57              \\ \hline
-5       & Gamma               & 83             \\ \hline
-6       & Normal               & 139            \\ \hline
-7       & Uniform              & 67            \\ \hline
-8       & Gamma          & 148              \\ \hline
-9       & Gamma          & 108               \\ \hline
+1       & Exponential          & 1              \\ \hline
+2       & Normal          & 139              \\ \hline
+3       & Gamma          & 112             \\ \hline
+4       & Gamma               & 63              \\ \hline
+5       & Exponential               & 66             \\ \hline
+6       & Exponential              & 60            \\ \hline
+7       & Uniform              & 100            \\ \hline
+8       & Exponential          & 64              \\ \hline
+9       & Exponential          & 57               \\ \hline
 10      & Exponential               & 75              \\ \hline
-11      & Exponential          & 80              \\ \hline
-12       & Normal              & 112             \\ \hline
-13       & Exponential          & 44              \\ \hline
-14       & Normal          & 201              \\ \hline
-15      & Gamma               & 112              \\ \hline
-16      & Uniform          & 33              \\ \hline
+11      & Gamma          & 128              \\ \hline
+12       & Gamma              & 148             \\ \hline
+13       & Normal          & 112              \\ \hline
+14       & Exponential          & 80              \\ \hline
+15      & Exponential               & 44              \\ \hline
+16      & Normal          & 201              \\ \hline
 \end{tabular}
 \end{table}
  
  \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset2/nuevo/l3_l4/clusters_by_index.png}
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/datasetII/l3l4/normal_exponential_uniform3.eps}
     \caption{Distribution of the clusters using k-means over the $\lambda_{2}$, $\lambda_{3}$ and $\lambda_{4}$ values of the \textit{GLDs}.}
     \label{fig:dataset2_l3l4}
 \end{figure}
@@ -438,9 +488,25 @@ The projection of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space is
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/gld_clustering/Dataset2/nuevo/l3_l4/l3_l4.png}
+    \includegraphics[width=0.8\textwidth]{img/gld_clustering/datasetII/l3l4/l3_l4.eps}
     \caption{Distribution of the clusters over the $\lambda_{3}$ and $\lambda_{4}$ space.}
     \label{fig:dataset2_l3l4_l3_l4}
+\end{figure}
+
+In Figures \ref{fig:dataset2_l3l4_cl1} and \ref{fig:dataset2_l3l4_cl12} we show the PDFs of all the distributions that belongs to the same cluster.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/gld_clustering/datasetII/l3l4/clusters_part_I_scale_2.eps}
+    \caption{\textit{PDFs} of 60 members of the first 9 clusters obtained using the clustering  proposed algorithm over $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values.}
+    \label{fig:dataset2_l3l4_cl1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/gld_clustering/datasetII/l3l4/clusters_part_II_scale_2.eps}
+    \caption{\textit{PDFs} of 60 members of the last 7 clusters obtained using the clustering  proposed algorithm over $(\lambda_{2}, \lambda_{3}, \lambda_{4})$ values.}
+    \label{fig:dataset2_l3l4_cl12}
 \end{figure}
 
 \section{Summary}\label{sec:clustering_summary}
