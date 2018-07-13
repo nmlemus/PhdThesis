@@ -1,0 +1,97 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Tese_Noel_Moreno_Lemus.aux
+A level-1 auxiliary file: introducao.aux
+A level-1 auxiliary file: capitulos/backgroud.aux
+A level-1 auxiliary file: capitulos/gld.aux
+A level-1 auxiliary file: gld_clustering.aux
+A level-1 auxiliary file: our_approach.aux
+A level-1 auxiliary file: capitulos/use_cases.aux
+A level-1 auxiliary file: capitulos/conclusao.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: MyCollection.bib
+Repeated entry---line 187 of file MyCollection.bib
+ : @article{Liu2018
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1407 of file MyCollection.bib
+ : @article{Alvin1998
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1596 of file MyCollection.bib
+ : @phdthesis{Lavril2015
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2258 of file MyCollection.bib
+ : @article{Helton2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2608 of file MyCollection.bib
+ : @article{Tobergte2013
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Su2005"
+Warning--I didn't find a database entry for "da2012measurement"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo note vazio em Chalabi2012
+Warning--faltando school em Mustafa2016
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 55 entries,
+            6714 wiz_defined-function locations,
+            1621 strings with 21709 characters,
+and the built_in function-call counts, 77986 in all, are:
+= -- 8537
+> -- 1843
+< -- 1767
++ -- 2355
+- -- 549
+* -- 5256
+:= -- 9675
+add.period$ -- 225
+call.type$ -- 55
+change.case$ -- 612
+chr.to.int$ -- 157
+cite$ -- 56
+duplicate$ -- 7098
+empty$ -- 3133
+format.name$ -- 2622
+if$ -- 15915
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 965
+newline$ -- 333
+num.names$ -- 270
+pop$ -- 1190
+preamble$ -- 1
+purify$ -- 228
+quote$ -- 0
+skip$ -- 7183
+stack$ -- 1
+substring$ -- 3633
+swap$ -- 2811
+text.length$ -- 127
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 2
+while$ -- 453
+width$ -- 0
+write$ -- 928
+(There were 5 error messages)

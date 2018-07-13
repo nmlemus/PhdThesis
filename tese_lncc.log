@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  12 JUN 2018 05:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  12 JUN 2018 05:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1908,12 +1908,12 @@ fied un-cer-tainty en-able scientists/decision-
 
 ] [16]
 Overfull \hbox (1.5877pt too wide) detected at line 89
- \T1/lmss/bx/n/12 102
+ \T1/lmss/bx/n/12 101
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 94
- \T1/lmss/bx/n/12 105
+ \T1/lmss/bx/n/12 104
  []
 
 ) [17]
@@ -3373,14 +3373,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 617.
 (./capitulos/use_cases.aux) (./capitulos/conclusao.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 617.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 617.
+Package rerunfilecheck Info: File `tese_lncc.brf' has not changed.
+(rerunfilecheck)             Checksum: 365B3E457D82303CC87DD6776C3BEC43;5733.
 
-
-Package rerunfilecheck Warning: File `tese_lncc.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `tese_lncc.brf':
-(rerunfilecheck)             Before: F511D25AF418872E697B9D66945B822B;5733
-(rerunfilecheck)             After:  365B3E457D82303CC87DD6776C3BEC43;5733.
 
 LaTeX Warning: There were undefined references.
 
@@ -3390,42 +3385,39 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 617.
  ) 
 Here is how much of TeX's memory you used:
- 32885 strings out of 494733
- 553206 string characters out of 6175648
- 816771 words of memory out of 5000000
+ 32884 strings out of 494733
+ 553198 string characters out of 6175648
+ 816769 words of memory out of 5000000
  34814 multiletter control sequences out of 15000+600000
  162073 words of font info for 243 fonts, out of 8000000 for 9000
  109 hyphenation exceptions out of 8191
  59i,14n,73p,1417b,1887s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{page.109} has been referenced but does not exist,
- replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/t
-exmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
-athex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tese_lncc.pdf (109 pages, 11344522 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on tese_lncc.pdf (109 pages, 11344172 bytes).
 PDF statistics:
- 2445 PDF objects out of 2487 (max. 8388607)
- 2149 compressed objects within 22 object streams
- 430 named destinations out of 1000 (max. 500000)
+ 2444 PDF objects out of 2487 (max. 8388607)
+ 2148 compressed objects within 22 object streams
+ 429 named destinations out of 1000 (max. 500000)
  46632 words of extra memory for PDF output out of 51595 (max. 10000000)
 

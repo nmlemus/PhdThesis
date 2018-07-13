@@ -1,0 +1,424 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Allen et al. 2000]{allen2000quantifying}
+\abntrefinfo{Allen et al.}{ALLEN et al.}{2000}
+{ALLEN, M.~R. et al. {Quantifying the uncertainty in forecasts of anthropogenic
+  climate change}.
+\emph{Nature}, Nature Publishing Group, v.~407, n.~6804, p.~617, 2000.}
+
+\bibitem[Alvin et al. 1998]{Alvin1998}
+\abntrefinfo{Alvin et al.}{ALVIN et al.}{1998}
+{ALVIN, K.~F. et al. {Uncertainty quantification in computational structural
+  dynamics: a new paradigm for model validation}.
+\emph{Society for Experimental Mechanics, Inc, 16 th International Modal
+  Analysis Conference.}, v.~2, p. 1191--1198, 1998.}
+
+\bibitem[Baroni e Tarantola 2014]{Baroni2014a}
+\abntrefinfo{Baroni e Tarantola}{BARONI; TARANTOLA}{2014}
+{BARONI, G.; TARANTOLA, S. {A General Probabilistic Framework for uncertainty
+  and global sensitivity analysis of deterministic models: A hydrological case
+  study}.
+\emph{Environmental Modelling and Software}, Elsevier Ltd, v.~51, p. 26--34,
+  2014.
+ISSN 13648152.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.envsoft.2013.09.022}.}
+
+\bibitem[Baxter e Cool 2016]{Baxter2016}
+\abntrefinfo{Baxter e Cool}{BAXTER; COOL}{2016}
+{BAXTER, M.~J.; COOL, H. E.~M. {Reinventing the wheel? Modelling temporal
+  uncertainty with applications to brooch distributions in Roman Britain}.
+\emph{Journal of Archaeological Science}, Elsevier Ltd, v.~66, p. 120--127,
+  2016.
+ISSN 10959238.}
+
+\bibitem[Chalabi, Diethelm e Scott 2012]{Chalabi2012}
+\abntrefinfo{Chalabi, Diethelm e Scott}{CHALABI; DIETHELM; SCOTT}{2012}
+{CHALABI, Y.; DIETHELM, W.; SCOTT, D.~J. {Flexible Distribution Modeling with
+  the Generalized Lambda Distribution}. 2012. Dispon{\'\i}vel em:
+  \url{https://pdfs.semanticscholar.org/6b34/5bfa8ca3e73fadc11359155c2c5f33e63a7b.pdf}.}
+
+\bibitem[Chen, Flood e Sowers 2008]{Chen2008}
+\abntrefinfo{Chen, Flood e Sowers}{CHEN; FLOOD; SOWERS}{2008}
+{CHEN, J.; FLOOD, M.~D.; SOWERS, R.~B. {Measuring the Unmeasurable: An
+  Application of Uncertainty Quantification to Financial Portfolios Measuring
+  the Unmeasurable An application of uncertainty quantification to financial
+  portfolios}.
+\emph{Quantitative Finance}, v.~7688, n. January, p. 1--18, 2008.
+ISSN 14697696.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1080/14697688.2017.1296176}.}
+
+\bibitem[Corlu e Meterelliyoz 2016]{Corlu2016}
+\abntrefinfo{Corlu e Meterelliyoz}{CORLU; METERELLIYOZ}{2016}
+{CORLU, C.~G.; METERELLIYOZ, M. {Estimating the Parameters of the Generalized
+  Lambda Distribution: Which Method Performs Best?}
+\emph{Communications in Statistics: Simulation and Computation}, v.~45, n.~7,
+  p. 2276--2296, 2016.
+ISSN 15324141.}
+
+\bibitem[Cox et al. 2012]{Cox2012}
+\abntrefinfo{Cox et al.}{COX et al.}{2012}
+{COX, M. et al. {Numerical aspects in the evaluation of measurement
+  uncertainty}.
+\emph{IFIP Advances in Information and Communication Technology}, v. 377 AICT,
+  p. 180--192, 2012.
+ISSN 18684238.}
+
+\bibitem[Crespo, Kenny e Giesy 2014]{Crespo2014}
+\abntrefinfo{Crespo, Kenny e Giesy}{CRESPO; KENNY; GIESY}{2014}
+{CRESPO, L.~G.; KENNY, S.~P.; GIESY, D.~P. {The NASA Langley Multidisciplinary
+  Uncertainty Quantification Challenge}.
+\emph{16th AIAA Non-Deterministic Approaches Conference}, n. January, p.~1--9,
+  2014.
+Dispon{\'\i}vel em: \url{http://arc.aiaa.org/doi/abs/10.2514/6.2014-1347}.}
+
+\bibitem[Estacio-Hiroms e Prudencio 2012]{Estacio-Hiroms2012}
+\abntrefinfo{Estacio-Hiroms e Prudencio}{ESTACIO-HIROMS; PRUDENCIO}{2012}
+{ESTACIO-HIROMS, K.~C.; PRUDENCIO, E.~E. {User's Manual: Quantification of
+  Uncertainty for Estimation, Simulation, and Optimization (QUESO)}.
+2012.}
+
+\bibitem[Farrell, Oden e Faghihi 2015]{Farrell2015}
+\abntrefinfo{Farrell, Oden e Faghihi}{FARRELL; ODEN; FAGHIHI}{2015}
+{FARRELL, K.; ODEN, J.~T.; FAGHIHI, D. {A Bayesian framework for adaptive
+  selection, calibration, and validation of coarse-grained models of atomistic
+  systems}.
+\emph{Journal of Computational Physics}, Elsevier Inc., v.~295, p. 189--208,
+  2015.
+ISSN 10902716.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.jcp.2015.03.071}.}
+
+\bibitem[Farrell 2015]{Farrell2015a}
+\abntrefinfo{Farrell}{FARRELL}{2015}
+{FARRELL, K.~A. {Selection , Calibration , and Validation of Coarse-Grained
+  Models of Atomistic Systems}.
+2015.}
+
+\bibitem[Fournier et al. 2007]{Fournier2007}
+\abntrefinfo{Fournier et al.}{FOURNIER et al.}{2007}
+{FOURNIER, B. et al. {Estimating the parameters of a generalized lambda
+  distribution}.
+\emph{Computational Statistics and Data Analysis}, v.~51, n.~6, p. 2813--2835,
+  2007.
+ISSN 01679473.}
+
+\bibitem[Freimer, Lin e Mudholkar 1988]{Freimer1988}
+\abntrefinfo{Freimer, Lin e Mudholkar}{FREIMER; LIN; MUDHOLKAR}{1988}
+{FREIMER, M.; LIN, C.~T.; MUDHOLKAR, G.~S. {A Study Of The Generalized Tukey
+  Lambda Family}.
+\emph{Communications in Statistics - Theory and Methods}, v.~17, n.~10, p.
+  3547--3567, 1988.
+ISSN 1532415X.}
+
+\bibitem[{Gharib Shirangi} 2014]{GharibShirangi2014}
+\abntrefinfo{{Gharib Shirangi}}{{Gharib Shirangi}}{2014}
+{{Gharib Shirangi}, M. {History matching production data and uncertainty
+  assessment with an efficient TSVD parameterization algorithm}.
+\emph{Journal of Petroleum Science and Engineering}, v.~113, p. 54--71, 2014.
+ISSN 09204105.}
+
+\bibitem[Graler, Pebesma e Heuvelink 2016]{Graler2016}
+\abntrefinfo{Graler, Pebesma e Heuvelink}{GRALER; PEBESMA; HEUVELINK}{2016}
+{GRALER, B.; PEBESMA, E.; HEUVELINK, G. {Spatio-Temporal Interpolation using
+  gstat}.
+\emph{Wp}, v.~8, p. 1--20, 2016.
+ISSN 20734859.}
+
+\bibitem[Guerra et al. 2016]{Guerra2016}
+\abntrefinfo{Guerra et al.}{GUERRA et al.}{2016}
+{GUERRA, G.~M. et al. {Uncertainty quantification in numerical simulation of
+  particle-laden flows}.
+\emph{Computational Geosciences}, v.~20, n.~1, p. 265--281, 2016.
+ISSN 1420-0597.
+Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s10596-016-9563-6}.}
+
+\bibitem[Hausser e Strimmer 2008]{Hausser2008}
+\abntrefinfo{Hausser e Strimmer}{HAUSSER; STRIMMER}{2008}
+{HAUSSER, J.; STRIMMER, K. {Entropy inference and the James-Stein estimator,
+  with application to nonlinear gene association networks}.
+n. October 2008, p. 1--18, 2008.
+ISSN {\textless}null{\textgreater}.
+Dispon{\'\i}vel em: \url{http://arxiv.org/abs/0811.3579}.}
+
+\bibitem[Helton 2009]{Helton2009}
+\abntrefinfo{Helton}{HELTON}{2009}
+{HELTON, J. {Conceptual and computational basis for the quantification of
+  margins and uncertainty.}
+n.~June, 2009.
+Dispon{\'\i}vel em:
+  \url{http://www.osti.gov/energycitations/product.biblio.jsp?osti{\\_}id=958}.}
+
+\bibitem[Helton et al. 2010]{Helton2010}
+\abntrefinfo{Helton et al.}{HELTON et al.}{2010}
+{HELTON, J.~C. et al. {Representation of analysis results involving aleatory
+  and epistemic uncertainty}.
+\emph{International Journal of General Systems}, v.~39, n.~6, p. 605--646,
+  2010.
+ISSN 0308-1079.}
+
+\bibitem[Higdon 2017]{Higdon2017}
+\abntrefinfo{Higdon}{HIGDON}{2017}
+{HIGDON, D. \emph{{Handbook of Uncertainty Quantification}}. [s.n.], 2017.
+ISBN 978-3-319-12384-4. Dispon{\'\i}vel em:
+  \url{http://link.springer.com/10.1007/978-3-319-12385-1}.}
+
+\bibitem[Jcgm 2008]{Jcgm2008}
+\abntrefinfo{Jcgm}{JCGM}{2008}
+{JCGM, J. C. F. G. I.~M. {Evaluation of measurement data — Guide to the
+  expression of uncertainty in measurement}.
+\emph{International Organization for Standardization Geneva ISBN}, v.~50, n.
+  September, p.~134, 2008.
+ISSN 00099147.
+Dispon{\'\i}vel em: \url{http://www.bipm.org/en/publications/guides/gum.html}.}
+
+\bibitem[Jiang et al.]{Jiang}
+\abntrefinfo{Jiang et al.}{JIANG et al.}{}
+{JIANG, B. et al. {CLUSTERING UNCERTAIN DATA BASED ON PROBABILITY DISTRIBUTION
+  SIMILARITY}.
+Dispon{\'\i}vel em:
+  \url{https://pdfs.semanticscholar.org/e172/2c8911b7db1a3114fbd38b3ea5a9e93d1290.pdf}.}
+
+\bibitem[Jiang et al. 2011]{Jiang2011}
+\abntrefinfo{Jiang et al.}{JIANG et al.}{2011}
+{JIANG, B. et al. {Clustering Uncertain Data Based on Probability Distribution
+  Similarity}.
+\emph{IEEE Transactions on Knowledge and Data Engineering}, p. 1--14, 2011.
+ISSN 1041-4347.
+Dispon{\'\i}vel em:
+  \url{https://pdfs.semanticscholar.org/e172/2c8911b7db1a3114fbd38b3ea5a9e93d1290.pdf}.}
+
+\bibitem[Jiang et al. 2013]{Jiang2013}
+\abntrefinfo{Jiang et al.}{JIANG et al.}{2013}
+{JIANG, B. et al. {Clustering Uncertain Data Based on Probability Distribution
+  Similarity}.
+\emph{IEEE Transactions on Knowledge and Data Engineering}, v.~25, n.~4, p.
+  751--763, apr 2013.
+ISSN 1041-4347.
+Dispon{\'\i}vel em: \url{http://ieeexplore.ieee.org/document/6051435/}.}
+
+\bibitem[Johnstone et al. 2016]{Johnstone2015}
+\abntrefinfo{Johnstone et al.}{JOHNSTONE et al.}{2016}
+{JOHNSTONE, R.~H. et al. {Uncertainty and variability in models of the cardiac
+  action potential: Can we build trustworthy models?}
+\emph{Journal of Molecular and Cellular Cardiology}, The Authors, v.~96, p.
+  49--62, 2016.
+ISSN 10958584.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.yjmcc.2015.11.018}.}
+
+\bibitem[Joiner e Rosenblatt 1971]{Joiner1971}
+\abntrefinfo{Joiner e Rosenblatt}{JOINER; ROSENBLATT}{1971}
+{JOINER, B.~L.; ROSENBLATT, J.~R. {Some Properties of the Range in Samples from
+  Tukey's Symmetric Lambda Distributions}.
+\emph{Journal of the American Statistical Association}, v.~66, n.~334, p.
+  394--399, jun 1971.
+ISSN 0162-1459.
+Dispon{\'\i}vel em:
+  \url{http://www.tandfonline.com/doi/abs/10.1080/01621459.1971.10482275}.}
+
+\bibitem[{Josep de la Puente} 2015]{deLaPuente2015}
+\abntrefinfo{{Josep de la Puente}}{{Josep de la Puente}}{2015}
+{{Josep de la Puente}, A.~C. \emph{{Website deploying a suite of geophysical
+  tests for wave propagation problems on extreme scale machines}}. 2015.
+  1--9~p.}
+
+\bibitem[{K. Sawicka} e Soil 2016]{Sawicka2016}
+\abntrefinfo{{K. Sawicka} e Soil}{{K. Sawicka}; SOIL}{2016}
+{{K. Sawicka}, G.~H.; SOIL. {spup- an R package for uncertainty propagation in
+  spatial environmental modelling}.
+\emph{International symposium on "Spatial Accuracy Assessment in Natural
+  Resources and Environmental Sciences"}, v.~53, n.~9, p. 1689--1699, 2016.
+ISSN 1098-6596.
+Dispon{\'\i}vel em: \url{http://spatial-accuracy.org/Accuracy2016}.}
+
+\bibitem[Karian e Dudewicz 2011]{Karian2011}
+\abntrefinfo{Karian e Dudewicz}{KARIAN; DUDEWICZ}{2011}
+{KARIAN, Z.~A.; DUDEWICZ, E.~J. \emph{{Handbook of fitting statistical
+  distributions with R}}. [S.l.: s.n.], 2011.
+ISSN 1098-6596.
+ISBN 9788578110796.}
+
+\bibitem[Karvanen e Nuutinen 2008]{Karvanen2008}
+\abntrefinfo{Karvanen e Nuutinen}{KARVANEN; NUUTINEN}{2008}
+{KARVANEN, J.; NUUTINEN, A. {Characterizing the generalized lambda distribution
+  by L-moments}.
+\emph{Computational Statistics and Data Analysis}, v.~52, n.~4, p. 1971--1983,
+  2008.
+ISSN 01679473.
+Dispon{\'\i}vel em:
+  \url{https://ia801001.us.archive.org/27/items/arxiv-math0701405/math0701405.pdf}.}
+
+\bibitem[Kawai e Shimoyama 2014]{Kawai2014}
+\abntrefinfo{Kawai e Shimoyama}{KAWAI; SHIMOYAMA}{2014}
+{KAWAI, S.; SHIMOYAMA, K. {Kriging-model-based uncertainty quantification in
+  computational fluid dynamics}.
+\emph{32nd AIAA Applied Aerodynamics Conference}, n.~June, p. 1--16, 2014.
+Dispon{\'\i}vel em: \url{http://arc.aiaa.org/doi/10.2514/6.2014-2737}.}
+
+\bibitem[Kennedy e O'Hagan 2001]{Kennedy2001}
+\abntrefinfo{Kennedy e O'Hagan}{KENNEDY; O'HAGAN}{2001}
+{KENNEDY, M.~C.; O'HAGAN, A. {Bayesian calibration of computer models}.
+\emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, Blackwell Publishers Ltd., v.~63, n.~3, p. 425--464, aug 2001.
+ISSN 1369-7412.
+Dispon{\'\i}vel em: \url{http://doi.wiley.com/10.1111/1467-9868.00294}.}
+
+\bibitem[Kiureghian e Ditlevsen 2009]{Kiureghian2009}
+\abntrefinfo{Kiureghian e Ditlevsen}{KIUREGHIAN; DITLEVSEN}{2009}
+{KIUREGHIAN, A.~D.; DITLEVSEN, O. {Aleatory or epistemic? Does it matter?}
+\emph{Structural Safety}, v.~31, n.~2, p. 105--112, mar 2009.
+ISSN 01674730.
+Dispon{\'\i}vel em:
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0167473008000556}.}
+
+\bibitem[Lakhany e Mausser 2000]{Lakhany2000}
+\abntrefinfo{Lakhany e Mausser}{LAKHANY; MAUSSER}{2000}
+{LAKHANY, A.; MAUSSER, H. {Estimating the Parameters of the Generalized Lambda
+  Distribution}.
+\emph{ALGO RESEARCH QUARTERLY}, v.~3, n.~3, 2000.
+Dispon{\'\i}vel em:
+  \url{https://pdfs.semanticscholar.org/0f9d/1848671969232d58cb7cf3d2d06d9c4c347e.pdf?{\\_}ga=2.56724463.474793085.1524894682-1121088995.1524894}.}
+
+\bibitem[Lampasi, {Di Nicola} e Podesta 2006]{Lampasi2006}
+\abntrefinfo{Lampasi, {Di Nicola} e Podesta}{LAMPASI; {Di Nicola};
+  PODESTA}{2006}
+{LAMPASI, D.~A.; {Di Nicola}, F.; PODESTA, L. {Generalized lambda distribution
+  for the expression of measurement uncertainty}.
+\emph{IEEE Transactions on Instrumentation and Measurement}, v.~55, n.~4, p.
+  1281--1287, 2006.
+ISSN 00189456.}
+
+\bibitem[Liu, Niu e Liao 2018]{Liu2018}
+\abntrefinfo{Liu, Niu e Liao}{LIU; NIU; LIAO}{2018}
+{LIU, C.~M.; NIU, Z.; LIAO, K.~T. \emph{{Mechanisms to improve clustering
+  uncertain data with UKmeans}}. North-Holland, 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S0169023X16303287}.}
+
+\bibitem[Lodziensis 2013]{Lodziensis2013}
+\abntrefinfo{Lodziensis}{LODZIENSIS}{2013}
+{LODZIENSIS, A.~U. {Generalizations of tukey-lambda distributions}.
+2013.}
+
+\bibitem[Marcondes, Peixoto e Maia 2017]{Marcondes2018}
+\abntrefinfo{Marcondes, Peixoto e Maia}{MARCONDES; PEIXOTO; MAIA}{2017}
+{MARCONDES, D.; PEIXOTO, C.; MAIA, A.~C. {FITTING A HURDLE GENERALIZED LAMBDA
+  DISTRIBUTION TO HEALTHCARE EXPENSES}.
+\emph{Annals of Applied Statistics}, 2017.
+Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/1712.02183.pdf}.}
+
+\bibitem[Melorose et al. 2015]{Lavril2015}
+\abntrefinfo{Melorose et al.}{MELOROSE et al.}{2015}
+{MELOROSE, J. et al.
+\emph{{A PROBABILISTIC FRAMEWORK FOR UNCERTAINTY QUANTIFICATION IN LARGE-SCALE
+  SIMULATIONS: APPLICATION IN SEISMIC IMAGING}}.
+Tese (Doutorado) --- Universidade Federal do Rio de Janeiro, 2015.}
+
+\bibitem[Movahedi, Lotfi e Nayyeri 2013]{Movahedi2013}
+\abntrefinfo{Movahedi, Lotfi e Nayyeri}{MOVAHEDI; LOTFI; NAYYERI}{2013}
+{MOVAHEDI, M.~M.; LOTFI, M.~R.; NAYYERI, M. {A solution to determining the
+  reliability of products Using Generalized Lambda Distribution}.
+\emph{Research Journal of Recent Sciences Res.J.Recent Sci}, v.~2, n.~10, p.
+  41--47, 2013.
+Dispon{\'\i}vel em:
+  \url{http://www.isca.in/rjrs/archive/v2/i10/7.ISCA-RJRS-2013-227.pdf}.}
+
+\bibitem[{Mustafa Inchasi} 2016]{Mustafa2016}
+\abntrefinfo{{Mustafa Inchasi}}{{Mustafa Inchasi}}{2016}
+{{Mustafa Inchasi}, E.~A.
+\emph{{The Generalized Lambda Distribution and Its Use in Fitting Distributions
+  to Data}}.
+Tese (Doutorado), 2016.}
+
+\bibitem[Ning, Gao e Dudewicz 2008]{Ning2008}
+\abntrefinfo{Ning, Gao e Dudewicz}{NING; GAO; DUDEWICZ}{2008}
+{NING, W.; GAO, Y.; DUDEWICZ, E.~J. {Fitting mixture distributions using
+  generalized lambda distributions and comparison with normal mixtures}.
+\emph{American Journal of Mathematical and Management Sciences}, v.~28, n.~1-2,
+  p. 81--99, 2008.
+ISSN 01966324.}
+
+\bibitem[Patt, Klein e Vega-Leinert 2005]{patt2005taking}
+\abntrefinfo{Patt, Klein e Vega-Leinert}{PATT; KLEIN; VEGA-LEINERT}{2005}
+{PATT, A.; KLEIN, R. J.~T.; VEGA-LEINERT, A. de~la. {Taking the uncertainty in
+  climate-change vulnerability assessment seriously}.
+\emph{Comptes Rendus Geoscience}, Elsevier, v.~337, n.~4, p. 411--424, 2005.}
+
+\bibitem[Rajan et al. 2016]{Rajan2016}
+\abntrefinfo{Rajan et al.}{RAJAN et al.}{2016}
+{RAJAN, A. et al. {Benchmark Test Distributions for Expanded Uncertainty
+  Evaluation Algorithms}.
+\emph{IEEE Transactions on Instrumentation and Measurement}, v.~65, n.~5, p.
+  1022--1034, 2016.
+ISSN 00189456.}
+
+\bibitem[Sankararaman 2012]{Sankararaman2012}
+\abntrefinfo{Sankararaman}{SANKARARAMAN}{2012}
+{SANKARARAMAN, S.
+\emph{{Uncertainty Quantification and Integration}}.
+Tese (Doutorado) --- Vanderbilt University, 2012.}
+
+\bibitem[Su 2007]{Su2007}
+\abntrefinfo{Su}{SU}{2007}
+{SU, S. {Fitting Single and Mixture of Generalized Lambda Distributions to Data
+  via Discretized and Maximum Likelihood Methods: GLDEX in R}.
+\emph{Journal of Statistical Software}, v.~21, n.~9, 2007.}
+
+\bibitem[Su 2011]{Su2011}
+\abntrefinfo{Su}{SU}{2011}
+{SU, S. {Maximum Log Likelihood Estimation using EM Algorithm and Partition
+  Maximum Log Likelihood Estimation for Mixtures of Generalized Lambda
+  Distributions}.
+\emph{Journal of Modern Applied Statistical Methods}, v.~10, n.~2, p. 599--606,
+  2011.
+ISSN 1538-9472.
+Dispon{\'\i}vel em: \url{http://digitalcommons.wayne.edu/jmasm/vol10/iss2/17}.}
+
+\bibitem[Su 2015]{Su2015}
+\abntrefinfo{Su}{SU}{2015}
+{SU, S. {Flexible parametric quantile regression model}.
+\emph{Statistics and Computing}, v.~25, n.~3, p. 635--650, 2015.
+ISSN 15731375.}
+
+\bibitem[Su 2016]{Su2016}
+\abntrefinfo{Su}{SU}{2016}
+{SU, S. {Fitting Flexible Parametric Regression Models with GLDreg in R}.
+\emph{Journal of Modern Applied Statistical Methods}, v.~15, n.~2, p. 768--787,
+  2016.
+ISSN 1538-9472.
+Dispon{\'\i}vel em: \url{http://digitalcommons.wayne.edu/jmasm
+  http://digitalcommons.wayne.edu/jmasm/vol15/iss2/46}.}
+
+\bibitem[Sullivan 2015]{Sullivan2015}
+\abntrefinfo{Sullivan}{SULLIVAN}{2015}
+{SULLIVAN, T.~J. \emph{{Introduction to Uncertainty Quantification}}. Springer,
+  2015.
+ISBN 9783319233949. Dispon{\'\i}vel em:
+  \url{http://www.springer.com/series/1214}.}
+
+\bibitem[Tobergte e Curtis 2013]{Tobergte2013}
+\abntrefinfo{Tobergte e Curtis}{TOBERGTE; CURTIS}{2013}
+{TOBERGTE, D.~R.; CURTIS, S. {Workshop on Quantification, Communication, and
+  Interpretation of Uncertainty in Simulation and Data Science}.
+\emph{Journal of Chemical Information and Modeling}, v.~53, n.~9, p.
+  1689--1699, 2013.
+ISSN 1098-6596.}
+
+\bibitem[{U.S. Department of Energy} 2009]{DEnergy2009}
+\abntrefinfo{{U.S. Department of Energy}}{{U.S. Department of Energy}}{2009}
+{{U.S. Department of Energy}. \emph{{Scientific Grand Challenges in National
+  Security: The Role of Computing at the Extreme Scale}}.
+[S.l.], 2009. 255~p.}
+
+\bibitem[Wellmann e Regenauer-Lieb 2012]{Wellmann2012}
+\abntrefinfo{Wellmann e Regenauer-Lieb}{WELLMANN; REGENAUER-LIEB}{2012}
+{WELLMANN, J.~F.; REGENAUER-LIEB, K. {Uncertainties have a meaning: Information
+  entropy as a quality measure for 3-D geological models}.
+\emph{Tectonophysics}, Elsevier B.V., v. 526-529, p. 207--216, 2012.
+ISSN 00401951.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.tecto.2011.05.001}.}
+
+\end{thebibliography}
