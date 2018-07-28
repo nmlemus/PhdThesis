@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  19 JUL 2018 01:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.4)  19 JUL 2018 09:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1849,28 +1849,28 @@ l.254
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 305.
+(Font)              <10> on input line 306.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 305.
+(Font)              <7> on input line 306.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 305.
+(Font)              <5> on input line 306.
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 
  []
 
 
-Overfull \hbox (16.6597pt too wide) in paragraph at lines 305--305
+Overfull \hbox (16.6597pt too wide) in paragraph at lines 306--306
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 
  []
 
@@ -1886,7 +1886,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--305
 ] [7
 
 ]
-Overfull \hbox (9.1253pt too wide) in paragraph at lines 432--433
+Overfull \hbox (9.1253pt too wide) in paragraph at lines 433--434
 []\T1/lmr/m/n/12 (-20) Large-scale spatio-temporal sim-u-la-tions with quan-ti-
 fied un-cer-tainty en-able scientists/decision-
  []
@@ -3334,7 +3334,7 @@ Package pdftex.def Info: img/use_cases/spus/clusters-eps-converted-to.pdf  used
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.547 \include{capitulos/use_cases}
+l.548 \include{capitulos/use_cases}
                                     <./img/use_cases/spus/clusters-eps-converte
 d-to.pdf>]
 \openout2 = `capitulos/conclusao.aux'.
@@ -3366,13 +3366,13 @@ AED: lastpage setting LastPage
 \tf@toc=\write11
 \openout11 = `Tese_Noel_Moreno_Lemus.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 636.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 636.
  (./Tese_Noel_Moreno_Lemus.aux (./introducao.aux)
 (./capitulos/backgroud.aux) (./capitulos/gld.aux) (./gld_clustering.aux)
 (./our_approach.aux) (./capitulos/use_cases.aux) (./capitulos/conclusao.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 635.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 636.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 636.
 Package rerunfilecheck Info: File `Tese_Noel_Moreno_Lemus.brf' has not changed.
 
 (rerunfilecheck)             Checksum: 365B3E457D82303CC87DD6776C3BEC43;5733.
@@ -3383,12 +3383,12 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 635.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 636.
  ) 
 Here is how much of TeX's memory you used:
  32882 strings out of 494733
  553538 string characters out of 6175648
- 816782 words of memory out of 5000000
+ 816783 words of memory out of 5000000
  34814 multiletter control sequences out of 15000+600000
  161972 words of font info for 242 fonts, out of 8000000 for 9000
  109 hyphenation exceptions out of 8191
@@ -3415,7 +3415,7 @@ share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Tese_Noel_Moreno_Lemus.pdf (109 pages, 11346239 bytes).
+Output written on Tese_Noel_Moreno_Lemus.pdf (109 pages, 11346260 bytes).
 PDF statistics:
  2444 PDF objects out of 2487 (max. 8388607)
  2148 compressed objects within 22 object streams
